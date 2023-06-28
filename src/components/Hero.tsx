@@ -1,0 +1,37 @@
+interface Props {
+  background: string;
+  index: boolean;
+  title: string;
+}
+
+const Hero = ({ background, index, title }: Props) => {
+  const style = {
+    background: `linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("${background}") no-repeat fixed center center / cover`,
+  };
+  return (
+    <div className="hero-wrap" style={style}>
+      {index ? (
+        <div className="home-hero">
+          <h2 className="subheading">Welcome to Sawla Tours</h2>
+          <h1 className="heading">Unveiling the Essence of Ethiopia</h1>
+          <h3 className="heading-description">
+            Creating memories that will last a lifetime
+          </h3>
+          <a className="offset" href="#about">
+            Explore
+          </a>
+        </div>
+      ) : (
+        <div className="other-hero">
+          <h1 className="heading">{title}</h1>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Hero;

@@ -1,0 +1,134 @@
+/* Media Query for Screens up to 1200px */
+
+@media only screen and (max-width: 1200px) {
+  /* .row.intro .right-column {
+    flex: 0.5;
+  }
+  .row.intro .left-column {
+    flex: 0.3;
+  }
+  .row.intro .left-column h1 {
+    font-size: 2rem;
+  } */
+}
+/* Media Query for Screens up to 900px */
+
+@media only screen and (max-width: 900px) {
+  /* Adjust header padding */
+  header {
+    padding: 0 50px;
+  }
+
+  /* Navigation Styles */
+  nav {
+    position: absolute;
+    top: 0;
+    left: -1000px;
+    z-index: 999;
+    width: 280px;
+    height: 100vh;
+    background: #fefefe;
+    transition: 0.2s;
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  /* Show navigation when the checkbox is checked */
+  #nav_check:checked ~ nav {
+    left: 0;
+  }
+  #nav_check:checked ~ .hamburger {
+    background-color: none;
+  }
+  .submenu {
+    display: none;
+  }
+  /* Logo Styles */
+  nav .logo {
+    display: block;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  /* Adjust navigation link styles */
+  nav ul li a {
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+  }
+
+  /* Adjust navigation list styles */
+  nav ul {
+    display: block;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+
+  /* Show hamburger menu */
+  .hamburger {
+    display: block;
+  }
+
+  /* Hero section */
+
+  .hero-wrap .heading {
+    font-size: 2.5rem;
+  }
+  .hero-wrap .subheading {
+    font-size: 2rem;
+    color: #f15d30;
+    font-family: "Arizonia", cursive;
+  }
+  .home-hero .heading-description {
+    font-size: 1rem;
+    color: #cecece;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Averia Serif Libre", cursive;
+    margin-bottom: 20px;
+  }
+
+  /* Intro section */
+  /* .row.intro {
+    margin: auto;
+    flex-direction: column;
+    height: 200vh;
+    justify-content: space-around;
+  }
+  .row.intro .left-column h1 {
+    font-size: 2rem;
+  }
+  .container {
+    width: 100%;
+  } */
+}
+
+/* Media Query for Screens up to 600px */
+
+@media only screen and (max-width: 600px) {
+  /* Adjust header padding */
+  header {
+    padding: 0 20px;
+  }
+
+  /* Hero section */
+
+  .hero-wrap .heading {
+    font-size: 2rem;
+  }
+  .hero-wrap .subheading {
+    font-size: 1.5rem;
+    color: #f15d30;
+    font-family: "Arizonia", cursive;
+  }
+  .home-hero .heading-description {
+    font-size: 1rem;
+    color: #cecece;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Averia Serif Libre", cursive;
+    margin-bottom: 20px;
+  }
+}
