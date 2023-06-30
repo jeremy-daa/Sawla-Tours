@@ -5,7 +5,6 @@ import Simien1 from "../assets/simien_1.jpeg";
 import Bale1 from "../assets/bale_2.jpg";
 import { Link } from "react-router-dom";
 import pickRandom from "../functions/pickRandom";
-import { DestinationPackagesArray } from "../Data/PackagesArray";
 interface Props {
   custom?: boolean;
   title1?: string;

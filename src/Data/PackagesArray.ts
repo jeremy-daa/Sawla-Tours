@@ -9,7 +9,6 @@ import Gonder from "../assets/gonder_1.jpeg";
 import Gonder2 from "../assets/gonder_2.jpeg";
 import Bale from "../assets/bale_1.jpg";
 import Chebera from "../assets/chebera_1.jpg";
-import Axum1 from "../assets/axum_1.jpg";
 import Axum2 from "../assets/axum_2.jpg";
 import Harar from "../assets/harar_1.webp";
 import Gambella from "../assets/gambella_1.jpg";

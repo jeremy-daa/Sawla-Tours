@@ -13,7 +13,6 @@ import NotFound from "./routes/NotFound";
 import AboutUs from "./routes/AboutUs";
 import Testimonials from "./routes/Testimonials";
 import EthiopiaTours from "./routes/EthiopiaTours";
-import PopularTours from "./routes/PopularTours";
 import EthiopiaDestinations from "./routes/EthiopiaDestinations";
 import ToursByExperiences from "./routes/ToursByExperiences";
 import EthiopiaGuide from "./routes/EthiopiaGuide";

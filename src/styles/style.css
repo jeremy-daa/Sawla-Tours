@@ -1220,8 +1220,6 @@ div .planner-item-description {
   div .planner-item-title {
     font-size: 1.4rem;
   }
-  div .planner-item-description {
-  }
 }
 
 @media only screen and (max-width: 450px) {
