@@ -5,6 +5,7 @@ import Intro1 from "../assets/intro_1.jpg";
 import Intro2 from "../assets/intro_2.jpg";
 import Intro3 from "../assets/intro_3.jpg";
 import Intro4 from "../assets/intro_4.jpg";
+import Simien3 from "../assets/simien_3.jpg";
 import PackagesList from "../components/PackagesList";
 import Slider from "../components/Slider";
 import {
@@ -17,12 +18,7 @@ import Planner from "../components/Planner";
 const Home = () => {
   return (
     <div className="home">
-      <Hero
-        background="../src/assets/bg_1.jpg"
-        index
-        title="Home"
-        link="#about"
-      />
+      <Hero background={Simien3} index title="Home" link="#about" />
       <Intro
         img1={Intro1}
         img2={Intro2}
