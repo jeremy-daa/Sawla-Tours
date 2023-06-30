@@ -10,8 +10,8 @@ const Hero = ({ background, index, title, description, link }: Props) => {
   const style = {
     background: `linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
     ),url("${background}") no-repeat fixed center center / cover`,
   };
   return (

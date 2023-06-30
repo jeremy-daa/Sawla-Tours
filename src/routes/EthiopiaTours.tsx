@@ -38,7 +38,7 @@ const EthiopiaTours = () => {
         img1={Gondar2}
         img2={Axum1}
         button="View Historic Tours"
-        link="/ethiopia/historic-tours"
+        link="/ethiopia-tours/historic-tours"
         lr={true}
       />
       <ImageGallery />

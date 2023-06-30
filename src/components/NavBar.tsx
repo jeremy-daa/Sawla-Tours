@@ -6,6 +6,11 @@ import HeadRoom from "react-headroom";
 import { CiMenuFries } from "react-icons/ci";
 import { CiCircleRemove } from "react-icons/ci";
 import { BsFillCaretDownFill } from "react-icons/bs";
+import {
+  EthiopiaTourPackagesArray,
+  TopDestinationsRoutes,
+  ToursByExperienceRoutes,
+} from "../Data/PackagesArray";
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -54,131 +59,63 @@ const NavBar = () => {
               <NavLink to="/ ">Home</NavLink>
             </li>
             <li>
-              <NavLink end to="/ethiopia">
+              <NavLink to="ethiopia-tours">
                 Ethiopia Tours <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/ethiopia/ethiopia">Ethiopia Tours</Link>
-                </li>
+                {EthiopiaTourPackagesArray.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  );
+                })}
               </ul>
             </li>
             <li>
-              <NavLink end to="destinations">
-                Ethiopia Destinations{" "}
+              <NavLink to="top-destinations">
+                Ethiopia Top Destinations{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/destinations/ethiopia">Ethiopia Tours</Link>
-                </li>
+                {TopDestinationsRoutes.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  );
+                })}
               </ul>
             </li>
             <li>
-              <NavLink end to="popular">
-                Popular Ethiopia Tours{" "}
+              <NavLink to="tours-by-experience">
+                Ethiopia Tours by Experiences{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
-                <li>
-                  <Link to="/popular/ethiopia">Ethiopia Tours</Link>
-                </li>
+                {ToursByExperienceRoutes.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  );
+                })}
               </ul>
             </li>
             <li>
-              <NavLink end to="experiences">
-                Ethiopia Tours by Experiences
+              <NavLink to="ethiopia-guide">
+                Ethiopia Guide
+                <BsFillCaretDownFill className="down-icon" />
               </NavLink>
+              <ul className="submenu">
+                {ToursByExperienceRoutes.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  );
+                })}
+              </ul>
             </li>
 
             <li>

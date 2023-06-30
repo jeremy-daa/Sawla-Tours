@@ -16,15 +16,16 @@ import EthiopiaTours from "./routes/EthiopiaTours";
 import PopularTours from "./routes/PopularTours";
 import EthiopiaDestinations from "./routes/EthiopiaDestinations";
 import ToursByExperiences from "./routes/ToursByExperiences";
+import EthiopiaGuide from "./routes/EthiopiaGuide";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="ethiopia" element={<EthiopiaTours />} />
-      <Route path="popular" element={<PopularTours />} />
-      <Route path="experiences" element={<ToursByExperiences />} />
-      <Route path="destinations" element={<EthiopiaDestinations />} />
-      <Route path="about" element={<AboutUs />} />
+      <Route path="ethiopia-tours" element={<EthiopiaTours />} />
+      <Route path="top-destinations" element={<EthiopiaDestinations />} />
+      <Route path="tours-by-experience" element={<ToursByExperiences />} />
+      <Route path="ethiopia-guide" element={<EthiopiaGuide />} />
+      <Route path="about-us" element={<AboutUs />} />
       <Route path="testimonials" element={<Testimonials />} />
       <Route path="faq" element={<Faq />} />
       <Route path="*" element={<NotFound />} />
