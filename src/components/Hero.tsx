@@ -2,14 +2,16 @@ interface Props {
   background: string;
   index: boolean;
   title: string;
+  description?: string;
+  link: string;
 }
 
-const Hero = ({ background, index, title }: Props) => {
+const Hero = ({ background, index, title, description, link }: Props) => {
   const style = {
     background: `linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
     ),url("${background}") no-repeat fixed center center / cover`,
   };
   return (
@@ -28,6 +30,10 @@ const Hero = ({ background, index, title }: Props) => {
       ) : (
         <div className="other-hero">
           <h1 className="heading">{title}</h1>
+          <h3 className="heading-description">{description}</h3>
+          <a className="offset" href={link}>
+            Start Planning
+          </a>
         </div>
       )}
     </div>

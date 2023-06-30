@@ -2,6 +2,7 @@ import { ImLocation2 } from "react-icons/im";
 import Card from "./Card";
 import Lalibela1 from "../assets/lalibela_1.jpg";
 import Simien1 from "../assets/simien_1.jpeg";
+import Bale1 from "../assets/bale_2.jpg";
 import { Link } from "react-router-dom";
 
 const IntroPackages = () => {
@@ -32,7 +33,7 @@ const IntroPackages = () => {
         />
         <Card
           className="package-card"
-          image={Lalibela1}
+          image={Bale1}
           title="Bale Mountain Trekking"
           link="/experiences/bale-mountain-trekking"
           description="A mesmerizing expedition into the heart of Ethiopia's natural wonders with our exclusive itinerary, 'Bale Mountain Trekking: A Majestic Journey through Ethiopia's Alpine Wonderland.'"

@@ -4,21 +4,38 @@ import SimienMountain from "../assets/simien_2.jpg";
 import Danakil from "../assets/danakil_1.jpg";
 import Omo from "../assets/omo_1.jpg";
 import Tigray from "../assets/tigray_1.jpg";
-import BahirDar from "../assets/bahir-dar_1.jpg";
+import BahirDar from "../assets/bahir_dar_1.jpg";
 import Gonder from "../assets/gonder_1.jpeg";
+import Gonder2 from "../assets/gonder_2.jpeg";
 import Bale from "../assets/bale_1.jpg";
 import Chebera from "../assets/chebera_1.jpg";
-import Axum from "../assets/axum_1.jpg";
+import Axum1 from "../assets/axum_1.jpg";
+import Axum2 from "../assets/axum_2.jpg";
 import Harar from "../assets/harar_1.webp";
 import Gambella from "../assets/gambella_1.jpg";
+import Benna1 from "../assets/benna_tribe_1.jpg";
+import Abay1 from "../assets/abay_1.jpg";
+import Zebra1 from "../assets/zebra_1.jpg";
+import Yemata1 from "../assets/yemata_1.jpg";
+import Bird1 from "../assets/bird_1.jpg";
 
 interface Package {
   title: string;
   description: string;
   link: string;
   image: string;
+  days?: number;
 }
-const PackagesArray: Package[] = [
+interface Package2 {
+  title: string;
+  description1: string;
+  description2: string;
+  link: string;
+  img1: string;
+  img2: string;
+  lr: boolean;
+}
+export const DestinationPackagesArray: Package[] = [
   {
     title: "Lalibela: A Journey to Ethiopia's Spiritual Heart",
     description:
@@ -89,7 +106,7 @@ const PackagesArray: Package[] = [
     description:
       "Welcome to Axum, the captivating ancient capital of Ethiopia. Steeped in history and cultural significance, this vibrant city will transport you back in time to the days of the legendary Axumite empire. Explore the relics that have stood the test of time and unravel the mysteries of this remarkable destination.",
     link: "/popular/axum",
-    image: Axum,
+    image: Axum1,
   },
   {
     title: "Harar: A Journey to Ancient Splendor",
@@ -106,4 +123,94 @@ const PackagesArray: Package[] = [
     image: Gambella,
   },
 ];
-export default PackagesArray;
+
+export const EthiopiaTourPackagesArray: Package[] = [
+  {
+    title: "Historic Tours in Ethiopia",
+    description:
+      "Embark on an extraordinary journey through Ethiopia's Historic Tours, where ancient wonders and vibrant cultures intertwine harmoniously. Discover the storied treasures that define Ethiopia's identity, from the rock-hewn churches of Tigray to the awe-inspiring city of Axum. Traverse the famed Historic Route, immersing yourself in architectural marvels and breathtaking landscapes, while uncovering hidden gems that captivate the intrepid explorer. Ethiopia's Historic and Cultural Tours offer an unforgettable odyssey, celebrating a rich history and diverse cultures untouched by colonialism.",
+    link: "ethiopia/historic",
+    image: Axum2,
+  },
+  {
+    title: "Tribal Ethiopia Tours",
+    description:
+      "Explore the richness of Ethiopia's Cultural Tours, where diverse cultures converge. Experience the vibrant tapestry of cultural diversity unlike anywhere else in Africa. From stunning landscapes to iconic monuments and fascinating wildlife, every part of your journey is infused with a vibrant cultural essence that brings it to life.",
+    link: "ethiopia/tribal",
+    image: Benna1,
+  },
+  {
+    title: "Festivals and Special Events",
+    description:
+      "Experience the vibrant world of Ethiopian festivals, where ancient traditions come alive through colorful celebrations and powerful spiritual energy. Immerse yourself in the heart and soul of Ethiopian culture, creating unforgettable moments that will stay with you forever.",
+    link: "ethiopia/festivals",
+    image: Gonder2,
+  },
+  {
+    title: "Adventure Tours in Ethiopia",
+    description:
+      "The Adventure Tours in Ethiopia offer a thrilling experience for those seeking an adrenaline-packed vacation. The tours include trekking through stunning landscapes, such as the Simien and Bale Mountains, where you will encounter unique flora and fauna, including the iconic Gelada baboons and the elusive Ethiopian wolf. For rock climbers, experienced guides will help navigate the challenging terrain, ensuring safety at all times. Paragliding tours offer a chance to soar above Ethiopia's stunning landscapes, while white water rafting tours provide a wild ride through thrilling rapids. Hot air ballooning tours offer a tranquil journey through Ethiopia's skies, providing breathtaking views of the country's majestic landscapes. Throughout your journey, experienced guides will ensure your safety and comfort. Come explore the wild side of Ethiopia and discover the adventure of a lifetime!",
+    link: "ethiopia/adventure",
+    image: Abay1,
+  },
+  {
+    title: "Photography Tours in Ethiopia",
+    description:
+      "Photography tour in Ethiopia, a paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia. The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
+    link: "ethiopia/photography",
+    image: Yemata1,
+  },
+  {
+    title: "Wildlife Tours in Ethiopia",
+    description:
+      "Ethiopia is a country with diverse landscapes and abundant wildlife. If you are a wildlife enthusiast, you are in for a treat. Ethiopia offers some of the best wildlife tours in Africa, with its stunning national parks, game reserves, and sanctuaries that provide visitors with an opportunity to see a wide range of animals in their natural habitat.",
+    link: "ethiopia/wildlife",
+    image: Zebra1,
+  },
+  {
+    title: "Bird Watching Tours in Ethiopia",
+    description:
+      "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
+    link: "ethiopia/bird-watching",
+    image: Bird1,
+  },
+];
+export const TopEthiopiaTourPackagesArray: Package[] = [
+  {
+    title: "Tribal Ethiopia Tours",
+    description:
+      "Explore the richness of Ethiopia's Cultural Tours, where diverse cultures converge. Experience the vibrant tapestry of cultural diversity unlike anywhere else in Africa. From stunning landscapes to iconic monuments and fascinating wildlife, every part of your journey is infused with a vibrant cultural essence that brings it to life.",
+    link: "ethiopia/tribal",
+    image: Benna1,
+  },
+  {
+    title: "Festivals and Special Events",
+    description:
+      "Experience the vibrant world of Ethiopian festivals, where ancient traditions come alive through colorful celebrations and powerful spiritual energy. Immerse yourself in the heart and soul of Ethiopian culture, creating unforgettable moments that will stay with you forever.",
+    link: "ethiopia/festivals",
+    image: Gonder2,
+  },
+  {
+    title: "Adventure Tours in Ethiopia",
+    description:
+      "The Adventure Tours in Ethiopia offer a thrilling experience for those seeking an adrenaline-packed vacation. The tours include trekking through stunning landscapes, such as the Simien and Bale Mountains, where you will encounter unique flora and fauna, including the iconic Gelada baboons and the elusive Ethiopian wolf. For rock climbers, experienced guides will help navigate the challenging terrain, ensuring safety at all times. Paragliding tours offer a chance to soar above Ethiopia's stunning landscapes, while white water rafting tours provide a wild ride through thrilling rapids. Hot air ballooning tours offer a tranquil journey through Ethiopia's skies, providing breathtaking views of the country's majestic landscapes. Throughout your journey, experienced guides will ensure your safety and comfort. Come explore the wild side of Ethiopia and discover the adventure of a lifetime!",
+    link: "ethiopia/adventure",
+    image: Abay1,
+  },
+  {
+    title: "Photography Tours in Ethiopia",
+    description:
+      "Photography tour in Ethiopia, a paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia. The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
+    link: "ethiopia/photography",
+    image: Yemata1,
+  },
+  {
+    title: "Wildlife Tours in Ethiopia",
+    description:
+      "Ethiopia is a country with diverse landscapes and abundant wildlife. If you are a wildlife enthusiast, you are in for a treat. Ethiopia offers some of the best wildlife tours in Africa, with its stunning national parks, game reserves, and sanctuaries that provide visitors with an opportunity to see a wide range of animals in their natural habitat.",
+    link: "ethiopia/wildlife",
+    image: Zebra1,
+  },
+];
+
+export const EthiopiaTourPackagesArray2: Package2[] = [];

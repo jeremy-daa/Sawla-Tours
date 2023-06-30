@@ -1,9 +1,10 @@
 import { BsInfoCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Lalibela1 from "../assets/lalibela_1.jpg";
+import crop from "../functions/cropString";
 
 interface Props {
   title: string;
+  description?: string;
   packages: Package[];
 }
 
@@ -15,23 +16,14 @@ interface Package {
 }
 
 const PackagesList = (props: Props) => {
-  function cropString(input: string, limit: number) {
-    if (input.length <= limit) {
-      return input;
-    } else {
-      let cropped = input.substring(0, limit);
-      const lastSpaceIndex = cropped.lastIndexOf(" ");
-      if (lastSpaceIndex !== -1) {
-        cropped = cropped.substring(0, lastSpaceIndex);
-      }
-      return cropped + "...";
-    }
-  }
+  const cropString = crop;
   return (
     <div className="package-list-container">
       <h1 className="title">
         <BsInfoCircle />
+        <br className="title-hide" />
         <span>{props.title}</span>
+        <p className="title-description">{props.description}</p>
       </h1>
       <div className="packages">
         {/* Map the pacages from props */}

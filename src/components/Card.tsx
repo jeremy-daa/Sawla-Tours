@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import crop from "../functions/cropString";
 
 interface Props {
   className?: string;
@@ -10,6 +11,7 @@ interface Props {
 }
 
 const Card = (props: Props) => {
+  const cropString = crop;
   return (
     <div className={`card ${props.className}`}>
       <div className="card-img">
@@ -17,9 +19,11 @@ const Card = (props: Props) => {
       </div>
       <div className="card-content">
         <h2 className="card-title">{props.title}</h2>
-        <p className="card-description">{props.description}</p>
+        <p className="card-description">{cropString(props.description, 300)}</p>
         <div className="card-bottom">
-          <span className="card-days">{props.days} Days</span>
+          {props.days ? (
+            <span className="card-days">{props.days} Days</span>
+          ) : null}
           <Link className="card-link offset" to={props.link}>
             Learn More
           </Link>

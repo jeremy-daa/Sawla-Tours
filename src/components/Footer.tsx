@@ -13,7 +13,9 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-column">
         <div className="footer-logo">
-          <img src={Logo} alt="SawlaTours Logo" />
+          <Link to="/">
+            <img src={Logo} alt="SawlaTours Logo" />
+          </Link>
         </div>
         <div className="footer-contact">
           <h1 className="contact-us">
@@ -99,22 +101,22 @@ const Footer = () => {
           <ul>
             <li>
               <a href="https://www.facebook.com/sawlatours">
-                <BsFacebook />
+                <BsFacebook /> <span>Facebook</span>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/sawlatours">
-                <BsInstagram />
+                <BsInstagram /> <span>Instagram</span>
               </a>
             </li>
             <li>
               <a href="https://www.twitter.com/sawlatours">
-                <BsTwitter />
+                <BsTwitter /> <span>Twitter</span>
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/sawlatours">
-                <BsYoutube />
+                <BsYoutube /> <span>YouTube</span>
               </a>
             </li>
           </ul>

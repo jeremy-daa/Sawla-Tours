@@ -10,14 +10,13 @@ import Home from "./routes/Home";
 import Faq from "./routes/Faq";
 import RootLayout from "./layout/RootLayout";
 import NotFound from "./routes/NotFound";
-import Tours from "./routes/Tours";
 import AboutUs from "./routes/AboutUs";
 import Testimonials from "./routes/Testimonials";
-import ToursLayout from "./layout/ToursLayout";
 import EthiopiaTours from "./routes/EthiopiaTours";
 import PopularTours from "./routes/PopularTours";
 import EthiopiaDestinations from "./routes/EthiopiaDestinations";
 import ToursByExperiences from "./routes/ToursByExperiences";
+import PageTitle from "./components/PageTitle";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>

@@ -7,12 +7,22 @@ import Intro3 from "../assets/intro_3.jpg";
 import Intro4 from "../assets/intro_4.jpg";
 import PackagesList from "../components/PackagesList";
 import Slider from "../components/Slider";
-import PackagesArray from "../Data/PackagesArray";
+import {
+  DestinationPackagesArray,
+  EthiopiaTourPackagesArray,
+} from "../Data/PackagesArray";
+import ImageGallery from "../components/ImageGallery";
+import Planner from "../components/Planner";
 
 const Home = () => {
   return (
     <div className="home">
-      <Hero background="../src/assets/bg_1.jpg" index title="Home" />
+      <Hero
+        background="../src/assets/bg_1.jpg"
+        index
+        title="Home"
+        link="#about"
+      />
       <Intro
         img1={Intro1}
         img2={Intro2}
@@ -21,6 +31,7 @@ const Home = () => {
         description2="As Ethiopian specialists, we are dedicated to helping you discover the uniqueness and significance of this captivating country in the Horn of Africa. With our passionate team and extensive network of local partners, we are committed to crafting a trip that aligns with your dreams, budget, and thirst for adventure."
         lr
         button="About Us"
+        link="/about"
       />
       <IntroPackages />
 
@@ -32,12 +43,19 @@ const Home = () => {
         description2="Our team is devoted to planning your journey, ensuring it caters to your specific requirements. Our ultimate goal is to provide our clients with a unique and personalized experience in this remarkably diverse country."
         lr={false}
         button="Explore Our Tours"
+        link="/ethiopia"
       />
-      <Slider />
+      <Slider
+        title="Our Popular Ethiopia Tours"
+        description="Our most popular tours are listed below. These tours are designed to give you a taste of what is possible. We can tailor any itinerary to suit your requirements and interests."
+        cards={EthiopiaTourPackagesArray}
+      />
       <PackagesList
-        title="Our Popular Ethiopian Tours"
-        packages={PackagesArray}
+        title="Ethiopia Top Destinations"
+        packages={DestinationPackagesArray}
       />
+      <ImageGallery />
+      <Planner />
     </div>
   );
 };

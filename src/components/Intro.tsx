@@ -6,6 +6,7 @@ interface Props {
   description2: string;
   button: string;
   lr: boolean;
+  link: string;
 }
 
 const Intro = (props: Props) => {
@@ -17,7 +18,7 @@ const Intro = (props: Props) => {
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
-            <a className="offset" href="#about">
+            <a className="offset" href={props.link}>
               {props.button}
             </a>
           </div>
@@ -36,7 +37,7 @@ const Intro = (props: Props) => {
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
-            <a className="offset" href="#about">
+            <a className="offset" href={props.link}>
               {props.button}
             </a>
           </div>
