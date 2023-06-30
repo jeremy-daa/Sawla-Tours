@@ -16,7 +16,6 @@ import EthiopiaTours from "./routes/EthiopiaTours";
 import PopularTours from "./routes/PopularTours";
 import EthiopiaDestinations from "./routes/EthiopiaDestinations";
 import ToursByExperiences from "./routes/ToursByExperiences";
-import PageTitle from "./components/PageTitle";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>

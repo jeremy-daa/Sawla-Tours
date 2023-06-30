@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Intro1 from "../assets/intro_1.jpg";
 import Ertaale from "../assets/erta_ale_1.jpg";
 const Planner = () => {
   return (

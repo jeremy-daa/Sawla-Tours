@@ -3,7 +3,7 @@ interface Props {
   index: boolean;
   title: string;
   description?: string;
-  link: string;
+  link?: string;
 }
 
 const Hero = ({ background, index, title, description, link }: Props) => {
@@ -23,9 +23,11 @@ const Hero = ({ background, index, title, description, link }: Props) => {
           <h3 className="heading-description">
             Creating memories that will last a lifetime
           </h3>
-          <a className="offset" href="#about">
-            Explore
-          </a>
+          {link ? (
+            <a className="offset" href="#about">
+              Explore
+            </a>
+          ) : null}
         </div>
       ) : (
         <div className="other-hero">
