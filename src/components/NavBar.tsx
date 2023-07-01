@@ -6,6 +6,7 @@ import HeadRoom from "react-headroom";
 import { CiMenuFries } from "react-icons/ci";
 import { CiCircleRemove } from "react-icons/ci";
 import { BsFillCaretDownFill } from "react-icons/bs";
+import { RiCompass3Fill } from "react-icons/ri";
 import {
   EthiopiaTourPackagesArray,
   TopDestinationsRoutes,
@@ -36,7 +37,7 @@ const NavBar = () => {
   return (
     <HeadRoom>
       <header className={scrollPosition > 150 ? "scrolled" : "original"}>
-        <div className="logo">
+        <div className="logo" data-aos="fade-right">
           {scrollPosition > 150 ? (
             <Link to={"/"}>
               <img src={LogoDark} alt="Sawla Tours Logo" />
@@ -48,7 +49,7 @@ const NavBar = () => {
           )}
         </div>
         <input type="checkbox" id="nav_check" hidden />
-        <nav>
+        <nav data-aos="fade-left">
           <div className="logo">
             <Link to={"/"}>
               <img src={Logo} alt="SawlaTours Logo" />
@@ -119,13 +120,14 @@ const NavBar = () => {
             </li>
 
             <li>
-              <NavLink to="about">About Us</NavLink>
+              <NavLink to="about-us">About Us</NavLink>
             </li>
             <li>
-              <NavLink to="testimonials">Testimonials</NavLink>
+              <NavLink to="contact-us">Contact Us</NavLink>
             </li>
-            <li>
-              <NavLink to="faq">FAQ</NavLink>
+            <li className="enquire">
+              <RiCompass3Fill />
+              <NavLink to="enquire">Start Planning</NavLink>
             </li>
           </ul>
         </nav>

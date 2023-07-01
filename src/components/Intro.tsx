@@ -1,3 +1,5 @@
+import useAOS from "../functions/useAOS";
+
 interface Props {
   img1: string;
   img2: string;
@@ -10,11 +12,12 @@ interface Props {
 }
 
 const Intro = (props: Props) => {
+  useAOS();
   return (
     <section id="about" className="home-intro">
       {props.lr ? (
         <div className="intro-container">
-          <div className="intro-text">
+          <div className="intro-text" data-aos="fade-right">
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
@@ -22,18 +25,18 @@ const Intro = (props: Props) => {
               {props.button}
             </a>
           </div>
-          <div className="intro-img">
+          <div className="intro-img" data-aos="fade-left">
             <img src={props.img1} alt="Intro image" />
             <img src={props.img2} alt="Intro image" />
           </div>
         </div>
       ) : (
         <div className="intro-container">
-          <div className="intro-img">
+          <div className="intro-img" data-aos="fade-right">
             <img src={props.img1} alt="Intro image" />
             <img src={props.img2} alt="Intro image" />
           </div>
-          <div className="intro-text">
+          <div className="intro-text" data-aos="fade-left">
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>

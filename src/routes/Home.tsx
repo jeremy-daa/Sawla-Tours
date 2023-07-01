@@ -13,7 +13,8 @@ import {
   EthiopiaTourPackagesArray,
 } from "../Data/PackagesArray";
 import ImageGallery from "../components/ImageGallery";
-import Planner from "../components/Planner";
+import PlannerPolaroid from "../components/PlannerPolaroid";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
         description2="As Ethiopian specialists, we are dedicated to helping you discover the uniqueness and significance of this captivating country in the Horn of Africa. With our passionate team and extensive network of local partners, we are committed to crafting a trip that aligns with your dreams, budget, and thirst for adventure."
         lr
         button="About Us"
-        link="/about"
+        link="/about-us"
       />
       <IntroPackages />
 
@@ -51,7 +52,9 @@ const Home = () => {
         packages={DestinationPackagesArray}
       />
       <ImageGallery />
-      <Planner />
+      {/* <Planner /> */}
+      <PlannerPolaroid />
+      {/* <Contact /> */}
     </div>
   );
 };

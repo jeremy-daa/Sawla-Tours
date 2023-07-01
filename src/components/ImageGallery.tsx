@@ -1,11 +1,16 @@
+import styled from "styled-components";
 import { TopEthiopiaTourPackagesArray } from "../Data/PackagesArray";
+import Bale1 from "../assets/bale_1.jpg";
 import crop from "../functions/cropString";
 const ImageGallery = () => {
+  const Gallery = styled.div`
+      &::after {
+        background: url("${Bale1}") no-repeat center;`;
   const cropString = crop;
   return (
-    <div className="gallery-container">
+    <Gallery className="gallery-container inset-blurr">
       <h2 className="gallery-title">Our Top Ethiopia Tour Packages</h2>
-      <div className="ctr-accordion">
+      <div className="ctr-accordion" data-aos="fade-right">
         {TopEthiopiaTourPackagesArray.map((item, index) => {
           return (
             <div className="tab" key={index}>
@@ -20,7 +25,7 @@ const ImageGallery = () => {
           );
         })}
       </div>
-    </div>
+    </Gallery>
   );
 };
 

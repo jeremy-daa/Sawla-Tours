@@ -28,9 +28,17 @@ const PackagesList = (props: Props) => {
       <div className="packages">
         {/* Map the pacages from props */}
         {props.packages.map((packageItem, index) => {
+          const duration = 2000 * (Math.floor(Math.random() * 3) + 1);
           return (
-            <div className="package" key={index}>
-              <h2 className="package-title">{packageItem.title}</h2>
+            <div
+              className="package"
+              key={index}
+              data-aos="fade-up"
+              data-aos-duration={`${duration}`}
+            >
+              <h2 className="package-title">
+                {packageItem.title} {duration}
+              </h2>
               <div className="package-content">
                 <div className="package-img">
                   <img src={packageItem.image} alt="Package" />

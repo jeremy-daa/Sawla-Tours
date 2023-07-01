@@ -25,14 +25,14 @@ const IntroPackages = ({ custom, title1, title2, link, packages }: Props) => {
   return (
     <div className="experience-packages-wrapper">
       {custom ? (
-        <h2 className="packages-title">
+        <h2 className="packages-title" data-aos="fade-down">
           <ImLocation2 /> {title1}{" "}
           <Link to={`/${link}`} className="link">
             {title2}
           </Link>
         </h2>
       ) : (
-        <h2 className="packages-title">
+        <h2 className="packages-title" data-aos="fade-down">
           <ImLocation2 /> Our Popular{" "}
           <Link to="/experiences" className="link">
             Tours by Experience

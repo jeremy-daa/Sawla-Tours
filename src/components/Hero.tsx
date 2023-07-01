@@ -1,3 +1,5 @@
+import useAOS from "../functions/useAOS";
+
 interface Props {
   background: string;
   index: boolean;
@@ -14,10 +16,11 @@ const Hero = ({ background, index, title, description, link }: Props) => {
       rgba(0, 0, 0, 0.55)
     ),url("${background}") no-repeat fixed center center / cover`,
   };
+  useAOS();
   return (
     <div className="hero-wrap" style={style}>
       {index ? (
-        <div className="home-hero">
+        <div className="home-hero" data-aos="fade-up">
           <h2 className="subheading">Welcome to Sawla Tours</h2>
           <h1 className="heading">Unveiling the Essence of Ethiopia</h1>
           <h3 className="heading-description">
@@ -30,12 +33,14 @@ const Hero = ({ background, index, title, description, link }: Props) => {
           ) : null}
         </div>
       ) : (
-        <div className="other-hero">
+        <div className="other-hero" data-aos="fade-up">
           <h1 className="heading">{title}</h1>
           <h3 className="heading-description">{description}</h3>
-          <a className="offset" href={link}>
-            Start Planning
-          </a>
+          {link ? (
+            <a className="offset" href="#about">
+              Start Planning
+            </a>
+          ) : null}
         </div>
       )}
     </div>

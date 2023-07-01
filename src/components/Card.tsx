@@ -13,7 +13,7 @@ interface Props {
 const Card = (props: Props) => {
   const cropString = crop;
   return (
-    <div className={`card ${props.className}`}>
+    <div className={`card ${props.className}`} data-aos="fade-up">
       <div className="card-img">
         <img src={props.image} alt={props.title} />
       </div>
