@@ -14,7 +14,6 @@ import {
 } from "../Data/PackagesArray";
 import ImageGallery from "../components/ImageGallery";
 import PlannerPolaroid from "../components/PlannerPolaroid";
-import Contact from "../components/Contact";
 
 const Home = () => {
   return (
