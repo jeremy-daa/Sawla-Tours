@@ -46,11 +46,7 @@ interface Route {
   title: string;
   link: string;
 }
-interface RouteElement {
-  title: string;
-  link: string;
-  component: any;
-}
+
 // Packages Array
 
 export const DestinationPackagesArray: Package[] = [
