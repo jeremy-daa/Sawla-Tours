@@ -20,7 +20,7 @@ const PackagesGrid = () => {
   };
   return (
     <div className="grid-packages-container">
-      <h1 className="grid-packages-title">Our Top Destinations</h1>
+      <h1 className="grid-packages-title">Our Destinations</h1>
       <div className={`${textBoxFocus ? "focus" : ""} search-container`}>
         <input
           onChange={(e) => {

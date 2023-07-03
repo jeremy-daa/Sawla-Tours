@@ -6,9 +6,17 @@ interface Props {
   title: string;
   description?: string;
   link?: string;
+  linkname?: string;
 }
 
-const Hero = ({ background, index, title, description, link }: Props) => {
+const Hero = ({
+  background,
+  index,
+  title,
+  description,
+  link,
+  linkname,
+}: Props) => {
   const style = {
     background: `linear-gradient(
       to bottom,
@@ -37,8 +45,8 @@ const Hero = ({ background, index, title, description, link }: Props) => {
           <h1 className="heading">{title}</h1>
           <h3 className="heading-description">{description}</h3>
           {link ? (
-            <a className="offset" href="#about">
-              Start Planning
+            <a className="offset" href={link}>
+              {linkname ? linkname : "Start Planning"}
             </a>
           ) : null}
         </div>

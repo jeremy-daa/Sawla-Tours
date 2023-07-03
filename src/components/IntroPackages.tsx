@@ -5,6 +5,7 @@ import Simien1 from "../assets/simien_1.jpeg";
 import Bale1 from "../assets/bale_2.jpg";
 import { Link } from "react-router-dom";
 import pickRandom from "../functions/pickRandom";
+import cropString from "../functions/cropString";
 interface Props {
   custom?: boolean;
   title1?: string;
@@ -47,7 +48,7 @@ const IntroPackages = ({ custom, title1, title2, link, packages }: Props) => {
                 className="package-card"
                 image={item.image}
                 title={item.title}
-                description={item.description}
+                description={cropString(item.description, 200)}
                 link={item.link}
                 days={item.days}
               />
