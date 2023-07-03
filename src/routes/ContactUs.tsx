@@ -8,7 +8,7 @@ const ContactUS = () => {
     <div className="contact">
       <Hero
         title="Contact Us"
-        description="What would you like to know? We are here to help you."
+        description="What would you like to know? We are here to help."
         background={Omo1}
         index={false}
       />

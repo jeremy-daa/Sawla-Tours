@@ -33,14 +33,26 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="right">
+        <form className="right">
           <h2>Contact Us</h2>
-          <input type="text" className="field" placeholder="Your Name" />
-          <input type="text" className="field" placeholder="Your Email" />
+          <input
+            type="text"
+            className="field"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            className="field"
+            placeholder="Your Email"
+            required
+          />
           <input type="text" className="field" placeholder="Phone" />
-          <textarea placeholder="Message" className="field"></textarea>
-          <button className="offset">Send</button>
-        </div>
+          <textarea placeholder="Message" className="field" required></textarea>
+          <button type="submit" className="offset">
+            Send
+          </button>
+        </form>
       </div>
     </Contact>
   );

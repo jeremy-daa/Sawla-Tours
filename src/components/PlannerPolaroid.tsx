@@ -1,12 +1,18 @@
-import Ertaale from "../assets/erta_ale_1.jpg";
+import styled from "styled-components";
+import Danakil3 from "../assets/danakil_3.jpeg";
+import Zebra1 from "../assets/zebra_1.jpg";
+import Abay1 from "../assets/abay_1.jpg";
 
 const PlannerPolaroid = () => {
+  const PlannerPolaroid = styled.div`
+      &::after {
+        background: url("${Zebra1}") no-repeat center;`;
   return (
-    <div className="polaroid-parent" data-aos="fade-up">
+    <PlannerPolaroid className="polaroid-parent inset-blurr">
       <h1 className="title">How to Plan Your Next Trip</h1>
       <div className="polaroid-container">
         <div className="polaroid">
-          <img src={Ertaale} alt="planner" />
+          <img src={Danakil3} alt="planner" />
           <div>
             <h1 className="polaroid-title">1. Choose Your Destination</h1>
             <p className="polaroid-description">
@@ -20,7 +26,7 @@ const PlannerPolaroid = () => {
           </div>
         </div>
         <div className="polaroid">
-          <img src={Ertaale} alt="planner" />
+          <img src={Zebra1} alt="planner" />
           <div>
             <h1 className="polaroid-title">2. Itinerary Customization</h1>
             <p className="polaroid-description">
@@ -36,7 +42,7 @@ const PlannerPolaroid = () => {
           </div>
         </div>
         <div className="polaroid">
-          <img src={Ertaale} alt="planner" />
+          <img src={Abay1} alt="planner" />
           <div>
             <h1 className="polaroid-title">3. Booking and Logistics</h1>
             <p className="polaroid-description">
@@ -50,7 +56,7 @@ const PlannerPolaroid = () => {
           </div>
         </div>
       </div>
-    </div>
+    </PlannerPolaroid>
   );
 };
 

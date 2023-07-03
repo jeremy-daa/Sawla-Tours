@@ -57,25 +57,20 @@ const Footer = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/ethiopia">
+              <NavLink to="/ethiopia-tours">
                 <BsCaretRight />
                 Ethiopia Tours
               </NavLink>
             </li>
             <li>
-              <NavLink to="/destinations">
+              <NavLink to="/top-destinations">
                 <BsCaretRight />
-                Ethiopia Destinations
+                Ethiopia Top Destinations
               </NavLink>
             </li>
+
             <li>
-              <NavLink to="/popular">
-                <BsCaretRight />
-                Popular Ethiopia Tours
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/experiences">
+              <NavLink to="/tours-by-experience">
                 <BsCaretRight />
                 Ethiopia Tours By Experiences
               </NavLink>
@@ -87,7 +82,7 @@ const Footer = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact">
+              <NavLink to="/contact-us">
                 <BsCaretRight />
                 Contact Us
               </NavLink>

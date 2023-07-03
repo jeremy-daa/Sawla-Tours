@@ -1,11 +1,13 @@
 import Hero from "../components/Hero";
 import Danakil2 from "../assets/danakil_2.jpg";
-import Planner from "../components/Planner";
+// import Planner from "../components/Planner";
 import Intro from "../components/Intro";
 import Lalibela3 from "../assets/lalibela_3.jpg";
 import Danakil3 from "../assets/danakil_3.jpeg";
-import IntroPackages from "../components/IntroPackages";
-import { DestinationPackagesArray } from "../Data/PackagesArray";
+import PackagesGrid from "../components/PackagesGrid";
+import PlannerPolaroid from "../components/PlannerPolaroid";
+// import IntroPackages from "../components/IntroPackages";
+// import { DestinationPackagesArray } from "../Data/PackagesArray";
 
 const EthiopiaDesinations = () => {
   return (
@@ -27,15 +29,15 @@ const EthiopiaDesinations = () => {
         link="/ethiopia/historic-tours"
         lr={true}
       />
-      <IntroPackages
+      {/* <IntroPackages
         custom
         packages={DestinationPackagesArray}
         title1="Our "
         title2="Top Destinations"
         link="top-destinations"
-      />
-
-      <Planner />
+      /> */}
+      <PackagesGrid />
+      <PlannerPolaroid />
     </div>
   );
 };

@@ -19,12 +19,19 @@ import Yemata1 from "../assets/yemata_1.jpg";
 import Bird1 from "../assets/bird_1.jpg";
 import Addis1 from "../assets/addis_1.jpeg";
 
+// Ethiopia tours route components import
+
 interface Package {
   title: string;
   description: string;
   link: string;
   image: string;
   days?: number;
+}
+interface PackageName {
+  title: string;
+  link: string;
+  image: string;
 }
 interface Package2 {
   title: string;
@@ -39,6 +46,13 @@ interface Route {
   title: string;
   link: string;
 }
+interface RouteElement {
+  title: string;
+  link: string;
+  component: any;
+}
+// Packages Array
+
 export const DestinationPackagesArray: Package[] = [
   {
     title: "Lalibela: A Journey to Ethiopia's Spiritual Heart",
@@ -127,95 +141,69 @@ export const DestinationPackagesArray: Package[] = [
     image: Gambella,
   },
 ];
-export const TopDestinationsRoutes: Route[] = [
+export const DestinationPackagesNameArray: PackageName[] = [
   {
     title: "Lalibela",
     link: "top-destinations/lalibela",
+    image: Lalibela,
   },
   {
     title: "Simien Mountains",
     link: "top-destinations/simien",
+    image: SimienMountain,
   },
   {
     title: "Danakil Depression",
     link: "top-destinations/danakil",
+    image: Danakil,
   },
   {
     title: "Omo Valley",
     link: "top-destinations/omo",
+    image: Omo,
   },
   {
     title: "Tigray",
     link: "top-destinations/tigray",
+    image: Tigray,
   },
   {
     title: "Bahir Dar",
+
     link: "top-destinations/bahir-dar",
+    image: BahirDar,
   },
   {
     title: "Gonder",
     link: "top-destinations/gonder",
+    image: Gonder,
   },
   {
     title: "Bale Mountains",
     link: "top-destinations/bale",
+    image: Bale,
   },
   {
     title: "Chebera Churchura",
     link: "top-destinations/chebera-churchura",
+    image: Chebera,
   },
   {
     title: "Axum",
     link: "top-destinations/axum",
+    image: Axum2,
   },
   {
     title: "Harar",
     link: "top-destinations/harar",
+    image: Harar,
   },
   {
     title: "Gambella",
     link: "top-destinations/gambella",
+    image: Gambella,
   },
 ];
-export const ToursByExperienceRoutes: Route[] = [
-  {
-    title: "Historic and Cultural Tours",
-    link: "ethiopia-tours/historic-cultural",
-  },
-  {
-    title: "Tribal Ethiopia Tours",
-    link: "ethiopia-tours/tribal",
-  },
-  {
-    title: "Ethiopia Festival Tours",
-    link: "ethiopia-tours/festival",
-  },
-  {
-    title: "Adventure Tours",
-    link: "ethiopia-tours/adventure",
-  },
-  {
-    title: "Photography Tours",
-    link: "ethiopia-tours/photography",
-  },
-  {
-    title: "Birding Watching Tours",
-    link: "ethiopia-tours/birding",
-  },
-  {
-    title: "Wildlife",
-    link: "ethiopia-tours/wildlife",
-  },
-  {
-    title: "Business Trip",
-    link: "ethiopia-tours/business",
-  },
-  {
-    title: "Special Interest",
-    link: "ethiopia-tours/special",
-  },
-];
-
 export const EthiopiaTourPackagesArray: Package[] = [
   {
     title: "Historic Tours in Ethiopia",
@@ -325,5 +313,102 @@ export const TopEthiopiaTourPackagesArray: Package[] = [
     image: Zebra1,
   },
 ];
-
 export const EthiopiaTourPackagesArray2: Package2[] = [];
+
+// Routes Array
+
+export const EthiopiaTourPackagesRoutes: Route[] =
+  EthiopiaTourPackagesArray.map((item) => {
+    return {
+      title: item.title,
+      link: item.link,
+    };
+  });
+export const TopDestinationsRoutes: Route[] = [
+  {
+    title: "Lalibela",
+    link: "top-destinations/lalibela",
+  },
+  {
+    title: "Simien Mountains",
+    link: "top-destinations/simien",
+  },
+  {
+    title: "Danakil Depression",
+    link: "top-destinations/danakil",
+  },
+  {
+    title: "Omo Valley",
+    link: "top-destinations/omo",
+  },
+  {
+    title: "Tigray",
+    link: "top-destinations/tigray",
+  },
+  {
+    title: "Bahir Dar",
+    link: "top-destinations/bahir-dar",
+  },
+  {
+    title: "Gonder",
+    link: "top-destinations/gonder",
+  },
+  {
+    title: "Bale Mountains",
+    link: "top-destinations/bale",
+  },
+  {
+    title: "Chebera Churchura",
+    link: "top-destinations/chebera-churchura",
+  },
+  {
+    title: "Axum",
+    link: "top-destinations/axum",
+  },
+  {
+    title: "Harar",
+    link: "top-destinations/harar",
+  },
+  {
+    title: "Gambella",
+    link: "top-destinations/gambella",
+  },
+];
+export const ToursByExperienceRoutes: Route[] = [
+  {
+    title: "Historic and Cultural Tours",
+    link: "ethiopia-tours/historic-cultural",
+  },
+  {
+    title: "Tribal Ethiopia Tours",
+    link: "ethiopia-tours/tribal",
+  },
+  {
+    title: "Ethiopia Festival Tours",
+    link: "ethiopia-tours/festival",
+  },
+  {
+    title: "Adventure Tours",
+    link: "ethiopia-tours/adventure",
+  },
+  {
+    title: "Photography Tours",
+    link: "ethiopia-tours/photography",
+  },
+  {
+    title: "Birding Watching Tours",
+    link: "ethiopia-tours/birding",
+  },
+  {
+    title: "Wildlife",
+    link: "ethiopia-tours/wildlife",
+  },
+  {
+    title: "Business Trip",
+    link: "ethiopia-tours/business",
+  },
+  {
+    title: "Special Interest",
+    link: "ethiopia-tours/special",
+  },
+];
