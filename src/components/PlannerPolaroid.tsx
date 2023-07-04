@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Danakil3 from "../assets/danakil_3.jpeg";
 import Zebra1 from "../assets/zebra_1.jpg";
 import Abay1 from "../assets/abay_1.jpg";
+import { Link } from "react-router-dom";
 
 const PlannerPolaroid = () => {
   const PlannerPolaroid = styled.div`
@@ -54,6 +55,12 @@ const PlannerPolaroid = () => {
               organized and hassle-free.
             </p>
           </div>
+        </div>
+        <br />
+        <div className="span-100">
+          <Link className="polaroid-link offset" to="/ethiopia-guide/planning">
+            More on Planning
+          </Link>
         </div>
       </div>
     </PlannerPolaroid>
