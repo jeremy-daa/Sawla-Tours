@@ -17,7 +17,7 @@ const Intro = (props: Props) => {
     <section id="about" className="home-intro">
       {props.lr ? (
         <div className="intro-container">
-          <div className="intro-text" data-aos="fade-right">
+          <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
@@ -25,18 +25,18 @@ const Intro = (props: Props) => {
               {props.button}
             </a>
           </div>
-          <div className="intro-img" data-aos="fade-left">
+          <div className="intro-img">
             <img src={props.img1} alt="Intro image" />
             <img src={props.img2} alt="Intro image" />
           </div>
         </div>
       ) : (
         <div className="intro-container">
-          <div className="intro-img" data-aos="fade-right">
+          <div className="intro-img">
             <img src={props.img1} alt="Intro image" />
             <img src={props.img2} alt="Intro image" />
           </div>
-          <div className="intro-text" data-aos="fade-left">
+          <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>

@@ -16,11 +16,18 @@ import {
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navChecked, setNavChecked] = useState(true);
-
+  const [navOpen, setNavOpen] = useState(false);
   const handleNavToggle = () => {
     setNavChecked(!navChecked);
   };
+  const toggleNavbar = () => {
+    setNavOpen(!navOpen);
+  };
 
+  const closeNavbar = () => {
+    setNavChecked(true);
+    setNavOpen(false);
+  };
   useEffect(() => {
     const handleScroll = () => {
       const position = window.pageYOffset;
@@ -39,7 +46,7 @@ const NavBar = () => {
       <header className={scrollPosition > 150 ? "scrolled" : "original"}>
         <div className="logo" data-aos="fade-right">
           {scrollPosition > 150 ? (
-            <Link to={"/"}>
+            <Link to={"/"} onClick={closeNavbar}>
               <img src={LogoDark} alt="Sawla Tours Logo" />
             </Link>
           ) : (
@@ -48,7 +55,13 @@ const NavBar = () => {
             </Link>
           )}
         </div>
-        <input type="checkbox" id="nav_check" hidden />
+        <input
+          type="checkbox"
+          checked={navOpen}
+          onChange={toggleNavbar}
+          id="nav_check"
+          hidden
+        />
         <nav data-aos="fade-left">
           <div className="logo">
             <Link to={"/"}>
@@ -57,10 +70,12 @@ const NavBar = () => {
           </div>
           <ul>
             <li>
-              <NavLink to="/ ">Home</NavLink>
+              <NavLink to="/ " onClick={closeNavbar}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="ethiopia-tours">
+              <NavLink to="ethiopia-tours" onClick={closeNavbar}>
                 Ethiopia Tours <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
@@ -74,7 +89,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink to="top-destinations">
+              <NavLink to="top-destinations" onClick={closeNavbar}>
                 Ethiopia Top Destinations{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -89,7 +104,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink to="tours-by-experience">
+              <NavLink to="tours-by-experience" onClick={closeNavbar}>
                 Ethiopia Tours by Experiences{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -104,7 +119,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink to="ethiopia-guide">
+              <NavLink to="ethiopia-guide" onClick={closeNavbar}>
                 Ethiopia Guide
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -120,14 +135,20 @@ const NavBar = () => {
             </li>
 
             <li>
-              <NavLink to="about-us">About Us</NavLink>
+              <NavLink to="about-us" onClick={closeNavbar}>
+                About Us
+              </NavLink>
             </li>
             <li>
-              <NavLink to="contact-us">Contact Us</NavLink>
+              <NavLink to="contact-us" onClick={closeNavbar}>
+                Contact Us
+              </NavLink>
             </li>
             <li className="enquire">
               <RiCompass3Fill />
-              <NavLink to="enquire">Start Planning</NavLink>
+              <NavLink to="enquire" onClick={closeNavbar}>
+                Start Planning
+              </NavLink>
             </li>
           </ul>
         </nav>

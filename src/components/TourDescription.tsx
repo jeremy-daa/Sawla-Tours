@@ -1,3 +1,5 @@
+import { BsInfoCircle } from "react-icons/bs";
+
 interface Props {
   title: string;
   description1: string;
@@ -15,7 +17,9 @@ const TourDescription = ({
     <div className="tour-description-wrapper">
       <img src={image} alt={title} className="tour-description-image" />
       <div className="tour-description">
-        <h1 className="tour-description-title">{title}</h1>
+        <h1 className="tour-description-title">
+          <BsInfoCircle /> {title}
+        </h1>
         <p className="tour-description-text">
           {description1}
           <br />

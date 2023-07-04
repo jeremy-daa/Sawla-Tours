@@ -8,6 +8,7 @@ import Axum2 from "../../assets/axum_2.jpg";
 import Tigray2 from "../../assets/tigray_2.jpg";
 import PlannerPolaroid from "../../components/PlannerPolaroid";
 import TourDescription from "../../components/TourDescription";
+import TourDescription2 from "../../components/TourDescription2";
 const HistoricTour = () => {
   const descriptionString1 =
     'Aside from the well-known destinations, there are also other hidden gems that are worth exploring. Visitors can discover the sacred Church of Gishen Mariam in Wollo, the neolithic site at Melka Kunture near Addis Ababa, and the beautiful churches and monasteries on the road from Addis Ababa to Bahir Dar, such as Mertulle Mariam. For those interested in archaeology, the Hadar site is where "Lucy" and other hominid species were discovered in the Afar Regional State. ';
@@ -17,9 +18,9 @@ const HistoricTour = () => {
     <div className="historic-tour-wrapper">
       <Hero
         index={false}
-        title="Historic Tour"
+        title="Historic Ethiopia Tours"
         description="The Historic Tour is a journey through Ethiopia’s rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar."
-        link="/contact"
+        link="/enquire"
         background={Gonder1}
       />
       <Intro
@@ -48,10 +49,66 @@ const HistoricTour = () => {
         link="/enquire"
       />
       <TourDescription
-        title="Destinations on the Historic Tour"
+        title="A Rough Summary of the Itenerary"
         image={Axum2}
         description1={descriptionString1}
         description2={descriptionString2}
+      />
+      <TourDescription2
+        title="Places included in the Itenerary"
+        destinations={[
+          {
+            title: "Abune Yemata Guh",
+            description:
+              "Abune Yemata Guh is a church located in the Gheralta cluster in Tigray, Ethiopia. The church is located on a cliff, at an altitude of 2,580 metres (8,460 ft). It is notable for its dome and wall paintings dating back to the 5th century AD. The church is dedicated to Abuna Yemata, a priest who is said to have led the nine saints who spread Christianity in Tigray.",
+          },
+          {
+            title: "Axum",
+            description:
+              "Axum is a city in northern Ethiopia. It's known for its tall, carved obelisks, relics of the ancient Kingdom of Aksum. Most are in the northern Stelae Park, including a huge fallen pillar, now in pieces. Centuries-old St. Mary of Zion is a Christian church and pilgrimage site believed to have housed the biblical Ark of the Covenant. The neighboring Chapel of the Tablet is said to contain the Ark today.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Lalibela is a town in the Amhara region of northern Ethiopia. It's known for its distinctive rock-cut churches dating from the 12th and 13th centuries, which are pilgrimage sites for Coptic Christians. Carved out of rock, the subterranean monoliths include huge Bete Medhane Alem, and cross-shaped Bete Giyorgis. Many are joined by tunnels and trenches, and some have carved bas-reliefs and colored frescoes inside.",
+          },
+          {
+            title: "Tiya",
+            description:
+              "Tiya is a town in central Ethiopia. It's known for the Tiya archaeological site, a UNESCO World Heritage Site. The site contains 36 monuments, including 32 carved stelae covered with symbols, most of which are difficult to decipher. The stelae are believed to have been erected between the 12th and 14th centuries. The site also includes excavated megaliths and stone circles.",
+          },
+          {
+            title: "Gondar",
+            description:
+              "Gondar is a city in northern Ethiopia. It's known for the walled Fasil Ghebbi fortress and palace compound, once the seat of Ethiopian emperors. Dominating it is the immense 17th-century castle of Emperor Fasilides, which combines Portuguese, Indian and local architectural styles. Outside the complex is Debre Berhan Selassie church, with an interior of elaborate murals, including a ceiling decorated with winged angels.",
+          },
+          {
+            title: "Bahir Dar",
+            description:
+              "Bahir Dar is a city in northwest Ethiopia. It sits on the southern shore of Lake Tana, Ethiopia's largest lake. Islands in the lake are home to medieval monasteries, including Azwa Maryam, which has colorful murals. Nearby on the Zege Peninsula, the Ura Kidane Mihret monastery is known for its elaborate, colorful murals. The Blue Nile River snakes southeast of the city toward the towering cliffs at the Blue Nile Falls.",
+          },
+          {
+            title: "Dessie",
+            description:
+              "Dessie is a city and a Zone in north-central Ethiopia. Located in the Debub Wollo Zone of the Amhara Region, it sits at a latitude and longitude of 11°8′N 39°38′E, with an elevation between 2,470 and 2,550 metres above sea level.",
+          },
+          {
+            title: "Melka Kunture",
+            description:
+              "Melka Kunture is a Paleolithic site in the upper Awash Valley in Ethiopia. It is located about 50 kilometers south of Addis Ababa on the west bank of the Awash River, a tributary of the Blue Nile. The site is located within the boundaries of the Awash National Park.",
+          },
+          {
+            title: "Harar",
+            description:
+              "Harar is a city in eastern Ethiopia. It's surrounded by a centuries-old defensive wall, which has several large gates, including Duke's Gate. The city is known for its mazelike alleys and traditional houses decorated inside with flat hanging baskets. The city's landmarks include 18th-century Jami Mosque and the walled Feres Magala, or French, Village, with its colorful buildings and such attractions as the house of famed poet Arthur Rimbaud.",
+          },
+          {
+            title: "Hadar",
+            description:
+              "Hadar is a village in Ethiopia, on the southern edge of the Afar Triangle. It is notable for the nearby archaeological digs which have yielded some of the most famous hominin fossils ever discovered, including Lucy, the partial skeleton of a specimen of Australopithecus afarensis. The hominin fossils of Hadar are estimated to date to 3.4 million years ago, and include the remains of 13 individuals, making it one of the richest and most varied early hominin sites in Africa.",
+          },
+        ]}
+        description="The Historic Tour itenerary includes the following destinations: "
       />
       <PlannerPolaroid />
     </div>
