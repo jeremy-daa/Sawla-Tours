@@ -446,6 +446,9 @@ nav ul li:hover > .submenu {
   .intro-container {
     flex-direction: column;
   }
+  .home-intro {
+    padding: 10px 0;
+  }
   .intro-text {
     text-align: center;
     padding: 20px 30px;
