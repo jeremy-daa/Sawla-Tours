@@ -1,8 +1,12 @@
 import styled from "styled-components";
-import { TopEthiopiaTourPackagesArray } from "../Data/PackagesArray";
+import { EthiopiaTourPackagesArray } from "../Data/PackagesArray";
 import Bale1 from "../assets/bale_1.jpg";
 import crop from "../functions/cropString";
 const ImageGallery = () => {
+  const TopEthiopiaTourPackagesArray = EthiopiaTourPackagesArray.sort(
+    () => Math.random() - Math.random()
+  ).slice(0, 5);
+
   const Gallery = styled.div`
       &::after {
         background: url("${Bale1}") no-repeat center;`;

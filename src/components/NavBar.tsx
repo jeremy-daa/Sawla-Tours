@@ -90,8 +90,7 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink to="top-destinations" onClick={closeNavbar}>
-                Ethiopia Top Destinations{" "}
-                <BsFillCaretDownFill className="down-icon" />
+                Top Destinations <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
                 {TopDestinationsRoutes.map((item, index) => {
@@ -105,7 +104,7 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink to="tours-by-experience" onClick={closeNavbar}>
-                Ethiopia Tours by Experiences{" "}
+                Tours by Experiences{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">

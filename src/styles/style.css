@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 * {
-  --theme: rgb(222, 88, 30);
+  --theme: rgb(156, 128, 4);
   --theme-transparent: rgba(222, 88, 30, 0.5);
   --light: rgb(245, 245, 245);
   --light-dark: rgb(196, 196, 196);
@@ -89,7 +89,7 @@ svg.down-icon {
   color: var(--dark);
 }
 .original {
-  background-color: var(--transparent);
+  background-color: transparent;
 }
 .logo img {
   width: 80px;
@@ -111,7 +111,7 @@ nav ul li a {
   margin: 0 5px;
   border-radius: 5px;
   font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 nav ul li a:hover {
@@ -161,12 +161,12 @@ nav ul li.enquire:hover a {
 }
 @media only screen and (max-width: 1410px) {
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 1330px) {
   nav ul li a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -174,7 +174,7 @@ nav ul li.enquire:hover a {
     padding: 8px 8px;
     transition: 0.2s;
     margin: 0 3px;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -284,12 +284,13 @@ nav ul li:hover > .submenu {
 
 .other-hero .heading-description {
   font-size: 1.4rem;
-  margin: auto;
-  width: 70%;
+  margin: 0 60px;
+  width: fit-content;
+  max-width: 100%;
   color: #cecece;
   text-align: center;
   letter-spacing: 2px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   text-shadow: #000000 0px 0px 5px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
@@ -371,6 +372,13 @@ nav ul li:hover > .submenu {
   font-family: "Averia Serif Libre", cursive;
   margin-bottom: 20px;
 }
+.intro-subheading {
+  font-size: 2rem;
+  font-weight: 100;
+  color: var(--theme);
+  font-family: "Arizonia", cursive;
+  margin-bottom: 20px;
+}
 .intro-description {
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -430,6 +438,9 @@ nav ul li:hover > .submenu {
     height: 170px;
   }
   .intro-heading {
+    font-size: 1.2rem;
+  }
+  .intro-subheading {
     font-size: 1.2rem;
   }
   .intro-description {
@@ -552,11 +563,7 @@ nav ul li:hover > .submenu {
   margin: 10px auto;
   width: 100%;
   padding: 50px;
-  background: linear-gradient(
-    180deg,
-    rgba(222, 88, 30, 1) 20%,
-    rgb(215, 118, 76) 100%
-  );
+  background: linear-gradient(180deg, var(--theme) 20%, rgb(202, 179, 76) 100%);
   box-shadow: 0 0 10px 0 var(--dark);
 }
 .experience-packages-wrapper .packages-title {

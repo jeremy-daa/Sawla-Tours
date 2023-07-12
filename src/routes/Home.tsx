@@ -22,9 +22,10 @@ const Home = () => {
       <Intro
         img1={Intro1}
         img2={Intro2}
-        title="Embark on Extraordinary Journeys with Sawal Tours"
-        description1="At Sawal Tours, we specialize in creating extraordinary journeys and adventures for sophisticated and discerning travelers throughout Ethiopia. As a deluxe tour agency, we cater to those who seek exceptional experiences and unforgettable adventures. Join us and discover the true essence of Ethiopia in style"
-        description2="As Ethiopian specialists, we are dedicated to helping you discover the uniqueness and significance of this captivating country in the Horn of Africa. With our passionate team and extensive network of local partners, we are committed to crafting a trip that aligns with your dreams, budget, and thirst for adventure."
+        title="Welcome to Sawla Tours"
+        subtitle="Where Extraordinary Journeys Unfold"
+        description1="We're not just a travel company; we're your key to unlocking unforgettable adventures in the heart of Ethiopia, the mesmerizing jewel of Africa."
+        description2="Our mission? To unveil Ethiopia's enchanting magic, tailored uniquely to you. With us, travel is not a one-size-fits-all affair but a deeply personalized journey, sculpted around your desires, budget, and adventure spirit."
         lr
         button="About Us"
         link="/about-us"
@@ -34,12 +35,13 @@ const Home = () => {
       <Intro
         img1={Intro3}
         img2={Intro4}
-        title="Deluxe Tours and Safaris Tailored to Your Needs"
-        description1="Sawla Tours, a small, deluxe tour company, specializes in tailor-made holidays to Ethiopia. With over twenty years of experience in organizing high-quality tours and safaris, we are deeply committed to responsible travel and tourism. Our pride lies in our unwavering focus on community conservation and development initiatives."
-        description2="Our team is devoted to planning your journey, ensuring it caters to your specific requirements. Our ultimate goal is to provide our clients with a unique and personalized experience in this remarkably diverse country."
+        title="Experience the Sawla difference"
+        subtitle="Your Journey, Your Way"
+        description1="A boutique tour specialist celebrated for our personalized, bespoke Ethiopian experiences. Our two-decade legacy in crafting exceptional tours and safaris aligns our thrill for exploration with a profound commitment to community conservation and development."
+        description2="With us, your travel dreams take center stage. Our dedicated team meticulously designs your itinerary to mirror your aspirations, painting an authentic picture of Ethiopia's vibrant cultures, historical wonders, and awe-inspiring wildlife."
         lr={false}
-        button="Explore Our Tours"
-        link="/ethiopia"
+        button="Our Top Destinations"
+        link="/top-destinations"
       />
       <Slider
         title="Our Popular Ethiopia Tours"

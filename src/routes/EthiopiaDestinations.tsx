@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import Danakil2 from "../assets/danakil_2.jpg";
+import Lalibela4 from "../assets/lalibela_4.jpg";
 // import Planner from "../components/Planner";
 import Intro from "../components/Intro";
 import Lalibela3 from "../assets/lalibela_3.jpg";
@@ -17,7 +17,7 @@ const EthiopiaDesinations = () => {
       <Hero
         title="Ethiopia Top Destinations"
         index={false}
-        background={Danakil2}
+        background={Lalibela4}
         description="Prepare to immerse yourself in the authentic Ethiopia as we guide you on a transformative journey to explore the abundant wealth of history, culture, and wildlife that this spectacular country has to offer."
         link="/contact"
       />

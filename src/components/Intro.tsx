@@ -9,6 +9,7 @@ interface Props {
   button: string;
   lr: boolean;
   link: string;
+  subtitle?: string;
 }
 
 const Intro = (props: Props) => {
@@ -19,6 +20,7 @@ const Intro = (props: Props) => {
         <div className="intro-container">
           <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
+            <h2 className="intro-subheading">{props.subtitle}</h2>
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
             <a className="offset" href={props.link}>
@@ -38,6 +40,8 @@ const Intro = (props: Props) => {
           </div>
           <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
+            <h2 className="intro-subheading">{props.subtitle}</h2>
+
             <p className="intro-description">{props.description1}</p>
             <p className="intro-description">{props.description2}</p>
             <a className="offset" href={props.link}>

@@ -1,6 +1,7 @@
 import { BsInfoCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import crop from "../functions/cropString";
+import LineBreak from "../components/LineBreak";
 
 interface Props {
   title: string;
@@ -35,7 +36,9 @@ const PackagesList = (props: Props) => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <h2 className="package-title">{packageItem.title}</h2>
+              <h2 className="package-title">
+                <LineBreak str={packageItem.title} />
+              </h2>
               <div className="package-content">
                 <div className="package-img">
                   <img src={packageItem.image} alt="Package" />
