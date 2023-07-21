@@ -13,7 +13,7 @@
 }
 /* Media Query for Screens up to 900px */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   /* Adjust header padding */
   header {
     padding: 0 50px;
@@ -76,9 +76,14 @@
   .hero-wrap .heading {
     font-size: 2.5rem;
   }
+  .home-hero {
+    width: 100%;
+  }
+  .other-hero {
+    width: 85%;
+  }
   .hero-wrap .subheading {
     font-size: 2rem;
-    color: #f15d30;
     font-family: "Arizonia", cursive;
   }
   .home-hero .heading-description {

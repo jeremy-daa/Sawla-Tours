@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 interface Props {
-  title: string;
-  description: string;
-  image: string;
+  title?: string;
+  description?: string;
+  image?: string;
 }
 
 const Map = ({ title, description, image }: Props) => {

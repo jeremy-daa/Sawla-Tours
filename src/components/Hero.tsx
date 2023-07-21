@@ -1,9 +1,9 @@
 import useAOS from "../functions/useAOS";
 
 interface Props {
-  background: string;
-  index: boolean;
-  title: string;
+  background?: string;
+  index?: boolean;
+  title?: string;
   description?: string;
   link?: string;
   linkname?: string;
@@ -42,13 +42,15 @@ const Hero = ({
         </div>
       ) : (
         <div className="other-hero" data-aos="fade-up">
-          <h1 className="heading">{title}</h1>
-          <h3 className="heading-description">{description}</h3>
-          {link ? (
-            <a className="offset" href={link}>
-              {linkname ? linkname : "Start Planning"}
-            </a>
-          ) : null}
+          <div className="hero-description">
+            <h1 className="heading">{title}</h1>
+            <h3 className="heading-description">{description}</h3>
+            {link ? (
+              <a className="offset" href={link}>
+                {linkname ? linkname : "Start Planning"}
+              </a>
+            ) : null}
+          </div>
         </div>
       )}
     </div>

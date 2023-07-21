@@ -1,9 +1,17 @@
 import { useState } from "react";
-import { DestinationPackagesNameArray } from "../Data/PackagesArray";
 import { BsSearch } from "react-icons/bs";
 import NoPackages from "./NoPackages";
-const PackagesGrid = () => {
-  const [packages, setPackages] = useState(DestinationPackagesNameArray);
+interface Props {
+  title: string;
+  placeholder: string;
+  packages: {
+    title: string;
+    image: string;
+    link: string;
+  }[];
+}
+const PackagesGrid = ({ title, placeholder, packages: array }: Props) => {
+  const [packages, setPackages] = useState(array);
   const [search, setSearch] = useState("");
   const [textBoxFocus, setTextBoxFocus] = useState(false);
   const handleTextBoxFocus = () => {
@@ -13,21 +21,21 @@ const PackagesGrid = () => {
     setTextBoxFocus(false);
   };
   const filterDestinations = (search: string) => {
-    const filteredDestinations = DestinationPackagesNameArray.filter((item) =>
+    const filteredDestinations = array.filter((item) =>
       item.title.toLowerCase().includes(search)
     );
     setPackages(filteredDestinations);
   };
   return (
     <div className="grid-packages-container">
-      <h1 className="grid-packages-title">Our Destinations</h1>
+      <h1 className="grid-packages-title">{title}</h1>
       <div className={`${textBoxFocus ? "focus" : ""} search-container`}>
         <input
           onChange={(e) => {
             setSearch(e.target.value);
           }}
           type="text"
-          placeholder="Where would you like to go?"
+          placeholder={placeholder}
           className="search-box"
           onFocus={handleTextBoxFocus}
           onBlur={handleTextBoxBlur}

@@ -57,8 +57,18 @@ const PlannerPolaroid = () => {
           </div>
         </div>
         <br />
-        <div className="span-100">
-          <Link className="polaroid-link offset" to="/ethiopia-guide/planning">
+        <div
+          className="span-100"
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Link
+            className="polaroid-link offset"
+            to="/ethiopia-guide/how-to-plan-your-trip"
+          >
             More on Planning
           </Link>
         </div>

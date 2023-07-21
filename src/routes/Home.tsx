@@ -11,9 +11,11 @@ import Slider from "../components/Slider";
 import {
   DestinationPackagesArray,
   EthiopiaTourPackagesArray,
+  ToursByExperienceArray,
 } from "../Data/PackagesArray";
 import ImageGallery from "../components/ImageGallery";
 import PlannerPolaroid from "../components/PlannerPolaroid";
+import GenericGrid from "../components/GenericGrid";
 
 const Home = () => {
   return (
@@ -24,21 +26,30 @@ const Home = () => {
         img2={Intro2}
         title="Welcome to Sawla Tours"
         subtitle="Where Extraordinary Journeys Unfold"
-        description1="We're not just a travel company; we're your key to unlocking unforgettable adventures in the heart of Ethiopia, the mesmerizing jewel of Africa."
-        description2="Our mission? To unveil Ethiopia's enchanting magic, tailored uniquely to you. With us, travel is not a one-size-fits-all affair but a deeply personalized journey, sculpted around your desires, budget, and adventure spirit."
+        description={[
+          "We're not just a travel company; we're your key to unlocking unforgettable adventures in the heart of Ethiopia, the mesmerizing jewel of Africa.",
+          "Our mission? To unveil Ethiopia's enchanting magic, tailored uniquely to you. With us, travel is not a one-size-fits-all affair but a deeply personalized journey, sculpted around your desires, budget, and adventure spirit.",
+        ]}
         lr
         button="About Us"
         link="/about-us"
       />
-      <IntroPackages />
+      <IntroPackages
+        title1="Our Popular"
+        title2="Tours by Experience"
+        link="tours-by-experiences"
+        packages={ToursByExperienceArray}
+      />
 
       <Intro
         img1={Intro3}
         img2={Intro4}
         title="Experience the Sawla difference"
         subtitle="Your Journey, Your Way"
-        description1="A boutique tour specialist celebrated for our personalized, bespoke Ethiopian experiences. Our two-decade legacy in crafting exceptional tours and safaris aligns our thrill for exploration with a profound commitment to community conservation and development."
-        description2="With us, your travel dreams take center stage. Our dedicated team meticulously designs your itinerary to mirror your aspirations, painting an authentic picture of Ethiopia's vibrant cultures, historical wonders, and awe-inspiring wildlife."
+        description={[
+          "A boutique tour specialist celebrated for our personalized, bespoke Ethiopian experiences. Our two-decade legacy in crafting exceptional tours and safaris aligns our thrill for exploration with a profound commitment to community conservation and development.",
+          "With us, your travel dreams take center stage. Our dedicated team meticulously designs your itinerary to mirror your aspirations, painting an authentic picture of Ethiopia's vibrant cultures, historical wonders, and awe-inspiring wildlife.",
+        ]}
         lr={false}
         button="Our Top Destinations"
         link="/top-destinations"
@@ -49,12 +60,14 @@ const Home = () => {
         cards={EthiopiaTourPackagesArray}
       />
       <PackagesList
-        title="Ethiopia Top Destinations"
+        title="Ethiopia Popular Destinations"
         packages={DestinationPackagesArray}
       />
       <ImageGallery />
       {/* <Planner /> */}
+
       <PlannerPolaroid />
+      <GenericGrid />
       {/* <Contact /> */}
     </div>
   );

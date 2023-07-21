@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-const EthiopiaToursLayout = () => {
+const EmptyLayout = () => {
   return (
     <>
       <Outlet />
@@ -8,4 +8,4 @@ const EthiopiaToursLayout = () => {
   );
 };
 
-export default EthiopiaToursLayout;
+export default EmptyLayout;

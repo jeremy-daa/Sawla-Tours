@@ -1,18 +1,30 @@
+import { useState } from "react";
 import useAOS from "../functions/useAOS";
+import { HashLink } from "react-router-hash-link";
 
 interface Props {
-  img1: string;
-  img2: string;
-  title: string;
-  description1: string;
-  description2: string;
-  button: string;
-  lr: boolean;
-  link: string;
+  img1?: string;
+  img2?: string;
+  title?: string;
+  description?: string[];
+  button?: string;
+  lr?: boolean;
+  link?: string;
   subtitle?: string;
 }
 
 const Intro = (props: Props) => {
+  const [width, setWidth] = useState(true);
+  window.addEventListener("resize", () => {
+    if (window.innerWidth < 500) {
+      setWidth(false);
+    } else {
+      setWidth(true);
+    }
+  });
+  const style = {
+    transform: "translateX(50px)",
+  };
   useAOS();
   return (
     <section id="about" className="home-intro">
@@ -21,11 +33,18 @@ const Intro = (props: Props) => {
           <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
             <h2 className="intro-subheading">{props.subtitle}</h2>
-            <p className="intro-description">{props.description1}</p>
-            <p className="intro-description">{props.description2}</p>
-            <a className="offset" href={props.link}>
+            {props.description &&
+              props.description.map((description, index) => (
+                <p className="intro-description" key={index}>
+                  {description}
+                </p>
+              ))}
+            <HashLink
+              className="offset"
+              to={props.link ? props.link : "/tours-by-experience"}
+            >
               {props.button}
-            </a>
+            </HashLink>
           </div>
           <div className="intro-img">
             <img src={props.img1} alt="Intro image" />
@@ -34,16 +53,20 @@ const Intro = (props: Props) => {
         </div>
       ) : (
         <div className="intro-container">
-          <div className="intro-img">
+          <div className="intro-img" style={width ? style : {}}>
             <img src={props.img1} alt="Intro image" />
             <img src={props.img2} alt="Intro image" />
           </div>
           <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
             <h2 className="intro-subheading">{props.subtitle}</h2>
+            {props.description &&
+              props.description.map((description, index) => (
+                <p className="intro-description" key={index}>
+                  {description}
+                </p>
+              ))}
 
-            <p className="intro-description">{props.description1}</p>
-            <p className="intro-description">{props.description2}</p>
             <a className="offset" href={props.link}>
               {props.button}
             </a>

@@ -8,6 +8,7 @@ import { CiCircleRemove } from "react-icons/ci";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import { RiCompass3Fill } from "react-icons/ri";
 import {
+  EthiopiaGuideRoutes,
   EthiopiaTourPackagesArray,
   TopDestinationsRoutes,
   ToursByExperienceRoutes,
@@ -90,7 +91,8 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink to="top-destinations" onClick={closeNavbar}>
-                Top Destinations <BsFillCaretDownFill className="down-icon" />
+                Popular Destinations{" "}
+                <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
                 {TopDestinationsRoutes.map((item, index) => {
@@ -123,7 +125,7 @@ const NavBar = () => {
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
-                {ToursByExperienceRoutes.map((item, index) => {
+                {EthiopiaGuideRoutes.map((item, index) => {
                   return (
                     <li key={index}>
                       <Link to={item.link}>{item.title}</Link>

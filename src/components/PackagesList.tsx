@@ -2,6 +2,7 @@ import { BsInfoCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import crop from "../functions/cropString";
 import LineBreak from "../components/LineBreak";
+import { useState } from "react";
 
 interface Props {
   title: string;
@@ -14,9 +15,16 @@ interface Package {
   description: string;
   link: string;
   image: string;
+  days?: number;
 }
 
 const PackagesList = (props: Props) => {
+  const [noFade, setNoFade] = useState(true);
+  if (window.innerWidth < 768) {
+    if (noFade) {
+      setNoFade(false);
+    }
+  }
   const cropString = crop;
   return (
     <div className="package-list-container">
@@ -33,7 +41,7 @@ const PackagesList = (props: Props) => {
             <div
               className="package"
               key={index}
-              data-aos="fade-up"
+              data-aos={noFade ? "fade-up" : ""}
               data-aos-duration="2000"
             >
               <h2 className="package-title">
@@ -46,9 +54,18 @@ const PackagesList = (props: Props) => {
                 <p className="package-description">
                   {cropString(packageItem.description, 200)}
                 </p>
-                <Link className="package-link offset" to={packageItem.link}>
-                  Learn More
-                </Link>
+                <div className="package-description-bottom">
+                  {packageItem.days ? (
+                    <p className="package-days">
+                      <span>{packageItem.days} days</span>
+                    </p>
+                  ) : (
+                    ""
+                  )}
+                  <Link className="package-link offset" to={packageItem.link}>
+                    Learn More
+                  </Link>
+                </div>
               </div>
             </div>
           );

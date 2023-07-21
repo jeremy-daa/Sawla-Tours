@@ -11,7 +11,7 @@ const LineBreak = ({ str }: Props) => {
         str.split("\n").map((item, index) => {
           return (
             <Fragment key={index}>
-              {item}
+              <span>{item}</span>
               <br />
             </Fragment>
           );

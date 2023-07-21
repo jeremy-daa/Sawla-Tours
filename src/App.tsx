@@ -8,61 +8,52 @@ import "./styles/style.css";
 import "./styles/responsive.css";
 import "aos/dist/aos.css";
 import Home from "./routes/Home";
-import Faq from "./routes/Faq";
 import RootLayout from "./layout/RootLayout";
 import NotFound from "./routes/NotFound";
 import AboutUs from "./routes/AboutUs";
 import Testimonials from "./routes/Testimonials";
 import EthiopiaTours from "./routes/EthiopiaTours";
-import EthiopiaDestinations from "./routes/EthiopiaDestinations";
+import PopularDestinations from "./routes/PopularDestinations";
 import ToursByExperiences from "./routes/ToursByExperiences";
 import EthiopiaGuide from "./routes/EthiopiaGuide";
 import useAOS from "./functions/useAOS";
 import ContactUS from "./routes/ContactUs";
-
-// Ethiopia Tours Routes
-import HistoricTour from "./routes/EthiopiaTours/HistoricTour";
-import TribalTour from "./routes/EthiopiaTours/TribalTour";
-import FestivalTour from "./routes/EthiopiaTours/FestivalTour";
-import AdventureTour from "./routes/EthiopiaTours/AdventureTour";
-import PhotographyTour from "./routes/EthiopiaTours/PhotographyTour";
-import WildlifeTour from "./routes/EthiopiaTours/WildlifeTour";
-import BirdingTour from "./routes/EthiopiaTours/BirdingTour";
-import SpecialInterestTour from "./routes/EthiopiaTours/SpecialInterestTour";
-import ShortTermTour from "./routes/EthiopiaTours/ShortTermTour";
-import FilmingTour from "./routes/EthiopiaTours/FilmingTour";
-import EthiopiaToursLayout from "./layout/EthiopiaToursLayout";
+import EmptyLayout from "./layout/EmptyLayout";
+import Enquire from "./routes/Enquire";
+import EthiopiaGuideDetails from "./routes/EthiopiaGuideDetails";
+import EthiopiaToursPackages from "./routes/EthiopiaToursPackages";
+import PopularDestinationsPackages from "./routes/PopularDestinationsPackages";
+import ToursByExperiencesPackages from "./routes/ToursByExperiencesPackages";
+import ToursByExperiencesPackagesItinerary from "./routes/ToursByExperiencesPackagesItinerary";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="ethiopia-tours" element={<EthiopiaToursLayout />}>
+      <Route path="ethiopia-tours" element={<EmptyLayout />}>
         <Route index element={<EthiopiaTours />} />
-        <Route path="historic" element={<HistoricTour />} />
-        <Route path="tribal" element={<TribalTour />} />
-        <Route path="festivals" element={<FestivalTour />} />
-        <Route path="adventure" element={<AdventureTour />} />
-        <Route path="photography" element={<PhotographyTour />} />
-        <Route path="wildlife" element={<WildlifeTour />} />
-        <Route path="bird-watching" element={<BirdingTour />} />
-        <Route path="special-interest" element={<SpecialInterestTour />} />
-        <Route path="business-trips" element={<ShortTermTour />} />
-        <Route path="filming" element={<FilmingTour />} />
+        <Route path=":id" element={<EthiopiaToursPackages />} />
       </Route>
-      <Route
-        path="ethiopia-tours/special-interest"
-        element={<SpecialInterestTour />}
-      />
-      <Route path="ethiopia-tours/short-term" element={<ShortTermTour />} />
-      <Route path="ethiopia-tours/filming" element={<FilmingTour />} />
-      <Route path="top-destinations" element={<EthiopiaDestinations />} />
-      <Route path="tours-by-experience" element={<ToursByExperiences />} />
-      <Route path="ethiopia-guide" element={<EthiopiaGuide />} />
+      <Route path="top-destinations" element={<EmptyLayout />}>
+        <Route index element={<PopularDestinations />} />
+        <Route path=":id" element={<PopularDestinationsPackages />} />
+      </Route>
+      <Route path="ethiopia-guide" element={<EmptyLayout />}>
+        <Route index element={<EthiopiaGuide />} />
+        <Route path=":id" element={<EthiopiaGuideDetails />} />
+      </Route>
+      <Route path="tours-by-experience" element={<EmptyLayout />}>
+        <Route index element={<ToursByExperiences />} />
+        <Route path=":id" element={<EmptyLayout />}>
+          <Route index element={<ToursByExperiencesPackages />} />
+          <Route path=":id" element={<ToursByExperiencesPackagesItinerary />} />
+        </Route>
+      </Route>
+
       <Route path="about-us" element={<AboutUs />} />
       <Route path="testimonials" element={<Testimonials />} />
       <Route path="contact-us" element={<ContactUS />} />
-      <Route path="faq" element={<Faq />} />
+      <Route path="enquire" element={<Enquire />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )

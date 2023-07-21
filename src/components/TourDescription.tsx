@@ -1,18 +1,12 @@
 import { BsInfoCircle } from "react-icons/bs";
 
 interface Props {
-  title: string;
-  description1: string;
-  description2: string;
+  title?: string;
+  description: string[];
   image: string;
 }
 
-const TourDescription = ({
-  title,
-  description1,
-  description2,
-  image,
-}: Props) => {
+const TourDescription = ({ title, description, image }: Props) => {
   return (
     <div className="tour-description-wrapper">
       <img src={image} alt={title} className="tour-description-image" />
@@ -21,10 +15,13 @@ const TourDescription = ({
           <BsInfoCircle /> {title}
         </h1>
         <p className="tour-description-text">
-          {description1}
-          <br />
-          <br />
-          {description2}
+          {description.map((paragraph, index) => (
+            <span key={index}>
+              {paragraph}
+              <br />
+              <br />
+            </span>
+          ))}
         </p>
       </div>
     </div>
