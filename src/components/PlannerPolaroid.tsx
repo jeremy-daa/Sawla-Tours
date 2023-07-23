@@ -65,10 +65,7 @@ const PlannerPolaroid = () => {
             justifyContent: "center",
           }}
         >
-          <Link
-            className="polaroid-link offset"
-            to="/ethiopia-guide/how-to-plan-your-trip"
-          >
+          <Link className="polaroid-link offset" to="/ethiopia-guide/8">
             More on Planning
           </Link>
         </div>

@@ -39,12 +39,14 @@ const Intro = (props: Props) => {
                   {description}
                 </p>
               ))}
-            <HashLink
-              className="offset"
-              to={props.link ? props.link : "/tours-by-experience"}
-            >
-              {props.button}
-            </HashLink>
+            {props.button && (
+              <HashLink
+                className="offset"
+                to={props.link ? props.link : "/tours-by-experience"}
+              >
+                {props.button}
+              </HashLink>
+            )}
           </div>
           <div className="intro-img">
             <img src={props.img1} alt="Intro image" />
@@ -67,9 +69,11 @@ const Intro = (props: Props) => {
                 </p>
               ))}
 
-            <a className="offset" href={props.link}>
-              {props.button}
-            </a>
+            {props.button && (
+              <a className="offset" href={props.link}>
+                {props.button}
+              </a>
+            )}
           </div>
         </div>
       )}

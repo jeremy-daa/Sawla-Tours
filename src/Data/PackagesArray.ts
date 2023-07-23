@@ -398,28 +398,28 @@ export const EthiopiaGuideArray: Package[] = [
     title: "Ethiopia Travel Circuits",
     description:
       "In this diverse and awe-inspiring nation, you'll uncover the secrets of four distinct travel circuits, each with its own highlight destinations and unique experiences. From the timeless tapestry of the Northern Circuit, where ancient wonders and natural marvels await, to the Southern Circuit's canvas of breathtaking landscapes and vibrant cultures, Ethiopia has something for every traveler. Venture into the Eastern Circuit, where hidden gems and remarkable diversity abound, or unleash your adventurous spirit in the Western Circuit, where untamed beauty and rare encounters await. So, browse through the information on each circuit's highlight destinations and embark on a journey that will create memories to last a lifetime. Your Ethiopian journey begins in Addis Ababa, the gateway to this mesmerizing land.",
-    link: "/ethiopia-guide/ethiopia-travel-circuits",
+    link: "/ethiopia-guide/1",
     image: Lalibela4,
   },
   {
     title: "When to Visit Ethiopia",
     description:
       "Ethiopia, a land of diverse landscapes and vibrant cultures, welcomes visitors year-round. However, to make the most of your journey, it's essential to consider the distinct seasonal characteristics of each region. Let's explore the best time to visit Ethiopia and uncover the captivating experiences that await you.",
-    link: "/ethiopia-guide/when-to-visit-ethiopia",
+    link: "/ethiopia-guide/2",
     image: Gonder3,
   },
   {
     title: "How to get to Ethiopia",
     description:
       "If you're looking to travel to Ethiopia, you're in luck - this African nation has a variety of transport links to many major destinations around the world. Whether you're flying from the UK or Ireland, America or Canada, Europe, Asia or South America, there are plenty of routes to get you where you need to go.",
-    link: "/ethiopia-guide/how-to-get-to-ethiopia",
+    link: "/ethiopia-guide/3",
     image: Simien4,
   },
   {
     title: "Hotels and Lodges in Ethiopia",
     description:
       "Experience a diverse range of accommodation options in Ethiopia, from vibrant cities to off-the-beaten-path locations. Whether you seek budget-friendly hotels or luxurious retreats, Sawla Tours offers a selection of intimate and environmentally conscious lodges to enhance your stay.",
-    link: "/ethiopia-guide/hotels-and-lodges",
+    link: "/ethiopia-guide/4",
     image: Addis2,
   },
 
@@ -427,35 +427,35 @@ export const EthiopiaGuideArray: Package[] = [
     title: "Ethiopia Safaris",
     description:
       "Embark on an extraordinary safari adventure in Ethiopia, where rarity, endemism, and biodiversity take center stage. From the awe-inspiring Simien Mountains to the captivating Bale Mountains and the untouched wilderness of Gambella National Park, Ethiopia offers a safari experience like no other.",
-    link: "/ethiopia-guide/ethiopia-safaris",
+    link: "/ethiopia-guide/5",
     image: Simien5,
   },
   {
     title: "Ethiopia Wildlife",
     description:
       "Discover the captivating wildlife of Ethiopia, a country brimming with biodiversity and boasting numerous endemic species. At Sawla Tours, we are dedicated to providing immersive experiences that allow you to witness these magnificent animals in their natural habitats while ensuring their well-being. With 14 major wildlife reserves, Ethiopia is a haven for over 300 mammal species, including 39 that are found exclusively within its borders.",
-    link: "/ethiopia-guide/ethiopia-wildlife",
+    link: "/ethiopia-guide/6",
     image: Simien1,
   },
   {
     title: "Safety in Ethiopia",
     description:
       "At Sawla Tours, our priority is to provide you with a safe and enjoyable journey. With our trusted guides, reliable vehicles, and well-crafted itineraries, we ensure your Ethiopian adventure is not only memorable but secure. As one of Africa's safest destinations for tourists, we're here to make your trip even better.",
-    link: "/ethiopia-guide/safety-in-ethiopia",
+    link: "/ethiopia-guide/7",
     image: Addis1,
   },
   {
     title: "How to Plan a Trip",
     description:
       "There's a lot on offer in Ethiopia. Planning the perfect trip is tremendously exciting, but it can be hard to know where to start. Read this quick guide to planning your Ethiopia adventure, then give our specialists a call or inbox us.",
-    link: "/ethiopia-guide/how-to-plan-your-trip",
+    link: "/ethiopia-guide/8",
     image: BahirDar,
   },
   {
     title: "General Travel Tips",
     description:
       "Ethiopia is a truly remarkable destination that stands apart from any other place on Earth. Unlike most African countries, it has never been colonized by Europeans, which has helped preserve its rich cultural identity. From its incredible people to its breathtaking landscapes and diverse wildlife, Ethiopia offers an extraordinary travel experience that is truly one-of-a-kind.",
-    link: "/ethiopia-guide/general-travel-tips",
+    link: "/ethiopia-guide/9",
     image: Bird1,
   },
 ];
@@ -466,70 +466,70 @@ export const EthiopiaTourPackagesArraySimplified: Package[] = [
     title: "Historic Tours",
     description:
       "Embark on an extraordinary journey through Ethiopia's Historic tours, where ancient wonders and vibrant cultures intertwine harmoniously. These offer an unforgettable odyssey, celebrating a rich history and diverse cultures.",
-    link: "/ethiopia-tours/historic",
+    link: "/ethiopia-tours/1",
     image: Axum2,
   },
   {
     title: "Tribal Tours",
     description:
       "Dive into the unique cultural kaleidoscope of Ethiopia's Tribal Tours. Explore vibrant traditions, breathtaking vistas, and fascinating wildlife in Africa's heartland. Immerse in the dynamic spirit of Ethiopia, an unforgettable journey awaits! Make this radiant journey your next adventure - it's a celebration of diversity at every step.",
-    link: "/ethiopia-tours/tribal",
+    link: "/ethiopia-tours/2",
     image: Benna1,
   },
   {
     title: "Festival, Special Events",
     description:
       "Experience the vibrant world of Ethiopian festivals, where ancient traditions come alive through colorful celebrations and powerful spiritual energy. Immerse yourself in the heart and soul of Ethiopian culture, creating unforgettable moments that will stay with you forever.",
-    link: "/ethiopia-tours/festivals",
+    link: "/ethiopia-tours/3",
     image: Gonder2,
   },
   {
     title: "Adventure Tours",
     description:
       "A thrilling experience for those seeking an adrenaline-packed vacation. The tours include trekking through stunning landscapes, such as the Simien and Bale Mountains, where you will encounter unique flora and fauna, including the iconic Gelada baboons and the elusive Ethiopian wolf. For rock climbers, experienced guides will help navigate the challenging terrain, ensuring safety at all times. Paragliding tours offer a chance to soar above Ethiopia's stunning landscapes, while white water rafting tours provide a wild ride through thrilling rapids. Hot air ballooning tours offer a tranquil journey through Ethiopia's skies, providing breathtaking views of the country's majestic landscapes. Throughout your journey, our experienced guides will ensure your safety and comfort. Come explore the wild side of Ethiopia and discover the adventure of a lifetime!",
-    link: "/ethiopia-tours/adventure",
+    link: "/ethiopia-tours/4",
     image: Abay1,
   },
   {
     title: "Photography Tours",
     description:
       "A paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia. The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
-    link: "/ethiopia-tours/photography",
+    link: "/ethiopia-tours/5",
     image: Yemata1,
   },
   {
     title: "Bird Watching Tours",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
-    link: "/ethiopia-tours/bird-watching",
+    link: "/ethiopia-tours/6",
     image: Bird1,
   },
   {
     title: "Wildlife Tours",
     description:
       "Ethiopia is a country with diverse landscapes and abundant wildlife. If you are a wildlife enthusiast, you are in for a treat. Ethiopia offers some of the best wildlife tours in Africa, with its stunning national parks, game reserves, and sanctuaries that provide visitors with an opportunity to see a wide range of animals in their natural habitat.",
-    link: "/ethiopia-tours/wildlife",
+    link: "/ethiopia-tours/7",
     image: Zebra1,
   },
   {
     title: "Special Interest Tours",
     description:
       "Special interest tours in Ethiopia offer travelers the opportunity to delve deeper into the country's unique culture, history, and natural wonders based on their interests. Ethiopia is a country of diverse landscapes, cultures, and traditions, and special interest tours can help travelers to explore and experience the country's hidden gems in a more meaningful way.",
-    link: "/ethiopia-tours/special-interest",
+    link: "/ethiopia-tours/8",
     image: Danakil1,
   },
   {
     title: "Business, Short Trips",
     description:
       "Are you looking for a way to make the most of your short stay in Ethiopia? Whether you're in Addis Ababa for a meeting or simply passing through, we've got you covered. Our team can help you plan an unforgettable day or multi-day tour, tailored to your specific budget and time constraints.",
-    link: "/ethiopia-tours/business-trips",
+    link: "/ethiopia-tours/9",
     image: Addis1,
   },
   {
     title: "Filming in Ethiopia",
     description:
       "If you need a fixer in Ethiopia, Sawla Tours is a one-stop shop for in-country media production services and location logistics. We have extensive experience in every aspect of press, film, and TV production. Whether you are developing a documentary series, feature film, music video, natural history program, commercial, or reality TV show; or planning a scientific research journey, a fashion shoot, a charity event or an expedition - Sawla Tours can make it happen.",
-    link: "/ethiopia-tours/filming",
+    link: "/ethiopia-tours/10",
     image: Bale,
   },
 ];
@@ -674,12 +674,12 @@ export const EthiopiaGuideRoutes: Route[] = [
   },
   {
     title: "How to Plan Your Trip",
-    link: "/ethiopia-guide",
+    link: "/ethiopia-guide/8",
   },
 
   {
     title: "General Travel Tips",
-    link: "/ethiopia-guide/8",
+    link: "/ethiopia-guide/9",
   },
 ];
 
@@ -699,7 +699,7 @@ export const GridPackagesArray: GridPackage[] = [
   {
     title: "Tours by Experience",
     image: Lalibela,
-    link: "/ethiopia-tours/tours-by-experience",
+    link: "/tours-by-experience",
   },
   {
     title: "Ethiopia Guide",
