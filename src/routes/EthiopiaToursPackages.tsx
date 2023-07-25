@@ -9,7 +9,6 @@ import TourDescription from "../components/TourDescription";
 import PlannerPolaroid from "../components/PlannerPolaroid";
 import TourDescription2 from "../components/TourDescription2";
 import GenericGrid from "../components/GenericGrid";
-import ItineraryDescription from "../components/ItineraryDescription";
 import TrekkingDescription from "../components/TrekkingDescription";
 
 const EthiopiaToursPackages = () => {

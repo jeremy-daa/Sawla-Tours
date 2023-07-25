@@ -9,7 +9,6 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 import { RiCompass3Fill } from "react-icons/ri";
 import {
   EthiopiaGuideRoutes,
-  EthiopiaTourPackagesArray,
   EthiopiaTourPackagesRoutes,
   TopDestinationsRoutes,
   ToursByExperienceRoutes,
