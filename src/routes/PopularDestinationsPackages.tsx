@@ -34,21 +34,23 @@ const PopularDestinationsPackages = () => {
               index={false}
               title={destination.title}
               description={destination.description}
-              link="/enquire"
-              linkname="Start Planning"
+              link={destination.link}
+              linkname={destination.linkname}
             />
           )}
           {destination.intro && (
-            <Intro
-              img1={destination.intro[0].img1}
-              img2={destination.intro[0].img2}
-              title={destination.intro[0].title}
-              subtitle={destination.intro[0].subtitle}
-              description={destination.intro[0].description}
-              button={destination.intro[0].button}
-              lr={destination.intro[0].lr}
-              link={destination.intro[0].link}
-            />
+            <div id="description">
+              <Intro
+                img1={destination.intro[0].img1}
+                img2={destination.intro[0].img2}
+                title={destination.intro[0].title}
+                subtitle={destination.intro[0].subtitle}
+                description={destination.intro[0].description}
+                button={destination.intro[0].button}
+                lr={destination.intro[0].lr}
+                link={destination.intro[0].link}
+              />
+            </div>
           )}
           {destination.description && (
             <div id="why">
