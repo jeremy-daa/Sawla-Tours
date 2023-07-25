@@ -108,7 +108,7 @@ const ToursByExperiencesPackageItinerary = () => {
                 "Witness the architectural marvels of the rock-hewn churches, a testament to human craftsmanship and spiritual devotion.",
             },
           ]}
-          description="The Footsteps of History itenerary includes the following destinations: "
+          description="The Footsteps of History itinerary includes the following destinations: "
         />
         <TourDescription2
           title="Itinerary at a Glance"

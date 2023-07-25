@@ -10,6 +10,7 @@ import { RiCompass3Fill } from "react-icons/ri";
 import {
   EthiopiaGuideRoutes,
   EthiopiaTourPackagesArray,
+  EthiopiaTourPackagesRoutes,
   TopDestinationsRoutes,
   ToursByExperienceRoutes,
 } from "../Data/PackagesArray";
@@ -80,7 +81,7 @@ const NavBar = () => {
                 Ethiopia Tours <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
-                {EthiopiaTourPackagesArray.map((item, index) => {
+                {EthiopiaTourPackagesRoutes.map((item, index) => {
                   return (
                     <li key={index}>
                       <Link to={item.link}>{item.title}</Link>

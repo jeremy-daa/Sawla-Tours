@@ -63,7 +63,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
       {
         title: "Highlighted Destinations",
         description:
-          "The Footsteps of History itenerary includes the following destinations",
+          "The Footsteps of History itinerary includes the following destinations",
         destinations: [
           {
             title: "Addis Ababa",
