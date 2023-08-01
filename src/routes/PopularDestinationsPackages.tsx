@@ -52,7 +52,7 @@ const PopularDestinationsPackages = () => {
               />
             </div>
           )}
-          {destination.description && (
+          {destination.destinationdescription.destination && (
             <div id="why">
               <DestinationDescription
                 destination={destination.destinationdescription.destination}

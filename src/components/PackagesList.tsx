@@ -15,7 +15,7 @@ interface Package {
   description: string;
   link: string;
   image: string;
-  days?: number;
+  days?: number | string;
 }
 
 const PackagesList = (props: Props) => {
@@ -57,7 +57,14 @@ const PackagesList = (props: Props) => {
                 <div className="package-description-bottom">
                   {packageItem.days ? (
                     <p className="package-days">
-                      <span>{packageItem.days} days</span>
+                      <span>
+                        {
+                          //if days is a string add day, else add days
+                          typeof packageItem.days === "string"
+                            ? packageItem.days + " Day"
+                            : packageItem.days + " Days"
+                        }
+                      </span>
                     </p>
                   ) : (
                     ""

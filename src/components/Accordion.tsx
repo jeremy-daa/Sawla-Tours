@@ -12,7 +12,7 @@ const Accordion = ({ destinations }: Props) => {
         {destinations.map((destination, index) => {
           return (
             <li key={index}>
-              <input type="radio" name="accordion" id={destination.title} />
+              <input type="checkbox" name="accordion" id={destination.title} />
               <label htmlFor={destination.title}>{destination.title}</label>
               <div className="content">
                 <p>{destination.description}</p>

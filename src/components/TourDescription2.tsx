@@ -1,4 +1,3 @@
-import Accordion from "./Accordion";
 import Bale1 from "../assets/bale_1.jpg";
 import styled from "styled-components";
 
@@ -21,7 +20,19 @@ const TourDescription2 = ({ title, description, destinations }: Props) => {
         <h1 className="description-title">{title}</h1>
         <p className="description-text">{description}</p>
       </div>
-      <Accordion destinations={destinations} />
+      {/* <Accordion destinations={destinations} /> */}
+      <div className="destinations-list">
+        <ul>
+          {destinations.map((destination, index) => {
+            return (
+              <li key={index}>
+                <span>{destination.title}</span>
+                <p>{destination.description}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </TourDescription>
   );
 };

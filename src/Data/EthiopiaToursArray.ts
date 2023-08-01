@@ -463,7 +463,7 @@ export const EthiopiaToursArray: Tour[] = [
               "For the truly adventurous, specialized expeditions can also tackle other rivers such as the Tekezze in the North West and the Baro in the West. These expeditions require advanced planning and preparation, but the reward is an epic rafting adventure through Ethiopia's most remote and untouched landscapes.",
               "Whitewater rafting in Ethiopia is only possible during certain times of the year, typically from September to October, after the rains. As rafting equipment may not be readily available, enthusiasts are advised to bring their own gear or arrange for rental well in advance. With its stunning scenery, challenging rapids, and remote locations, Ethiopia is a must-visit destination for any whitewater rafting enthusiast.",
             ],
-            image: Images.chebera1,
+            image: Images.abay1,
           },
         ],
       },
@@ -506,7 +506,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 6,
-    title: "Bird Watching Tours in Ethiopia",
+    title: "Birdwatching Tours in Ethiopia",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
     image: Images.bird2,
@@ -527,7 +527,7 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "Some tips for Bird Watching in Ethiopia",
+        title: "Some tips for Birdwatching in Ethiopia",
         description: [
           "To make the most of your bird-watching trip, you should allocate a minimum of three weeks. However, shorter tours of about ten days can still guarantee seeing most of the endemics and several hundred other species.",
           "Sawla can mix bird watching with other itineraries, such as the Historic Route or the Simien Mountains, and can also organize short birding extensions as part of a longer trip or for people passing through Addis Ababa with a few days to spare. If you give us sufficient notice on both long and short trips, you will be accompanied by a trained ornithologist.",

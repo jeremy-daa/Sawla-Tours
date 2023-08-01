@@ -292,7 +292,7 @@ export const EthiopiaTourPackagesArray: Package[] = [
     image: Yemata1,
   },
   {
-    title: "Bird Watching Tours in Ethiopia",
+    title: "Birdwatching Tours in Ethiopia",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
     link: "/ethiopia-tours/6",
@@ -365,7 +365,7 @@ export const ToursByExperienceArray: Package[] = [
   },
 
   {
-    title: "Bird Watching Tours",
+    title: "Birdwatching Tours",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
     link: "/tours-by-experience/6",
@@ -498,7 +498,7 @@ export const EthiopiaTourPackagesArraySimplified: Package[] = [
     image: Yemata1,
   },
   {
-    title: "Bird Watching Tours",
+    title: "Birdwatching Tours",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
     link: "/ethiopia-tours/6",
@@ -627,7 +627,7 @@ export const ToursByExperienceRoutes: Route[] = [
     link: "/tours-by-experience/5",
   },
   {
-    title: "Bird Watching Tours",
+    title: "Birdwatching Tours",
     link: "/tours-by-experience/6",
   },
   {

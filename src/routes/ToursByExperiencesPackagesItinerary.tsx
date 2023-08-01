@@ -9,58 +9,32 @@ import Intro from "../components/Intro";
 import ItineraryDescription from "../components/ItineraryDescription";
 import PlannerPolaroid from "../components/PlannerPolaroid";
 import TourDescription2 from "../components/TourDescription2";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
-
-// export interface Itinerary {
-//   id: number;
-//   title: string;
-//   description: string;
-//   image: string;
-//   link: string;
-//   linkname: string;
-//   index: boolean;
-//   intro: {
-//     title: string;
-//     description: string[];
-//     lr: boolean;
-//     img1: string;
-//     img2: string;
-//     subtitle?: string;
-//     button: string;
-//     link: string;
-//   }[];
-//   tourdescription2: {
-//     title: string;
-//     description: string;
-//     destinations: {
-//       title: string;
-//       description: string;
-//     }[];
-//   }[];
-//   itinerarydescription: {
-//     title: string;
-//     itineraries: {
-//       title: string;
-//       description: string[];
-//       image: string;
-//     }[];
-//   };
-// }
-
 const ToursByExperiencesPackageItinerary = () => {
   const [itinerary, setItinerary] = useState<Itinerary | null>(null);
   const { id } = useParams<{ id: string }>();
+  const url = useLocation().pathname;
+  const regex = /\/tours-by-experience\/(\w+)\/(\d+)/;
+  const match = url.match(regex);
+  let experience = 0;
+
+  if (match) {
+    const varValue = match[1];
+    experience = parseInt(varValue);
+  }
   useEffect(() => {
     const selectedItinerary = ExperiencesPackageItineraryArray.find(
-      (itinerary) => itinerary.id === Number(id)
+      (itinerary) =>
+        itinerary.id === Number(id) && itinerary.experience === experience
     );
     if (selectedItinerary) {
       setItinerary(selectedItinerary);
     } else {
       setItinerary(null);
     }
-  }, [id]);
+  }, [id, experience]);
+
   return (
     <div>
       {/* <Hero

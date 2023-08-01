@@ -25,17 +25,17 @@ const ItineraryDescription = ({ title, description, itineraries }: Props) => {
       )}
       {itineraries && (
         <div className="itinerary-list">
-          {itineraries.map((item) => {
+          {itineraries.map((item, index) => {
             return (
-              <div className="itinerary-item">
+              <div className="itinerary-item" key={index}>
                 <div className="itinerary-image-container">
                   <img src={item.image} />
                 </div>
                 <div>
                   <h3>{item.title}</h3>
                   <ul>
-                    {item.description.map((item) => {
-                      return <li>{item}</li>;
+                    {item.description.map((item, index) => {
+                      return <li key={index}>{item}</li>;
                     })}
                   </ul>
                 </div>

@@ -29,7 +29,6 @@ const Hero = ({
     <div className="hero-wrap" style={style}>
       {index ? (
         <div className="home-hero" data-aos="fade-up">
-          <h2 className="subheading">Welcome to Sawla Tours</h2>
           <h1 className="heading">Embark on Extraordinary Journeys with us!</h1>
           <h3 className="heading-description">
             Creating memories that will last a lifetime

@@ -694,4 +694,532 @@ export const PopularDestinationsArray: Destination[] = [
       ],
     },
   },
+  {
+    id: 9,
+    title: "Chebera Churchura National Park",
+    description: "Embrace Ethiopia's Unspoiled Wilderness",
+    image: images.chebera1,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.konso2,
+        img2: images.tigray7,
+        title: "Embrace Ethiopia's Unspoiled Wilderness",
+        subtitle: "",
+        description: [
+          "Prepare to embark on an extraordinary journey into the untouched wilderness of Ethiopia at Chebera Churchura National Park. Immerse yourself in stunning landscapes, encounter unique wildlife, and embark on thrilling adventures that will leave an indelible mark on your soul. Get ready for an unforgettable experience that will awaken your sense of wonder.",
+        ],
+        lr: true,
+        button: "Why Chebera Churchura National Park?",
+        link: "#why",
+      },
+      {
+        img1: images.konso2,
+        img2: images.chebera1,
+        title: "Begin Your Extraordinary Adventure",
+        subtitle: "",
+        description: [
+          "With its untouched wilderness, diverse wildlife, and captivating landscapes, Chebera Churchura National Park beckons you to embark on an extraordinary adventure. Let Sawla Tours guide you through this remarkable destination, offering unparalleled experiences and a deep appreciation for Ethiopia's natural treasures. Discover the untamed beauty of Chebera Churchura National Park and create memories that will last a lifetime.",
+        ],
+        lr: false,
+        button: "Start Planning",
+        link: "/enquiry",
+      },
+    ],
+    destinationdescription: {
+      destination: "A Little about Chebera Churchura National Park",
+      reasons: [
+        {
+          title: "Explore Ethiopia's Natural Beauty",
+          description: [
+            "Chebera Churchura National Park is a haven for wildlife enthusiasts and nature lovers seeking to discover the natural beauty of Ethiopia. Situated in Konta Woreda, Dawro Zone, this newly established park on the western side of the central Omo Gibe basin is a testament to the country's incredible biodiversity. Its diverse habitats, including Highland and Riverine forests, savanna, and bushlands, host a remarkable variety of wildlife.",
+          ],
+          image: images.chebera1,
+        },
+        {
+          title: "Wildlife Encounters",
+          description: [
+            "Prepare to be amazed by the wealth of wildlife that thrives within Chebera Churchura National Park. African elephants, hippopotamuses, Cape buffalos, lions, and leopards call this park their home.",
+            " It is renowned as Ethiopia's least disturbed and most reliable ecosystem for African elephants and buffalos. Witness these majestic creatures in their natural habitat and be captivated by their presence.",
+          ],
+          image: images.bale2,
+        },
+        {
+          title: "A Tapestry of Vegetation",
+          description: [
+            "Chebera Churchura National Park boasts four major vegetation zones, each contributing to its unique charm. From expansive grasslands to enchanting woodlands, from lush mountain forests to vibrant riverine forests, the park showcases a diverse tapestry of landscapes. As you traverse its varied ecosystems, you'll witness the harmonious coexistence of flora and fauna.",
+          ],
+          image: images.adey1,
+        },
+        {
+          title: "Birdwatcher's Paradise",
+          description: [
+            "Bird enthusiasts will delight in the park's abundant avian population. Chebera Churchura National Park is home to a plethora of bird species, including endemic treasures like the white-cliff chat, banded-barbet, wattled ibis, black-headed forest oriole, and thick-billed raven.",
+            "Capture the vibrant colors and melodious songs of these feathered wonders as they grace the skies and trees of this natural sanctuary.",
+          ],
+          image: images.bird8,
+        },
+        {
+          title: "Seasons of Wonder",
+          description: [
+            "Experience the ever-changing seasons at Chebera Churchura National Park. The park receives an annual rainfall ranging from 1200 mm to 2300 mm, sustaining its lush vegetation.",
+            "Wet seasons from March to September bring vitality to the park, while the dry season from December to February offers a unique perspective on the rugged landscapes. Embrace the dynamic nature of the park as it transitions throughout the year.",
+          ],
+          image: images.awash2,
+        },
+        {
+          title: "Unwind in New Lodges",
+          description: [
+            "Enhance your journey at Chebera Churchura National Park by staying in the newly established lodges. Halala Kela Lodge, located within the park, offers comfortable accommodations amidst the wilderness, allowing you to fully immerse yourself in nature. Indulge in the serenity of the surroundings and rejuvenate after a day of adventure.",
+          ],
+          image: images.gonder5,
+        },
+      ],
+    },
+  },
+  {
+    id: 10,
+    title: "Axum",
+    description: "",
+    image: images.axum11,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.axum1,
+        img2: images.axum9,
+        title: "The Ancient Capital of Ethiopia",
+        subtitle: "",
+        description: [
+          "Axum is the fascinating ancient capital of Ethiopia. Steeped in history and cultural significance, this vibrant city will transport you back in time to the days of the legendary Axumite Empire. Explore the relics that have stood the test of time and unravel the mysteries of this remarkable destination.",
+        ],
+        lr: true,
+        button: "Why Axum?",
+        link: "#why",
+      },
+      {
+        img1: images.axum6,
+        img2: images.axum8,
+        title: "Plan Your Journey to Axum",
+        subtitle: "",
+        description: [
+          "Embark on an unforgettable adventure to Axum, Ethiopia's ancient capital. Immerse yourself in the tales of empires, marvel at the towering obelisks, and unravel the enigma surrounding the Ark of the Covenant. Let the vibrant history and cultural significance of this remarkable city leave an indelible mark on your soul.",
+          "Contact us and learn more about Axum and other extraordinary destinations in Ethiopia. Start planning your journey today and unlock the treasures of this captivating land.",
+        ],
+        lr: false,
+        button: "Start Planning",
+        link: "/enquiry",
+      },
+    ],
+    destinationdescription: {
+      destination: "A Little about Axum",
+      reasons: [
+        {
+          title: "Axum, a Cultural Gem",
+          description: [
+            "Nestled in the heart of Ethiopia, Axum holds a unique place in the country's rich heritage. As you venture through this town, you'll find yourself immersed in a world where fact and legend intertwine seamlessly.",
+            "Local guides will regale you with captivating stories, adding an element of intrigue to your journey.",
+          ],
+          image: images.axum2,
+        },
+        {
+          title: "Unveiling Axum's Ancient Secrets",
+          description: [
+            "Axum's historical significance is unrivaled, making it a must-visit destination for history enthusiasts. As the legendary home of the Queen of Sheba and the Ark of the Covenant, this city proudly holds its place as one of the oldest continuously inhabited cities in northern Africa, dating back to 400 BCE.",
+            "A short trip north of the city reveals the mesmerizing Stelae field, where various monuments were meticulously carved and erected in the 4th century. The Obelisks of Axum, some over 1,700 years old and towering 24 meters high, stand as proud testaments to the past.",
+            "While time has taken its toll on Axum's tombs, one remarkable grave, The Tomb of the False Door, remains accessible to visitors. Its exploration offers a glimpse into the city's ancient burial traditions.",
+            "Don't miss the renowned Church of Saint Mary of Zion, revered as one of Ethiopia's holiest sites. Besides housing the Ark of the Covenant, this sacred church boasts a storied history spanning over 1,700 years. Prepare to be enthralled by its architectural beauty and spiritual significance.",
+          ],
+          image: images.axum3,
+        },
+        {
+          title: "Marvel at Ancient Stelae Field:",
+          description: [
+            "The Stelae field stands as the crown jewel of Axum's historical treasures. Here, majestic obelisks soar into the sky, leaving you awestruck.",
+            "These incredible structures, designated as a UNESCO World Heritage Site since 1980, carry a fascinating history dating back to 400 BCE. Prepare to be captivated by their sheer grandeur.",
+          ],
+          image: images.axum2,
+        },
+        {
+          title: "Stelae of Axum",
+          description: [
+            "Dominating Axum's skyline, the Stelae of Axum symbolize a tumultuous past filled with war, power struggles, foreign occupation, and the resilient spirit of the Ethiopian people. These towering monuments have witnessed centuries of history and have recently been restored to their former glory.",
+          ],
+          image: images.axum4,
+        },
+        {
+          title: "The Monolith of Axum's Triumph",
+          description: [
+            "Once the heart of the Axumite empire, Axum proudly showcased a 160-tonne megalith encircled by smaller obelisks. Erected in the 4th century by King Ezana, this colossal monument stood for over a thousand years before falling victim to the ambitions of a foreign nation.",
+            "During the Italian occupation of Ethiopia in the 1930s, the Monolith of Axum was unjustly looted, dismantled, and transported to Rome.",
+            "For nearly 90 years, it remained an emblem of loss and cultural theft. However, in 2008, Ethiopia celebrated a triumph as the granite obelisk was finally repatriated, signaling the return of stolen sacred artifacts.",
+            "Today, the Monolith of Axum stands tall, overlooking the encircling smaller obelisks. Adorned with ornate false doors, intricate designs, and carved locks, this awe-inspiring structure reflects the exceptional craftsmanship and organizational capabilities of its time.",
+          ],
+          image: images.axum7,
+        },
+        {
+          title: "The Ark of the Covenant",
+          description: [
+            "The legendary Ark of the Covenant, known for its appearance in Steven Spielberg's iconic film, is shrouded in ancient mystery. Contrary to popular belief, it is not hidden away in secretive military bases or the depths of Vatican vaults.",
+            "With a history that predates biblical times, the Ark has been intertwined with popular culture for centuries. According to scripture, the Israelites revered the Ark for its otherworldly powers, capable of summoning the wrath of God and performing miraculous acts.",
+            "After being presumed lost in the flames when King Solomon's temple was destroyed in 586 BC, the Ark reemerged in a distant land. Ethiopia became its sanctuary, with Emperor Iysau building the Church of Mary of Zion in Axum to safeguard this powerful artifact.",
+            "To this day, the Ark of the Covenant remains under lock and key within the church. Dare to explore its final resting place, but remember the wise words of Indiana Jones: \"Don't look at the box!",
+          ],
+          image: images.axum5,
+        },
+      ],
+    },
+  },
+  {
+    id: 11,
+    title: "Harar",
+    description: "",
+    image: images.harar1,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.harar1,
+        img2: images.harar1,
+        title: "A Journey to Ancient Splendor",
+        subtitle: "",
+        description: [
+          "Step into the enchanting city of Harar, one of Ethiopia's oldest and most revered destinations. This UNESCO World Heritage Site, nestled on the eastern border of the Somali region, offers a spiritual ambiance that transports you back to medieval times, immersing you in a unique atmosphere found nowhere else in Ethiopia.",
+        ],
+        lr: true,
+        button: "Why Harar?",
+        link: "#why",
+      },
+      {
+        img1: images.harar1,
+        img2: images.kaffa1,
+        title: "Savor the Finest Coffee",
+        subtitle: "",
+        description: [
+          "Harar is a haven for coffee lovers, renowned for its exquisite coffee beans. Embark on a sensory journey as you sample the region's finest brews and partake in traditional coffee ceremonies. Don't forget, according to local tradition, consuming fewer than three cups brings bad luck to the household—embrace the cultural significance while savoring this aromatic delight.",
+          "Embark on a mesmerizing journey to Harar, where spirituality, history, and vibrant culture converge to create an experience like no other. Discover the allure of this ancient city with Sawla Tours and immerse yourself in its timeless charm.",
+        ],
+        lr: false,
+        button: "Start Planning",
+        link: "/enquiry",
+      },
+    ],
+    destinationdescription: {
+      destination: "A Little about Harar",
+      reasons: [
+        {
+          title: "Discover the Holiness of Harar",
+          description: [
+            "Embrace the religious significance of Harar, hailed as the fourth holiest city in Islam. The old city of Harar boasts an impressive collection of 99 mosques and shrines, symbolizing the 99 names of Allah. Sheikh Abadir Umar ar-Rida, the Arab Muslim cleric, played a pivotal role in shaping the Islamic heritage of this ancient city. His legacy began in 1216 when he arrived in Harar, married a local woman, and constructed the revered Jamia mosque.",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "Step into History",
+          description: [
+            "Wander through the labyrinthine streets of Harar and experience its vibrant markets, storied past, and captivating cultural artifacts. Explore the well-preserved Harar Jugol wall, an imposing fortress enveloping the ancient city. Dating back to the 13th to 16th century, this 3.5km long and 5-meter high wall once boasted five gates, each leading to different quarters of the city. This architectural marvel stands as a testament to Harar's historical significance.",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "Encounter the Hyena Men",
+          description: [
+            'Embark on a unique experience in Harar by witnessing the tradition of feeding hyenas. Originating in the 20th century, the Harari people began feeding hyenas to protect their livestock. Today, this ancient practice continues as the hyenas emerge at night to be fed by the local "hyena man." Venture east of the Erer Gate to witness this extraordinary ritual and even participate in feeding the hyenas under the guidance of the local expert.',
+          ],
+          image: images.bale1,
+        },
+        {
+          title: "Immerse Yourself in Cultural Museums",
+          description: [
+            "Delve into Harar's rich heritage at the Sherif Harar City Museum, a treasure trove of artifacts from various regions, including Amhara, Gurage, Oromo, Somali, and Argoba. Explore an array of jewellery, coins, weaponry, textiles, and ancient manuscripts that offer glimpses into Ethiopia's diverse cultural tapestry. Additionally, visit the Arthur Rimbaud Museum, dedicated to the famed French poet who found inspiration in Harar. Marvel at his captivating photographs and delve into the poetic spirit of this mystical city.",
+          ],
+          image: images.erbore1,
+        },
+        {
+          title: "Embrace the Vibrant Markets",
+          description: [
+            "Unleash your senses in Harar's bustling marketplaces, where a multitude of sights, sounds, and scents come alive. Stroll through the spice market, recycling market, Shoa Gate market, and the renowned Erer Gate market. From livestock to electronics, cultural dresses to herbs and spices, these vibrant marketplaces offer an immersive experience and a chance to indulge in some retail therapy while soaking up the electric atmosphere.",
+          ],
+          image: images.harar1,
+        },
+      ],
+    },
+  },
+  {
+    id: 12,
+    title: "Gambella National Park",
+    description: "",
+    image: images.gambella3,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.gambella1,
+        img2: images.gambella2,
+        title: "An untouched gem teeming with nature's grandeur",
+        subtitle: "",
+        description: [
+          "Tucked away in the intriguing southwestern extremity of Ethiopia lies Gambella National Park - an untouched gem teeming with nature's grandeur. Straddling the serpentine Baro River, Gambella is a thrilling revelation of diverse cultures and landscapes that provoke nothing less than pure wonder.",
+        ],
+        lr: true,
+        button: "Why Gambella National Park?",
+        link: "#why",
+      },
+      {
+        img1: images.gambella1,
+        img2: images.gambella3,
+        title: "Experience Gambella's Hidden Gem",
+        subtitle: "",
+        description: [
+          "Whether you seek thrilling adventures, remarkable wildlife encounters, immersive tribal experiences, or simply a hidden gem waiting to be explored, Gambella is a destination that should not be missed. Come and immerse yourself in the natural beauty and cultural splendor of this breathtaking region. Gambella promises an adventure like no other, where the spirit of exploration and the wonders of the wild converge.",
+          "Start your unforgettable journey with us today to Gambella - the very epitome of adventure travel.",
+        ],
+        lr: false,
+        button: "Start Planning",
+        link: "/enquiry",
+      },
+    ],
+    destinationdescription: {
+      destination: "A Little about Axum",
+      reasons: [
+        {
+          title: "A Haven of Biodiversity",
+          description: [
+            "Prepare to be amazed by Gambella's mosaic of ecosystems, ranging from pristine highland forests to expansive wetlands. This park is a sanctuary for some of the world's rarest species. Keep your eyes peeled for sightings of the graceful Nile lechwe antelope and the endangered shoebill stork. Gambella is also home to the world's second-largest overland mammal migration, as the white-eared kob antelope traverses the South Sudanese border in awe-inspiring numbers. Marvel at this remarkable natural phenomenon as the antelopes return to Gambella when the conditions are favorable. For fishing enthusiasts, Gambella's waterways offer unparalleled diversity, boasting the highest variety of fish species in Ethiopia. Bird lovers will be enthralled by the astonishing array of avian life found within the park.",
+          ],
+          image: images.gambella1,
+        },
+        {
+          title: "A Wilderness Reserved for Explorers",
+          description: [
+            "Gambella is a destination reserved for true adventurers. Tucked away in the remote southwestern region of Ethiopia, this wilderness can only be accessed via charter aircraft or helicopter safari. However, those who embark on this extraordinary journey will be rewarded with unforgettable experiences. Gambella boasts some of the highest wildlife populations in Ethiopia, rivaling the renowned game reserves of Tanzania and Kenya. Immerse yourself in the heart of this untamed wilderness, retreating to exclusive tented camps after a day filled with exhilarating adventures. Discover massive herds of antelope and buffalo, elephants, giraffes, warthogs, lions, hippos, cheetahs, leopards, hyenas, and more.",
+          ],
+          image: images.gambella3,
+        },
+        {
+          title: "Encounter the Anuak and Nuer People",
+          description: [
+            "Gambella is not only a haven for wildlife but also a place where vibrant cultures thrive. The Anuak and Nuer people, primarily fisher folk and cattle herders, call this area their home. These remarkable communities, adorned with scarification on their bodies and adorned with traditional jewelry, captivate with their beauty and cultural richness. Discover the intriguing customs and captivating traditions of the Anuak and Nuer people, who have preserved their way of life amidst the remote corners of this stunning land.",
+          ],
+          image: images.gambella2,
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    title: "Kafta Shiraro National Park",
+    description: "",
+    image: images.kafta1,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.simien6,
+        img2: images.kafta1,
+        title: "Marvel at Africa's Wild Northern Frontier",
+        subtitle: "",
+        description: [
+          "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin’s Gazelles globally and the northernmost African elephants.",
+          "Nestled in Ethiopia's far north, the park sprawls across an impressive 2,176 km2. Transformed from a wildlife reserve to a national park in 2007, it's a sanctuary for 50% of the world's Heuglin’s Gazelles and an estimated 300 elephants that gracefully cross the border into Eritrea. The elephants are most commonly sighted during the rainy peaks in May and early September, as they migrate from Eritrea.",
+          "Kafta Shiraro's vibrant wildlife tapestry also includes striking species like Ostrich, Aardvark, Greater Kudu, Roan Antelope, Caracal, Leopard, and Lion. From the Tekeze River's edge, perched 550 meters above sea level, to the 1800-meter-high Kafta highlands, the park offers an immersive and varied adventure.",
+        ],
+        lr: true,
+        button: "",
+        link: "",
+      },
+      {
+        img1: images.kafta1,
+        img2: images.tigray7,
+        title: "Discover the Magic of Kafta Shiraro",
+        subtitle: "",
+        description: [
+          "Are you ready for an unforgettable journey? Kafta Shiraro is the ultimate hidden gem in Ethiopia, waiting to be explored. Get ready for thrilling adventures, incredible wildlife encounters, and fascinating tribal experiences. Immerse yourself in the stunning natural beauty of this breathtaking region.",
+          "Don't miss out on this one-of-a-kind adventure! Contact us now and start planning your extraordinary journey to Kafta Shiraro National Park. Get ready to experience the true essence of adventure travel.",
+        ],
+        lr: false,
+        button: "Start Planning",
+        link: "/enquiry",
+      },
+    ],
+    destinationdescription: {
+      destination: "",
+      reasons: [],
+    },
+  },
+  {
+    id: 14,
+    title: "Awash National Park & Alledeghi Plains",
+    description: "",
+    image: images.awash1,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.awash2,
+        img2: images.alehdege1,
+        title: "Ethiopia's Hidden Treasures",
+        subtitle: "",
+        description: [
+          "Tucked away in the intriguing southwestern extremity of Ethiopia lies Gambella National Park - an untouched gem teeming with nature's grandeur. Straddling the serpentine Baro River, Gambella is a thrilling revelation of diverse cultures and landscapes that provoke nothing less than pure wonder.",
+        ],
+        lr: true,
+        button: "Why Awash National Park & Alledeghi Plains?",
+        link: "#why",
+      },
+    ],
+    destinationdescription: {
+      destination: "A Little about Awash National Park & Alledeghi Plains",
+      reasons: [
+        {
+          title: "Awash National Park",
+          description: [
+            "Awash National Park, the more renowned of the two, bears the scars of overgrazing and the encroachment of agro-industrial growth. Yet, despite the intrusions, its soul remains undisturbed. Explore its sprawling 756 square kilometers, where the Awash River carves through, cascading into a breathtaking waterfall - the park's signature spectacle. Venture further to uncover acacia-fringed grasslands, hot springs of Filwoha, and the Kudu Valley.",
+            "Journey south to Ilala Sala Plain for a rendezvous with wildlife - Beisa Oryx, Soemmerring’s Gazelle, and even the elusive Lion among others. However, it’s the skies that steal the show here with over 350 bird species, making it a birder's paradise.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "Alledeghi Plains",
+          description: [
+            "Venture further into the untamed Alledeghi Plains, a vast sanctuary sprawling across 1,800 square kilometers. Here, encounter seven lion prides, elusive cheetahs, Northern gerenuk, and Grevy’s zebra among others. Marvel at the spectacular avian life, from the Somali ostrich to the Scissor-tailed kite.",
+            "The area also offers a cultural tapestry of pastoral tribes - the agriculturalist Kereyu, Somali Issa, and the warrior-like Afar. Despite their historical conflicts, these tribes now enjoy a hard-earned peace and continue their unique traditions - a fascinating sight for the culturally curious.",
+            "Both the Awash National Park and the untamed Alledeghi Plains offer a taste of Ethiopia's rugged beauty, best experienced through the gateway of Addis. Venture off the beaten path and lose yourself in the serenity of these untouched sanctuaries.",
+          ],
+          image: images.alehdege1,
+        },
+      ],
+    },
+  },
+  {
+    id: 15,
+    title: "Addis Ababa",
+    description: "",
+    image: images.addis4,
+    link: "#description",
+    linkname: "Read More",
+    index: false,
+    intro: [
+      {
+        img1: images.addis1,
+        img2: images.addis2,
+        title:
+          "Coffee, Culture, and Cathedrals Beckon in Ethiopia's Bustling Capital",
+        subtitle: "",
+        description: [
+          "Addis Ababa is the world's third-highest capital city, sitting at 2,665 meters above sea level, and it has a rich history dating back to its founding by Emperor Menelik in 1892. The city is continuously changing, with new buildings and structures being constructed every day, making it a fascinating place to visit for more than just a quick stopover.",
+          'The national language, Amharic, is widely spoken, but English, French, Italian, and Arabic are also common in the city. With a multitude of ethnic groups and a diverse foreign population, Addis Ababa truly represents the "rich cultural mosaic" of Ethiopia, as historian Carlo Conti Rossini once put it.',
+        ],
+        lr: true,
+        button: "Why Awash National Park & Alledeghi Plains?",
+        link: "#why",
+      },
+    ],
+    destinationdescription: {
+      destination: "Discover the Best Things to Do in Addis Ababa",
+      reasons: [
+        /*
+    Visit the National Museum
+Explore several museums to suit your interests. For a moving experience, check out the Museum of the Martyrs (Red Terror Museum), which pays tribute to the victims of the Marxist Derg regime. Or, head to the National Museum of Ethiopia, widely regarded as the city's best museum. The museum boasts a rich collection of artistic, historical, and archaeological exhibits, including Lucy, the famous skeleton of Australopithecus, and our oldest hominid ancestor.
+Don't Miss St. Mary Church of Entoto
+Visit the stunning St. Mary Church of Entoto, located at an elevation of 3,200m. Take a scenic drive up the hill to reach the church, which hosted Menelik's coronation. Nearby, you'll find Menelik's modest palace and stunning views of the city.
+Indulge in Coffee
+Savor premium quality Arabica coffee, discovered by an Ethiopian goat herder in the Kaffa region around the 6th century. Try Kaldi's, a chain modeled on Starbucks, or experience the local favorite, Moye Coffee.
+
+Explore Merkato
+Discover the largest open-air market in Africa, Addis Merkato. This giant sprawling market offers everything from electronics to imported clothes. While security is sound, be mindful of pickpockets and avoid carrying unnecessary belongings.
+Visit the Grand Palace of Menelik or Unity Park
+Unity Park, also known as the Grand Palace of Menelik, is a historic and vibrant symbol of Ethiopia's diverse culture and rich heritage. This resplendent park, situated in the heart of Addis Ababa, is a transformation of the Ethiopian palace compound which boasts over a century of imperial history.
+With its refurbished palaces, lush gardens, zoos, and fascinating exhibitions, Unity Park is a kaleidoscope of Ethiopia's past, present, and future. As you saunter through the elegantly restored Menelik Palace, you can relive the grandeur of Ethiopian royalty while learning about the nation's history.
+Stroll through the beautifully manicured gardens filled with endemic plants and enjoy the stunning panoramic views of the capital city. Witness the menagerie of indigenous Ethiopian fauna in the park's zoo, including lions, monkeys, and various bird species.
+As for activities, visitors can engage in educational tours, bird-watching, photography, and picnicking. You can also indulge in Ethiopian coffee culture at one of the park's stylish cafes.
+
+Enjoy a Night Out at African Jazz Village or Fendika Cultural Center
+For an unforgettable night out, head to the African Jazz Village. This premier jazz location features Ethio jazz, and followers of the genre gather at the cozy circular auditorium on Wednesdays and most weekends. Fendika Cultural Center is also a great spot to experience Ethiopian culture and music.
+
+Indulge in some 'Tej'
+Tej (or Ethiopian honey wine) could be the oldest alcoholic beverage in Ethiopian history, with early records of the drink dating over 1,000 years.
+Often made at home or “Tej bet”, Tej is a honey wine flavoured with indigenous herbs much like hops, and could easily be mistaken for orange juice on account of its hue and slight viscosity.
+Just don’t start drinking it in the afternoon, you might just lose the rest of your day…
+
+Don't leave without trying the 'Shiro'
+Shiro is a delicious stew whose primary ingredient is powdered chickpeas or broad beans combined with special herbs and spices. Depending on the region, the stew is complimented with a whole host of additional spices ranging from chili peppers to ground ginger.
+It is typically served atop injera, a large sourdough flatbread, which is produced with teff, a local gluten-free millet.
+Shiro is perhaps the most nourishing, ubiquitous and affordable dish in Ethiopia and is pretty much found in every restaurant in Addis. Our recommendation? Head over to Tikus Shiro, where they serve some of the best in town.
+
+    */
+        {
+          title: "Visit the National Museum",
+          description: [
+            "Explore several museums to suit your interests. For a moving experience, check out the Museum of the Martyrs (Red Terror Museum), which pays tribute to the victims of the Marxist Derg regime. Or, head to the National Museum of Ethiopia, widely regarded as the city's best museum. The museum boasts a rich collection of artistic, historical, and archaeological exhibits, including Lucy, the famous skeleton of Australopithecus, and our oldest hominid ancestor.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "Don't Miss St. Mary Church of Entoto",
+          description: [
+            "Visit the stunning St. Mary Church of Entoto, located at an elevation of 3,200m. Take a scenic drive up the hill to reach the church, which hosted Menelik's coronation. Nearby, you'll find Menelik's modest palace and stunning views of the city.",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "Indulge in Coffee",
+          description: [
+            "Savor premium quality Arabica coffee, discovered by an Ethiopian goat herder in the Kaffa region around the 6th century. Try Kaldi's, a chain modeled on Starbucks, or experience the local favorite, Moye Coffee.",
+          ],
+          image: images.kaffa2,
+        },
+        {
+          title: "Explore Merkato",
+          description: [
+            "Discover the largest open-air market in Africa, Addis Merkato. This giant sprawling market offers everything from electronics to imported clothes. While security is sound, be mindful of pickpockets and avoid carrying unnecessary belongings.",
+          ],
+          image: images.addis4,
+        },
+        {
+          title: "Visit the Grand Palace of Menelik or Unity Park",
+          description: [
+            "Unity Park, also known as the Grand Palace of Menelik, is a historic and vibrant symbol of Ethiopia's diverse culture and rich heritage. This resplendent park, situated in the heart of Addis Ababa, is a transformation of the Ethiopian palace compound which boasts over a century of imperial history.",
+            "With its refurbished palaces, lush gardens, zoos, and fascinating exhibitions, Unity Park is a kaleidoscope of Ethiopia's past, present, and future. As you saunter through the elegantly restored Menelik Palace, you can relive the grandeur of Ethiopian royalty while learning about the nation's history.",
+            "Stroll through the beautifully manicured gardens filled with endemic plants and enjoy the stunning panoramic views of the capital city. Witness the menagerie of indigenous Ethiopian fauna in the park's zoo, including lions, monkeys, and various bird species.",
+            "As for activities, visitors can engage in educational tours, bird-watching, photography, and picnicking. You can also indulge in Ethiopian coffee culture at one of the park's stylish cafes.",
+          ],
+          image: images.addis2,
+        },
+        {
+          title:
+            "Enjoy a Night Out at African Jazz Village or Fendika Cultural Center",
+          description: [
+            "For an unforgettable night out, head to the African Jazz Village. This premier jazz location features Ethio jazz, and followers of the genre gather at the cozy circular auditorium on Wednesdays and most weekends. Fendika Cultural Center is also a great spot to experience Ethiopian culture and music.",
+          ],
+          image: images.addis3,
+        },
+        {
+          title: "Indulge in some 'Tej'",
+          description: [
+            "Tej (or Ethiopian honey wine) could be the oldest alcoholic beverage in Ethiopian history, with early records of the drink dating over 1,000 years.",
+            "Often made at home or “Tej bet”, Tej is a honey wine flavoured with indigenous herbs much like hops, and could easily be mistaken for orange juice on account of its hue and slight viscosity.",
+            "Just don’t start drinking it in the afternoon, you might just lose the rest of your day…",
+          ],
+          image: images.addis4,
+        },
+        {
+          title: "Don't leave without trying the 'Shiro'",
+          description: [
+            "Shiro is a delicious stew whose primary ingredient is powdered chickpeas or broad beans combined with special herbs and spices. Depending on the region, the stew is complimented with a whole host of additional spices ranging from chili peppers to ground ginger.",
+            "It is typically served atop injera, a large sourdough flatbread, which is produced with teff, a local gluten-free millet.",
+            "Shiro is perhaps the most nourishing, ubiquitous and affordable dish in Ethiopia and is pretty much found in every restaurant in Addis. Our recommendation? Head over to Tikus Shiro, where they serve some of the best in town.",
+          ],
+          image: images.addis1,
+        },
+      ],
+    },
+  },
 ];

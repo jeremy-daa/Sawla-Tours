@@ -1,10 +1,10 @@
 /* Root Variables */
 
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Arizonia&family=Averia+Serif+Libre&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Arizonia&family=Averia+Serif+Libre&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 * {
-  --theme: rgb(156, 128, 4);
+  --theme: #9c8004;
   --theme-transparent: rgba(203, 173, 38, 0.306);
   --light: rgb(245, 245, 245);
   --light-dark: rgb(196, 196, 196);
@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
@@ -320,7 +320,7 @@ nav ul li:hover > .submenu {
   letter-spacing: 2px;
   /* border-radius: 5px; */
   text-shadow: #000000 0px 0px 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -385,7 +385,7 @@ nav ul li:hover > .submenu {
 .intro-container {
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 50px 100px;
   margin: 0 auto;
@@ -563,7 +563,7 @@ nav ul li:hover > .submenu {
 }
 .card .card-description {
   font-size: 0.95rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   margin-bottom: 5px;
   margin-left: 10px;
@@ -586,7 +586,7 @@ nav ul li:hover > .submenu {
 
 .card span {
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: 10px;
   margin-left: 10px;
   padding: 5px 10px;
@@ -656,9 +656,7 @@ nav ul li:hover > .submenu {
   text-align: center;
   transition: 0.5s ease-in-out;
 }
-.packages-title .link:hover {
-  font-size: 2.1rem;
-}
+
 @media only screen and (max-width: 1100px) {
   .experience-packages-wrapper {
     padding: 50px 20px;
@@ -693,7 +691,7 @@ nav ul li:hover > .submenu {
 }
 .slider-title-description {
   font-size: 1.3rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%;
   margin: auto;
   padding: 0 30px;
@@ -846,13 +844,13 @@ nav ul li:hover > .submenu {
 .package-content .package-description {
   margin-top: 20px;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
 }
 .package-days {
   margin-top: 20px;
   font-size: 1.2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   background-color: var(--theme);
   color: var(--light);
@@ -979,7 +977,7 @@ nav ul li:hover > .submenu {
   color: var(--light);
   text-decoration: none;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   transition: 0.5s;
 }
@@ -1023,7 +1021,7 @@ h2.contact-us:hover {
   top: 0;
   width: 100%;
   height: auto;
-  background-color: var(--dark);
+  background-image: url("/assets/footer-bg-3.svg");
   color: var(--light);
   padding: 50px 80px;
   display: grid;
@@ -1055,7 +1053,7 @@ h2.contact-us:hover {
   color: var(--light);
   text-decoration: none;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   transition: 0.5s;
 }
@@ -1097,7 +1095,7 @@ h2.contact-us:hover {
   align-items: center;
   text-decoration: none;
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   transition: 0.5s;
 }
@@ -1242,7 +1240,7 @@ h2.contact-us:hover {
 .tab .description span {
   font-size: 0.8rem;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   text-transform: capitalize;
   text-align: center;
@@ -1397,7 +1395,7 @@ div .planner-item-title {
 div .planner-item-description {
   font-size: 1rem;
   font-weight: 704000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -1583,7 +1581,7 @@ div .planner-item-description {
 .polaroid-description {
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -2388,7 +2386,7 @@ div .planner-item-description {
   margin-right: 10px;
   font-size: 1.5rem;
 }
-input[type="radio"] {
+input[type="checkbox"] {
   display: none;
 }
 .accordion .content {
@@ -2399,7 +2397,7 @@ input[type="radio"] {
   overflow: hidden;
   transition: all 0.2s ease-in;
 }
-.accordion input[type="radio"]:checked + label + .content {
+.accordion input[type="checkbox"]:checked + label + .content {
   max-height: 400px;
   padding: 10px 10px 20px;
 }
@@ -2426,6 +2424,14 @@ input[type="radio"] {
   .descriptions-wrapper .description .description-title {
     font-size: 1.5rem;
     padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .descriptions-wrapper .description .description-title {
+    padding: 15px 0;
+  }
+  .descriptions-wrapper .description .description-text {
+    font-size: 1rem;
   }
 }
 
@@ -2529,7 +2535,7 @@ input[type="radio"] {
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Lato", cursive;
 }
 .itinerary-item div ul li:last-child {
   border-bottom: none;
@@ -2572,7 +2578,6 @@ input[type="radio"] {
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 1px;
-    font-family: "Averia Serif Libre", cursive;
   }
   .itinerary-item div ul li:last-child {
     border-bottom: none;
@@ -3105,12 +3110,14 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .destination-reason .reason-image {
   width: 50%;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   box-shadow: 0 0 10px var(--dark);
   background-size: cover;
+  background-position: center;
 }
 
 .destination-reason .reason-description {
@@ -3243,6 +3250,26 @@ input[type="number"]::-webkit-outer-spin-button {
   font-family: "Lato", sans-serif;
   text-align: start;
   margin: 5px 0;
+  transition: all 0.8s ease-in-out;
+}
+.read-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: 2px solid var(--theme);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Averia Serif Libre", cursive;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.read-more-button:hover {
+  background-color: var(--theme);
+  color: var(--light);
 }
 
 /* Media queries */
@@ -3265,5 +3292,76 @@ input[type="number"]::-webkit-outer-spin-button {
 @media screen and (max-width: 400px) {
   .trekking-container div h2 {
     font-size: 1.1rem;
+  }
+}
+
+/* Destinations List */
+.destinations-list {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destinations-list ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.destinations-list ul li {
+  width: 100%;
+  background-color: var(--light);
+  box-shadow: 0 0 10px var(--dark);
+  transition: all 0.8s ease-in-out;
+  border-radius: 10px;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.destinations-list ul li span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Averia Serif Libre", cursive;
+  text-transform: capitalize;
+  padding: 0 0 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--theme);
+  width: fit-content;
+  color: var(--dark);
+}
+.destinations-list ul li p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  text-align: start;
+  margin: 5px 0;
+  transition: all 0.8s ease-in-out;
+}
+
+/* Media queries */
+@media screen and (max-width: 1300px) {
+  .destinations-list {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .destinations-list {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .destinations-list {
+    width: 90%;
+  }
+  .destinations-list ul li span {
+    font-size: 1rem;
+  }
+  .destinations-list ul li p {
+    font-size: 0.9rem;
   }
 }
