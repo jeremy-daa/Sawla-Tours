@@ -1194,15 +1194,15 @@ export const EthiopiaGuideArray: Guide[] = [
                 "2. Neon reds, greens, and yellows of the Danakil springs.",
               description: [
                 "Danakil Depression",
-                "A geological depression caused by the continental drift of three tectonic plates, the Danakil Depression is one of Earth’s most unusual environments.",
-                "Renowned as the ‘hottest place on the planet’ and home to salt lakes, lava lakes, volcanoes, and colourful acidic springs - it’s a wonderful, alien environment.",
+                "A geological depression caused by the continental drift of three tectonic plates, the Danakil Depression is one of Earth's most unusual environments.",
+                "Renowned as the ‘hottest place on the planet' and home to salt lakes, lava lakes, volcanoes, and colourful acidic springs - it's a wonderful, alien environment.",
               ],
             },
             {
               title: "3. Jungle thickets and clearings of the Bale Mountains.",
               description: [
                 "Bale Mountains National Park",
-                "Located 400 km south-east of Ethiopia’s capital, Addis Ababa, the Bale Mountains National Park is one of the country’s most beautiful and popular outdoor destinations.",
+                "Located 400 km south-east of Ethiopia's capital, Addis Ababa, the Bale Mountains National Park is one of the country's most beautiful and popular outdoor destinations.",
                 "A nominee in 2009 for UNESCO World Heritage status, the park is home to diverse landscapes, unique habitats and stunning wildlife.",
                 "It is also home to one of Ethiopia's best eco lodges, the Bale Mountains Lodge.",
               ],
@@ -1301,14 +1301,14 @@ export const EthiopiaGuideArray: Guide[] = [
             {
               title: "2. Gonder",
               description: [
-                "Known for its remarkable collection of crumbling castles, fortifications and 17th century churches, it’s only right that Gonder is often referred to as the “Camelot of Africa”.",
+                "Known for its remarkable collection of crumbling castles, fortifications and 17th century churches, it's only right that Gonder is often referred to as the “Camelot of Africa”.",
                 "This small city in the Amhara region of northern Ethiopia was the home to many emperors who ruled the country from the 12th century to the last decade of the 20th century.",
               ],
             },
             {
               title: "3. Axum",
               description: [
-                "As the home to the Queen of Sheba and the Ark of the Covenant – the storied artefact of Moses’ 10 commandments – Axum is one of the oldest continuously inhabited cities in northern African, dating back to 400 BC.",
+                "As the home to the Queen of Sheba and the Ark of the Covenant – the storied artefact of Moses' 10 commandments – Axum is one of the oldest continuously inhabited cities in northern African, dating back to 400 BC.",
                 "Today, residents of the ancient city seem blissfully unaware of its glorious past that saw the Aksumite Empire thrive as a trading nation and major player in commerce between the Roman Empire and Ancient India.",
                 "This World Heritage site is often referred to as “Abyssinia” in medieval texts and is considered the heart of ancient Ethiopia. It is a marvel of obelisks, ruins of castles, undiscovered tombs, beautiful churches and other cultural treasures spanning several centuries and embracing different religions.",
               ],
@@ -1317,7 +1317,7 @@ export const EthiopiaGuideArray: Guide[] = [
               title: "4. Bahir Dar",
               description: [
                 "Bahir Dar is one of the most beautiful cities in Ethiopia. Most visitors spend a couple of days here, heading out on boat trips across Lake Tana and a short trip out of town to the Blue Nile Falls.",
-                "Located in a depression of the north-west plateau, Lake Tana is home to about 37 islands and peninsulas, where some of the world’s oldest churches and monasteries are found. The most famous of these is Kebran Gabriel, believed to have been built in the 14th century and containing a museum with old paintings and manuscripts.",
+                "Located in a depression of the north-west plateau, Lake Tana is home to about 37 islands and peninsulas, where some of the world's oldest churches and monasteries are found. The most famous of these is Kebran Gabriel, believed to have been built in the 14th century and containing a museum with old paintings and manuscripts.",
               ],
             },
             {
@@ -1422,11 +1422,11 @@ export const EthiopiaGuideArray: Guide[] = [
               description: [
                 "In Ethiopia, the emphasis is on rarity, endemism, and bio-diversity. The Simien Mountains, Bale Mountains, and Gambella National Park are the best places for safari in Ethiopia.",
                 "Ethiopia Safari in Context When you think of safari in East Africa, you probably imagine vast savannah plains, open-top jeeps and elephants, giraffes, and big cats just a few hundred feet away. This is the quintessential Africa safari experience, and the reason thousands flock to the Maasai Mara and the Serengeti every year.",
-                "While there are fantastic wildlife experiences to be had in Ethiopia, for the most part, they don’t fit this typical safari mold.",
-                "You won’t find big cats, elephants and giraffes roaming the grasslands of Ethiopia (unless you're in a few very specific regions at the right time). What you will find is troops of Gelada Monkeys playing in the Simien Mountains, the endemic Ethiopian Wolf patrolling the Sanetti Plateau in the Bale Mountains, and charming, lo-fi wildlife experiences all across the country - crocodiles and hippos in the shallows as you explore the monasteries on Lake Tana, raptors soaring in the thermals of the Simiens, and hungry Hyenas outside the ancient walls of Harar.",
+                "While there are fantastic wildlife experiences to be had in Ethiopia, for the most part, they don't fit this typical safari mold.",
+                "You won't find big cats, elephants and giraffes roaming the grasslands of Ethiopia (unless you're in a few very specific regions at the right time). What you will find is troops of Gelada Monkeys playing in the Simien Mountains, the endemic Ethiopian Wolf patrolling the Sanetti Plateau in the Bale Mountains, and charming, lo-fi wildlife experiences all across the country - crocodiles and hippos in the shallows as you explore the monasteries on Lake Tana, raptors soaring in the thermals of the Simiens, and hungry Hyenas outside the ancient walls of Harar.",
                 "The best safari experiences in Ethiopia are in the Simien Mountains, Bale Mountains, and Gambella.",
                 "These destinations have great wildlife densities with high chances of sightings.",
-                "While these are the best wildlife destination in the country, you’ll find charming wildlife encounters all over the country on your journey across Ethiopia.",
+                "While these are the best wildlife destination in the country, you'll find charming wildlife encounters all over the country on your journey across Ethiopia.",
               ],
               image: images.bale5,
             },
@@ -1438,8 +1438,8 @@ export const EthiopiaGuideArray: Guide[] = [
             {
               title: "1. Simien Mountains Safari",
               description: [
-                "The Gelada Monkeys is the symbol of the Simien Mountains. Endemic to Ethiopia, these monkeys are known as ‘bleeding heart monkeys’ due to the distinct heart-shaped print on their chests. The Gelada’s in the Simiens are accustomed to humans, so you can stand amongst them as they roam and play around the plateaus.",
-                "Near the Chennek campsite in the Simiens, you have the best chances of spotting the Walia Ibex - another endemic species to Ethiopia. Walia Ibex are a threatened species, with population numbers only in the hundreds. Unlike the Gelada Monkeys, you have to be lucky to spot these beasts roaming the mountains (and it helps if you’re visiting on a clear day!).",
+                "The Gelada Monkeys is the symbol of the Simien Mountains. Endemic to Ethiopia, these monkeys are known as ‘bleeding heart monkeys' due to the distinct heart-shaped print on their chests. The Gelada's in the Simiens are accustomed to humans, so you can stand amongst them as they roam and play around the plateaus.",
+                "Near the Chennek campsite in the Simiens, you have the best chances of spotting the Walia Ibex - another endemic species to Ethiopia. Walia Ibex are a threatened species, with population numbers only in the hundreds. Unlike the Gelada Monkeys, you have to be lucky to spot these beasts roaming the mountains (and it helps if you're visiting on a clear day!).",
                 "Alongside the Gelada and Walia, the Simiens are home to a variety of birdlife, including raptors, Lammergeyer, and thick-billed ravens. The elusive and endemic Ethiopian Wolf also roams these highlands, but sightings in the Simiens are very rare.",
               ],
             },
@@ -1447,7 +1447,7 @@ export const EthiopiaGuideArray: Guide[] = [
               title: "2. Bale Mountains Safari",
               description: [
                 "The Bale Mountains is the best place to find the Ethiopian Wolf, an endemic canid that is best found in the Sanetti Plateau at 4000 metres in the Bale Mountains. Sightings here are quite common, but of course never guaranteed.",
-                "The Bale Mountains are one of Ethiopia’s best wildlife destinations in terms of accessibility and wildlife densities. You’ll find baboons, Bale and Colobus monkeys, chameleons and warthogs.",
+                "The Bale Mountains are one of Ethiopia's best wildlife destinations in terms of accessibility and wildlife densities. You'll find baboons, Bale and Colobus monkeys, chameleons and warthogs.",
                 "Lions, hyenas and leopards also roam the forests, but sightings are extremely rare.",
               ],
             },
@@ -1456,7 +1456,7 @@ export const EthiopiaGuideArray: Guide[] = [
               description: [
                 "On the western edge of Ethiopia, Gambella has the highest concentrations of wildlife anywhere in Ethiopia, but due to poor management over the years, the park is rarely visited due to limited access routes and lodging options. Those that visit Gambella will be rewarded with a true wild Africa experience.",
                 "Gambella is famous for its huge antelope and buffalo migrations. Elephants, lions, giraffes, cheetahs, leopards, and many other safari favorites can be found here. Birdlife in the park is also plentiful.",
-                "If you’re visiting Gambella, you will stay in tented camps run by specialist operators. Gambella can only be accessed via charter flight, which means costs are much higher than other national parks in the country.",
+                "If you're visiting Gambella, you will stay in tented camps run by specialist operators. Gambella can only be accessed via charter flight, which means costs are much higher than other national parks in the country.",
               ],
             },
           ],

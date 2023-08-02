@@ -154,7 +154,7 @@ export const DestinationPackagesArray: Package[] = [
     title:
       "Kafta Shiraro National Park: \nMarvel at Africa's Wild Northern Frontier",
     description:
-      "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin’s Gazelles globally and the northernmost African elephants.",
+      "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin's Gazelles globally and the northernmost African elephants.",
     link: "/top-destinations/13",
     image: Kafta1,
   },

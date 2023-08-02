@@ -219,7 +219,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
       packages: [
         {
           title:
-            "Meskel Marvels: \nCelebrating Ethiopia’s Religious and Cultural Treasures",
+            "Meskel Marvels: \nCelebrating Ethiopia's Religious and Cultural Treasures",
           description:
             'Embark on a remarkable journey through Ethiopia to witness the vibrant celebration of Meskel, an ancient festival marking the finding of the True Cross. This carefully curated itinerary combines the grandeur of Meskel festivities with the exploration of Ethiopia\'s historical and natural wonders. From the bustling capital of Addis Ababa to the rock-hewn churches of Lalibela and the castles of Gonder, experience the rich cultural heritage and architectural marvels of this captivating land. Marvel at the breathtaking landscapes of the Simien Mountains, home to endemic wildlife, and immerse yourself in the ancient history of Axum. This journey promises a unique blend of festive traditions, awe-inspiring monuments, and unforgettable experiences. Let "Ethiopian Treasures" be your guide to an unforgettable voyage, where the past intertwines with the present, and the beauty of Ethiopia unfolds at every turn.',
           link: "/tours-by-experience/3/1",
@@ -445,8 +445,8 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
       {
         title: "A Haven for Bird Enthusiasts",
         description: [
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia’s diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia’s diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
         ],
         lr: true,
         img1: images.bird3,

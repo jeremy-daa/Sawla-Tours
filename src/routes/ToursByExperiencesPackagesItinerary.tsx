@@ -146,7 +146,7 @@ const ToursByExperiencesPackageItinerary = () => {
             title:
               "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
             description: [
-              "This morning, board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
+              "This morning, board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
               "Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatize your body to the altitude. Overnight in Simiens.",
             ],
             image: "Gonder3",
@@ -154,8 +154,8 @@ const ToursByExperiencesPackageItinerary = () => {
           {
             title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
             description: [
-              "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
-              "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Overnight in Simiens.",
+              "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers.",
+              "We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Overnight in Simiens.",
             ],
             image: "Simien1",
           },

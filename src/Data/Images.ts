@@ -78,6 +78,7 @@ const Images = {
   kafta1: "/assets/kafta_1.jpg",
   kaffa1: "/assets/kaffa_1.jpg",
   kaffa2: "/assets/kaffa_2.jpeg",
+  kaffa3: "/assets/kaffa_3.jpg",
   karo1: "/assets/karo_1.jpg",
   konso1: "/assets/konso_1.jpg",
   konso2: "/assets/konso_2.jpeg",

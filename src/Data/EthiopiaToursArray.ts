@@ -52,7 +52,7 @@ export const EthiopiaToursArray: Tour[] = [
     id: 1,
     title: "Historic Ethiopia Tours",
     description:
-      "The Historic Tour is a journey through Ethiopia’s rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar.",
+      "The Historic Tour is a journey through Ethiopia's rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar.",
     image: Images.gonder4,
     link: "/enquire",
     linkname: "Start Planning",
@@ -86,7 +86,7 @@ export const EthiopiaToursArray: Tour[] = [
     map: {
       title: "Historic Tour Destinations",
       description:
-        "The Historic Tour is a journey through Ethiopia’s rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar. And many more...",
+        "The Historic Tour is a journey through Ethiopia's rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar. And many more...",
       image: "/assets/maps/HistoricTours.jpg",
     },
     tourdescription: {
@@ -193,7 +193,7 @@ export const EthiopiaToursArray: Tour[] = [
     map: {
       title: "Tribal Tour Destinations",
       description:
-        "The Tribal Tour is a journey through Ethiopia’s tribal areas. Some of the destinations include visits to the Arbore, Nyangatom, Dasenech, Karo, Hamer, and Mursi tribes.",
+        "The Tribal Tour is a journey through Ethiopia's tribal areas. Some of the destinations include visits to the Arbore, Nyangatom, Dasenech, Karo, Hamer, and Mursi tribes.",
       image: "/assets/maps/TribalTours.jpg",
     },
     tourdescription: {
@@ -394,8 +394,8 @@ export const EthiopiaToursArray: Tour[] = [
             title: "Simien Mountains Trekking (North)",
             description: [
               "The Simien Mountains National Park is sometimes called the Roof of Africa, due to their height and breadth, and they present perhaps the most dramatic mountain scenery on the continent. Great volcanic plugs formed some 40 million years ago have eroded over the ages into fantastic crags, pinnacles, and flat-topped mountains, described by one writer as “the chess pieces of the gods,” which tower over precipitous gorges, river valleys, and plains stretching all the way to Ethiopia's northern neighbor, Eritrea. ",
-              "There are many astonishingly eye-catching peaks and mountain chains over 4,000m, and Ras Dashen (It’s actually Ras Dejen, though to avoid confusion we use the common-but incorrect name) at 4543m is the highest in the country and the tenth highest in Africa. The Simien Mountains National Park also features the giant Erica forest and is of global significance for biodiversity conservation because it is home to globally threatened species, including the iconic Walia Ibex, a rare wild mountain goat, the Gelada Baboon, and the Ethiopian Wolf.",
-              "The Simien Mountains National Park is sometimes called the Roof of Africa, due to their height and breadth, and they present perhaps the most dramatic mountain scenery on the continent. Great volcanic plugs formed some 40 million years ago have eroded over the ages into fantastic crags, pinnacles, and flat-topped mountains, described by one writer as “the chess pieces of the gods,” which tower over precipitous gorges, river valleys, and plains stretching all the way to Ethiopia's northern neighbor, Eritrea. There are many astonishingly eye-catching peaks and mountain chains over 4,000m, and Ras Dashen (It’s actually Ras Dejen, though to avoid confusion we use the common-but incorrect name) at 4543m is the highest in the country and the tenth highest in Africa. The Simien Mountains National Park also features the giant Erica forest and is of global significance for biodiversity conservation because it is home to globally threatened species, including the iconic Walia Ibex, a rare wild mountain goat, the Gelada Baboon, and the Ethiopian Wolf. ",
+              "There are many astonishingly eye-catching peaks and mountain chains over 4,000m, and Ras Dashen (It's actually Ras Dejen, though to avoid confusion we use the common-but incorrect name) at 4543m is the highest in the country and the tenth highest in Africa. The Simien Mountains National Park also features the giant Erica forest and is of global significance for biodiversity conservation because it is home to globally threatened species, including the iconic Walia Ibex, a rare wild mountain goat, the Gelada Baboon, and the Ethiopian Wolf.",
+              "The Simien Mountains National Park is sometimes called the Roof of Africa, due to their height and breadth, and they present perhaps the most dramatic mountain scenery on the continent. Great volcanic plugs formed some 40 million years ago have eroded over the ages into fantastic crags, pinnacles, and flat-topped mountains, described by one writer as “the chess pieces of the gods,” which tower over precipitous gorges, river valleys, and plains stretching all the way to Ethiopia's northern neighbor, Eritrea. There are many astonishingly eye-catching peaks and mountain chains over 4,000m, and Ras Dashen (It's actually Ras Dejen, though to avoid confusion we use the common-but incorrect name) at 4543m is the highest in the country and the tenth highest in Africa. The Simien Mountains National Park also features the giant Erica forest and is of global significance for biodiversity conservation because it is home to globally threatened species, including the iconic Walia Ibex, a rare wild mountain goat, the Gelada Baboon, and the Ethiopian Wolf. ",
               "The Simien Mountains can easily be combined with a tour on the Historic Route. Visitors with little time can fly from Addis Ababa to Gondar, some 100 km from the entrance to the park at Debark. For those who do not like camping, there is a cozy and comfortable lodges near Sankaber and Debark which can be used as a base for exploring one of Ethiopia's leading parks.",
             ],
             image: Images.simien1,
@@ -403,7 +403,7 @@ export const EthiopiaToursArray: Tour[] = [
           {
             title: "Bale Mountains Trekking	",
             description: [
-              "Splendid trekking itineraries, by horse or on foot, can also be made in the Bale Mountains National Park. Since it takes at least one day to get to Bale from Addis Ababa, a minimum of 4 days should be allowed. This area includes a high-altitude plateau with volcanic crags and lakes, forests, alpine moorland, trout-filled streams, and a striking variety of fauna and flora. Several endemic mammals, including the Mountain Nyala, Ethiopian Wolf, and Menelik’s Bushbuck, are found within the park, and ornithologists have recorded sixteen endemic bird species.",
+              "Splendid trekking itineraries, by horse or on foot, can also be made in the Bale Mountains National Park. Since it takes at least one day to get to Bale from Addis Ababa, a minimum of 4 days should be allowed. This area includes a high-altitude plateau with volcanic crags and lakes, forests, alpine moorland, trout-filled streams, and a striking variety of fauna and flora. Several endemic mammals, including the Mountain Nyala, Ethiopian Wolf, and Menelik's Bushbuck, are found within the park, and ornithologists have recorded sixteen endemic bird species.",
               "In the Harenna Forest, in the southern part of this sublime park, you may also catch a glimpse of the majestic lion and its feline kin, the leopard. A one-day excursion from Goba (by car) takes the visitor to the fantastic underwater river and caves of Sof Omar, the longest in the world. ",
             ],
             image: Images.bale2,
@@ -517,8 +517,8 @@ export const EthiopiaToursArray: Tour[] = [
       {
         title: "A Haven for Bird Enthusiasts",
         description: [
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia’s diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia’s diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
         ],
         lr: true,
         img1: Images.gambella1,

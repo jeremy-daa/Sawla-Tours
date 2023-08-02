@@ -1026,8 +1026,8 @@ export const PopularDestinationsArray: Destination[] = [
         title: "Marvel at Africa's Wild Northern Frontier",
         subtitle: "",
         description: [
-          "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin’s Gazelles globally and the northernmost African elephants.",
-          "Nestled in Ethiopia's far north, the park sprawls across an impressive 2,176 km2. Transformed from a wildlife reserve to a national park in 2007, it's a sanctuary for 50% of the world's Heuglin’s Gazelles and an estimated 300 elephants that gracefully cross the border into Eritrea. The elephants are most commonly sighted during the rainy peaks in May and early September, as they migrate from Eritrea.",
+          "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin's Gazelles globally and the northernmost African elephants.",
+          "Nestled in Ethiopia's far north, the park sprawls across an impressive 2,176 km2. Transformed from a wildlife reserve to a national park in 2007, it's a sanctuary for 50% of the world's Heuglin's Gazelles and an estimated 300 elephants that gracefully cross the border into Eritrea. The elephants are most commonly sighted during the rainy peaks in May and early September, as they migrate from Eritrea.",
           "Kafta Shiraro's vibrant wildlife tapestry also includes striking species like Ostrich, Aardvark, Greater Kudu, Roan Antelope, Caracal, Leopard, and Lion. From the Tekeze River's edge, perched 550 meters above sea level, to the 1800-meter-high Kafta highlands, the park offers an immersive and varied adventure.",
         ],
         lr: true,
@@ -1082,14 +1082,14 @@ export const PopularDestinationsArray: Destination[] = [
           title: "Awash National Park",
           description: [
             "Awash National Park, the more renowned of the two, bears the scars of overgrazing and the encroachment of agro-industrial growth. Yet, despite the intrusions, its soul remains undisturbed. Explore its sprawling 756 square kilometers, where the Awash River carves through, cascading into a breathtaking waterfall - the park's signature spectacle. Venture further to uncover acacia-fringed grasslands, hot springs of Filwoha, and the Kudu Valley.",
-            "Journey south to Ilala Sala Plain for a rendezvous with wildlife - Beisa Oryx, Soemmerring’s Gazelle, and even the elusive Lion among others. However, it’s the skies that steal the show here with over 350 bird species, making it a birder's paradise.",
+            "Journey south to Ilala Sala Plain for a rendezvous with wildlife - Beisa Oryx, Soemmerring's Gazelle, and even the elusive Lion among others. However, it's the skies that steal the show here with over 350 bird species, making it a birder's paradise.",
           ],
           image: images.awash1,
         },
         {
           title: "Alledeghi Plains",
           description: [
-            "Venture further into the untamed Alledeghi Plains, a vast sanctuary sprawling across 1,800 square kilometers. Here, encounter seven lion prides, elusive cheetahs, Northern gerenuk, and Grevy’s zebra among others. Marvel at the spectacular avian life, from the Somali ostrich to the Scissor-tailed kite.",
+            "Venture further into the untamed Alledeghi Plains, a vast sanctuary sprawling across 1,800 square kilometers. Here, encounter seven lion prides, elusive cheetahs, Northern gerenuk, and Grevy's zebra among others. Marvel at the spectacular avian life, from the Somali ostrich to the Scissor-tailed kite.",
             "The area also offers a cultural tapestry of pastoral tribes - the agriculturalist Kereyu, Somali Issa, and the warrior-like Afar. Despite their historical conflicts, these tribes now enjoy a hard-earned peace and continue their unique traditions - a fascinating sight for the culturally curious.",
             "Both the Awash National Park and the untamed Alledeghi Plains offer a taste of Ethiopia's rugged beauty, best experienced through the gateway of Addis. Venture off the beaten path and lose yourself in the serenity of these untouched sanctuaries.",
           ],
@@ -1147,7 +1147,7 @@ For an unforgettable night out, head to the African Jazz Village. This premier j
 Indulge in some 'Tej'
 Tej (or Ethiopian honey wine) could be the oldest alcoholic beverage in Ethiopian history, with early records of the drink dating over 1,000 years.
 Often made at home or “Tej bet”, Tej is a honey wine flavoured with indigenous herbs much like hops, and could easily be mistaken for orange juice on account of its hue and slight viscosity.
-Just don’t start drinking it in the afternoon, you might just lose the rest of your day…
+Just don't start drinking it in the afternoon, you might just lose the rest of your day…
 
 Don't leave without trying the 'Shiro'
 Shiro is a delicious stew whose primary ingredient is powdered chickpeas or broad beans combined with special herbs and spices. Depending on the region, the stew is complimented with a whole host of additional spices ranging from chili peppers to ground ginger.
@@ -1206,7 +1206,7 @@ Shiro is perhaps the most nourishing, ubiquitous and affordable dish in Ethiopia
           description: [
             "Tej (or Ethiopian honey wine) could be the oldest alcoholic beverage in Ethiopian history, with early records of the drink dating over 1,000 years.",
             "Often made at home or “Tej bet”, Tej is a honey wine flavoured with indigenous herbs much like hops, and could easily be mistaken for orange juice on account of its hue and slight viscosity.",
-            "Just don’t start drinking it in the afternoon, you might just lose the rest of your day…",
+            "Just don't start drinking it in the afternoon, you might just lose the rest of your day…",
           ],
           image: images.addis4,
         },

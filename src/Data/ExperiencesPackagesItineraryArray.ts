@@ -1,4 +1,5 @@
 import Images from "./Images";
+import { WildlifeArray } from "./fas";
 import { ItineraryArray } from "./temp";
 export interface Itinerary {
   id: number;
@@ -151,7 +152,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning, board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
+            "This morning, board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
             "Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatize your body to the altitude.",
             "Overnight in Simiens.",
           ],
@@ -160,8 +161,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
-            "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers.",
+            "We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens.",
           ],
           image: images.simien1,
@@ -356,7 +357,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
+            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
             "Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
             "Overnight in Simiens. ",
           ],
@@ -365,7 +366,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens ",
           ],
           image: images.simien3,
@@ -401,8 +402,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 7: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
-            "You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
-            "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.",
+            "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum ",
           ],
           image: images.axum1,
@@ -411,7 +412,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 8: DRIVE TO GHERALTA AREA ",
           description: [
             "After breakfast, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Gerima which houses an impressive collection of ancient crosses, crowns, other artifacts and the oldest illustrated Christian manuscripts dated to the fifth-sixth century.",
-            "You arrive at the lodge in time for lunch. After settling in, we visit the area’s ancient churches, carved into caves and high up on cliff faces. Believed to date back to 600 ce, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
+            "You arrive at the lodge in time for lunch. After settling in, we visit the area's ancient churches, carved into caves and high up on cliff faces. Believed to date back to 600 ce, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
           ],
           image: images.yemata2,
@@ -420,7 +421,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 9: EXPLORE THE TIGRAY ROCK CHURCHES",
           description: [
             "After breakfast, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Gerima which houses an impressive collection of ancient crosses, crowns, other artifacts and the oldest illustrated Christian manuscripts dated to the fifth-sixth century.",
-            "You arrive at the lodge in time for lunch. After settling in, we visit the area’s ancient churches, carved into caves and high up on cliff faces. Believed to date back to 600 ce, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
+            "You arrive at the lodge in time for lunch. After settling in, we visit the area's ancient churches, carved into caves and high up on cliff faces. Believed to date back to 600 ce, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
           ],
           image: images.yemata2,
@@ -435,7 +436,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 11: EXPLORE THE DALLOL AREA & DRIVE TO MEKELLE",
           description: [
-            "After an early light breakfast, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools, and geysers, where you will have this early morning to explore this seemingly alien terrain. You then visit the salt canyons, a bizarre landscape where we go for a short walk. On the way back to camp we cross the salt flats where we see the arduous work of salt being extracted by hand and loaded onto the camels. After freshening up and having lunch, we will leave the Danakil and climb the steep mountains to Mekele, climbing from 100 meters below sea level up to 2500m. Mekele is the region’s capital.",
+            "After an early light breakfast, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools, and geysers, where you will have this early morning to explore this seemingly alien terrain. You then visit the salt canyons, a bizarre landscape where we go for a short walk. On the way back to camp we cross the salt flats where we see the arduous work of salt being extracted by hand and loaded onto the camels. After freshening up and having lunch, we will leave the Danakil and climb the steep mountains to Mekele, climbing from 100 meters below sea level up to 2500m. Mekele is the region's capital.",
             "Overnight in Mekelle",
           ],
           image: images.danakil2,
@@ -595,7 +596,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK VIA GONDAR",
           description: [
-            "This morning’s scenic drive takes you to Simien Mountain National Park via Gonder. The Simien Mountains is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
+            "This morning's scenic drive takes you to Simien Mountain National Park via Gonder. The Simien Mountains is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
             "Overnight in Simiens.",
           ],
           image: images.simien1,
@@ -603,7 +604,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens.",
           ],
           image: images.simien2,
@@ -638,9 +639,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 8: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
-            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion.",
-            "A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion.",
+            "A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum4,
@@ -649,7 +650,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 9: DRIVE TO GHERALTA AREA ",
           description: [
             "After breakfast, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Garima which houses an impressive collection of ancient crosses, crowns, other artifacts and the oldest illustrated Christian manuscripts dated to the fifth-sixth century. You arrive at the lodge in time for lunch.",
-            "After settling in, we visit the area’s ancient churches, carved into caves and high up on cliff faces. Believed to date back to 6 century AD, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
+            "After settling in, we visit the area's ancient churches, carved into caves and high up on cliff faces. Believed to date back to 6 century AD, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
           ],
           image: images.tigray4,
@@ -657,7 +658,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 10: EXPLORE THE TIGRAY ROCK CHURCHES",
           description: [
-            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today’s half an hour’s drive takes you to closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas.",
+            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today's half an hour's drive takes you to closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas.",
             "Drive back to your lodge for lunch. In the afternoon drive to Dugum, where we visit the Dugum Selassie, a rock cave and church carved into granite. It is the only site in the area that houses three sanctuaries, a baptistery, and a crypt.",
             "Overnight in Gheralta",
           ],
@@ -815,7 +816,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning’s drive takes you to Simien Mountain National Park.  You will have lunch stop at Gonder and continue on your drive. Simien Mountain National Park is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. ",
+            "This morning's drive takes you to Simien Mountain National Park.  You will have lunch stop at Gonder and continue on your drive. Simien Mountain National Park is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. ",
             "Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
             "Overnight in Simiens. ",
           ],
@@ -824,8 +825,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
-            "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers.",
+            "We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens ",
           ],
           image: images.simien2,
@@ -860,8 +861,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 8: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
-            "You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion.",
-            "A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion.",
+            "A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -869,7 +870,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: DRIVE TO GHERALTA AREA",
           description: [
-            "After breakfast, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Gerima which houses an impressive collection of ancient crosses, crowns, other artifacts and the oldest illustrated Christian manuscripts dated to the fifth-sixth century. You arrive at the lodge in time for lunch. After settling in, we visit the area’s ancient churches, carved into caves and high up on cliff faces. Believed to date back to 6 century AD, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
+            "After breakfast, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Gerima which houses an impressive collection of ancient crosses, crowns, other artifacts and the oldest illustrated Christian manuscripts dated to the fifth-sixth century. You arrive at the lodge in time for lunch. After settling in, we visit the area's ancient churches, carved into caves and high up on cliff faces. Believed to date back to 6 century AD, the origin of these sanctuaries remains a mystery. You return to your lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
           ],
           image: images.tigray5,
@@ -877,7 +878,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 10: EXPLORE THE TIGRAY ROCK CHURCHES",
           description: [
-            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today’s half an hour drive takes you closer to the foot of Korkur Mountain. It is from here you start your hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch. In the afternoon, drive to Dugum, where we visit the Dugum Selassie, a rock cave and church carved into granite. It is the only site in the area that houses three sanctuaries, a baptistery, and a crypt.",
+            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today's half an hour drive takes you closer to the foot of Korkur Mountain. It is from here you start your hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch. In the afternoon, drive to Dugum, where we visit the Dugum Selassie, a rock cave and church carved into granite. It is the only site in the area that houses three sanctuaries, a baptistery, and a crypt.",
             "Overnight in Gheralta",
           ],
           image: images.tigray2,
@@ -1038,7 +1039,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 2: EXPLORE THE CITY OF ADDIS ABABA",
           description: [
             "Today you will spend the day exploring Addis Ababa, which begins with a visit to the Holy Trinity Cathedral. It is the most important Orthodox Church in Addis Ababa and has survived many historical periods, as its interesting architecture can attest. You proceed to visit the National Museum, one of the most important museums in Africa.",
-            "The museum is home to the fossilized humanoid Lucy (a 3.5 million year-old fossil), as well as an amazing collection of artifacts, royal items, and art. After lunch, you will continue our visit to St. George’s Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, they also offer other fine coffees.",
+            "The museum is home to the fossilized humanoid Lucy (a 3.5 million year-old fossil), as well as an amazing collection of artifacts, royal items, and art. After lunch, you will continue our visit to St. George's Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, they also offer other fine coffees.",
             "Overnight in Addis Ababa",
           ],
           image: images.addis2,
@@ -1056,7 +1057,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 4: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
           description: [
-            "This morning’s drive (180 km) takes you to Gondar, a site of wonders. After some time to rest and have lunch, you will spend today exploring the city of Gondar. It was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.",
+            "This morning's drive (180 km) takes you to Gondar, a site of wonders. After some time to rest and have lunch, you will spend today exploring the city of Gondar. It was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.",
             "You continue on to the church of Debre Berhan Selassie (a UNESCO World Heritage Site). The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings. It is rumored to have once been the proposed final resting place of the Ark of the Covenant.",
             "Overnight in Gonder",
           ],
@@ -1065,8 +1066,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 5: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning’s drive takes you to Simien Mountain National Park. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "This morning's drive takes you to Simien Mountain National Park. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens",
           ],
           image: images.simien1,
@@ -1075,7 +1076,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 6: DRIVE TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "Today's half-day long but scenic journey as you drive to Axum. The views in this remote part of Ethiopia are simply spectacular. The drive affords some excellent photo opportunities of the jagged Simien Mountains and the Tekeze Valley. The route is dotted with intermittent mountain hamlets that add to the splendor of the scenery.",
-            "Your journey brings you to the sacred city of Axum in the Tigrayan region. You will check in and have your lunch in the hotel. You will proceed to a half-day city tour of Axum. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
+            "Your journey brings you to the sacred city of Axum in the Tigrayan region. You will check in and have your lunch in the hotel. You will proceed to a half-day city tour of Axum. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -1083,7 +1084,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 7: DRIVE TO GHERALTA AREA",
           description: [
-            "In the morning, continue your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look. After having a lunch break, you drive across the dramatic mountainous landscapes to Gheralta.",
+            "In the morning, continue your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look. After having a lunch break, you drive across the dramatic mountainous landscapes to Gheralta.",
             "On your way, you visit the Monastery of Abba Garima which houses an impressive collection of ancient crosses, crowns, other artifacts, and the oldest illustrated Christian manuscripts dated to the fifth-sixth century.",
             "You arrive at the lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
@@ -1102,7 +1103,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: DRIVE TO MEKELLE",
           description: [
-            "This morning you will drive to the Mekele, passing by a number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints. Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you’ll see patterned pillars and carvings.",
+            "This morning you will drive to the Mekele, passing by a number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints. Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you'll see patterned pillars and carvings.",
             "Then drive to Mekelle overnight.",
           ],
           image: images.tigray6,
@@ -1128,7 +1129,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 12: EXCURSION TO YEMRHAN KRISTOS & NAKUTO LEAB CHURCHES",
           description: [
-            "This morning’s drive takes you to the cave church of Yemrhan Kristos. The drive will be on a good gravel road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs.",
+            "This morning's drive takes you to the cave church of Yemrhan Kristos. The drive will be on a good gravel road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs.",
             "Drive back to Lalibela for lunch. Late afternoon, you visit Nakuto Leab Monastery, which houses an impressive collection of ancient crosses and illustrated manuscripts.",
             "Overnight in Lalibela",
           ],
@@ -1283,10 +1284,10 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXCURSION TO THE SIMIEN MOUNTAINS",
           description: [
-            "Early morning start after breakfast, drive to the Simien Mountains, a UNESCO World Heritage Site and one of Africa’s largest ranges.",
+            "Early morning start after breakfast, drive to the Simien Mountains, a UNESCO World Heritage Site and one of Africa's largest ranges.",
             "More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
-            "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Late afternoon you drive back to Gonder.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers.",
+            "We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Late afternoon you drive back to Gonder.",
             "Overnight in Gonder",
           ],
           image: images.simien1,
@@ -1306,7 +1307,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 5: EXPLORE MORE ROCK CHURCHES",
           description: [
             "After breakfast, drive to the cave church of Yemrhan Kristos. The drive will be on a good gravel road passing through the most dramatic landscape of the countryside.",
-            "This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, it’s beautiful wooden coffer ceiling inlaid with hexagons and medallions with both figurative and geometric motifs.",
+            "This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, it's beautiful wooden coffer ceiling inlaid with hexagons and medallions with both figurative and geometric motifs.",
             "Drive back to Lalibela. In the afternoon, you will visit the remaining rock-hewn churches of Lalibela that include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos.",
             "Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here.  Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches.",
             "Overnight in Lalibela",
@@ -1317,10 +1318,10 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 6: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "In the morning, you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site.",
-            "You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
+            "You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.",
             "Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
-            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -1338,7 +1339,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 8: EXPLORE HARAR",
           description: [
             "Today we explore Jugal (old Harar) on foot, you first head to the daily colorful local market.",
-            "Then you visit the Arthur Rimbaud Cultural Center. It is located in a beautiful century-old mansion and houses a small museum, library, and research center devoted to Rimbaud’s time in Ethiopia.",
+            "Then you visit the Arthur Rimbaud Cultural Center. It is located in a beautiful century-old mansion and houses a small museum, library, and research center devoted to Rimbaud's time in Ethiopia.",
             "You also visit Sherif Harar Museum, the local municipal museum. Strolling along the winding, cobbled streets, you explore the gates, restored city walls, and interesting Harari houses of this once-secluded town.",
             "This evening at dusk, you pay a visit to the now-legendary “hyena man” at sundown. Illuminated by vehicle headlights, he calls to hyenas to take scraps of camel meat in a ritual derived from local tradition and religious observance.",
             "Overnight in Harar",
@@ -1523,7 +1524,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 6: EXCURSION TO VISIT KARA",
           description: [
-            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Overnight in Turmi",
           ],
           image: images.omo3,
@@ -1709,7 +1710,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 5: EXCURSION TO VISIT KARA",
           description: [
-            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Overnight in Turmi",
           ],
           image: images.karo1,
@@ -1898,7 +1899,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 5: EXCURSION TO VISIT KARA",
           description: [
-            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Overnight in Turmi",
           ],
           image: images.karo1,
@@ -2060,7 +2061,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           description: [
             "This morning, not far from Arba Minch, you will take a relaxing boat trip on Lake Chamo to spot wildlife such as crocodiles and hippos, as well as beautiful aquatic birds.",
             "Leaving Arba Minch behind, you drive to Turmi through dramatic scenery towards the heartland of the tribes of the South Omo Valley. En route, you stop at the village of Konso who are known for their distinctive religious and cultural traditions.",
-            "In the afternoon, you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "In the afternoon, you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Return to Turmi. Overnight in Turmi",
           ],
           image: images.konso2,
@@ -2270,7 +2271,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 6: EXPLORE KARA TRIBE & DRIVE TO OMO NATIONAL PARK",
           description: [
-            "This morning you take an excursion to Korcho and visit the Karo tribe, who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "This morning you take an excursion to Korcho and visit the Karo tribe, who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Leaving Korcho, we drive through the jungle and enter Omo National Park. There are no roads as such but we should arrive at the Park headquarters by late afternoon, in time for a short game drive. Overnight in Omo National Park Camping",
           ],
           image: images.karo1,
@@ -2498,7 +2499,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 6: EXCURSION TO VISIT KARA",
           description: [
-            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other’s faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
+            "This morning you take an excursion to Korcho and visit the Karo tribe who are very famous for their body painting. The Karo people use clays and locally available vegetable pigments to trace fantastic patterns on each other's faces, chests, arms, and legs. Karo men, as with neighboring tribes, are also famous for their unique hairstyle.",
             "Overnight in Turmi",
           ],
           image: images.karo1,
@@ -2532,7 +2533,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 10: DRIVE TO ADDIS ABABA",
           description: [
-            "Enjoy breakfast early this morning, and depart early for the Fish Market of Hawassa. Afterward, drive towards Addis Ababa, visiting the region’s lakes en route. The lakes of Abijata and Shalla are particularly stunning. Also visit the lakes of Abijata, Shalla, and Zeway (dependent on water levels) en route.",
+            "Enjoy breakfast early this morning, and depart early for the Fish Market of Hawassa. Afterward, drive towards Addis Ababa, visiting the region's lakes en route. The lakes of Abijata and Shalla are particularly stunning. Also visit the lakes of Abijata, Shalla, and Zeway (dependent on water levels) en route.",
             "Overnight in Hawassa",
           ],
           image: images.addis2,
@@ -2554,13 +2555,13 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
     title: "Meskel Marvels",
     index: false,
     image: images.addis6,
-    description: "Celebrating Ethiopia’s Religious and Cultural Treasures",
+    description: "Celebrating Ethiopia's Religious and Cultural Treasures",
     link: "/enquire",
     linkname: "Start Planning",
     intro: [
       {
         title: "Introducing Meskel Marvels",
-        subtitle: "Celebrating Ethiopia’s Religious and Cultural Treasures",
+        subtitle: "Celebrating Ethiopia's Religious and Cultural Treasures",
         description: [
           "Embark on a remarkable journey through Ethiopia to witness the vibrant celebration of Meskel, an ancient festival marking the finding of the True Cross. This carefully curated itinerary combines the grandeur of Meskel festivities with the exploration of Ethiopia's historical and natural wonders. From the bustling capital of Addis Ababa to the rock-hewn churches of Lalibela and the castles of Gonder, experience the rich cultural heritage and architectural marvels of this captivating land.",
           'Marvel at the breathtaking landscapes of the Simien Mountains, home to endemic wildlife, and immerse yourself in the ancient history of Axum. This journey promises a unique blend of festive traditions, awe-inspiring monuments, and unforgettable experiences. Let "Ethiopian Treasures" be your guide to an unforgettable voyage, where the past intertwines with the present, and the beauty of Ethiopia unfolds at every turn.',
@@ -2683,7 +2684,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "This morning board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
             "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you acclimatize your body to the altitude.",
             "Overnight in Simiens.",
           ],
@@ -2692,7 +2693,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens.",
           ],
           image: images.simien2,
@@ -2729,9 +2730,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 7: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "In the morning, you will fly to Axum, where you are met and transferred to your hotel.",
-            "You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
-            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
+            "You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -2885,7 +2886,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning board on a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "This morning board on a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
             "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
             "Overnight in Simiens",
           ],
@@ -2894,7 +2895,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens",
           ],
           image: images.simien2,
@@ -2911,9 +2912,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 5: FLY TO FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
-            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
-            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
+            "You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -3104,7 +3105,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           description: [
             "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before you head to attend the festivities of the Eve of Palm Sunday.",
             "Today is the main Palm Sunday; you will be taken to witness the morning processions and celebrations. During this important festival day, the whole city comes alive in celebration, with the Church of St Mary of Zion at the center of the festivities.",
-            "After lunch, you head to the Queen of Sheba’s Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "After lunch, you head to the Queen of Sheba's Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum5,
@@ -3113,7 +3114,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 6: ATTEND PALM SUNDAY & EXPLORE SIGHTSEEING",
           description: [
             "Today is the main Palm Sunday; you will be taken to witness the morning processions and celebrations. During this important festival day, the whole city comes alive in celebration, with the Church of St Mary of Zion at the center of the festivities.",
-            "After lunch, you head to the Queen of Sheba’s Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "After lunch, you head to the Queen of Sheba's Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum10,
@@ -3285,8 +3286,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "DAY 6: ATTEND CELEBRATION OF ST. MARY ZION & EXPLORE SIGHTSEEING",
           description: [
             "Today is the main St. Mary of Zion; you will be taken to witness the morning processions and celebrations. During this important festival day, the whole city comes alive in celebration, with the Church of St Mary of Zion at the center of the festivities.",
-            "After lunch, you head to the Queen of Sheba’s Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
-            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "After lunch, you head to the Queen of Sheba's Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek. Then continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
+            "You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum2,
@@ -3439,8 +3440,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXCURSION TO THE SIMIEN MOUNTAINS",
           description: [
-            "Early morning start after breakfast drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Late afternoon you drive back to Gonder.",
+            "Early morning start after breakfast drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Late afternoon you drive back to Gonder.",
             "Overnight in Gonder",
           ],
           image: images.simien1,
@@ -3476,9 +3477,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 7: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
-            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion.",
-            "A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  Then continue on your visit to the church of Saint Mary of Zion.",
+            "A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum5,
@@ -3635,8 +3636,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 2: FLY AXUM & EXPLORE THE CITY",
           description: [
-            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. This large reservoir is an excellent place to observe the local women collecting water for washing.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum4,
@@ -3698,7 +3699,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: DRIVE TO GONDER & EXPLORE",
           description: [
-            "This morning’s short walk takes you to the opposite of the camp which offers a superb panoramic view of the surrounding area. You may be fortunate enough to spot Walia Ibex here. Then you meet the vehicle that will transport you back to Gondar (approx. 4-5 hours drive). As you drive out of the Simien Mountains, we’ll have time to take in a final look at some of the most spectacular views. The afternoon will be at your leisure in Gondar.",
+            "This morning's short walk takes you to the opposite of the camp which offers a superb panoramic view of the surrounding area. You may be fortunate enough to spot Walia Ibex here. Then you meet the vehicle that will transport you back to Gondar (approx. 4-5 hours drive). As you drive out of the Simien Mountains, we'll have time to take in a final look at some of the most spectacular views. The afternoon will be at your leisure in Gondar.",
             "Overnight in Gonder",
           ],
           image: images.gonder5,
@@ -3868,7 +3869,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 2: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatize your body to the altitude.",
+            "This morning board a short flight to Gonder and upon arrival, you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatize your body to the altitude.",
             "Overnight in Simiens.",
           ],
           image: images.gonder4,
@@ -3876,7 +3877,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens",
           ],
           image: images.simien2,
@@ -3910,9 +3911,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 7: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
-            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing.",
-            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant.",
-            "It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. This large reservoir is an excellent place to observe the local women collecting water for washing.",
+            "Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.  After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant.",
+            "It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum1,
@@ -3920,7 +3921,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 8: DRIVE TO RAHYA & WALK TO ERAR",
           description: [
-            "Today, you will transfer by road (4 hours) to Rahya en route to visit the temple of Yeha. It is the oldest of Ethiopia’s antiquities beautifully set in scenic surroundings, dating back to the 5th century BC. You continue your journey into the eastern Tigray, a fascinating region containing many rock-hewn churches dating from the 8th century.",
+            "Today, you will transfer by road (4 hours) to Rahya en route to visit the temple of Yeha. It is the oldest of Ethiopia's antiquities beautifully set in scenic surroundings, dating back to the 5th century BC. You continue your journey into the eastern Tigray, a fascinating region containing many rock-hewn churches dating from the 8th century.",
             "You start a two hours TESFA Tigray trek from a small village called Rahya destined to Erar community guest house. You will meet your local guide here. Your luggage will be loaded on the donkeys. The most westerly guesthouse is at Erar built on an isolated section of the western escarpment with wonderful views westward to the mountains of Adwa and the Niblet pillars. Erar is located on the sandstone escarpment on the western edge of the area, also at 2,800 meters. It is a bit closer to the mountains on the Adwa side with some interesting pinnacles of rock in view to the northwest.",
             "In all the lodges, you will be greeted on arrival by your host with local bread, nuts, popcorn, tea, and coffee. You will be served with tasty local meals.",
             "Overnight in Erar community lodge",
@@ -3933,7 +3934,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "This morning after having breakfast, you walk to Gohagot. The walk takes around 5-6 hours and goes past some lovely churches – notably Debre Giorgis, which is a built-up church like that of the ancient churches of Debre Damo and Yemrehana Christos. You walk across rolling plains dotted with cypress trees. Then descend along valleys of giant candelabra cactus and aloe to reach the Valley of Debre Abay.",
             "Like the other villages of Tigray, all the small houses are surrounded by prickly pears and eucalyptus that look more or less exactly like every other house you have passed. The rocky soil atop the plateaus supports only grasses, grains, and legumes. Along the ridges, bushes of prickly pears and stalks of aloe tower grow along the stone-lined paths. The valley is more fertile ground; farmers plant their fields with garlic, onion, corn, and cabbage by irrigating small streams.",
             "After another long day of walking takes you to Gohagot. It is tucked under the cliff but above the villages. Before heading there, you visit the nearby rock church of Gohgot Eyesus, positioned above indigenous woodland at the head of the valley. This is one of beautifully cut-into-the-face sandstone.",
-            "From the church, it is about an hour’s walk to the guest house of Gohagot and located at an altitude of 2600 meters. Open your eyes to different birds and small animals on this day too.",
+            "From the church, it is about an hour's walk to the guest house of Gohagot and located at an altitude of 2600 meters. Open your eyes to different birds and small animals on this day too.",
             "Overnight in Gohagot community lodge",
           ],
           image: images.tigray4,
@@ -3961,7 +3962,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 12: DRIVE TO MEKELLE & FLY TO ADDIS",
           description: [
-            "This morning you will drive to Mekele, passing by another number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints. Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you’ll see patterned pillars and carvings.",
+            "This morning you will drive to Mekele, passing by another number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints. Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you'll see patterned pillars and carvings.",
             "Then drive to Mekelle to catch your flight to Addis Ababa.",
             "Overnight in Addis Ababa",
           ],
@@ -4133,7 +4134,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 2: EXPLORE THE CITY OF ADDIS ABABA",
           description: [
             "Today you will spend the day exploring Addis Ababa, which begins with a visit to the Holy Trinity Cathedral. It is the most important Orthodox Church in Addis Ababa and has survived many historical periods, as its interesting architecture can attest. You proceed to visit the National Museum, one of the most important museums in Africa. The museum is home to the fossilized humanoid Lucy (3.5 million year-old fossils), as well as an amazing collection of artifacts, royal items, and art.",
-            "After lunch, you will continue our visit to St. George’s Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, but they also offer other fine coffees.",
+            "After lunch, you will continue our visit to St. George's Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, but they also offer other fine coffees.",
             "Overnight in Addis Ababa",
           ],
           image: images.addis2,
@@ -4195,9 +4196,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
-            "In the morning, you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
-            "This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
-            "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning, you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath.",
+            "This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.",
+            "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum4,
@@ -4205,7 +4206,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 10: DRIVE TO GHERALTA AREA",
           description: [
-            "In the morning, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "In the morning, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "After having lunch break, you drive across the dramatic mountainous landscapes to Gheralta. On your way, you visit the Monastery of Abba Garima which houses an impressive collection of ancient crosses, crowns, other artifacts, and the oldest illustrated Christian manuscripts dated to the fifth-sixth century. You arrive at the lodge in time to enjoy a beautiful Ethiopian sunset.",
             "Overnight in Gheralta",
           ],
@@ -4649,7 +4650,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 3: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning’s drive takes you to Simien Mountain National Park. You will have a lunch stop at Gonder and continue on your drive. Simien Mountain National Park is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "This morning's drive takes you to Simien Mountain National Park. You will have a lunch stop at Gonder and continue on your drive. Simien Mountain National Park is a UNESCO World Heritage Site and one of Africa's largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
             "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you acclimatize your body to the altitude.",
             "Overnight in Simiens.",
           ],
@@ -4658,8 +4659,8 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
-            "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers.",
+            "We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens",
           ],
           image: images.simien3,
@@ -4696,9 +4697,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 8: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
           description: [
             "In the morning, you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
-            "You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
+            "You also visit the Archaeological Museum, before heading to the Queen of Sheba's Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge'ez (earliest written Ethiopian language), and Greek.",
             "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it.",
-            "There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba's Palace. The palace area has been fully excavated and is definitely worth a look.",
             "Overnight in Axum",
           ],
           image: images.axum4,
@@ -4706,7 +4707,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: DRIVE TO ADIGRAT & TREK TO ANAF",
           description: [
-            "Today, you will transfer by road (4 hours) to Adigrat en route to visit the temple of Yeha. It is the oldest of Ethiopia’s antiquities beautifully set in scenic surroundings, dating back to the 5th century BC. We continue our journey to Adigra for a lunch stop. Start your trekking from Agoro Lodge to Anaf (3hrs.) You will meet your local guide here.",
+            "Today, you will transfer by road (4 hours) to Adigrat en route to visit the temple of Yeha. It is the oldest of Ethiopia's antiquities beautifully set in scenic surroundings, dating back to the 5th century BC. We continue our journey to Adigra for a lunch stop. Start your trekking from Agoro Lodge to Anaf (3hrs.) You will meet your local guide here.",
             "Your luggage will be loaded on the donkeys. The walking takes you along the narrow track between fallow terraced fields and passes through small villages. Most stone-made houses are fenced by cacti trees. You climb up a gentle slope for a couple of hours onto the escarpment where Anaf is located. Right from the end of the ridge, you start to look at Anaf community lodge at the other end of the plateau.",
             "Perched nearly at 3000 meters, the lodge overlooks the Agame Massif and valleys to the south. In all the lodges, you will be greeted on arrival by your host with local bread, nuts, popcorn, tea, and coffee. You will be served with tasty local meals.",
             "Overnight in Anaf community lodge",
@@ -4757,7 +4758,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 14: DRIVE TO MEKELLE & FLY TO ADDIS",
           description: [
             "This morning you will drive to the Mekele, passing by a number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints.",
-            "Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you’ll see patterned pillars and carvings. Then drive to Mekelle to catch your flight to Addis Ababa.",
+            "Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you'll see patterned pillars and carvings. Then drive to Mekelle to catch your flight to Addis Ababa.",
             "Overnight in Addis Ababa",
           ],
           image: images.tigray6,
@@ -4994,7 +4995,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "DAY 8 - TURMI - OMORATE-TURMI",
           description: [
             "Departing Turmi at 5:00 AM, you will be heading to Omorate, home of the Dassanach tribe who are said to be descendants of the Turkana tribe in North Kenya.",
-            "Like many of these tribal groups, they use chain links and other Western ‘cast-offs’ as decorative objects.",
+            "Like many of these tribal groups, they use chain links and other Western ‘cast-offs' as decorative objects.",
             "Crossing the newly constructed Omo River Bridge and driving further for 12km, we will be able to photograph a remote Dassanach tribal village, just 11 km from the shores of Lake Turkana.",
             "You will photograph the women cooking by fire, grinding corn meal, and the men with their flock.",
             "You will try to continue further south to Lake Turkana to see and photograph the small wooden fishing boats and Dassanch people.",
@@ -5210,7 +5211,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title:
             "DAY 3: FLY TO GONDER & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
           description: [
-            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges.",
+            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa's largest ranges.",
             "More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
             "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you acclimatize your body to the altitude.",
             "Overnight in Simiens.",
@@ -5220,7 +5221,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
           description: [
-            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we'll get to know better alongside field researchers. We'll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
             "Overnight in Simiens.",
           ],
           image: images.simien2,
@@ -5269,9 +5270,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 9: EXPLORE THE TIGRAY ROCK CHURCHES",
           description: [
-            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today’s half an hour’s drive takes you closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch.",
+            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today's half an hour's drive takes you closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch.",
             "In the afternoon you will drive out of Gheralta to visit Mariam Papaseti church. A short and easy walk takes you through the most scenic landscape and vibrant small villages.",
-            "The church is a semi-monolithic church. You’ll find a wide range of beautiful 18th-century mural paintings decorating the internal part of the church. Later you take a short walk to meet local farmers and learn about their way of life. Return to your lodge for dinner.",
+            "The church is a semi-monolithic church. You'll find a wide range of beautiful 18th-century mural paintings decorating the internal part of the church. Later you take a short walk to meet local farmers and learn about their way of life. Return to your lodge for dinner.",
             "Overnight in Gheralta.",
           ],
           image: images.yemata2,
@@ -5477,7 +5478,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           description: [
             "This morning is an exciting travel day as we head deep into the little-visited portion of southwestern Ethiopia. En route, we pass through the Bebeka coffee plantation (located about 30km outside Mizan), which is the largest and oldest coffee plantation in Ethiopia.",
             "On our journey, we will visit the Menit tribe, who are the less well-known neighbors of the Surma, one of our main photographic targets of this trip.",
-            "Passing through the town of Tulgit, will finally arrive in Kibish, where we will be camping for the next three nights. Much of our focus today will be photographing the fabulous Surma people, who due to their remoteness, are one of the least visited of the Omo Valley’s tribes.",
+            "Passing through the town of Tulgit, will finally arrive in Kibish, where we will be camping for the next three nights. Much of our focus today will be photographing the fabulous Surma people, who due to their remoteness, are one of the least visited of the Omo Valley's tribes.",
             "Overnight camping in Kibish",
           ],
           image: images.surma1,
@@ -5504,11 +5505,11 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "Day 8: Drive Kangate to Turmi",
           description: [
             "Please note that we do not have a fixed schedule for the next few days. Instead, your guide will assess daily which tribe is the best to photograph according to your particular photographic requirements.",
-            "The Lower Omo Valley is situated within Africa’s famous and, geologically speaking, rapidly expanding Great Rift Valley (which will eventually split the continent into two landmasses). Here, in south-west Ethiopia’s awkwardly named “Southern Nations, Nationalities, and People’s Region”, bordering Kenya and Sudan, the great Omo River dominates this dry savanna valley, resulting in some of Africa’s most well-developed and best-preserved arid-zone riverine forests.",
-            "The Omo River rises from the Shewan highlands to the north (much of Ethiopia consists of high-lying mountains and fertile plateaus, despite the impression created by some international media bodies that Ethiopia is predominately desert!). It flows 470 miles (750km), mostly southwards, before entering Lake Turkana (previously Lake Rudolf) near the Kenyan border. Lake Turkana, the world’s largest permanent desert lake and also the planet’s largest alkaline lake, has no water outflow, so in effect, it’s a dead-end for the Omo River. The importance of the Lower Omo Valley has been recognized by UNESCO, which has declared it a cultural World Heritage site. It also contains two massive national parks and several important bird areas.",
+            "The Lower Omo Valley is situated within Africa's famous and, geologically speaking, rapidly expanding Great Rift Valley (which will eventually split the continent into two landmasses). Here, in south-west Ethiopia's awkwardly named “Southern Nations, Nationalities, and People's Region”, bordering Kenya and Sudan, the great Omo River dominates this dry savanna valley, resulting in some of Africa's most well-developed and best-preserved arid-zone riverine forests.",
+            "The Omo River rises from the Shewan highlands to the north (much of Ethiopia consists of high-lying mountains and fertile plateaus, despite the impression created by some international media bodies that Ethiopia is predominately desert!). It flows 470 miles (750km), mostly southwards, before entering Lake Turkana (previously Lake Rudolf) near the Kenyan border. Lake Turkana, the world's largest permanent desert lake and also the planet's largest alkaline lake, has no water outflow, so in effect, it's a dead-end for the Omo River. The importance of the Lower Omo Valley has been recognized by UNESCO, which has declared it a cultural World Heritage site. It also contains two massive national parks and several important bird areas.",
             "After departing Kangate, and making our way across the Omo River and into a new tribal area. Here, our tribe of interest is the Karo, another tribe known for its elaborate body and facial paintings. These people live along the east bank of the Omo River and practice flood retreat cultivation, their main crops being maize, sorghum, and beans. Unlike the other tribes, they keep only a small number of cattle due to the prevalence of tsetse flies. Like many of the tribes in the Omo, they paint their bodies and faces with white chalk to prepare for any ceremonies.",
             "The chalk is mixed with yellow rock, red iron ore, and charcoal to make its requisite colour. Facemasks are worn at times and they have clay hair buns adorned with feathers.",
-            "Scarification is also an important part of the Karo people’s lives. This includes the complete scarification of a man’s chest with which to indicate that he has killed an enemy or dangerous animal (Amongst the Karo, killing one’s enemies isn’t viewed as an act of murder, but as an act of honor!).",
+            "Scarification is also an important part of the Karo people's lives. This includes the complete scarification of a man's chest with which to indicate that he has killed an enemy or dangerous animal (Amongst the Karo, killing one's enemies isn't viewed as an act of murder, but as an act of honor!).",
             "This scarification process involves lightly slicing the skin with knives or razor blades and then rubbing ash into the open wounds to produce a permanently raised effect. The Karo women have decoratively scarred abdomens, which are considered sensual and very desirable.",
             "We then continue through the beautiful Omo Valley savannas, dotted with elongated termite mounds, to our comfortable lodge situated a few kilometers outside the village of Turmi. After settling in, we will be able to reminisce about the incredible sights and photographic opportunities of the past few days over an ice-cold beverage!",
             "Overnight in Turmi",
@@ -5519,10 +5520,10 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "Day 9: Turmi area",
           description: [
             "The Hamar is one of the most well-known tribes in Southern Ethiopia. They inhabit the territory east of the Omo River and have villages in both Turmi and Dimeka.",
-            "They are especially well known for their unique rituals, including a cattle-leaping ceremony that young men have to undergo in order to reach adulthood and marry. They are highly ‘superstitious’ people, and to this day they consider twins to be babies born outside of wedlock, while children whose upper milk teeth develop before their lower teeth are deemed to be ‘evil’ or ‘unclean’.",
+            "They are especially well known for their unique rituals, including a cattle-leaping ceremony that young men have to undergo in order to reach adulthood and marry. They are highly ‘superstitious' people, and to this day they consider twins to be babies born outside of wedlock, while children whose upper milk teeth develop before their lower teeth are deemed to be ‘evil' or ‘unclean'.",
             "For this reason, such children are discarded in the bush and simply left to die, as they would rather lose a single child than inflict any disaster upon their community. The Hamar people are also known for one of the most bizarre rituals on Earth. This is when the women allow themselves to be whipped by the male members of their family as a symbol of their love! The scars of such encounters are conspicuously evident on the bodies of all Hamar women.",
             "These women take great pride in their appearance and wear traditional dresses consisting of a brown goatskin skirt adorned with dense vertical rows of red and yellow beads. Their hair is characteristically fixed in dense ringlets with butterfat mixed with red ochre. They also wear many bracelets and necklaces fashioned of beads or metal, depending on their age, wealth, and marital status. The men wear woven cloth wrapped around the waist and many elders wear delicately colored clay head caps that are fashioned into their hair and adorned with an ostrich feather.",
-            "As mentioned, the young Hamar men are famous for their “Evangadi dance” and “Bull jumping” ceremony (it is as part of this ceremony that the afore-mentioned whipping occurs). This ritual entails young men who wish to marry jumping over a line of bulls, thereby proving their worth to their intended bride’s family. It also signifies their advent into adulthood. This is a rarely seen event, however, with luck, we may hear of, and even be invited to attend this landmark event.",
+            "As mentioned, the young Hamar men are famous for their “Evangadi dance” and “Bull jumping” ceremony (it is as part of this ceremony that the afore-mentioned whipping occurs). This ritual entails young men who wish to marry jumping over a line of bulls, thereby proving their worth to their intended bride's family. It also signifies their advent into adulthood. This is a rarely seen event, however, with luck, we may hear of, and even be invited to attend this landmark event.",
             "Overnight in Turmi",
           ],
           image: images.karo1,
@@ -5540,9 +5541,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Day 11: Excursion to Mago national park to meet Mursi and explore the Jinka area",
           description: [
             "We have an early morning start as we enter Mago National Park at 06:00 in order to reach the Mursi Tribe while the light is still soft. Most famous for the clay lip plates that the women insert in their lower lips, the Mursi are probably one of the last tribes in Africa amongst whom it is still the norm for women to wear these large pottery or wooden discs or plates.",
-            "The lip plate (dhebi a tugoin) has become the chief visible distinguishing characteristic of the fascinating Mursi people. A girl’s lower lip is cut, typically by her mother or another woman of her settlement, when she reaches the age of 15 or 16. The cut is then held open by a wooden plug until the wound heals. It appears to be up to the individual girl to decide how far to stretch the lip, which she does by inserting progressively larger plugs over several months. Some girls even persevere until their lips can take plates of 5 inches (12 cm) or more in diameter!",
+            "The lip plate (dhebi a tugoin) has become the chief visible distinguishing characteristic of the fascinating Mursi people. A girl's lower lip is cut, typically by her mother or another woman of her settlement, when she reaches the age of 15 or 16. The cut is then held open by a wooden plug until the wound heals. It appears to be up to the individual girl to decide how far to stretch the lip, which she does by inserting progressively larger plugs over several months. Some girls even persevere until their lips can take plates of 5 inches (12 cm) or more in diameter!",
             "The Mursi and their neighbors became part of the Ethiopian State in the final years of the 19th century when Emperor Menelik II established control over the southwestern lowlands bordering Kenya and Sudan. This was an area inhabited by several small tribes with fluid identities, highly adaptable to environmental conditions, and capable of easily absorbing outsiders into their communities. The Mursi as we know them today are the product of a large-scale migratory movement of cattle-herding peoples in the general direction of the Ethiopian highlands. Three separate movements may be distinguished in the recent history of the Mursi, each the result of growing environmental pressure associated with the drying out of the Omo basin over the last 150 – 200 years.",
-            "The Mursi attribute overwhelming cultural importance to cattle. Almost every significant social relationship – particularly marriage – is marked and authenticated by exchanging cattle. The “Bridewealth” (ideally consisting of 38 heads of cattle) is handed over by the groom’s family to the bride’s father, who must meet the demands of a wide range of relatives from different clans. This ensures that cattle are continually redistributed around the community, thereby helping to provide for the long-term economic security of individuals as well as their families.",
+            "The Mursi attribute overwhelming cultural importance to cattle. Almost every significant social relationship – particularly marriage – is marked and authenticated by exchanging cattle. The “Bridewealth” (ideally consisting of 38 heads of cattle) is handed over by the groom's family to the bride's father, who must meet the demands of a wide range of relatives from different clans. This ensures that cattle are continually redistributed around the community, thereby helping to provide for the long-term economic security of individuals as well as their families.",
             "Overnight in Jinka",
           ],
           image: images.kafta1,
@@ -5728,9 +5729,9 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 2: FLY TO MEKELLE & DRIVE TO DANAKIL DEPRESSION",
           description: [
-            "After an enjoyable breakfast, transfer you to Addis Ababa airport for an hour’s flight to Mekelle. At Mekele, you’ll meet your vehicle and drive into the Danakil Depression. You’ll begin the drive into the Danakil in good time so that you enjoy your drive in the cooler time of the day.",
+            "After an enjoyable breakfast, transfer you to Addis Ababa airport for an hour's flight to Mekelle. At Mekele, you'll meet your vehicle and drive into the Danakil Depression. You'll begin the drive into the Danakil in good time so that you enjoy your drive in the cooler time of the day.",
             "The roads leading out of Mekele are smooth and asphalted, and driving further out of town there are some wonderful views of the landscape. As you drive further towards the Afar region, the roads are a maze of solidified lava, rock, and sand with an occasional palm-lined oasis.",
-            "En route, you’ll likely see long camel caravans going in and out of the Danakil as they are loaded with salt bars, the main export of this region.",
+            "En route, you'll likely see long camel caravans going in and out of the Danakil as they are loaded with salt bars, the main export of this region.",
             "Overnight Camping in Danakil",
           ],
           image: images.danakil1,
@@ -5828,7 +5829,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
         {
           title: "DAY 12: TURMI - OMORATE-TURMI",
           description: [
-            "Departing Turmi at 5:00 AM, you will be heading to Omorate, home of the Dassanach tribe who are said to be descendants of the Turkana tribe in North Kenya. Like many of these tribal groups, they use chain links and other Western ‘cast-offs’ as decorative objects.",
+            "Departing Turmi at 5:00 AM, you will be heading to Omorate, home of the Dassanach tribe who are said to be descendants of the Turkana tribe in North Kenya. Like many of these tribal groups, they use chain links and other Western ‘cast-offs' as decorative objects.",
             "Crossing the newly constructed Omo River Bridge and driving further for 12 km, we will be able to photograph a remote Dassanach tribal village, just 11 km from the shores of Lake Turkana.",
             "You will photograph the women cooking by fire, grinding corn meal, and the men with their flock. You will try to continue further south to Lake Turkana to see and photograph the small wooden fishing boats and Dassanch people.",
             "Overnight in Turmi",
@@ -5856,6 +5857,1951 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
       ],
     },
   },
+  {
+    id: 5,
+    experience: 5,
+    title: "Ethiopian Highlands Revealed",
+    index: false,
+    image: images.simien1,
+    description: "A Photographic Odyssey Through Mountains And Wildlife",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Highlands Revealed",
+        subtitle: "A Photographic Odyssey Through Mountains And Wildlife",
+        description: [
+          'Embark on an unforgettable photographic journey through the stunning landscapes and rich wildlife of Ethiopia\'s highlands. "Ethiopian Highlands Revealed" invites you to capture the raw beauty, endemic species, and cultural heritage of this breathtaking region.',
+          "From the bustling city of Addis Ababa to the dramatic Simien and Bale Mountains National Parks, every moment is a visual feast waiting to be immortalized through your lens.",
+          "Explore the Rift Valley Lakes, marvel at Gondar's imperial palaces, and witness the unique gelada baboons and Ethiopian wolves in their natural habitats. This extraordinary expedition will take you on a captivating visual odyssey through the heart of Ethiopia.",
+        ],
+        lr: true,
+        img1: images.simien1,
+        img2: images.bale2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Begin your journey in Ethiopia's capital, capturing the vibrant cityscapes, markets, and cultural diversity.",
+          },
+          {
+            title: "Rift Valley Lakes",
+            description:
+              "Photograph the serene beauty of Lake Langano and Lake Ziway, home to a rich variety of waterbirds.",
+          },
+          {
+            title: "Bale Mountains National Park",
+            description:
+              "Explore the Afro-alpine moorlands, photograph the endangered Ethiopian wolves, and encounter the endemic Giant Mole Rat.",
+          },
+          {
+            title: "Gondar",
+            description:
+              "Capture the imperial palaces, ancient castles, and the beautiful Debre Berhan Selassie church.",
+          },
+          {
+            title: "Simien Mountains National Park",
+            description:
+              "Witness the dramatic landscapes, photograph the endemic Gelada baboons, and search for the endangered Walia Ibex.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa, explore the city and photograph its landmarks.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Drive to Lake Langano and Lake Ziway, capturing the beauty of the Rift Valley Lakes.",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Journey to Goba, immersing yourself in the scenic landscapes along the way.",
+          },
+          {
+            title: "Day 4-5",
+            description:
+              "Explore the Bale Mountains National Park, photographing Ethiopian wolves and endemic wildlife.",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Drive to Hawassa, photographing the Wattled and Black Crowned Cranes.",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Fly to Gondar, visit the imperial palaces and Debre Berhan Selassie church.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Drive to Simien Mountains National Park, capturing the dramatic landscapes.",
+          },
+          {
+            title: "Day 9-10",
+            description:
+              "Explore the Simien Mountains, photographing Gelada baboons and endemic species.",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Return to Gondar, capturing the scenic beauty of the region.",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Fly back to Addis Ababa, concluding the journey with a collection of unforgettable images.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS",
+          description: [
+            "The tour starts this morning in Addis Ababa. You can choose to arrive by air this morning with Ethiopian Airlines or by another carrier, or you can elect to arrive the previous day and get some rest by having an extra hotel night. If you arrive early enough you can explore the city if you wish. There are plenty of interesting things to see, including Emperor Menelik's tomb, the cathedral, the national museum and the huge and fascinating Mercato open-air market.",
+            "From ‘Addis' we will head southeastwards, dropping down from the highlands to the hotter, more arid Great Rift Valley (a vast and dramatic geological feature that runs all the way from southeastern Turkey to southern Africa!).",
+            "We may opt to take a break at Lake Chelekleka on the outskirts of Bishoftu. It is rich in waterbirds, including Great White Pelicans, Common Cranes and many others, but if not we will press on to Lake Koka, often a great site for photographing impressive (and noisy) African Fish Eagles and sometimes the beautiful Black Crowned Crane. There are often so many eagles here that fights over fish break out.",
+            "This afternoon we will arrive at Lake Ziway, where we will overnight at a comfortable hotel right at the lakeside. Lake Ziway is a great place for photography, and of course of a kind we will not enjoy while in the Bale or Simien. We can walk out directly onto either of two promontories that start at our hotel and enjoy the spectacle of numerous waterbirds, most of which are highly approachable. (An important aspect of Ethiopia, and one which makes it so good for wildlife photography, is that birds and indeed most creatures are not harmed by local people.)",
+            "Large flocks of Great White Pelicans are a feature here and we are likely to get surprisingly close to these huge and impressive birds. Among the many other stars are the jewel-like Malachite Kingfisher, the long-toed African Jacana, the huge Goliath Heron, the strange Hamerkop and the superb Saddle-billed Stork. Additional species we are likely to shoot include White-faced and Fulvous Whistling Ducks, Spur-winged and Egyptian Geese, Hottentot Teal, Pink-backed Pelican, Reed Cormorant, African Darter, African Sacred and Glossy Ibises, Yellow-billed Stork, Black-winged Stilt, Spur-winged Lapwing, Gull-billed and White-winged Terns, Red-eyed Dove and Pied Kingfisher (try and take them hovering). Rather macabre Marabou Storks nest in the trees around the hotel.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: DRIVE TO HAWASSA",
+          description: [
+            "We will set off early and drive the short distance to the northern end of Lake Langano. The grounds of a rather run-down hotel usually hold impressive Greyish Eagle-Owls and many cryptically-coloured Slender-tailed Nightjars, and while looking for these nightbirds we are likely to find and photograph the endemic Black-winged Lovebird and Red-throated Wryneck, as well as Namaqua Dove, White-bellied Go-away-bird, the weird-looking Speckled Mousebird, Little Bee-eater, Eurasian Hoopoe, Black-billed Wood Hoopoe, and colourful Greater Blue-eared, Rüppell's and Superb Starlings.",
+            "From Langano we continue south to the town of Shashamane for lunch and then, during the late afternoon, we will explore the rarely-visited Senkelle Wildlife Sanctuary, the last stronghold of the endemic Swayne's Hartebeest. These impressive chestnut-coloured antelopes are still common here and the grasslands also feature White-bellied Bustard and the gorgeous Northern Carmine Bee-eater. Eventually, we will arrive at Hawassa, a town situated beside the lake of the same name, where we will overnight.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 3: DRIVE TO BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "Our hotel is situated right at the lakeshore and the grounds and surroundings are a great place for early morning photography. Beautiful, black and white Guereza Colobus monkeys with long bushy tails frequent the area and, since the hotel staff gives them a few tidbits, are very confiding, allowing for great shots. Mothers with tiny infants are especially appreciated. Grivet Monkeys also occur here and the more photogenic birds include the delightful little African Pygmy Goose, Squacco Heron, the perky little Black Crake and Woodland Kingfisher. African Spotted Creeper, a very uncommon and patchily-distributed bird, also occurs here, but we cannot honestly claim it will be at the top of most folk's targets!",
+            "Not far out of town is the fish market, where enterprising fisher folk have found out they can get a small tip from visiting photographers for throwing fish to the Marabou Storks. We will spend a little time here to enjoy the spectacle before our thoughts turn to high mountains almost empty of people.",
+            "After the day starts to heat up we will head up into the Bale Mountains for a four nights stay at Goba. This afternoon we will enjoy our first outing in these beautiful mountains.",
+          ],
+          image: images.bale1,
+        },
+        {
+          title: "DAY 4-5: EXPLORE BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "We will be spending much of our time exploring the wild and spectacular Afro-alpine moorlands of the high Sanetti Plateau, one of the best places in the Bale Mountains for finding Ethiopian Wolf. The handsome Ethiopian (or Simien) Wolf has had a difficult time in recent decades, suffering from distemper epidemics introduced by domestic dogs (incursions of which have become more common as the region's human population has increased). This is now the world's rarest canid, although, happily, a recent campaign to vaccinate local dogs, organized by the Ethiopian Wolf Conservation Programme has brought about a welcome rebound in the population.",
+            "The wolves tend to go around singly or in small groups and during the course of our visit we should have repeated encounters with them, watching them patrol their territories, greet each other, relax or hunt rodents and other prey. While we should be able to see them catch rodents, you can consider yourself lucky if you witness a close-up ‘kill' and likewise, although most packs will have pups this season, getting great photo opportunities with cubs must be considered a real bonus.",
+            "The number of rodents here is quite extraordinary, and of course, they provide a bonanza for predators. It is estimated that their density is such that the combined weight of rodents per square kilometre (or about 0.4 square mile) is no less than 4 tons! The great majority on the moorlands (and the main prey species of the Ethiopian Wolf) consist of three Ethiopian endemics: Blick's Grass Rat, Black-clawed Brush-furred Rat and the extraordinary, endangered Giant Mole Rat. The latter, a huge blind rodent with very goofy teeth, is constantly enlarging its burrows to reach new food supplies and we will have some fun trying to sneak up on them to take some photos. They have good hearing and also detect vibrations, so in spite of their blindness, a close approach is not easy!",
+            "While the handsome Mountain Nyala is regularly seen on the moorlands, the landscape is open and approaching them closely on foot is often unsuccessful. For far better opportunities we will head for the Bale Mountains National Park headquarters at Dinsho. Here, some of the Nyalas have become unafraid of humans and will allow a close approach, as will Menelik's Bushbucks and especially the ultra-tame Common Warthogs, which one can get to within a couple of meters!",
+            "Dinsho is also a good place for bird photography, often including African Wood Owl, the huge Verreaux's Eagle-Owl and the uncommon endemic Abyssinian Owl. (Cape Eagle-Owls also occur here, but are usually too distant for good images.)",
+          ],
+          image: images.bale2,
+        },
+        {
+          title: "DAY 6-DRIVE TO AWASSA",
+          description: [
+            "After a final photography session in the Bale Mountains, we will descend to the Awassa area for an overnight stay.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 7-FLY BACK TO ADDIS ABABA & FLY TO GONDER",
+          description: [
+            "We will spend the early morning in the Hawassa area, concentrating on the beautiful and spectacular Wattled and Black Crowned Cranes. We could well see and photograph the latter species dancing. There will be plenty of other species to photograph, including a good selection of waterbirds.",
+            "Afterwards, we will head northwards to Addis Ababa airport, from where we take an early evening flight to Gondar, a city situated not far from Lake Tana in northern Ethiopia. We will stay overnight at the comfortable Goha Hotel, perched on a high hill with a spectacular view over the city.",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "DAY 8 - DRIVE TO SIMIEN MOUNTAINS NATIONAL PARK",
+          description: [
+            "Before we leave Gondar, we will visit the Imperial Palaces and the Debre Berhan Selassie church.",
+            "Officially founded by Emperor Fasiledes in 1636 as the third permanent capital city of Ethiopia, Gondar is notable for its most impressive Imperial Palaces/Castles and churches. The dramatic, castle-style palaces built over a period of more than 150 years reveal the influence of Axumite, Indian and even Portuguese and Moorish architecture in Ethiopia.",
+            "The beautiful church of Debre Berhan Selassie, famous for the colourful mural paintings on the ceiling, which according to legend was saved by a swarm of bees when the Mahdist soldiers from Sudan sacked and burned down the city in the 1880s, reflects the religious art of the Gondarine period.",
+            "Afterwards, we will head for the World Heritage Site of Simien Mountains National Park. The drive between Gondar and Debark is very scenic, particularly at Kosoye some 32km (20 miles) north of Gondar, where Queen Elizabeth II of England camped in 1965 while driving between Gondar and Axum.",
+            "At Debark we will collect a park scout and permits at the park headquarters and then continue our drive to Simien Lodge, where we stay for three nights. This afternoon, after lunch at our dramatically-situated lodge (which claims to be the highest lodge in Africa, and they are surely right!) we will start our photographic exploration of the extraordinary Simien Mountains.",
+          ],
+          image: images.gonder2,
+        },
+        {
+          title: "DAY 9-10: EXPLORE SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "Created by massive erosion, the Simien Mountains is one of the most spectacular landscapes in the world: jagged mountain peaks with many summits over 4,000m (roughly 13,000ft), deep valleys and 1,500m sheer precipices. The park is home to the highest peak in the country, Ras Dashen, which is 4543 meters (14,906ft) above sea level.",
+            "The Simien Mountains is also the refuge of the endangered endemic Ethiopian (or Simien) Wolf, the extraordinary Gelada Baboon and the endangered Walia Ibex, a wild goat unique to Ethiopia. It is also home to endemic birds such as the Thick-billed Raven and Wattled Ibis.",
+            "In addition to its wonderful scenery and wildlife, the park is also famous for its Afromontane forest, Hypericum woodland, Afromontane grassland and Afro-alpine moorland dominated by Giant Lobelias, Red Hot Pokers, tree heaths, and giant St. John's Wort and African Roses. As you can see, no Ethiopia wildlife photography tour can afford to miss out on the extraordinary Simien!",
+            "We will explore the scenic Simien escarpment in order to find the endemic Gelada Baboons. Nicknamed ‘bleeding heart baboon' and ‘lion-monkey' for reasons that will soon be obvious to all, Gelada Baboons are peculiar to Ethiopia and Eritrea, still being numerous in the Simien Mountains. Geladas are mainly vegetarian, living on herbs, grasses and roots, but they also eat insects including locusts. Geladas live along the rim and steep slopes of the escarpment, which is their refuge when danger threatens.",
+            "On one or more days, after an early breakfast, we will leave the lodge for Chenek guard post, taking a picnic lunch. The scenery around Chenek is even more awesome than further west near our lodge, with huge peaks, crags and cliffs in the foreground and distant granite domes below the Simien escarpment. Here we can look for the endemic Walia Ibex. As well as photographic opportunities with the ibex, we will also be hoping for an encounter with the handsome Ethiopian (or Simien) Wolf, a declining species that still occurs regularly around Chenek.",
+            "We also have a high chance of spotting wildlife such as Ethiopian Klipspringer, Menelik's Bushbuck, Bush Duiker and raptors including the huge Steppe Eagle, Tawny Eagle and the magnificent Bearded Vulture or Lammergeier.",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 11: DRIVE TO GONDER",
+          description: [
+            "After spending much of the day in the Simien, we will return to Gondar for an overnight stay.",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title: "DAY 12: FLY TO ADDIS ABABA",
+          description: [
+            "Our Ethiopia wildlife photography tour concludes with a morning flight to Addis Ababa.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 6,
+    experience: 5,
+    title: "Ethiopia's Wildlife And Cultural Encounters",
+    index: false,
+    image: images.awash1,
+    description: "Awash & Hyena Men Of Harar",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopia's Wildlife And Cultural Encounters",
+        subtitle: "Awash & Hyena Men Of Harar",
+        description: [
+          "Start a voyage on a captivating journey through Ethiopia's diverse landscapes, where wildlife encounters and cultural experiences await photographers seeking extraordinary moments. This 5-day extension takes you to the spectacular Awash National Park, home to diverse mammals and a plethora of bird species. Capture the magnificence of Nile Crocodiles and photograph avian wonders like Lappet-faced Vultures, Tawny Eagles, and Abyssinian Rollers.",
+          "Immerse yourself in the ancient city of Harar, known for its rich history and unique traditions. Witness the awe-inspiring Hyaena Men, as they interact with spotted hyenas in a mesmerizing display of trust and connection. Explore Harar's ancient medina, capturing the vibrant streets, bustling markets, and ornate mosques. Photograph the mesmerizing Yellow-billed Kites as they swoop down to feed.",
+          "This extension offers a blend of wildlife photography, cultural immersion, and unforgettable encounters, adding an extra dimension to your Ethiopian adventure.",
+        ],
+        lr: true,
+        img1: images.awash1,
+        img2: images.awash2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Awash National Park",
+            description:
+              "Capture diverse wildlife, including Olive Baboons, Salt's Dikdiks, and Beisa Oryx, while photographing a wide variety of bird species in the park's stunning landscapes.",
+          },
+          {
+            title: "Harar",
+            description:
+              "Immerse yourself in the ancient city's captivating history, explore the winding alleyways of the medina, and witness the vibrant culture and architecture that make Harar a photographer's paradise.",
+          },
+          {
+            title: "Hyaena Men of Harar",
+            description:
+              "Witness a truly unique spectacle as the Hyaena Men interact with spotted hyenas up close, offering unparalleled photography opportunities and an unforgettable wildlife encounter.",
+          },
+          {
+            title: "Cultural Immersion",
+            description:
+              "Engage with the local Afar people in the Bilen area, gaining insight into their traditional lifestyle and capturing authentic portraits and cultural moments.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Drive to Awash National Park",
+          },
+          {
+            title: "Day 2",
+            description: "Explore Awash National Park",
+          },
+          {
+            title: "Day 3",
+            description: "Explore the Bilen area and journey to Harar",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Photography session with the Hyena Men and exploration of Harar",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Explore Harar's medina, capture the Yellow-billed Kite feeding, and return to Addis Ababa.",
+          },
+          {
+            title: "Day 6",
+            description: "Fly to Addis Ababa",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: DRIVE TO AWASH NATIONAL PARK",
+          description: [
+            "We will leave Addis Ababa behind and head eastwards, leaving the fertile highlands behind and traveling through an increasingly arid country until we reach Awash National Park, where we will stay overnight at a comfortable lodge at Awash Falls.",
+            "The spectacular falls are right beside the lodge and are a great place to practice the pleasing effect of slow shutter speeds as the light dims. Large Nile Crocodiles are a feature here and can be photographed on the river banks and partly-submerged rocks, displaying those awesome arrays of teeth. This afternoon will have our first opportunity to explore further afield.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: EXPLORE AWASH NATIONAL PARK",
+          description: [
+            "We will spend the morning at Awash National Park. The terrain is mostly a mosaic of grassland and acacia scrub, but the Awash River flows through the area and supports some thin strips of riverine forest in places. A distinct advantage of Awash (and indeed all national parks we visit in Ethiopia) compared to many other African parks is that one is allowed to get out of the vehicles and photograph on foot owing to the virtual absence of dangerous mammals.",
+            "Awash holds some interesting mammals, including Olive Baboon, the delightful little Salt's Dikdik, and the handsome Beisa Oryx. With a bit of luck, we will also encounter Northern Lesser Kudu.",
+            "Birdlife is rich and varied (over 400- species have been recorded from Awash) and among the most appealing photographic targets are the huge Lappet-faced Vulture, Tawny Eagle, Pallid and Montagu's Harriers, Pygmy and Lanner Falcons, Kori, Buff-crested and White-bellied Bustards, Black-headed Lapwing, Chestnut-bellied Sandgrouse, Blue-naped Mousebird, the superb Abyssinian Roller, the wonderful Northern Carmine Bee-eater (which sometimes uses the backs of Kori Bustards or even Somali Ostriches as a convenient lookout!), Northern Red-billed and Eastern Yellow-billed Hornbills, and the lovely Rosy-patched Bushshrike (pairs often duet together).",
+            "This afternoon we will penetrate further into the Awash region, to the Bilen area for a two-night stay. This interesting area is inhabited by Afar people who were formerly nomadic herders but now live a more settled existence, although they continue to use the long, rounded thatched dwellings that they used while moving from one area of pasture to another.",
+            "Late this afternoon we will start our exploration of the Bilen area.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAY 3: EXPLORE",
+          description: [
+            "The dry plains of this part of the Awash River region hold the near-endemic Sacred (or Hamadryas) Baboon, as well as Soemmering's Gazelle, Beisa Oryx, and the long-necked Northern Gerenuk. Interestingly, the Golden Jackals of Africa have recently been split off as a distinct species, African Golden Wolf, on the basis that their genetics place them closer to wolves and coyotes. There is a good chance of photographing this newly ‘promoted' wolf in this area.",
+            "The open grasslands and acacia bushlands here are a stronghold of the stately, but declining Arabian Bustard, while other great birds to photograph include such restricted-range specialties as the huge Somali Ostrich, Hartlaub's Bustard, and Somali Fiscal. If we are in luck we will come across an Arabian Bustard with one or more Northern Carmine Bee-eaters riding on its back! This truly extraordinary photographic highlight is dependent on how many bee-eaters are around. They use the bustards as convenient ‘lookout posts' from which to hawk large flying insects. Somewhat surprisingly, the bustards seem to tolerate these colorful ‘hitch-hikers'.",
+          ],
+          image: images.awash2,
+        },
+        {
+          title: "DAY 4: HARAR",
+          description: [
+            "We will spend the early morning in the Bilen area before setting out for the Chercher Mountains and the city of Harar, where we will spend two nights. We will arrive in the afternoon in time to prepare for our first session this evening with the ‘Hyena Men'.",
+            "Harar is an ancient city, known simply as Gey (‘the city') to its inhabitants. The date of its foundation is unknown, but it was already important by the 13th century and later became the capital of the Adal Sultanate and its successor state, the Emirate of Harar, in the 16th century.",
+            "Quite how the Hararis started feeding Spotted Hyenas is lost in legend, but it does seem they were tolerated and indeed encouraged in the city as nocturnal scavengers as far back as the 16th century, as low doorways were built at that time in the city walls to accommodate them! The various legends about feeding include stories that they were publicly fed porridge so that they could act as impromptu soothsayers through their style of eating it, or that they were fed to discourage them from eating livestock or even people during droughts, or even that Muslim saints communicated with their clan leaders and persuaded them not to do harm in return for handouts.",
+            "In any event, it seems the feeding had long since stopped before it was revived in the 1950s or 1960s, perhaps through nothing more than chance encounters with hyenas and the inclination to see if they would accept food. Since then it has become a nightly event at Harar, with two senior ‘Hyena Men', Mulugeta Wolde-Mariam and Yusuf Mume Saleh, and their assistants, operating at two different sites outside the walls.",
+            "Spotted Hyenas have a fearsome reputation, only partly because of their manner and appearance, but also because of their ruthless hunting style in the wild, so seeing them come close to humans and take meat from small sticks held in what seems a tiny hand, next to their huge muzzles, or even a human mouth, seems pretty awesome to the rest of us! Not only do the hyenas take food but they ‘lovingly' rest their huge paws on the Hyena Man's back or head and generally behave like large friendly dogs!",
+            "As well as being able to take photographs, at close range, of the Hyena Men and their nightly ‘guests' from the surrounding forests (where the hyenas live a perfectly normal life for 23 hours a day), we will also be able to get great shots of them lurking in the background, resting before they feed or prowling in sinister fashion. If you are so inclined you can get down low for better angles (so far they have never eaten anyone!) and if you are really brave you will get the chance to feed them yourself.",
+            "Needless to say, the whole experience is utterly unforgettable and a wildlife photography encounter that is completely unique.",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "DAY 5: HARAR",
+          description: [
+            "This morning there will be time to explore the ancient medina of Harar and its surrounding fortifications, known as the Jugal (or Jugol). The walled old city dates back to around the 16th century and is a fascinating warren of small alleyways, markets, mosques, and ancient buildings. Harar is widely considered to be the 4th holiest city in Islam, after Mecca, Medina, and Jerusalem, but today it is famed for its tolerance of other faiths, and Harar beer, brewed naturally enough by Christians, is widely available. It is said that there are 99 mosques in Harar, chiming with the 99 known names of Allah, but in reality, there are ‘only' 86. Harar is a wonderful place for photography, especially if you get out early while the light is at its best.",
+            "We will also enjoy a photographic session with the ‘Kite Man' of Harar. Feeding the Yellow-billed Kites is a recent development, not some ancient tradition, but it is fun to watch and photograph the kites swooping down and often squabbling in mid-air over small pieces of meat from the ‘Kite Man's' hands.",
+            "During the late afternoon, we will try and find some of the Spotted Hyenas lurking in the dry woodland near the town prior to gathering for the evening feast. It will be good to have some daytime shots to balance the nocturnal spectacle. After dark, we will, of course, return for a second session outside the town walls with the ‘Hyena Men', something none of us will ever forget!",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "DAY 6: FLY TO ADDIS ABABA",
+          description: [
+            "Today we will return to Addis Ababa, where the extension ends in the evening.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 7,
+    experience: 5,
+    title: "Enchanting Encounters",
+    index: false,
+    image: images.hamer1,
+    description:
+      "Photographic Journey Through The Tribal Landscapes Of Ethiopia",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Enchanting Encounters",
+        subtitle:
+          "Photographic Journey Through The Tribal Landscapes Of Ethiopia",
+        description: [
+          "Dive into an experience on an extraordinary photographic adventure that will immerse you in the captivating beauty and cultural richness of Ethiopia. This carefully curated tour takes you on a mesmerizing journey through the Omo Valley, where remote tribes preserve their ancient traditions amidst breathtaking landscapes.",
+          "From the bustling streets of Addis Ababa to the remote villages of the Suri, Hamar, Karo, and Mursi tribes, each day is filled with opportunities to capture unforgettable moments.",
+          "Led by experienced guides and photographers, this tour offers a unique blend of discovery, cultural exchange, and artistic exploration. Get ready to unleash your creativity as you witness the vibrancy of Ethiopia's tribal heritage through your lens.",
+        ],
+        lr: true,
+        img1: images.awash1,
+        img2: images.awash2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Suri Tribe",
+            description:
+              "Explore the lesser-known Suri tribe, capturing their unique way of life in stunning portraits.",
+          },
+          {
+            title: "Karo Tribe",
+            description:
+              "Witness the elaborate body and facial paintings of the Karo tribe, offering a glimpse into their ancient customs.",
+          },
+          {
+            title: "Hamar Tribe",
+            description:
+              "Immerse yourself in the vibrant traditions of the Hamar tribe, known for their bull-jumping ceremonies.",
+          },
+          {
+            title: "Mursi Tribe",
+            description:
+              "Encounter the renowned Mursi tribe, famous for the clay lip plates worn by their women.",
+          },
+          {
+            title: "Mago National Park",
+            description:
+              "Marvel at the diverse landscapes of Ethiopia, from lush forests and cultivated lands to the untamed beauty of Mago National Park.",
+          },
+          {
+            title: "Expert Guides",
+            description:
+              "Benefit from the expertise of experienced guides and photographers who will provide insights, tips, and guidance throughout the journey.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrival in Addis Ababa",
+          },
+          {
+            title: "Day 2",
+            description: "Fly from Addis Ababa to Jimma",
+          },
+          {
+            title: "Day 3",
+            description: "Drive from Jimma to Mizan Teferi",
+          },
+          {
+            title: "Days 4-6",
+            description:
+              "Explore the Kibish area, focusing on the fascinating Suri tribe",
+          },
+          {
+            title: "Day 7",
+            description: "Drive from Kibish to Jimma",
+          },
+          {
+            title: "Day 8",
+            description: "Drive from Jimma to Arba Minch",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Drive from Arba Minch to Turmi, where the Hamar tribe resides",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Capture the beauty of the Karo tribe and revisit the Hamar tribe",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Continue photographing the Hamar tribe before heading to Jinka",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Early morning visit to the Mursi tribe in Mago National Park, followed by departure from Jinka to Addis Ababa",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "Day 1: Arrival in Addis Ababa",
+          description: [
+            "Today is set as an arrival day for our Ethiopian photo safari, where we will overnight in Addis Ababa.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "Day 2: Fly From Addis Ababa to Jimma",
+          description: [
+            "Our journey out of Addis Ababa commences as we fly to Jimma, the largest city in southwestern Ethiopia and where we will overnight.",
+          ],
+          image: images.kaffa1,
+        },
+        {
+          title: "Day 3: Drive Jimma to Mizan Teferi",
+          description: [
+            "Today on our Omo Valley Photography Tour, we will be continuing our southwest routing as we make our way to Mizam Teferi. The 240km drive (approximately 7 hour drive time) is made up of a mosaic of forest and cultivated land dominated by coffee, tea, and various spices, and we will have ample opportunity to stop and take advantage of any photographic opportunities we may encounter.",
+          ],
+          image: images.konso2,
+        },
+        {
+          title: "Days 4 to 6: Kibish Area (Suri Tribe)",
+          description: [
+            "After passing through the town of Tulgit, we will finally arrive in Kibish, where we will be camping for the next three nights. Much of our focus for the coming days will be photographing the fabulous Suri people, who due to their remoteness are one of the least visited of the Omo Valley's tribes.",
+          ],
+          image: images.suri1,
+        },
+        {
+          title: "Day 7: Drive Kibish To Jimma",
+          description: [
+            "After a scrumptious breakfast prepared by our camp crew, we depart back to Jimma where we will overnight. Our drive today will take the best part of the day.",
+          ],
+          image: images.kaffa2,
+        },
+        {
+          title: "Day 8: Drive Jimma to Arba Minch",
+          description: [
+            "Today depart Jimma for Arba Minch, the gateway to the eastern Omo Valley (the drive today will also take the best part of the day).",
+          ],
+          image: images.chebera1,
+        },
+        {
+          title: "Day 9: Drive Arba Minch to Turmi (Hamar Tribe)",
+          description: [
+            "This morning we have an early start as we depart Arba Minch shortly after breakfast for the town of Turmi. The Hamar is one of the most well-known tribes in Southern Ethiopia. They inhabit the territory east of the Omo River and have villages in both Turmi and Dimeka.",
+          ],
+          image: images.hamer1,
+        },
+        {
+          title: "Day 10: Turmi Area (Karo and Hamar Tribe)",
+          description: [
+            "Our tribe of interest today is the Karo, another tribe known for its elaborate body and facial paintings. In the afternoon we will head back to the nearby Hamar Village to continue photographing this fascinating tribe in all her glory!",
+          ],
+          image: images.hamer2,
+        },
+        {
+          title: "Day 11: Drive Turmi to Jinka",
+          description: [
+            "Further time will be spent visiting the Hamar today, where we will get more opportunities to capture these interesting people, before later continuing onward to Jinka, where we will be staying for the night.",
+          ],
+          image: images.mursi1,
+        },
+        {
+          title: "Day 12: Fly Jinka to Addis and Depart (Mursi Tribe)",
+          description: [
+            "We have an early morning start as we enter Mago National Park at 06:00 in order to reach the Mursi Tribe while the light is still soft. Most famous for the clay lip plates that the women insert in their lower lips, the Mursi are probably one of the last tribes in Africa amongst whom it is still the norm for women to wear these large pottery or wooden discs or plates.",
+            "After a morning's photographic session with the Mursi, our incredible time in the lower Omo Valley comes to an end and we drive to the airport in Jinka in time for our flight back to Addis. Sadly, our time in Ethiopia has come to an end as you make your way home after an incredible adventure!",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 1,
+    experience: 6,
+    title: "Ethiopia's Avian Wonders",
+    index: false,
+    image: images.bird1,
+    description: "A Journey through Endemic Treasures",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopia's Avian Wonders",
+        subtitle: "A Journey through Endemic Treasures",
+        description: [
+          "Embark on a mesmerizing expedition through the ancient and diverse land of Ethiopia, where nature's artistic palette comes to life in a symphony of vibrant colors and extraordinary wildlife encounters. This small group tour immerses you in the awe-inspiring world of Ethiopia's endemic birds, showcasing its bountiful avian treasures amidst a backdrop of breathtaking landscapes, rich cultures, and captivating history.",
+          "From the tame and confiding endemics to the fascinating Ethiopian Wolf and the remarkable Gelada troops, every moment of this 17-day adventure is filled with wonder. Delve into the kaleidoscope of cultures, traverse diverse habitats, and witness the astonishing biodiversity that makes Ethiopia an essential destination for birders and nature enthusiasts alike. Join us on this bird-filled odyssey, where Ethiopia's hidden gems await your discovery.",
+        ],
+        lr: true,
+        img1: images.bird1,
+        img2: images.bird2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Trip",
+        description: "",
+        destinations: [
+          {
+            title: "Discover Ethiopia's Endemic Birds",
+            description:
+              "Discover Ethiopia's incredible array of endemic bird species, including the elusive Stresemann's Bushcrow and the glistening White-tailed Swallow.",
+          },
+          {
+            title: "Flamingos at Lake Abijatta",
+            description:
+              "Witness the vibrant spectacle of Greater and Lesser Flamingos at Lake Abijatta, alongside an abundance of other waterbirds.",
+          },
+          {
+            title: "Bale Mountain National Park",
+            description:
+              "Explore the breathtaking landscapes of Bale Mountain National Park, home to the endangered Ethiopian Wolf and an array of highland biome species.",
+          },
+          {
+            title: "Cultural Encounters",
+            description:
+              "Experience the cultural richness of Ethiopia as you encounter local tribes, such as the Afar and Guji, known for their traditional lifestyles and unique adornments.",
+          },
+          {
+            title: "Gelada Troops in the Harenna Forest",
+            description:
+              "Marvel at the remarkable Gelada troops, known as 'Bleeding Heart Baboons,' and observe their social behaviors in the Harenna Forest.",
+          },
+          {
+            title: "Rift Valley Lakes",
+            description:
+              "Traverse the majestic Rift Valley, visiting iconic lakes like Ziway, Langano, and Hawassa, each offering a diverse range of bird species.",
+          },
+          {
+            title: "Negele Borena",
+            description:
+              "Venture into the remote Negele Borena region, where you'll have the opportunity to spot the endangered Ruspoli's Turaco.",
+          },
+          {
+            title: "Awash National Park",
+            description:
+              "Enjoy birding excursions in Awash National Park, renowned for its diverse habitats and impressive bird list, including bustards, raptors, and nightjars.",
+          },
+          {
+            title: "Photography",
+            description:
+              "Capture the unique beauty of Ethiopia's avian wonders through photography, as you encounter rare and striking species in their natural habitats.",
+          },
+          {
+            title: "Addis Ababa",
+            description:
+              "Immerse yourself in the rich history and culture of Ethiopia's vibrant capital city, Addis Ababa, while reflecting on the incredible memories from your avian adventure.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa",
+          },
+          {
+            title: "Day 2",
+            description: "Drive to Lake Langano",
+          },
+          {
+            title: "Day 3",
+            description: "Explore Lake Langano area",
+          },
+          {
+            title: "Day 4",
+            description: "Drive to Harenna Forest",
+          },
+          {
+            title: "Day 5",
+            description: "Explore Bale Mountain National Park",
+          },
+          {
+            title: "Day 6",
+            description: "Drive to Negele Borena",
+          },
+          {
+            title: "Day 7",
+            description: "Explore Negele Borena area",
+          },
+          {
+            title: "Day 8",
+            description: "Drive to Yabello",
+          },
+          {
+            title: "Day 9",
+            description: "Explore Yabello area",
+          },
+          {
+            title: "Day 10",
+            description: "Drive to Hawassa",
+          },
+          {
+            title: "Day 11",
+            description: "Drive to Ziway via Lakes Shalla & Abijatta",
+          },
+          {
+            title: "Day 12",
+            description: "Drive to Adama",
+          },
+          {
+            title: "Day 13",
+            description: "Drive to Awash National Park",
+          },
+          {
+            title: "Day 14",
+            description: "Explore Awash National Park",
+          },
+          {
+            title: "Day 15",
+            description: "Drive to Aledeghi Wildlife Reserve",
+          },
+          {
+            title: "Day 16",
+            description: "Drive to Debre Birhan via Melka Gebdu & Gemasa Gedel",
+          },
+          {
+            title: "Day 17",
+            description:
+              "Drive to Addis Ababa via the Jemma Valley & departure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVAL IN ADDIS ABABA",
+          description: [
+            "Today is essentially an arrival day. For those who arrive during the day, it is possible to enjoy some birding within city parks. Noteworthy species that may be seen this include White-backed Black Tit, Abyssinian Salty Flycatcher, Brown-rumped Seedeater, Tacazze Sunbird, White-collared Pigeon, Wattled Ibis and a host of raptors overhead, numbering both Egyptian and Hooded Vultures. ",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA TO LAKE LANGANO",
+          description: [
+            "Your Ethiopian adventure commences with an early departure from Addis Ababa this morning, as we head south into the Great Rift Valley. Your first birding stop is at Lake Chelekcheka, an excellent site for migrant ducks and waders. Regular species encountered here include Northern Pintail, Northern Shoveler, Garganey, Eurasian Teal, Tufted Duck, Black-tailed Godwit and Temminck's Stint. Sorting through the rafts of ducks and other migrants can be very challenging due to the distraction caused by the sheer number of species moving through the scrubby vegetation near the lake edge! Common cranes often roost in staggering numbers on the far side of the water, and we may see them flying off to forage in huge, noisy flocks. ",
+            "The well-wooded rim of the deep Lake Hora will be our second stop. The woodlands around the lake also teem with birds and again it may prove difficult to keep up with the seemingly endless flow of lifers! Blue-breasted Bee-eater, Black-billed Barbet, Common Redstart, Eurasian Blackcap, Red-throated Wryneck, Dark-capped Yellow Warbler, Rüppell's Robin-Chat, Western Black-headed Batis, Beautiful Sunbird, Rüppell's Weaver and a diverse variety of waterbirds, especially deep water diving ducks, can be seen here. Thereafter, the steep-sided Lake Bishoftu offers superb birding. Maccoa and Ferruginous Ducks, Southern Pochard, Singing Cisticola, gorgeous Tacazze Sunbird, Mocking Cliff Chat, Abyssinian Wheatear, Little Rock Thrush and flocks of Black-winged Lovebird are just some of our targets here! ",
+            "Further, en route to Lake Langano, we will then visit Koka Dam and Lake Ziway, both classified as Important Bird Areas, supporting vast numbers of both resident and migrant water birds.",
+            "Species we will search for include the spectacular Black Crowned Crane, Pink-backed Pelican, African Darter, Intermediate Egret, Goliath Heron, Hamerkop, Yellow-billed and Saddle-billed Storks, Spur-winged and Egyptian Geese, Knob-billed Duck, elegant African Pygmy Goose, African Fish Eagle, Western Marsh Harrier, African and Lesser Jacanas, Common Snipe, Senegal Thick-knee, Sedge Warbler, Spur-winged Lapwing, Gull-billed Tern, and Pied and Malachite Kingfishers.",
+            "Strolling along the lakeshore at Lake Ziway will allow us excellent views of the confiding Great White Pelican and the huge Marabou Stork while dazzling Northern Carmine Bee-eater, migratory White and Western Yellow Wagtails (including some of the striking feldeggi race) and the less colorful Ethiopian Cisticola can be seen around the lake edge. This promises to be an action-packed day, after which we will check into a comfortable lodge overlooking Lake Langano, with views of the 4,000m (13,200ft) Arsi Mountains in the background.",
+            "Overnight in Langano",
+          ],
+          image: images.bird2,
+        },
+        {
+          title: "DAY 3: LAKE LANGANO AREA",
+          description: [
+            "Birding in the Langano area is especially good, and we will visit some beautiful fig forests and associated woodlands that teem with birds. Here we will look for Hemprich's and Silvery-cheeked Hornbills, Lemon Dove, Narina Trogon, Lesser and Scaly-throated Honey guides, Green Malkoha, African Hill Babbler, Double-toothed Barbet, Brown-throated Wattle-eye, Thick-billed Weaver, Crested and Scaly Francolins, endemic Yellow-fronted Parrot, Abyssinian Ground Thrush, Green Twin spot, Red-shouldered Cuckoo shrike and Red-headed Weaver. Pods of lazing Common Hippopotamuses are sometimes seen in deeper water and mammoth Goliath Herons stalk the shallows. We will also visit nearby Lake Abijata, home to thousands of Lesser and Greater Flamingos.",
+            "Overnight in Langano",
+          ],
+          image: images.bird3,
+        },
+        {
+          title: "DAY 4: LAKE LANGANO TO HARENNA FOREST",
+          description: [
+            "Leaving the Rift Valley behind, you embark on the lengthy drive to the Harenna Forest in the Bale Mountain National Park. Roadside stops en route could produce several endemics and other species, including White-collared Pigeon, Moorland Chat, Ground scraper Thrush (of the distinctive, endemic race simensis), Blanford's Lark, Blue-winged Goose, and the highly sought-after Spot-breasted Lapwing. At the park headquarters in Dinsho, we may find the colorful Chestnut-naped Francolin, the Abyssinian Owl, the secretive Abyssinian Ground Thrush, the vocal Abyssinian Catbird, and the endemic White-backed Black Tit. Mammals that we may encounter include Mountain Nyala, now entirely restricted to the Bale Mountain massif, Menelik's Bushbuck, and Warthog, unusual at this high altitude.",
+            "Leaving Dinsho on your ascent to the Bale Mountain National Park, we enter a Juniper forest zone, and here we will search for African Goshawk, Rufous-breasted Sparrow hawk, White-cheeked Turaco, the localized Abyssinian Woodpecker, Cinnamon Bracken Warbler, African Hill Babbler, Montane White-eye, and Yellow-bellied Waxbill. By the time we reach the Sanetti Plateau, it will probably be fairly late in the day, particularly if we are fortunate enough to find and observe new species such as Moorland Francolin, Wattled Crane, or even the highly sought-after Ethiopian Wolf.",
+            "The day culminates in our arrival at our accommodation for the next two nights, Bale Mountain Lodge, a boutique forest lodge set within a stunning cloud forest at an elevation of 2,380masl. Overnight in Bale Mountain NP",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 5: BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "This will be a day of great contrasts and amazing scenery and birding. We will depart early and ascend the Bale Mountain massif onto the Sanette Plateau, which lies between 3,800m and 4,377m (12,540 and 14,444ft) above sea level. ",
+            "Upon reaching this unique plateau, we will be driving on Africa's highest road - passing close to the summit of Ethiopia's second-highest mountain. This habitat is termed ‘Afro-alpine moorland' and is characterised by Giant Lobelias that tower like monolithic giants over the rich tussock grasslands and extensive cushions of yellow Everlasting flowers. This site is an Important Bird Area of immense significance, supporting seven globally threatened species and nearly all of Ethiopia's highland biome species. The plateau holds the only Afro tropical breeding populations of Ruddy Shelduck, Golden Eagle, and Red-billed Chough. We will also search for Wattled Ibis, Chestnut-naped and Moorland Francolins, Rouget's Rail (particularly common and confiding here), Blue-winged Goose, Spot-breasted Lapwing, African Snipe, Wattled Crane, Thekla's Lark, Abyssinian Longclaw, Red-breasted Wheatear, Moorland Chat and flocks of endemic Ethiopian Siskins.",
+            "These grasslands are estimated to support an incredible biomass of 4,000kg (8,800lb) of rodents per hectare. This obviously attracts an array of raptors and we should see Augur and Mountain Buzzards and, if we are lucky, the rare Golden Eagle. They share this abundant food source with the plateau's most celebrated resident, the Ethiopian or Simien Wolf, crowned with the unenviable title of “the world's rarest canid”. Watching these vibrantly coloured animals, most closely related to the Grey Wolf exhibiting their hunting prowess whilst pouncing on Giant Mole Rats (another endemic to the Sanetti Plateau) is surely among Africa's greatest wildlife experiences. We should enjoy excellent photographic opportunities in this unique montane habitat.",
+            "This afternoon, we will return to our lodge and enjoy an opportunity to bird a part of the vast Harenna forest, the largest intact forest block in Ethiopia, and the largest protected Afro-alpine forest on the continent. It still supports populations of Lion and the only surviving forest-dwelling African Wild Dogs. Although it's unlikely that we will see either of these species, the descent through this breathtakingly beautiful, moss-draped forest is inspirational.",
+            "Here we will search for the uncommon Ayres's Hawk Eagle, African Olive Pigeon, Lemon and Tambourine Doves, African Emerald Cuckoo, Abyssinian Woodpecker, Narina Trogon, Brown Parisoma (represented by a subspecies endemic to this National Park), Abyssinian Crimsonwing, African Citril and Yellow-crowned Canary. Later in the day, we head back to Goba for the night. Overnight in Bale MNP",
+          ],
+          image: images.bale3,
+        },
+        {
+          title: "DAY 6: HARENNA FOREST TO NEGELE",
+          description: [
+            "We have a long drive ahead of us today and will make a relatively early start to our journey. Leaving Harenna Forest we will gradually lose altitude en route to Negele, a town in the Guji Zone of the Oromia Region. We will exit the forest zone and enter progressively drier thorn savanna in Ethiopia's remote, southern sector. Along the dusty drive, we can expect to start adding a number of new species to our burgeoning list including Red-and-yellow Barbet, Golden-breasted, Shelley's and Superb Starlings, Northern Red-billed and Eastern Yellow-billed Hornbills and Lilac-breasted Roller. ",
+            "Finally, we will reach a dry wadi on the Genale River, home to Ethiopia's most sought-after endemic, Ruspoli's Turaco. The bird is named after an Italian Prince, its hapless discoverer, who was killed by an elephant soon after collecting the type specimen in the 1890s. It took another 50 years before explorers saw the turaco again, and only in the 1970s was anything revealed about this bird. We will search for fruiting fig trees along the wadi and should enjoy excellent views of this very unusual and beautiful turaco. We will arrive in Negele in the early evening and check into our basic hotel. Overnight in Negele",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 7: NEGELE AREA",
+          description: [
+            "East of Negele lies a unique open grassland, the Liben Plains, to which the little-known Archer's Lark is restricted. This species belongs to the unusual genus Heteromirafra, which also includes South Africa's Rudd's Lark, and is considered one of the most endangered birds on Earth. We will walk through these plains in search of this special bird, which we hope to watch performing its parachute display flight. We should also find small parties of hovering Lesser Kestrel, giant Kori Bustard (the world's heaviest flying bird), White-bellied Bustard, Temminck's Courser, Black-winged Lapwing, the range-restricted Somali Short-toed Lark, Plain-backed Pipit and Pectoral-patch Cisticola. If we're very lucky, we may see coveys of Coqui Francolin or flush a migratory Corn Crake.",
+            "Further east of Negele, we will bird the increasingly dry woodland and thorn savanna towards the Somali border. This area supports a recently found population of the tricky endemic Salvadori's Seedeater, scarce Golden Pipit, elusive Red-naped Bushshrike, White-winged Black Tit, Pringle's Puffback, Three-streaked Tchagra, Foxy Lark, Somali Crombec, Taita Fiscal, Red-fronted Barbet, garish Golden-breasted Starling, attractive flocks of White-crowned Starlings, Somali Crow, African Silverbill, Shelley's Sparrow and Somali Bunting. Large troops of Olive Baboon may also be encountered here and we should see Guenther's Dik-dik and possibly Gerenuk. Overnight in Negele",
+          ],
+          image: images.bird5,
+        },
+        {
+          title: "DAY 8: NEGELE TO YABELLO",
+          description: [
+            "Today's drive along another long and seldom-traveled road takes us near to the Kenya border and finally to the Yabello region, home to two of Ethiopia's most sought-after endemic birds, both listed as globally threatened: the enigmatic Stresemann's Bushcrow and glistening White-tailed Swallow. This area of the Acacia savanna is characterised by giant red termite mounds (some towering 5m above the plains!) and both these birds seem to be associated in some way with these marvels of natural architecture. The social Bushcrow (or Zavattariornis) was only discovered in 1938 and its affinities have yet to be established with certainty. Although it appears starling-like, it is presumed to be most closely related to Crows. ",
+            "Several birding stops will break the journey, the most notable being a stop at the Dawa River in search of a Juba weaver, White-winged Collared Dove, and Black-bellied sunbirds. Other noteworthy birds we may encounter en route to Yabello include Somali Courser, Magpie Starling, Black-throated and D'Arnaud's Barbets, Pygmy Batis, Acacia Tit, Dodson's Bulbul, Red-fronted Warbler, Purple Grenadier, Black-capped Social weaver, Steel-blue Whydah and its host, Black-cheeked Waxbill. Overnight in Yabello",
+          ],
+          image: images.bird6,
+        },
+        {
+          title: "DAY 9: YABELLO AREA",
+          description: [
+            "We have the whole day to bird the Yabello area and get better acquainted with Stresemann's Bushcrow and White-tailed Swallow. Other birds we will be looking for are Gabar Goshawk, the shrike-sized African Pygmy Falcon, the Yellow-necked Spurfowl, glamorous flocks of Vulturine Guineafowl, Black-faced Sandgrouse, Mottled Swift, Tree Pipit, the localized Bare-eyed Thrush, ventriloquial Spotted Palm Thrush, African Grey Flycatcher, Pale Prinia, Yellow-bellied Eremomela, Banded Parisoma, Hunter's and Shining Sunbirds, Superb and Wattled Starlings, Chestnut Sparrow, Yellow-spotted Petronia, Grey-capped Social weaver, Chestnut weaver, Green-winged Pytilia, White-bellied Canary and White-winged Widowbird.",
+            "A night drive in this exciting area could produce Donaldson-Smith's and Slender-tailed Nightjars, Greyish Eagle-Owl, Northern White-faced Owl, and Three-banded Courser. Nocturnal mammal sightings have included Striped and Spotted Hyenas, Serval, African Wild Cats, and Ethiopian Genet. Overnight in Yabello",
+          ],
+          image: images.addis4,
+        },
+        {
+          title: "DAY 10: YABELLO TO LAKE HAWASSA",
+          description: [
+            "Following breakfast, we will depart Yabello and make our way back north towards Addis Ababa on what is, essentially, a travel day. In the late afternoon, we will reach our comfortable hotel, on the shores of Lake Hawassa. Overnight in Hawassa",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title:
+            "DAY 11: LAKE HAWASSA TO LAKE ZIWAY, VIA LAKES SHALLA AND ABIJATTA",
+          description: [
+            "Our pre-breakfast birding stroll should yield some special birds around our well-wooded hotel grounds. Amongst our targets we hope to see are African Spotted Creeper, Little weaver, Black-billed Wood Hoopoe, Double-toothed Barbet, Woodland Kingfisher, huge Silvery-cheeked Hornbill, the attractive Red-shouldered Cuckooshrike, western Black-headed Batis, Brown-throated Wattle-eye, Mourning Collared Dove, Grey-backed Fiscal, Northern Puffback and Bronze Mannikin. Reedbeds in the vicinity support Greater Painted-snipe, Black Crake, African Swamphen, Blue-headed Coucal, Red-faced Cisticola, Lesser Swamp Warbler, and Common Waxbill. The hotel grounds also support families of Grivet Monkey, though it is the regal Guereza (Black-and-white Colobus) that will certainly steal our attention as they leap through the trees, their shaggy pelts and long tails trailing behind.",
+            "After breakfast, we may then visit the remarkable Lake Hawassa fish market. This large lake is particularly rich in fish, and the fishermen gut their catch and discard the waste around the market. This, in turn, attracts large numbers of grotesque Marabou Stork and other birds. Photographic opportunities are unrivalled. We should also see Great White Pelican, White-breasted and Reed Cormorants, Hamerkop, African Sacred Ibis, Black-headed, Grey-hooded and Lesser Black-backed Gulls, and sometimes the massively-equipped Thick-billed Raven squabbling over the fish remains.",
+            "Further north, the three neighboring water bodies of Lakes Shalla, Abijatta, and Langano could not be more different from each other. Having already visited the medium-depth reddish-brown Lake Langano, today we will pay a visit to the other two - the shallow and brackish Abijatta, and the extremely deep, blue Shalla (once a volcanic crater and now home to several bubbling sulphuric hot springs). ",
+            "We will spend part of today exploring these lake shores and their surrounding woodlands and forests, where Clapperton's Francolin, Little Rock Thrush, African Thrush, Buff-bellied Warbler, Red-faced Crombec, Beautiful Sunbird, Rüppell's Starling, Red-billed Oxpecker, Red-billed Firefinch, Bare-faced Go-away-bird, Black-winged Lovebird, Abyssinian Wheatear, White-winged Black Tit, Black-billed Wood Hoopoe, African Pygmy Kingfisher, Greyish Eagle-Owl, Northern White-faced Owl, Slender-tailed Nightjar, Bearded Woodpecker and Masked Shrike occur in dry Acacia woodland throughout the area, while Black-billed, Banded and Double-toothed Barbets, Eastern Grey Woodpecker, White-rumped Babbler, and Ethiopian Boubou are resident in well-forested areas.",
+            "At Lake Abijatta, in particular, we hope to find flocks of Greater and Lesser Flamingos, Northern Shoveler, Southern Pochard, Cape Teal, Dark Chanting Goshawk, Eastern Imperial, and Long-crested Eagles, Grey Kestrel, Little Ringed, Common Ringed, Kittlitz's and occasionally Caspian Plovers, many species of Palaearctic waders, Pallas's and Lesser Black-backed Gulls (amongst several other species of gulls and terns), Collared Pratincole, Little Bee-eater, family groups of the wonderful Abyssinian Ground Hornbill, Sand Martin, and African Pipit. Mammals we may see here include Grant's gazelle, Oribi, and Spotted Hyena. In the late afternoon, we will check into a hotel near Lake Ziway. Overnight in Ziway",
+          ],
+          image: images.bird7,
+        },
+        {
+          title: "DAY 12: LAKE ZIWAY TO ADAMA",
+          description: [
+            "For one final occasion, we will spend our morning in the mighty Rift Valley south of Addis, where a second visit to some of the aforementioned lakes will hopefully yield some new species. The remainder of the day will be spent traveling to Adama. Overnight in Adama",
+          ],
+          image: images.bird8,
+        },
+        {
+          title: "DAY 13: ADAMA AZRETH TO AWASH NATIONAL PARK",
+          description: [
+            "Today we drop down the immense western wall of the Great Rift Valley and travel across the wild Afar tribal territories. We will make a concerted effort to find the very rare and localised Sombre Rock Chat, Striolated Bunting, and Blackstart near Lake Beseka, while we also have a decent chance of seeing Hamadryas Baboon sitting atop the edge of escarpments in large troops, soaking up the early morning sun.",
+            "We will then head to the magnificent Awash National Park where we will bird the Awash River and Kirayawa Gorge, exploring riverine forests, wetlands, Acacia woodlands, savannah grasslands, rocky hills, cliffs, and escarpments. The park boasts a bird list of around 460 species and we will make an effort to find, amongst many others, Egyptian Vulture, Bateleur, Tawny and Greater Spotted Eagles, African Harrier-Hawk, Eastern Chanting Goshawk, Scissor-tailed Kite, Shikra, Helmeted Guineafowl, Common Buttonquail, the nocturnal Three-banded Courser, mega Star-spotted Nightjar, Eastern Plantain-eater, the diminutive Pearl-spotted Owlet and giant Verreaux's Eagle-Owl, Blue-naped Mousebird, gaudy Purple, Lilac-breasted and Abyssinian Rollers, Abyssinian Scimitarbill, Eurasian Hoopoe, Eastern Yellow-billed Hornbill, Greater Honeyguide, Wire-tailed Swallow, Red-winged, Gillett's and Singing Bush Larks, White-browed Scrub Robin, over-wintering Common Rock Thrush, localised Ashy Cisticola, Eastern Olivaceous Warbler, Grey Wren-Warbler, Yellow-bellied Eremomela, Grey-headed Batis, Mouse-colored Penduline Tit, Slate-colored Boubou, Northern White-crowned Shrike, Northern Puffback, Somali Fiscal, Nile Valley and Marico Sunbirds, Grey-headed, Orange-breasted and Rosy-patched Bushshrikes, Fan-tailed Raven and Red-billed Quelea. In the afternoon we will settle into our lodge overlooking Awash Falls. Overnight in Awash National NP",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAYS 14: AWASH NATIONAL PARK",
+          description: [
+            "Today we will spend a full day in this great national park. During our explorations we will be searching again for the aforementioned species as well as the dazzling Northern Carmine Bee-eater perched atop the backs of striding Kori Bustard, a seldom observed phenomenon. In fact, this is bustard kingdom deluxe and nowhere else on the planet can boast the chance of no less than six bustard species in one day (Kori, Arabian, Buff-crested, White-bellied, Black-bellied, and Hartlaub's)!",
+            "Mammals are also well represented and we may see Aardwolf, Beisa Oryx, Aardvark, Soemmering's Gazelle, elegant Gerenuk (the giraffe-proportioned relative of the widespread Impala), Abyssinian Hare, African Wild Cat, Black-backed Jackal, Spotted and Striped Hyenas, Greater and Lesser Kudus, Warthog, and Salt's Dikdik. Overnight in Awash National NP",
+          ],
+          image: images.awash2,
+        },
+        {
+          title: "DAY 15: AWASH NATIONAL PARK TO ALEDEGHI WILDLIFE RESERVE",
+          description: [
+            "Today we depart Awash National Park early and head further north to Aledeghi Plains. Here we will search for Somali Ostrich, Martial and Short-toed Snake Eagles, Yellow-necked Spurfowl, the rare Arabian Bustard (perhaps the best location on earth for this species), Black-headed Lapwing, Chestnut-bellied Sandgrouse, and Chestnut-backed Sparrow-Lark. Occasionally highly nomadic species such as Pale Rock Finch or Black-crowned Sparrow-Lark move into the area as well. Depending on conditions, we may also see a number of mammals such as the Golden Jackal, Beisa Oryx, Grevy's Zebra, and Soemmering's Gazelle.",
+            "This land is inhabited by nomadic Afar tribesmen who we will see dressed in their fine white cotton tunics, bedecked with traditional jewelry, daggers, and spears. The men sport a unique bushy hairstyle, while women and girls are also extravagantly attired and adorned. They adhere strictly to their ancestral ways of tending their camel and goat herds and roaming throughout this inhospitable land.",
+            "As the day begins to heat up, we shall leave the Aledeghi Plains behind and head to our lodge. This increasingly arid landscape is a haven for dry country residents and migrant species. Watercourses and rocky outcrops harbor Eurasian Sparrow hawk, African Collared and European Turtle Doves, the range-restricted Yellow-breasted Barbet, Chestnut-headed Sparrow-Lark, Common Nightingale, Blue Rock Thrush, Rufous-tailed and Black Scrub Robins, Boran Cisticola, skulking Upcher's and Menetries's Warblers, groups of Red-fronted Warbler, Ruppell's Starling, Black-crowned Tchagra, Southern Grey Shrike, Red-billed Buffalo weaver, and Chestnut-crowned and White-browed Sparrow-weavers. There is also the option to avail of the numerous hot springs around which the lodge was built. This evening, an optional night walk may reveal Greyish Eagle-Owl or Slender-tailed Nightjar. Overnight in Awash National NP",
+          ],
+          image: images.alehdege1,
+        },
+        {
+          title:
+            "DAY 16: ALEDEGHI WILDLIFE RESERVE TO DEBRE BIHRAN VIA MELKA GEBDU & GEMASA GEDEL ",
+          description: [
+            "Today we depart our lodge very early for the drive north to Debre Birhan, skirting the majestic Ankober Escarpment for part of the way. Our route takes us through one of the least driven and most picturesque roads in the entire country, although major road improvements in this area are sure to change this. Our first stop of the day will be at the typically hot and dry Melka Gebdu track, where our primary focus will be on finding another scarce endemic, Yellow-throated Seedeater. This area is also excellent for Yellow-breasted Barbet, Bruce's Green Pigeon, Bare-faced Go-away-bird, and a number of sunbirds. Red-billed Pytilia, a rare and tricky endemic has also been recorded here.",
+            "After reaching the escarpment, we may make the odd roadside birding stop for Blue-winged Goose, Abyssinian Long claw, Erlanger's Lark, or Thick-billed Raven. This afternoon we shall reach Gemasa Gedel, an excellent site for the localized Ankober Serin, a rare and elusive Ethiopian endemic. Discovered only in 1976, they survive along a few kilometers of this wind-blasted grand escarpment, as do Gelada Baboons, also known as Bleeding heart Baboons. This densely-pelted, shaggy baboon is endemic to Ethiopia, and the males can often be seen flipping back their lips in a show of dominance. These animals have the closest vocal repertoire to humans of any mammal, pronouncing all consonants and four vowels! They forage on the grasslands above the escarpment and roost on ledges of inaccessible cliffs at night. Other possible species to be found here include Ethiopian Siskin, Streaky Seedeater, Moorland Chat, White-billed Starling, Bearded Vulture, Verreaux's Eagle, Rufous-breasted Sparrowhawk, Peregrine Falcon, the seldom recorded Somali Starling and Long-billed Pipit. In the afternoon we will then retire to our comfortable hotel in Debre Birhan. Overnight in Debre Birhan",
+          ],
+          image: images.bale4,
+        },
+        {
+          title:
+            "DAY 17: DEBRE BIRHAN TO ADDIS ABABA VIA THE JEMMA VALLEY AND DEPART",
+          description: [
+            "An early departure from Debre Birhan is essential in order to be at our chosen site when the endemic Harwood's Francolin is at its most vocal, thus providing our best opportunity for seeing this elusive species. ",
+            "The Jemma River is one of the main tributaries of the Blue Nile and it cuts a 700m (2,300ft) deep gorge through the landscape. The habitat in the gorge is dominated by Acacia woodland, while the steep sides provide habitat for some excellent endemic birds. We will concentrate our search here for Rüppell's Vulture, Verreaux's Eagle, African Hawk-Eagle, Augur Buzzard (dark morph birds are commonly seen here), Lanner and Peregrine Falcons, Erckel's Francolin, Nyanza Swift, Hemprich's Hornbill, Red-rumped Swallow, Abyssinian Wheatear, the endemic and localised Rüppell's Black Chat, endemic White-winged Cliff Chat and its more familiar cousin, Mocking Cliff Chat, endemic White-billed Starling, elusive Yellow-rumped Seedeater and Cinnamon-breasted Bunting. ",
+            "We will have a picnic lunch at the river and bird the surrounding woodlands for Blue-spotted Wood Dove, Klaas's Cuckoo, Black-billed Barbet, Eastern Olivaceous Warbler, Lesser Whitethroat, Foxy and Singing Cisticolas, African Paradise Flycatcher, Masked, Woodchat, and Isabelline Shrikes, Swainson's Sparrow, Bush Petronia, Speckle-fronted Weaver, Red-collared Widowbird, Black-winged Red and Yellow Bishops, and both Crimson-rumped and Abyssinian Waxbills. With a good dose of luck, we may stumble upon the quiet and inconspicuous Red-billed Pytilia, one of the trickier endemics that is regularly found in the Jemma Valley. In the mid-afternoon, we will depart for the drive back to Addis Ababa.",
+            "This evening we will enjoy a farewell dinner before departing on their international flights home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    experience: 6,
+    title: "Enchanting Ethiopia",
+    index: false,
+    image: images.bird2,
+    description: "Capturing Endemics In Simiens & Gondar",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Enchanting Ethiopia",
+        subtitle: "Capturing Endemics In Simiens & Gondar",
+        description: [
+          "Embark on a mesmerizing photographic adventure through Ethiopia, where every corner reveals captivating landscapes, rich history, and a wealth of extraordinary birdlife. Join us on the Endemics a 6-day journey that will take you to the enchanting Simien Mountains National Park and the historic city of Gondar.",
+          "As a photographer, you'll be immersed in a world of rare endemic bird species, stunning vistas, and encounters with fascinating wildlife. From the elusive Ethiopian Wolf to troops of Gelada Baboons, the wonders of Ethiopia's natural heritage await your lens. Discover the kaleidoscope of cultures, the ancient castles, and the breathtaking scenery that make Ethiopia a treasure trove for photographers and adventurers alike. Get ready to capture moments that will forever be etched in your memory.",
+        ],
+        lr: true,
+        img1: images.bird1,
+        img2: images.bird5,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Simien Mountains National Park",
+            description:
+              "Witness the rare and magnificent Walia Ibex in their rugged habitat and marvel at the iconic jagged skyline of this World Heritage Site.",
+          },
+          {
+            title: "Gelada Baboons",
+            description:
+              "Spend time observing and photographing troops of Geladas, with their unique appearance and captivating behaviors.",
+          },
+          {
+            title: "Ethiopian Wolf",
+            description:
+              "If luck is on your side, catch a glimpse of the world's rarest canid as it roams the remote areas of the park.",
+          },
+          {
+            title: "Endemic Birdlife",
+            description:
+              "Explore the diversity of bird species, including Rouget's Rail, Erckel's Francolin, Abyssinian Longclaw, and the striking Ankober Serin.",
+          },
+          {
+            title: "Gondar",
+            description:
+              "Delve into the history of the 'Camelot of Ethiopia' with its medieval castles, ornate churches, and breathtaking views over Lake Tana.",
+          },
+          {
+            title: "Scenic Landscapes",
+            description:
+              "Capture the awe-inspiring beauty of the Simien Mountains, with their volcanic rock formations and dramatic vistas.",
+          },
+          {
+            title: "Ethiopian Culture",
+            description:
+              "Immerse yourself in the vibrant traditions and rich heritage of Ethiopia's diverse cultures, providing endless opportunities for cultural photography.",
+          },
+          {
+            title: "Wildlife Encounters",
+            description:
+              "Keep an eye out for Serval, Klipspringer, Guereza, Abyssinian Rock Hyrax, and other fascinating mammalian species.",
+          },
+          {
+            title: "Addis Ababa Exploration",
+            description:
+              "Take time to explore the historical sites, museums, and bustling markets of Ethiopia's vibrant capital.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrival in Addis Ababa, birding in city parks.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Fly to Gondar, explore medieval castles, transfer to Simien Mountains.",
+          },
+          {
+            title: "Days 3 & 4",
+            description:
+              "Excursions to Simien Mountains National Park, search for Walia Ibex, Gelada Baboons, and endemic bird species.",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Return to Gondar, capture sightings and photographic opportunities along the way.",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Fly from Gondar to Addis Ababa, explore historical sites and museums before departure.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVAL IN ADDIS ABABA",
+          description: [
+            "Today is essentially an arrival day. For those who arrive during the day, it is possible to enjoy some birding within city parks. Noteworthy species that may be seen this include White-backed Black Tit, Abyssinian Slaty Flycatcher, Brown-rumped Seedeater, Tacazze Sunbird, White-collared Pigeon, Wattled Ibis and a host of raptors overhead, numbering both Egyptian and Hooded Vultures. Overnight in Addis Ababa",
+          ],
+          image: images.addis2,
+        },
+        {
+          title:
+            "DAY 2: FLY FROM ADDIS ABABA TO GONDAR AND DRIVE TO SIMIEN MOUNTAINS NATIONAL PARK.",
+          description: [
+            "You will leave in the morning for our domestic flight to Gondar, gateway to the world-famous Simien Mountains National Park; home to the critically endangered Walia Ibex, super troops of Gelada and a host of other spectacular wildlife.",
+            "Gondar is known as the “Camelot of Ethiopia.” This city was founded by Emperor Fasilidas around 1635 and is famous for its medieval castles and ornately decorated churches – in particular, Debra Berhan Selassie. Gondar is probably the most immediately impressive of Ethiopia's major ex-capitals and is now one of the country's largest cities. Flanked by twin mountain streams at an altitude of more than 2,300m (7,600ft), Gondar commands spectacular views over farmlands to the gleaming waters of Lake Tana 35 kilometres (22 miles) to the south. This marvellous city really is a sight to behold, and the ancient castle-like structures give a sense of the city's age and the kind of civilisation that once occupied the area.",
+            "Once in Gondar, you will make your way to the highest hotel in Africa, situated at an altitude of 3,260m (10,800ft). This comfortable lodge will be our overnight stop before you head into the mountains of the Simien Mountains National Park. This World Heritage Site, with its jagged skyline and blocks of volcanic core rock, was once described as a place where “Greek gods play chess” – and in the next few days you will see for yourselves just how apt this statement happens to be! Overnight in Simien Mountains",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title:
+            "DAYS 3 & 4: EXCURSIONS TO SIMIEN MOUNTAINS NATIONAL PARK (CHENEK)",
+          description: [
+            "hese will prove to be an exciting two days as you explore the rugged Simien Mountains in search of the magnificent Walia Ibex and Gelada. The ibex, a large goat-like creature, sports a monstrous set of horns and inhabits the rugged rocky and grassy slopes of these seldom-visited mountains. The numbers of these animals are gradually recovering now that they are protected and the population is estimated to be approximately 500 animals, up from 200 in the late 1990s. Troops of Geladas, up to four hundred strong, also thrive here and we will spend quality time observing these unique and fascinating primates. With long woolly capes, tasselled tails, bare red chests and an arrogant swagger, these last relics of once widespread grass-eating baboons are now endemic to the highlands of Ethiopia.",
+            "The Geladas roost on the massive cliffs that dominate the park, but spend their days hunched over the grasses that form the bulk of their diet. Despite sporting massive canines (the largest in proportion to body size of any mammal!), Geladas are non-aggressive and, with patience, we sometimes find ourselves in and amongst a large troop as they concentrate on their foraging. You may also be treated to a formidable lip-flip – the imposing grimace put on by Geladas to reveal their impressive upper jaw and canines, but more likely you will be completely ignored as they go about their daily business.",
+            "Interestingly, Geladas are extremely vocal, being able to pronounce all nouns and five vowels! Other attractions in the area include several species of endemic birds such as Rouget's Rail, Erckel's and Chestnut-naped Francolins, Spot-breasted Lapwing, Thick-billed Raven, Abyssinian Longclaw, White-billed Starling, Ethiopian Siskin and the rare and localised Ankober Serin, as well as an important population of the spectacular Bearded Vulture.",
+            "Ethiopian Wolf may also be found parading around this beautiful landscape, although they have suffered due to various diseases passed on from domestic dogs and are usually only restricted to more remote areas of the park. Serval, the Menelik's sub-species of Bushbuck, Klipspringer, Guereza, Abyssinian sub-species of Rock Hyrax and Golden Jackal are further mammalian possibilities. Overnight in Simien Mountains",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 5: SIMIEN MOUNTAINS NATIONAL PARK TO GONDAR.",
+          description: [
+            "You will spend some of the morning further exploring the mountains, after which you will then undertake the drive back to Gondar, stopping for any interesting sightings and photographic opportunities en route. Whilst in Gondar, you will no doubt encounter a variety of other special Ethiopian birds; possibilities include Black-winged Lovebird, Hemprich's Hornbill, Banded Barbet, Abyssinian Slaty Flycatcher, Brown-rumped Seedeater and much besides. Overnight in Gondar",
+          ],
+          image: images.gonder2,
+        },
+        {
+          title: "DAY 6: FLY FROM GONDAR TO ADDIS ABABA AND DEPART.",
+          description: [
+            "Following some final exploration of the Gondar area, you will fly back to Addis Ababa where we will have time to explore some of the historical sites and museums in the city. Fine linen, traditional Coptic Christian artefacts, wooden carvings and scripts are some of the many popular Ethiopian souvenirs that are available here. You will then transfer to Bole International Airport after a farewell dinner to catch our international flights home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 3,
+    experience: 6,
+    title: "Wings Of Ethiopia",
+    index: false,
+    image: images.bird3,
+    description: "A Mega Birding Adventure",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Wings Of Ethiopia",
+        subtitle: "A Mega Birding Adventure",
+        description: [
+          "Commence an adventure on an extraordinary journey through the diverse landscapes of Ethiopia, where nature unveils its majestic wonders and avian treasures. \"Wings of Ethiopia: A Mega Birding Adventure\" invites you to explore this captivating country's rich biodiversity and unique birdlife. Over the course of 22 days, you'll traverse breathtaking landscapes, from the Great Rift Valley to the Harenna Forest, the Bale Mountain National Park to the vast savannas of the Yabello area.",
+          "Along the way, encounter over 460 bird species, including numerous endemics and rarities. From the elusive Stresemann's Bushcrow to the vibrant White-tailed Swallow, every day will be filled with awe-inspiring sightings and unforgettable moments. Immerse yourself in the magic of Ethiopia's natural heritage and let your spirit take flight in this extraordinary birding paradise.",
+        ],
+        lr: true,
+        img1: images.bird3,
+        img2: images.bird4,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Rift Valley Lakes",
+            description:
+              "Massive Rift Valley lakes teeming with a mesmerizing array of birdlife.",
+          },
+          {
+            title: "Montane Forests",
+            description:
+              "Moss-draped montane forests boast an impressive selection of endemic species.",
+          },
+          {
+            title: "Ethiopian Wolf",
+            description:
+              "The critically endangered Ethiopian Wolf residing in the high Bale Mountains.",
+          },
+          {
+            title: "Jemma Valley and Awash National Park",
+            description:
+              "The remarkable Jemma Valley and Awash National Park, home to six species of bustard.",
+          },
+          {
+            title: "Seek out elusive treasures",
+            description:
+              "Seek out elusive treasures such as the Spot-breasted Lapwing, Blue-winged Goose, and Rouget's Rail.",
+          },
+          {
+            title: "Ankober Serin",
+            description:
+              "Discover the enchanting Ankober Serin, Salvadori's Seedeater, and the striking Red-billed Pytilia.",
+          },
+          {
+            title: "Yellow-fronted Parrot",
+            description:
+              "Encounter the vibrant Yellow-fronted Parrot, the charming White-backed Black Tit, and the elusive Abyssinian Woodpecker.",
+          },
+          {
+            title: "Ruspoli's Turaco and Stresemann's Bushcrow",
+            description:
+              "Venture into remote corners of Ethiopia to find sought-after endemics like Ruspoli's Turaco and Stresemann's Bushcrow.",
+          },
+          {
+            title: "White-tailed Swallow and Archer's Lark.",
+            description:
+              "Explore the drier habitats of southern Ethiopia, home to unique species like the White-tailed Swallow and Archer's Lark.",
+          },
+          {
+            title: "Kafka-Shiraro National Park",
+            description:
+              "Visit off-the-beaten-track sites, including Mega and Kafka-Shiraro National Park, where the Masked Lark and Sudan Golden Sparrow await.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrival in Addis Ababa",
+          },
+          {
+            title: "Day 2",
+            description: "Journey from Addis Ababa to the scenic Lake Langano",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Explore the captivating birdlife of the Lake Langano area",
+          },
+          {
+            title: "Day 4",
+            description: "Depart Lake Langano for the lush Harenna Forest",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Immerse yourself in the wonders of Bale Mountain National Park",
+          },
+          {
+            title: "Day 6",
+            description: "Traverse from Harenna Forest to Negele",
+          },
+          {
+            title: "Day 7",
+            description: "Uncover the avian treasures of the Negele area",
+          },
+          {
+            title: "Day 8",
+            description: "Venture to Mega, a haven for unique bird species",
+          },
+          {
+            title: "Day 9",
+            description: "Witness the beauty of the plains of Mega and Soda",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Travel from Mega to Yabello, an oasis of avian wonders",
+          },
+          {
+            title: "Day 11",
+            description: "Delve into the rich birdlife of the Yabello area",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Embark on a scenic journey from Yabello to Lake Awassa",
+          },
+          {
+            title: "Day 13",
+            description:
+              "Experience the breathtaking landscapes of Lakes Shalla and Abijatta en route to Lake Ziway",
+          },
+          {
+            title: "Day 14",
+            description:
+              "Traverse from Lake Ziway to Nazreth, capturing stunning bird sightings along the way",
+          },
+          {
+            title: "Day 15",
+            description:
+              "Explore the wonders of Awash National Park, a paradise for wildlife enthusiasts",
+          },
+          {
+            title: "Day 16",
+            description:
+              "Immerse yourself in the diverse bird species of Awash National Park",
+          },
+          {
+            title: "Day 17",
+            description:
+              "Journey from Awash National Park to the remarkable Aledeghi Wildlife Reserve",
+          },
+          {
+            title: "Day 18",
+            description:
+              "Discover the natural wonders of Melka Gebdu and Gemasa Gedel en route to Debre Bihran",
+          },
+          {
+            title: "Day 19",
+            description:
+              "Experience the avian delights of the Jemma Valley before returning to Addis Ababa",
+          },
+          {
+            title: "Day 20",
+            description:
+              "Depart Addis Ababa for Humera, a gateway to extraordinary birdwatching opportunities",
+          },
+          {
+            title: "Day 21",
+            description:
+              "Explore the renowned Kafta-Shiraro National Park and its stunning surroundings",
+          },
+          {
+            title: "Day 22",
+            description:
+              "Return from Humera to Addis Ababa, concluding this unforgettable birdwatching adventure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVAL IN ADDIS ABABA",
+          description: [
+            "Today is essentially an arrival day. For those who arrive during the day, it is possible to enjoy some birding within city parks. Noteworthy species that may be seen this include White-backed Black Tit, Abyssinian Slaty Flycatcher, Brown-rumped Seedeater, Tekezze Sunbird, White-collared Pigeon, Wattled Ibis, and a host of raptors overhead, numbering both Egyptian and Hooded Vultures. Overnight in Addis Ababa.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA TO LAKE LANGANO",
+          description: [
+            "Your Ethiopian adventure commences with an early departure from Addis Ababa this morning, as you head south into the Great Rift Valley. Your first birding stop is at Lake Chelekcheka, an excellent site for migrant ducks and waders. Regular species encountered here include Northern Pintail, Northern Shoveler, Garganey, Eurasian Teal, Tufted Duck, Black-tailed Godwit, and Temminck's Stint. ",
+            "Sorting through the rafts of ducks and other migrants can be very challenging due to the distraction caused by the sheer number of species moving through the scrubby vegetation near the lake edge! Common cranes often roost in staggering numbers on the far side of the water, and you may see them flying off to forage in huge, noisy flocks.",
+            "The youll-wooded rim of the deep Lake Hora will be your second stop. The woodlands around the lake also teem with birds, and again it may prove difficult to keep up with the seemingly endless flow of lifers! Blue-breasted Bee-eater, Black-billed Barbet, Common Redstart, Eurasian Blackcap, Red-throated Wryneck, Dark-capped Yellow Warbler, Rüppell's Robin-Chat, Western Black-headed Batis, Beautiful Sunbird, Rüppell's Youaver, and a diverse variety of waterbirds, especially deep water diving ducks, can be seen here.",
+            "Thereafter, the steep-sided Lake Bishoftu offers superb birding. Maccoa and Ferruginous Ducks, Southern Pochard, Singing Cisticola, gorgeous Tekezze Sunbird, Mocking Cliff Chat, Abyssinian Wheatear, Little Rock Thrush, and flocks of Black-winged Lovebird are just some of our targets here!",
+            "Further, en route to Lake Langano, you will then visit Koka Dam and Lake Ziway, both classified as Important Bird Areas, supporting vast numbers of both resident and migrant water birds. Species you will search for include the spectacular Black Crowned Crane, Pink-backed Pelican, African Darter, Intermediate Egret, Goliath Heron, Hamerkop, Yellow-billed and Saddle-billed Storks, Spur-winged and Egyptian Geese, Knob-billed Duck, elegant African Pygmy Goose, African Fish Eagle, Western Marsh Harrier, African and Lesser Jacanas, Common Snipe, Senegal Thick-knee, Sedge Warbler, Spur-winged Lapwing, Gull-billed Tern, and Pied and Malachite Kingfishers.",
+            "Strolling along the lakeshore at Lake Ziway will allow you excellent views of the confiding Great White Pelican and the huge Marabou Stork while dazzling Northern Carmine Bee-eater, migratory White and Western Yellow Wagtails (including some of the striking feldeggi race) and the less colorful Ethiopian Cisticola can be seen around the lake edge. This promises to be an action-packed day, after which you will check into a comfortable lodge overlooking Lake Langano, with views of the 4,000m (13,200ft) Arsi Mountains in the background. Overnight in Langano.",
+          ],
+          image: images.bird1,
+        },
+        {
+          title: "DAY 3: LAKE LANGANO AREA",
+          description: [
+            "Birding in the Langano area is especially good, and you will visit some beautiful fig forest and associated woodlands that teem with birds. Here you will look for Hemprich's and Silvery-cheeked Hornbills, Lemon Dove, Narina Trogon, Lesser and Scaly-throated Honeyguides, Green Malkoha, African Hill Babbler, Double-toothed Barbet, Brown-throated Wattle-eye, Thick-billed Weaver, Crested and Scaly Francolins, endemic Yellow-fronted Parrot, Abyssinian Ground Thrush, Green Twinspot, Red-shouldered Cuckoo-shrike, and Red-headed Weaver. Pods of lazing Common Hippopotamuses are sometimes seen in deeper water, and mammoth Goliath Herons stalk the shallows. You will also visit nearby Lake Abijata, home to thousands of Lesser and Greater Flamingos. Overnight in Langano.",
+          ],
+          image: images.bahirdar1,
+        },
+        {
+          title: "DAY 4: LAKE LANGANO TO HARENNA FOREST",
+          description: [
+            "Leaving the Rift Valley behind, you embark on the lengthy drive to the Harenna Forest in the Bale Mountain National Park. Roadside stops en route could produce several endemics and other species, including White-collared Pigeon, Moorland Chat, Ground scraper Thrush (of the distinctive, endemic race simensis), Blanford's Lark, Blue-winged Goose, and the highly sought-after Spot-breasted Lapwing. At the park headquarters in Dinsho, you may find the colorful Chestnut-naped Francolin, the Abyssinian Owl, the secretive Abyssinian Ground Thrush, the vocal Abyssinian Catbird, and the endemic White-backed Black Tit. Mammals that you may encounter include Mountain Nyala, now entirely restricted to the Bale Mountain massif, Menelik's Bushbuck, and Warthog, unusual at this high altitude.",
+            "Leaving Dinsho on your ascent to the Bale Mountain National Park, you enter a Juniper forest zone, and here you will search for African Goshawk, Rufous-breasted Sparrowhawk, White-cheeked Turaco, the localized Abyssinian Woodpecker, Cinnamon Bracken Warbler, African Hill Babbler, Montane White-eye, and Yellow-bellied Waxbill. ",
+            "By the time you reach the Sanetti Plateau, it will probably be fairly late in the day, particularly if you are fortunate enough to find and observe new species such as Moorland Francolin, Wattled Crane, or even the highly sought-after Ethiopian Wolf. The day culminates in our arrival at your accommodation for the next two nights, Bale Mountain Lodge, a boutique forest lodge set within a stunning cloud forest at an elevation of 2,380masl. Overnight in Bale Mountain NP.",
+          ],
+          image: images.bird2,
+        },
+        {
+          title: "DAY 5: BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "This will be a day of great contrasts and amazing scenery and birding. You will depart early and ascend the Bale Mountain massif onto the Sanette Plateau, which lies between 3,800m and 4,377m (12,540 and 14,444ft) above sea level.",
+            "Upon reaching this unique plateau, you will be driving on Africa's highest road - passing close to the summit of Ethiopia's second-highest mountain. This habitat is termed ‘Afro-alpine moorland' and is characterized by Giant Lobelias that tower like monolithic giants over the rich tussock grasslands and extensive cushions of yellow Everlasting flowers. ",
+            "This site is an Important Bird Area of immense significance, supporting seven globally threatened species and nearly all of Ethiopia's highland biome species. The plateau holds the only Afro tropical breeding populations of Ruddy Shelduck, Golden Eagle, and Red-billed Chough. You will also search for Wattled Ibis, Chestnut-naped and Moorland Francolins, Rouget's Rail (particularly common and confiding here), Blue-winged Goose, Spot-breasted Lapwing, African Snipe, Wattled Crane, Thekla's Lark, Abyssinian Longclaw, Red-breasted Wheatear, Moorland Chat, and flocks of endemic Ethiopian Siskins. These grasslands are estimated to support an incredible biomass of 4,000kg (8,800lb) of rodents per hectare. ",
+            "This obviously attracts an array of raptors, and you should see Augur and Mountain Buzzards and, if you are lucky, the rare Golden Eagle. They share this abundant food source with the plateau's most celebrated resident, the Ethiopian or Simien Wolf, crowned with the unenviable title of “the world's rarest canid”. Watching these vibrantly colored animals, most closely related to the Grey Wolf, exhibiting their hunting prowess whilst pouncing on Giant Mole Rats (another endemic to the Sanetti Plateau) is surely among Africa's greatest wildlife experiences. ",
+            "You should enjoy excellent photographic opportunities in this unique montane habitat.",
+            "This afternoon, you will return to our lodge and enjoy an opportunity to bird a part of the vast Harenna forest, the largest intact forest block in Ethiopia, and the largest protected Afro-alpine forest on the continent. ",
+            "It still supports populations of Lion, and the only surviving forest-dwelling African Wild Dogs. Although it's unlikely that you will see either of these species, the descent through this breathtakingly beautiful, moss-draped forest is inspirational. Here you will search for the uncommon Ayres's Hawk Eagle, African Olive Pigeon, Lemon and Tambourine Doves, African Emerald Cuckoo, Abyssinian Woodpecker, Narina Trogon, Brown Parisoma (represented by a subspecies endemic to this National Park), Abyssinian Crimsonwing, African Citril, and Yellow-crowned Canary. Later in the day, you head back to Goba for the night. Overnight in Bale MNP.",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 6: HARENNA FOREST TO NEGELE",
+          description: [
+            "You have a long drive ahead of us today and will make a relatively early start to our journey. Leaving Harenna Forest, you will gradually lose altitude en route to Negele, a town in the Guji Zone of the Oromia Region. You will exit the forest zone and enter progressively drier thorn savanna in this remote, southern sector of Ethiopia. Along the dusty drive, you can expect to start adding a number of new species to our burgeoning list, including Red-and-yellow Barbet, Golden-breasted, Shelley's and Superb Starlings, Northern Red-billed and Eastern Yellow-billed Hornbills, and Lilac-breasted Roller.",
+            "Finally, you will reach a dry wadi on the Genale River, home to Ethiopia's most sought-after endemic, Ruspoli's Turaco. The bird is named after an Italian Prince, its hapless discoverer, who was killed by an elephant soon after collecting the type specimen in the 1890s. ",
+            "It took another 50 years before explorers saw the turaco again, and only in the 1970s was anything revealed about this bird. You will search for fruiting fig trees along the wadi and should enjoy excellent views of this very unusual and beautiful turaco. You will arrive in Negele in the early evening and check into your basic hotel. Overnight in Negele.",
+          ],
+          image: images.bird3,
+        },
+        {
+          title: "DAY 7: NEGELE AREA",
+          description: [
+            "East of Negele lies a unique open grassland, the Liben Plains, to which the little-known Archer's Lark is restricted. This species belongs to the unusual genus Heteromirafra, which also includes South Africa's Rudd's Lark, and is considered one of the most endangered birds on Earth. You will walk through these plains in search of this special bird, which you hope to watch performing its parachute display flight. ",
+            "You should also find small parties of hovering Lesser Kestrel, giant Kori Bustard (the world's heaviest flying bird), White-bellied Bustard, Temminck's Courser, Black-winged Lapwing, the range-restricted Somali Short-toed Lark, Plain-backed Pipit, and Pectoral-patch Cisticola. If you're very lucky, you may see coveys of Coqui Francolin or flush a migratory Corn Crake.",
+            "Further east of Negele, you will bird the increasingly dry woodland and thorn savanna towards the Somali border. This area supports a recently found population of the tricky endemic Salvadori's Seedeater, scarce Golden Pipit, elusive Red-naped Bushshrike, White-winged Black Tit, Pringle's Puffback, Three-streaked Tchagra, Foxy Lark, Somali Crombec, Taita Fiscal, Red-fronted Barbet, garish Golden-breasted Starling, attractive flocks of White-crowned Starlings, Somali Crow, African Silverbill, Shelley's Sparrow, and Somali Bunting. Large troops of Olive Baboon may also be encountered here, and you should see Guenther's Dik-dik and possibly Gerenuk. Overnight in Negele.",
+          ],
+          image: images.bird5,
+        },
+        {
+          title: "DAY 8: NEGELE TO MEGA",
+          description: [
+            "Today's drive along another long and seldom-traveled road takes you near to the Kenya border and finally to the town of Mega. Several birding stops will break the journey, the most notable being a stop at the Dawa River in search of Juba Weaver, White-winged Collared Dove, and Black-bellied Sunbird. Other noteworthy birds you may encounter en route to Mega include Somali Courser, Magpie Starling, Black-throated and D'Arnaud's Barbets, Pygmy Batis, Acacia Tit, Dodson's Bulbul, Red-fronted Warbler, Purple Grenadier, Black-capped Social Weaver, Steel-blue Whydah and its host, Black-cheeked Waxbill.",
+            "This afternoon, you shall drive a short distance from town and search the surrounding rocky hillsides for the rarely seen near-endemic Black-fronted Francolin. Overnight in Mega.",
+          ],
+          image: images.awash2,
+        },
+        {
+          title: "DAY 9: PLAINS OF MEGA SODA",
+          description: [
+            "You spend the day exploring the amazing Mega area, from isolated mountains to impressive lava plains it offers some beautiful scenery. Your key targets will include the nomadic and elusive Masked Lark, splendid Heuglin's Bustard, and Black-fronted Francolin should we not have seen it already.",
+            "Other impressive species seen in the area include Somali Courser, Somali Bee-eater, Donaldson-Smith's Sparrow-Weaver, Short-tailed, Pink-breasted, and Red-winged Larks, and Somali Sparrow. If we are particularly fortunate, we may even find the enigmatic Quail-plover.",
+            "In the evening, we will embark on a night drive in search of Sombre and Star-spotted Nightjars. Overnight in Mega.",
+          ],
+          image: images.bird6,
+        },
+        {
+          title: "DAY 10: MEGA TO YABELLO",
+          description: [
+            "You have most of the day to explore this wonderful area in search of any species we may not have seen as yet. Exciting possibilities include the huge Kori, White-bellied, and Buff-crested Bustards, cryptic Lichtenstein's Sandgrouse, Chestnut-headed Sparrow-Lark, Parrot-billed Sparrow, Magpie Starling, and Tsavo Sunbird.",
+            "You then make a short drive north to Yabello, home to two of Ethiopia's most sought-after endemic birds, both listed as globally threatened: the enigmatic Stresemann's Bushcrow and glistening White-tailed Swallow. This area of Acacia savanna is characterized by giant red termite mounds (some towering 5m above the plains!) and both these birds seem to be associated in some way with these marvels of natural architecture.",
+            "The social Bushcrow (or Zavattariornis) was only discovered in 1938 and its affinities have yet to be established with certainty. Although it appears starling-like, it is presumed to be most closely related to Crows. Overnight in Yabello.",
+          ],
+          image: images.bird7,
+        },
+        {
+          title: "DAY 11: YABELLO AREA",
+          description: [
+            "You have the whole day to bird the Yabello area and get better acquainted with Stresemann's Bushcrow and White-tailed Swallow. Other birds we will be looking for are Gabar Goshawk, the shrike-sized African Pygmy Falcon, Yellow-necked Spurfowl, glamorous flocks of Vulturine Guineafowl, Black-faced Sandgrouse, Mottled Swift, Tree Pipit, the localized Bare-eyed Thrush, ventriloquial Spotted Palm Thrush, African Grey Flycatcher, Pale Prinia, Yellow-bellied Eremomela, Banded Parisoma, Hunter's and Shining Sunbirds, Superb and Wattled Starlings, Chestnut Sparrow, Yellow-spotted Petronia, Grey-capped Social Weaver, Chestnut Weaver, Green-winged Pytilia, White-bellied Canary, and White-winged Widowbird.",
+            "A night drive in this exciting area could produce Donaldson-Smith's and Slender-tailed Nightjars, Greyish Eagle-Owl, Northern White-faced Owl, and Three-banded Courser. Nocturnal mammal sightings have included Striped and Spotted Hyenas, Serval, African Wild Cats, and Ethiopian Genet. Overnight in Yabello.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAY 12: YABELLO TO LAKE HAWASSA",
+          description: [
+            "Following breakfast, you will depart Yabello and make your way back north towards Addis Ababa on what is, essentially, a travel day. In the late afternoon, you will reach our comfortable hotel, on the shores of Lake Hawassa. Overnight in Hawassa.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title:
+            "DAY 13: LAKE HAWASSA TO LAKE ZIWAY, VIA LAKES SHALLA AND ABIJATTA",
+          description: [
+            "Your pre-breakfast birding stroll should yield some special birds around our well-wooded hotel grounds. Amongst our targets you hope to see are African Spotted Creeper, Little weaver, Black-billed Wood Hoopoe, Double-toothed Barbet, Woodland Kingfisher, huge Silvery-cheeked Hornbill, the attractive Red-shouldered Cuckooshrike, western Black-headed Batis, Brown-throated Wattle-eye, Mourning Collared Dove, Grey-backed Fiscal, Northern Puffback, and Bronze Mannikin. Reedbeds in the vicinity support Greater Painted-snipe, Black Crake, African Swamphen, Blue-headed Coucal, Red-faced Cisticola, Lesser Swamp Warbler, and Common Waxbill.",
+            "The hotel grounds also support families of Grivet Monkey, though it is the regal Guereza (Black-and-white Colobus) that will certainly steal your attention as they leap through the trees, their shaggy pelts and long tails trailing behind.",
+            "After breakfast, you may then visit the remarkable Lake Hawassa fish market. This large lake is particularly rich in fish, and the fishermen gut their catch and discard the waste around the market. This, in turn, attracts large numbers of grotesque Marabou Stork and other birds. Photographic opportunities are unrivalled. You should also see Great White Pelican, White-breasted and Reed Cormorants, Hamerkop, African Sacred Ibis, Black-headed, Grey-hooded, and Lesser Black-backed Gulls, and sometimes the massively-equipped Thick-billed Raven squabbling over the fish remains.",
+            "Further north, the three neighboring water bodies of Lakes Shalla, Abijatta, and Langano could not be more different from each other. Having already visited the medium-depth reddish-brown Lake Langano, today you will pay a visit to the other two - the shallow and brackish Abijatta, and the extremely deep, blue Shalla (once a volcanic crater and now home to several bubbling sulfuric hot springs).",
+            "You will spend part of today exploring these lake shores and their surrounding woodlands and forests, where Clapperton's Francolin, Little Rock Thrush, African Thrush, Buff-bellied Warbler, Red-faced Crombec, Beautiful Sunbird, Rüppell's Starling, Red-billed Oxpecker, Red-billed Firefinch, Bare-faced Go-away-bird, Black-winged Lovebird, Abyssinian Wheatear, White-winged Black Tit, Black-billed Wood Hoopoe, African Pygmy Kingfisher, Greyish Eagle-Owl, Northern White-faced Owl, Slender-tailed Nightjar, Bearded Woodpecker, and Masked Shrike occur in dry Acacia woodland throughout the area, while Black-billed, Banded, and Double-toothed Barbets, Eastern Grey Woodpecker, White-rumped Babbler, and Ethiopian Boubou are resident in well-forested areas.",
+            "At Lake Abijatta, in particular, you hope to find flocks of Greater and Lesser Flamingo, Northern Shoveler, Southern Pochard, Cape Teal, Dark Chanting Goshawk, Eastern Imperial and Long-crested Eagles, Grey Kestrel, Little Ringed, Common Ringed, Kittlitz's and occasionally Caspian Plovers, many species of Palaearctic waders, Pallas's and Lesser Black-backed Gulls (amongst several other species of gulls and terns), Collared Pratincole, Little Bee-eater, family groups of the wonderful Abyssinian Ground Hornbill, Sand Martin, and African Pipit. Mammals you may see here include Grant's Gazelle, Oribi, and Spotted Hyena. In the late afternoon, you will check into a hotel near Lake Ziway. Overnight in Ziway.",
+          ],
+          image: images.bird1,
+        },
+        {
+          title: "DAY 14: LAKE ZIWAY TO ADAMA",
+          description: [
+            "For one final occasion, you will spend your morning in the mighty Rift Valley south of Addis, where a second visit to some of the aforementioned lakes will hopefully yield some new species. The remainder of the day will be spent travelling to Adama. Overnight in Adama.",
+          ],
+          image: images.bird2,
+        },
+        {
+          title: "DAY 15: ADAMA AZRETH TO AWASH NATIONAL PARK",
+          description: [
+            "Today you drop down the immense western wall of the Great Rift Valley and travel across the wild Afar tribal territories. You will make a concerted effort to find the very rare and localized Sombre Rock Chat, Striolated Bunting, and Blackstar near Lake Beseka, while you also have a decent chance of seeing Hamadryas Baboon sitting atop the edge of escarpments in large troops, soaking up the early morning sun.",
+            "You will then head to the magnificent Awash National Park where you will bird the Awash River and Kirayawa Gorge, exploring riverine forests, wetlands, Acacia woodlands, savannah grasslands, rocky hills, cliffs, and escarpments. The park boasts a bird list of around 460 species and you will make an effort to find, amongst many others, Egyptian Vulture, Bateleur, Tawny and Greater Spotted Eagles, African Harrier-Hawk, Eastern Chanting Goshawk, Scissor-tailed Kite, Shikra, Helmeted Guineafowl, Common Buttonquail, the nocturnal Three-banded Courser, mega Star-spotted Nightjar, Eastern Plantain-eater, the diminutive Pearl-spotted Owlet, and giant Verreaux's Eagle-Owl, Blue-naped Mousebird, gaudy Purple, Lilac-breasted, and Abyssinian Rollers, Abyssinian Scimitarbill, Eurasian Hoopoe, Eastern Yellow-billed Hornbill, Greater Honeyguide, Wire-tailed Swallow, Red-winged, Gillett's, and Singing Bush Larks, White-browed Scrub Robin, over-wintering Common Rock Thrush, localized Ashy Cisticola, Eastern Olivaceous Warbler, Grey Wren-Warbler, Yellow-bellied Eremomela, Grey-headed Batis, Mouse-colored Penduline Tit, Slate-colored Boubou, Northern White-crowned Shrike, Northern Puffback, Somali Fiscal, Nile Valley and Marico Sunbirds, Grey-headed, Orange-breasted, and Rosy-patched Bushshrikes, Fan-tailed Raven, and Red-billed Quelea.",
+            "In the afternoon, you will settle into our lodge overlooking Awash Falls. Overnight in Awash National NP.",
+          ],
+          image: images.bird3,
+        },
+        {
+          title: "DAYS 16: AWASH NATIONAL PARK",
+          description: [
+            "Today you will spend a full day in this great national park. During our explorations, you will be searching again for the aforementioned species as well as the dazzling Northern Carmine Bee-eater perched atop the backs of striding Kori Bustard, a seldom observed phenomenon. In fact, this is bustard kingdom deluxe and nowhere else on the planet can boast the chance of no less than six bustard species in one day (Kori, Arabian, Buff-crested, White-bellied, Black-bellied, and Hartlaub's)!",
+            "Mammals are also well represented and you may see Aardwolf, Beisa Oryx, Aardvark, Soemmering's Gazelle, elegant Gerenuk (the giraffe-proportioned relative of the widespread Impala), Abyssinian Hare, African Wild Cat, Black-backed Jackal, Spotted and Striped Hyenas, Greater and Lesser Kudus, Warthog, and Salt's Dikdik. Overnight in Awash National NP.",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 17: AWASH NATIONAL PARK TO ALEDEGHI WILDLIFE RESERVE",
+          description: [
+            "Today you depart Awash National Park early and head further north to Aledeghi Plains. Here you will search for Somali Ostrich, Martial and Short-toed Snake Eagles, Yellow-necked Spurfowl, the rare Arabian Bustard (perhaps the best location on earth for this species), Black-headed Lapwing, Chestnut-bellied Sandgrouse, and Chestnut-backed Sparrow-Lark. Occasionally highly nomadic species such as Pale Rock Finch or Black-crowned Sparrow-Lark move into the area as well. Depending on conditions, you may also see a number of mammals such as the Golden Jackal, Beisa Oryx, Grevy's Zebra, and Soemmering's Gazelle.",
+            "This land is inhabited by nomadic Afar tribesmen whom you will see dressed in their fine white cotton tunics, bedecked with traditional jewelry, daggers, and spears. The men sport a unique bushy hairstyle, while women and girls are also extravagantly attired and adorned. They adhere strictly to their ancestral ways of tending their camel and goat herds and roaming throughout this inhospitable land.",
+            "As the day begins to heat up, you shall leave the Aledeghi Plains behind and head to our lodge. This increasingly arid landscape is a haven for dry country residents and migrant species. Watercourses and rocky outcrops harbor Eurasian Sparrowhawk, African Collared, and European Turtle Doves, the range-restricted Yellow-breasted Barbet, Chestnut-headed Sparrow-Lark, Common Nightingale, Blue Rock Thrush, Rufous-tailed, and Black Scrub Robins, Boran Cisticola, skulking Upcher's and Menetries's Warblers, groups of Red-fronted Warbler, Ruppell's Starling, Black-crowned Tchagra, Southern Grey Shrike, Red-billed Buffalo weaver, and Chestnut-crowned and White-browed Sparrow-weavers. There is also the option to avail of the numerous hot springs around which the lodge was built. This evening, an optional night walk may reveal Greyish Eagle-Owl or Slender-tailed Nightjar. Overnight in Awash National NP.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title:
+            "DAY 18: ALEDEGHI WILDLIFE RESERVE TO DEBRE BIHRAN VIA MELKA GEBDU & GEMASA GEDEL",
+          description: [
+            "Today you depart your lodge very early for the drive north to Debre Birhan, skirting the majestic Ankober Escarpment for part of the way. Your route takes us through one of the least driven and most picturesque roads in the entire country, although major road improvements in this area are sure to change this. Our first stop of the day will be at the typically hot and dry Melka Gebdu track, where our primary focus will be on finding another scarce endemic, Yellow-throated Seedeater. This area is also excellent for Yellow-breasted Barbet, Bruce's Green Pigeon, Bare-faced Go-away-bird and a number of sunbirds. Red-billed Pytilia, a rare and tricky endemic has also been recorded here.",
+            "After reaching the escarpment, you may make the odd roadside birding stop for Blue-winged Goose, Abyssinian Long claw, Erlanger's Lark, or Thick-billed Raven. This afternoon you shall reach Gemasa Gedel, an excellent site for the localized Ankober Serin, a rare and elusive Ethiopian endemic. Discovered only in 1976, they survive along a few kilometers of this wind-blasted grand escarpment, as do Gelada Baboons, also known as Bleeding heart Baboons. This densely-pelted, shaggy baboon is endemic to Ethiopia, and the males can often be seen flipping back their lips in a show of dominance.",
+            "These animals have the closest vocal repertoire to humans of any mammal, pronouncing all consonants and four vowels! They forage on the grasslands above the escarpment and roost on ledges of inaccessible cliffs at night. Other possible species to be found here include Ethiopian Siskin, Streaky Seedeater, Moorland Chat, White-billed Starling, Bearded Vulture, Verreaux's Eagle, Rufous-breasted Sparrowhawk, Peregrine Falcon, the seldom recorded Somali Starling, and Long-billed Pipit. In the afternoon, you will then retire to our comfortable hotel in Debre Birhan. Overnight in Debre Birhan.",
+          ],
+          image: images.alehdege1,
+        },
+        {
+          title:
+            "DAY 19: DEBRE BIRHAN TO ADDIS ABABA VIA THE JEMMA VALLEY AND DEPART",
+          description: [
+            "An early departure from Debre Birhan is essential in order to be at your chosen site when the endemic Harwood's Francolin is at its most vocal, thus providing our best opportunity for seeing this elusive species.",
+            "The Jemma River is one of the main tributaries of the Blue Nile and it cuts a 700m (2,300ft) deep gorge through the landscape. The habitat in the gorge is dominated by Acacia woodland, while the steep sides provide habitat for some excellent endemic birds. You will concentrate our search here for Rüppell's Vulture, Verreaux's Eagle, African Hawk-Eagle, Augur Buzzard (dark morph birds are commonly seen here), Lanner and Peregrine Falcons, Erckel's Francolin, Nyanza Swift, Hemprich's Hornbill, Red-rumped Swallow, Abyssinian Wheatear, the endemic and localized Rüppell's Black Chat, endemic White-winged Cliff Chat and its more familiar cousin, Mocking Cliff Chat, endemic White-billed Starling, elusive Yellow-rumped Seedeater, and Cinnamon-breasted Bunting.",
+            "You will have a picnic lunch at the river and bird the surrounding woodlands for Blue-spotted Wood Dove, Klaas's Cuckoo, Black-billed Barbet, Eastern Olivaceous Warbler, Lesser Whitethroat, Foxy and Singing Cisticolas, African Paradise Flycatcher, Masked, Woodchat, and Isabelline Shrikes, Swainson's Sparrow, Bush Petronia, Speckle-fronted weaver, Red-collared Widowbird, Black-winged Red and Yellow Bishops, and both Crimson-rumped and Abyssinian Waxbills. With a good dose of luck, you may stumble upon the quiet and inconspicuous Red-billed Pytilia, one of the trickier endemics that is regularly found in the Jemma Valley. In the mid-afternoon, you will depart for the drive back to Addis Ababa. Overnight in Addis Ababa.",
+          ],
+          image: images.bird8,
+        },
+        {
+          title: "DAY 20: ADDIS ABABA TO HUMERA",
+          description: [
+            "You depart on a domestic flight to Humera. On arrival, we will transfer to our guesthouse and get settled in before venturing out for some afternoon birding. Overnight in Humera.",
+          ],
+          image: images.bird7,
+        },
+        {
+          title: "DAY 21: KAFTA-SHIRARO NATIONAL PARK AND SURROUNDS",
+          description: [
+            "Today you will explore this remote and seldom-visited park and surrounding area. It is situated in the Sahelian zone and thus offers an interesting selection of dry country species. The habitat consists of dry acacia bush veiled in a slightly hilly area and follows the tranquil Tekezze River. You will concentrate your efforts on finding the beautiful Demoiselle Crane which makes a stopover here on its migration from Sudan to India. Up to 3,800 cranes have been seen in this area and the site and sound of them bugling at dusk is a spectacle indeed!",
+            "Other key targets include a Sudan/Ethiopia endemic; White-headed Babbler, the amazing Egyptian Plover (a monotypic family), the impressive Sahel Paradise Whydah, and Sudan Golden Sparrow. Other species of interest that are not generally seen on a standard Ethiopian tour include Vieillot's Barbet, Black-billed Wood Dove, Rose-ringed Parakeet, Green Bee-eater, Red-pate Cisticola, Black-headed Gonolek, Northern Grey-headed Sparrow, Black-rumped Waxbill, Chestnut-bellied Starling, Yellow-billed Oxpecker, White-rumped Seedeater, and Golden-breasted Bunting. If we are fortunate we may find a roosting Long-tailed Nightjar. Other more widespread species we may see include Black Stork, Short-toed Snake Eagle, Booted Eagle, Senegal Thick-knee, Black-headed Lapwing, Lichtenstein's and Four-banded Sandgrouse, European Turtle Dove, Abyssinian Roller, Northern Carmine Bee-eater, Black-billed Wood Hoopoe, Black Scimitarbill, Yellow-breasted Barbet, Masked Shrike, Black and Rufous-tailed Scrub Robin, Black-eared Wheatear, and Crimson-rumped Waxbill. Overnight in Humera.",
+          ],
+          image: images.kafta1,
+        },
+        {
+          title: "DAY 22: HUMERA TO ADDIS ABABA AND DEPARTURE",
+          description: [
+            "Depending on the time of our departure flight we may have an opportunity for some final early morning birding. We will then make our way to the airport in order to catch our flight back to the capital Addis Ababa to connect with our International flights home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    experience: 6,
+    title: "Exploring Ethiopia's Avian Splendor",
+    index: false,
+    image: images.bird4,
+    description: "A Birdwatching Odyssey",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Exploring Ethiopia's Avian Splendor",
+        subtitle: "A Birdwatching Odyssey",
+        description: [
+          "Embark on an extraordinary birdwatching odyssey through the diverse landscapes of Ethiopia, a country renowned for its rich birdlife and captivating endemic species. Over the course of 12 days, this immersive tour will take you on a thrilling adventure from bustling cities to remote wilderness areas, allowing you to witness the remarkable avian diversity that Ethiopia has to offer.",
+          "From the bustling capital of Addis Ababa to the majestic Bale Mountains and the hidden gems of Negele and Yabello, each destination holds unique highlights and opportunities to encounter rare and endemic bird species. Get ready to be enthralled by the stunning landscapes, vibrant birdlife, and the warm hospitality of Ethiopia.",
+        ],
+        lr: true,
+        img1: images.bird2,
+        img2: images.bird3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Explore city parks teeming with birdlife, including the White-backed Black Tit, Abyssinian Slaty Flycatcher, and Brown-rumped Seedeater.",
+          },
+          {
+            title: "Gemasa Gedel and Debre Birhan",
+            description:
+              "Search for the elusive Ankober Serin and encounter the unique Gelada Baboons in the wind-blown grand escarpment.",
+          },
+          {
+            title: "The Jemma Valley",
+            description:
+              "Discover a birding paradise with species like Abyssinian Catbird, Red-billed Pytilia, White-billed Starling, and Rüppell's Black Chat.",
+          },
+          {
+            title: "Lake Awassa",
+            description:
+              "Witness the vibrant bird activity at the fish market and spot a variety of waterbirds, including the Black Crowned Crane and Pink-backed Pelican.",
+          },
+          {
+            title: "Bale Mountain National Park",
+            description:
+              "Journey through Afro-alpine moorland and encounter endemic species like Spot-breasted Lapwing, Abyssinian Woodpecker, and Ethiopian Siskin.",
+          },
+          {
+            title: "Negele Borena",
+            description:
+              "Explore the unique Liben Plains and search for the endangered Archer's Lark and other species like Red-naped Bushshrike and Somali Crombec.",
+          },
+          {
+            title: "Yabello",
+            description:
+              "Seek out the globally threatened Stresemann's Bushcrow and White-tailed Swallow in the Acacia savanna, along with other captivating birds like Vulturine Guineafowl and African Pygmy Falcon.",
+          },
+          {
+            title: "Lake Langano",
+            description:
+              "Marvel at Clapperton's Francolin, White-winged Cliff Chat, and Beautiful Sunbird in the woodland surroundings of Lake Langano.",
+          },
+          {
+            title: "Ethiopian Wildlife",
+            description:
+              "Keep an eye out for fascinating mammals, including the Ethiopian or Simien Wolf, Mountain Nyala, and Gelada Baboons.",
+          },
+          {
+            title: "Cultural Experiences",
+            description:
+              "Immerse yourself in the rich traditions and warm hospitality of Ethiopia, connecting with local communities and savoring the country's diverse cuisine.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrival in Addis Ababa",
+          },
+          {
+            title: "Day 2",
+            description: "Addis Ababa to Debre Birhan via Gemasa Gedel",
+          },
+          {
+            title: "Day 3",
+            description: "Debre Birhan to Addis Ababa via the Jemma Valley",
+          },
+          {
+            title: "Day 4",
+            description: "Addis Ababa to Lake Awassa",
+          },
+          {
+            title: "Day 5",
+            description: "Lake Awassa to Bale Mountain National Park",
+          },
+          {
+            title: "Day 6",
+            description: "Explore Bale Mountain National Park",
+          },
+          {
+            title: "Day 7",
+            description: "Goba to Negele Borena",
+          },
+          {
+            title: "Day 8",
+            description: "Explore the Negele Borena area",
+          },
+          {
+            title: "Day 9",
+            description: "Negele Borena to Yabello",
+          },
+          {
+            title: "Day 10",
+            description: "Explore the Yabello area",
+          },
+          {
+            title: "Day 11",
+            description: "Yabello to Lake Langano",
+          },
+          {
+            title: "Day 12",
+            description: "Lake Langano to Addis Ababa and departure",
+          },
+          {
+            title: "Note",
+            description:
+              "Please note that the itinerary is subject to change based on local conditions and bird sightings.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVAL IN ADDIS ABABA",
+          description: [
+            "Today is essentially an arrival day. For those who arrive during the day, it is possible to enjoy some birding within city parks. Noteworthy species that may be seen this include White-backed Black Tit, Abyssinian Slaty Flycatcher, Brown-rumped Seedeater, Tekezze Sunbird, White-collared Pigeon, Wattled Ibis, and a host of raptors overhead, numbering both Egyptian and Hooded Vultures. ",
+            "Overnight in Addis Ababa.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA TO DEBRE BIRHAN VIA GEMASA GEDEL",
+          description: [
+            "You will leave Addis Ababa early and head north to Debre Birhan, hopefully avoiding the capital's frenetic morning traffic. Our target species for the excursion to Gemasa Gedel are the localised Ankober Serin, a rare and elusive Ethiopian endemic.",
+            "Discovered only in 1976, they survive along a few kilometres of this wind blasted grand escarpment, as do Gelada Baboons, also known as Lion-headed Baboons. This densely-pelted, shaggy baboon is endemic to Ethiopia, and the males can often be seen flipping back their lips in a show of dominance.",
+            "These animals have the closest vocal repertoire to humans of any mammal, pronouncing all consonants and four vowels! They forage on the grasslands above the escarpment and roost on ledges of inaccessible cliffs at night.",
+            "Other possible species to be found here include Ethiopian Siskin, Streaky Seedeater, Moorland Chat, White-billed Starling, Bearded Vulture, Verreaux's Eagle, Rufous-breasted Sparrowhawk, Peregrine Falcon, the seldom recorded Somali Starling and Long-billed Pipit. In the afternoon we will then retire to our comfortable hotel in Debre Birhan.",
+            "Overnight in Debre Birhan.",
+          ],
+          image: images.debrelibanos1,
+        },
+
+        {
+          title: "DAY 3: DEBRE BIRHAN TO ADDIS ABABA VIA THE JEMMA VALLEY",
+          description: [
+            "An early departure from Debre Birhan is essential in order to be at our chosen site when the endemic Harwood's Francolin is at its most vocal, thus providing our best opportunity for seeing this elusive species.",
+            "The Jemma River is one of the main tributaries of the Blue Nile and it cuts a 700m (2,300ft) deep gorge through the landscape. The habitat in the gorge is dominated by Acacia woodland, while the steep sides provide habitat for some excellent endemic birds. We will concentrate our search here for Rüppell's Vulture, Verreaux's Eagle, African Hawk-Eagle, Augur Buzzard (dark morph birds are commonly seen here), Lanner and Peregrine Falcons, Erckel's Francolin, Nyanza Swift, Hemprich's Hornbill, Red-rumped Swallow, Abyssinian Wheatear, the endemic and localised Rüppell's Black Chat, endemic White-winged Cliff Chat and its more familiar cousin, Mocking Cliff Chat, endemic White-billed Starling, elusive Yellow-rumped Seedeater and Cinnamon-breasted Bunting.",
+            "We will have a picnic lunch at the river and bird the surrounding woodlands for Blue-spotted Wood Dove, Klaas's Cuckoo, Black-billed Barbet, Eastern Olivaceous Warbler, Lesser Whitethroat, Foxy and Singing Cisticolas, African Paradise Flycatcher, Masked, Woodchat and Isabelline Shrikes, Swainson's Sparrow, Bush Petronia, Speckle-fronted Weaver, Red-collared Widowbird, Black-winged Red and Yellow Bishops, and both Crimson-rumped and Abyssinian Waxbills.",
+            "With a good dose of luck, we may stumble upon the quiet and inconspicuous Red-billed Pytilia, one of the trickier endemics that is regularly found in the Jemma Valley. In the mid-afternoon, you will depart for the drive back to Addis Ababa, where we will spend the night.",
+            "Overnight in Addis Ababa.",
+          ],
+          image: images.simien6,
+        },
+        {
+          title: "DAY 4: ADDIS ABABA TO LAKE AWASSA",
+          description: [
+            "Your Ethiopian adventure continues with an early departure from Addis Ababa this morning as we head into the Great Rift Valley. Our first birding stop is at Lake Chelekcheka, an excellent site for migrant ducks and waders. Regular species encountered here include Northern Pintail, Northern Shoveler, Garganey, Eurasian Teal, Tufted Duck, Black-tailed Godwit and Temminck's Stint.",
+            "Sorting through the rafts of ducks and other migrants can be very challenging due to the distraction caused by the sheer number of species moving through the scrubby vegetation near the lake edge! Common Crane often roost in staggering numbers on the far side of the water, and we may see them flying off to forage in huge, noisy flocks.",
+            "The well-wooded rim of the deep Lake Hora will be our second stop. The woodlands around the lake also teem with birds and again it may prove difficult to keep up with the seemingly endless flow of lifers! Blue-breasted Bee-eater, Black-billed Barbet, Common Redstart, Eurasian Blackcap, Red-throated Wryneck, Dark-capped Yellow Warbler, Ruppell's Robin-Chat, Western Black-headed Batis, Beautiful Sunbird, Rüppell's Weaver and a diverse variety of waterbirds, especially deep water diving ducks, can be seen here.",
+            "Thereafter, we make a short stop at the steep-sided Lake Bishoftu for Maccoa and Ferruginous Ducks, Southern Pochard, Singing Cisticola, gorgeous Tekezze Sunbird, Mocking Cliff Chat, Abyssinian Wheatear, Little Rock Thrush and flocks of Black-winged Lovebird! En route to Lake Awassa, we will also visit Koka Dam and Lake Ziway, all classified as Important Bird Areas supporting vast numbers of resident and migrant waterbirds.",
+            "Species we will search for include the spectacular Black Crowned Crane, Pink-backed Pelican, African Darter, Yellow-billed Egret, Goliath Heron, Hamerkop, Yellow-billed and Saddle-billed Storks, Spur-winged and Egyptian Geese, Knob-billed Duck, the elegant African Pygmy Goose, African Fish Eagle, Western Marsh Harrier, African and Lesser Jacanas, Senegal Thick-knee, Sedge Warbler, Spur-winged Lapwing, Gull-billed Tern and Pied and Malachite Kingfishers.",
+            "Strolling along the lakeshore at Lake Ziway will allow us excellent views of confiding Great White Pelican and the huge Marabou Stork while dazzling Northern Carmine Bee-eater, migratory White and Western Yellow Wagtails (including some of the striking feldeggi race) and the less colourful Ethiopian Cisticola can be seen around the lake edge. This promises to be an action-packed day, after which we will check into our hotel on the shores of Lake Awassa in the late afternoon.",
+            "Overnight in Hawassa",
+          ],
+          image: images.bird3,
+        },
+        {
+          title: "DAY 5: LAKE AWASSA TO GOBA",
+          description: [
+            "Our pre-breakfast birding stroll should yield some special birds around our well-wooded hotel grounds. Amongst our targets we hope to see are African Spotted Creeper, Little Weaver, Black-billed Wood Hoopoe, Double-toothed Barbet, Woodland Kingfisher, huge Silvery-cheeked Hornbill, the attractive Red-shouldered Cuckooshrike, Western Black-headed Batis, Brown-throated Wattle-eye, Mourning Collared Dove, Grey-backed Fiscal, Northern Puffback, and Bronze Mannikin.",
+            "Reedbeds in the vicinity support Greater Painted-snipe, Black Crake, African Swamphen, Blue-headed Coucal, Red-faced Cisticola, Lesser Swamp Warbler, and Common Waxbill. The hotel grounds also support families of Grivet Monkey, though it is the regal Guereza (Black-and-white Colobus) that will certainly steal our attention as they leap through the trees, their shaggy pelts and long tails trailing behind.",
+            "After breakfast, we may then visit the remarkable Lake Awassa fish market. This large lake is particularly rich in fish, and the fishermen gut their catch and discard the waste around the market.",
+            "This, in turn, attracts large numbers of grotesque Marabou Stork and other birds. Photographic opportunities are unrivalled. We should also see Great White Pelican, White-breasted and Reed Cormorants, Hamerkop, African Sacred Ibis, Black-headed, Grey-hooded, and Lesser Black-backed Gulls, and sometimes the massively-equipped Thick-billed Raven squabbling over the fish remains.",
+            "Leaving Lake Awassa, we wind our way upwards towards the world-famous Bale Mountains National Park. Rugged hillsides en route may hold a few surprises for us, and some dedicated searching may produce the mackinderi race of Cape Eagle-Owl, while wetter areas hold Rouget's Rail, Groundscraper Thrush (of the distinctive, endemic simensis subspecies), Blue-winged Goose, and smart Spot-breasted Lapwing.",
+            "At the park headquarters in Dinsho, we will search the trails for the colourful Chestnut-naped Francolin, secretive Abyssinian Ground Thrush, vocal Abyssinian Catbird, and endemic White-backed Black Tit.",
+            "With a healthy dose of luck, we may find roosting African Wood Owl and the highly sought-after Abyssinian Owl in the dark recesses of a Juniper thicket. We also hope to see a variety of mammals, including Mountain Nyala (now entirely restricted to the Bale Mountain massif), ‘Menelik's' Bushbuck, Bohor Reedbuck, and Common Warthog, unusual at this high altitude.",
+            "Overnight in Goba.",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 6: BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "This will be a day of great contrasts and amazing scenery and birding. You will depart early and ascend the Bale Mountain massif onto the Sanette Plateau, which lies between 3,800m and 4,377m (12,540 and 14,444ft) above sea level.",
+            "As you climb out of Goba, we enter a Juniper forest zone, where we will search for African Goshawk, Rufous-breasted Sparrow hawk, White-cheeked Turaco, the localised Abyssinian Woodpecker, Cinnamon Bracken Warbler, African Hill Babbler, Montane White-eye, and Yellow-bellied Waxbill.",
+            "Upon reaching this unique plateau, you will be driving on Africa's highest road - passing close to the summit of Ethiopia's second-highest mountain. This habitat is termed “Afro-alpine moorland” and is characterised by Jibrra or Giant Lobelias that tower like monolithic giants over the rich tussock grasslands and extensive cushions of yellow Everlasting flowers.",
+            "This site is an Important Bird Area of immense significance, supporting seven globally threatened species and nearly all of Ethiopia's Highland biome species. The plateau holds the only Afrotropical breeding populations of Ruddy Shelduck, Golden Eagle, and Red-billed Chough.",
+            "We will also search for Black Stork, Wattled Ibis, Chestnut-naped and Moorland Francolins, Rouget's Rail (particularly common and confiding here), endemic Blue-winged Goose, Spot-breasted Lapwing, Wattled Crane, Thekla's Lark, migratory flocks of Red-throated Pipit, Abyssinian Long claw, Red-breasted Wheatear, dumpy Moorland Chat, and vast flocks of endemic Ethiopian Siskins.",
+            "These grasslands are estimated to support an incredible biomass of 4,000kg (8,800lb) of rodents per hectare. This obviously attracts an array of raptors and we should see Steppe and Golden Eagles, Augur Buzzard, and elegant Pallid Harrier courting over this green sea. They share this abundant food source with the plateau's most celebrated resident, the Ethiopian or Simien Wolf, crowned with the unenviable title of “the world's rarest canid.”",
+            "Watching these vibrantly coloured animals, most closely related to the European Timber Wolf, exhibiting their hunting prowess whilst pouncing on Giant Mole Rats (another endemic to the Sanette Plateau) is surely among Africa's greatest wildlife experiences. You should enjoy excellent photographic opportunities in this unique montane habitat.",
+            "Finally, you will reach the escarpment of this elevated plateau and stare down through the clouds at the vast Harenna Forest below. Time permitting; you make visit the upper slopes of this forest this afternoon. This remarkable forest is the largest intact forest block in Ethiopia and the largest protected Afro-alpine forest on the continent.",
+            "It still supports populations of Lion, and the only surviving forest-dwelling African Wild Dogs. Although unlikely that you will see either of these species, the descent through this breathtakingly beautiful, moss-draped forest is inspirational.",
+            "Here you will search for the uncommon Mountain Buzzard, African Olive Pigeon, Lemon and Tambourine Doves, African Emerald Cuckoo, Abyssinian Woodpecker, Narina Trogon, Brown Parisoma (represented by a subspecies endemic to this National Park), Abyssinian Crimsonwing, African Citril, and Yellow-crowned Canary. Later in the day, you will head back to our hotel in Goba.",
+            "Overnight in Goba.",
+          ],
+          image: images.bird5,
+        },
+        {
+          title: "DAY 7: GOBA TO NEGELE VIA THE BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "Today we will depart early and once again ascend the Bale Mountain massif onto the Sanette Plateau. After crossing this fascinating area again, you drop into the Harenna Forest. As we lose altitude, we will exit the forest zone and enter progressively drier thorn savanna in this remote, southern sector of Ethiopia. ",
+            "Along the dusty drive, we can expect to start adding a number of new species to our burgeoning list including Red-and-yellow Barbet, Golden-breasted, Shelley's and Superb Starlings, Northern Red-billed and Eastern Yellow-billed Hornbills and Lilac-breasted Roller.",
+            "Finally, you will reach a dry wadi on the Genale River, home to Ethiopia's most sought-after endemic, Ruspoli's Turaco.",
+            "The bird is named after an Italian Prince, its hapless discoverer, who was killed by an elephant soon after collecting the type specimen in the 1890's. It took another 50 years before explorers saw the turaco again, and only in the 1970's was anything revealed about this bird.",
+            "We will search fruiting fig trees along the wadi and, with the help of local farmers we should enjoy excellent views of this very unusual and beautiful turaco. You will arrive in Negele in the early evening and check into our basic hotel.",
+            "Overnight in Negele",
+          ],
+          image: images.bird6,
+        },
+        {
+          title: "DAY 8: NEGELE AREA. ",
+          description: [
+            "East of Negele lies a unique open grassland, the Liben Plains, to which the little-known Archer's Lark is restricted. This species belongs to the unusual genus Heteromirafra, which also includes South Africa's Rudd's Lark, and is considered one of the most endangered birds on Earth.",
+            "You will walk through these plains in search of this special bird, which we hope to watch performing its parachute display flight. We should also find small parties of hovering Lesser Kestrel, giant Kori Bustard (the world's heaviest flying bird), White-bellied Bustard, Temminck's Courser, Black-winged Lapwing, the range restricted Somali Short-toed Lark, Plain-backed Pipit and Pectoral-patch Cisticola. If you're very lucky, you may see coveys of Coqui Francolin or flush a migratory Corn Crake.",
+            "Further east of Negele you will bird the increasingly dry woodland and thorn savanna towards the Somali border. This area supports a recently found population of the tricky endemic Salvadori's Seedeater, scarce Golden Pipit, elusive Red-naped Bushshrike, White-winged Black Tit, Pringle's Puffback, Three-streaked Tchagra, Foxy Lark, Somali Crombec, Taita Fiscal, Red-fronted Barbet, garish Golden-breasted Starling, attractive flocks of White-crowned Starlings, Somali Crow, African Silverbill, Shelley's Sparrow and Somali Bunting. Large troops of Olive Baboon may also be encountered here and you should see Guenther's Dik-dik and possibly Gerenuk. Overnight in Negele",
+          ],
+          image: images.bird7,
+        },
+        {
+          title: "DAY 9: NEGELE TO YABELLO",
+          description: [
+            "Today's drive along another long and seldom-travelled road takes you near to the Kenya border and finally to the Yabello region, home to two of Ethiopia's most sought-after endemic birds, both listed as globally threatened: the enigmatic Stresemann's Bushcrow and glistening White-tailed Swallow. ",
+            "This area of Acacia savanna is characterised by giant red termite mounds (some towering 5m above the plains!) and both these birds seem to be associated in some way with these marvels of natural architecture. The social Bushcrow (or Zavattariornis) was only discovered in 1938 and its affinities have yet to be established with certainty.",
+            "Although it appears starling-like, it is presumed to be most closely related to Crows. Several birding stops will break the journey, the most notable being a stop at the Dawa River in search of Juba Weaver, White-winged Collared Dove and Black-bellied Sunbird. ",
+            "Other noteworthy birds you may encounter en route to Yabello include Somali Courser, Magpie Starling, Black-throated and D'Arnaud's Barbets, Pygmy Batis, Acacia Tit, Dodson's Bulbul, Red-fronted Warbler, Purple Grenadier, Black-capped Social Weaver, Steel-blue Whydah and its host, Black-cheeked Waxbill. ",
+            "Overnight in Yabello",
+          ],
+          image: images.bird8,
+        },
+        {
+          title: "DAY 10: YABELLO AREA",
+          description: [
+            "You have the whole day to bird the Yabello area and get better acquainted with Stresemann's Bushcrow and White-tailed Swallow. Other birds you will be looking for are Gabar Goshawk, the shrike-sized African Pygmy Falcon, Yellow-necked Spurfowl, glamorous flocks of Vulturine Guineafowl, Black-faced Sandgrouse, Mottled Swift, Tree Pipit, the localised Bare-eyed Thrush, ventriloquial Spotted Palm Thrush, African Grey Flycatcher, Pale Prinia, Yellow-bellied Eremomela, Banded Parisoma, Hunter's and Shining Sunbirds, Superb and Wattled Starlings, Chestnut Sparrow, Yellow-spotted Petronia, Grey-capped Social Weaver, Chestnut Weaver, Green-winged Pytilia, White-bellied Canary and White-winged Widowbird.",
+            "A night drive in this exciting area could produce Donaldson-Smith's and Slender-tailed Nightjars, Greyish Eagle-Owl, Northern White-faced Owl and Three-banded Courser. Nocturnal mammal sightings have included Striped and Spotted Hyenas, Serval, African Wild Cat and Ethiopian Genet.",
+            "Overnight in Yabello",
+          ],
+          image: images.bird2,
+        },
+        {
+          title: "DAY 11: YABELLO TO LAKE LANGANO",
+          description: [
+            "After breakfast, you will depart Yabello and make your way back north towards Addis Ababa on what is, essentially, a travel day. In the late afternoon, you will reach your comfortable hotel on the shores of Lake Langano. Overnight in Langano",
+          ],
+          image: images.bahirdar1,
+        },
+        {
+          title: "DAY 12: LAKE LANGANO TO ADDIS ABABA AND DEPART",
+          description: [
+            "Following an early breakfast, you will try and spend time today exploring the surrounding woodlands of Lake Langano for Clapperton's Francolin, White-winged Cliff Chat, Little Rock Thrush, Buff-bellied Warbler, Beautiful Sunbird, Ruppell's Starling, White-faced Go-away-bird, Black-winged Lovebird, Abyssinian Wheatear, White-winged Black Tit, Black-billed Wood Hoopoe, Von der Decken's Hornbill, Ruppell's Weaver, Banded and Black-billed Barbets, Grey-headed Batis, African Pygmy Kingfisher, Bearded Woodpecker and Masked Shrike. After a final successful morning's birding, you will spend the balance of the day driving northwards, reaching the capital in the late afternoon. You will enjoy a final celebratory dinner before wrapping up the tour.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    experience: 6,
+    title: "Ethiopian Birding Expedition",
+    index: false,
+    image: images.bird5,
+    description: "From Rift Valley To Highlands",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Birding Expedition",
+        subtitle: "From Rift Valley To Highlands",
+        description: [
+          "Start a quest on an exhilarating journey through the diverse landscapes of Ethiopia, a haven for bird enthusiasts and photographers alike. This 16-day expedition takes you from the bustling capital city of Addis Ababa to stunning national parks, pristine lakes, and remote regions brimming with avian treasures.",
+          "Immerse yourself in the breathtaking beauty of Ethiopia's landscapes while capturing images of rare and endemic bird species. From the Geferssa Reservoir near Addis Ababa to the awe-inspiring Bale Mountains National Park and the arid plains of Yabello, this trip promises incredible encounters with unique birdlife.",
+          "Explore the cultural and historical sites along the way, adding depth to your photographic journey. Join us on this extraordinary birding expedition, where every moment presents a new opportunity to capture the wonders of Ethiopia's avifauna.",
+        ],
+        lr: true,
+        img1: images.bird2,
+        img2: images.bird3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Geferssa Reservoir",
+            description:
+              "Capture shots of the elusive Blue-winged Goose, Black-headed Siskin, Abyssinian Long Claw, and Wattled Ibis near the outskirts of Addis Ababa.",
+          },
+          {
+            title: "Awash National Park",
+            description:
+              "Delve into a birding paradise with sightings of the Northern Carmine Bee-eater and other captivating species like Arabian Bustard, Hartlaub's Bustard, and Yellow-breasted Barbet.",
+          },
+          {
+            title: "Bale Mountains National Park",
+            description:
+              "Photograph the endemic Moorland Francolin, Abyssinian Catbird, Rouget's Rail, and the critically endangered Ethiopian Wolf in the breathtaking alpine moorlands and Hagenia forests.",
+          },
+          {
+            title: "Negele Plains",
+            description:
+              "Seek out Africa's most threatened bird, the rare Liben/Sidamo Lark, and other specialties such as Somali Short-toed Lark and Vulturine Guineafowl in this unique arid region.",
+          },
+          {
+            title: "Yabello",
+            description:
+              "Capture shots of the charismatic Stresemann's Bushcrow and White-tailed Swallow in the immediate surrounds of Yabello.",
+          },
+          {
+            title: "Lake Awasa",
+            description:
+              "Explore the bird-filled lake, photographing African Pygmy Geese, Fish Eagles, Jacanas, and a plethora of waterbirds congregated on its shores.",
+          },
+          {
+            title: "Debre Libanos and Ankober",
+            description:
+              "Discover the unique birdlife of these scenic areas, including the Erckel's Francolin, White-winged Cliff Chat, and Ankober Serin.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrival in Addis Ababa and Geferssa Birding",
+          },
+          {
+            title: "Day 2",
+            description: "Addis Ababa to Awash",
+          },
+          {
+            title: "Day 3",
+            description: "Awash National Park Exploration",
+          },
+          {
+            title: "Day 4",
+            description: "Awash to Wondo Genet",
+          },
+          {
+            title: "Day 5",
+            description: "Wondo Genet to Goba",
+          },
+          {
+            title: "Day 6",
+            description: "Bale Mountains National Park",
+          },
+          {
+            title: "Day 7",
+            description: "Resume Bale Mountains Exploration",
+          },
+          {
+            title: "Day 8",
+            description: "Goba to Negele",
+          },
+          {
+            title: "Day 9",
+            description: "Negele Plains",
+          },
+          {
+            title: "Day 10",
+            description: "Negele to Yabello",
+          },
+          {
+            title: "Day 11",
+            description: "Yabello to Awassa",
+          },
+          {
+            title: "Day 12",
+            description: "Awassa to Langano",
+          },
+          {
+            title: "Day 13",
+            description: "Langano to Debre Libanos",
+          },
+          {
+            title: "Day 14",
+            description: "Debre Libanos, the Jemma Valley, and Ankober",
+          },
+          {
+            title: "Day 15",
+            description: "Ankober to Addis Ababa",
+          },
+          {
+            title: "Day 16",
+            description: "Gibe Gorge Day Trip and Departure from Addis Ababa",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 01: ADDIS ABABA ARRIVAL AND GEFERSSA BIRDING",
+          description: [
+            "On your arrival at the Bole International Airport, our staff will welcome and assist you for your Hotel transfer. After lunch in the hotel, we leave for Geferssa Reservoir, around 20 km west of Addis Ababa, where one can see the Blue-winged Goose, Black-headed Siskin, Abyssinian Long Claw, and Wattled Ibis. Return to Addis Ababa early evening.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 02: ADDIS ABABA TO AWASH",
+          description: [
+            "Our Ethiopian trip kicks off with an early start from the country’s lofty capital, Addis Ababa (after breakfast with Brown-rumped Seedeater), as we make our way down into the lake-studded rift valley. We should have time to pause at Debre Zeyit for our first waterbirds, before heading to our final destination at Awash for some introductory dry-country birding. Northern Carmine Bee-eater in Awash National Park.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAY 03: AWASH NATIONAL PARK",
+          description: [
+            "The bird-filled Awash National Park and surroundings will be the focus of our entire day’s birding. At the black lava flow at Lake Baseka, we’ll search for the highly localized Sombre Rock Chat. The rest of the time will be spent scouring the grass plains and bushland for specials such as Arabian Bustard, Hartlaub’s Bustard, Red-winged Lark, Somali Fiscal, and Yellow-breasted Barbet.",
+          ],
+          image: images.bird1,
+        },
+        {
+          title: "DAY 04: AWASH TO WONDO GENET",
+          description: [
+            "After breakfast on your accommodation, we’ll start our journey southwards, passing various crater lakes and wetlands, such as Lake Ziway and Langano, with surrounding acacia bush, and may see Northern Grey Tit and Black-billed Woodhoopoe. By mid-afternoon, we hope to reach Wondo Genet, and spend the last few hours of light birding in some remnant forest patches near our accommodation, although the main birding here will be the following morning.",
+          ],
+          image: images.bird2,
+        },
+        {
+          title: "DAY 05: WONDO GENET TO GOBA",
+          description: [
+            "An early morning birding around Wondo Genet should turn up several endemics and specials, which may include Yellow-fronted Parrot, White-cheeked Turaco, Banded Barbet, Abyssinian Woodpecker, Abyssinian Slaty Flycatcher, Abyssinian Oriole, and perhaps the scarce Abyssinian Ground Thrush. We’ll then wind our way into the fabulous Bale Mountains, keeping our eyes peeled for Thick-billed Raven and Red-billed Chough, for two nights stay.",
+          ],
+          image: images.bird3,
+        },
+        {
+          title: "DAY 06: BALE MOUNTAINS NATIONAL PARK",
+          description: [
+            "The breathtaking scenery of the Bale Mountains provides a backdrop to some of Ethiopia’s best birding. We’ll spend a full day examining the alpine moorlands and Hagenia forests of the area, in search of Moorland Francolin, White-backed Tit, Abyssinian Catbird, Rouget’s Rail, Wattled Ibis, Blue-winged Goose, Spot-breasted Lapwing, White-collared Pigeon, Abyssinian Longclaw, Abyssinian Woodpecker, and White-billed Starling.",
+          ],
+          image: images.bird4,
+        },
+        {
+          title: "DAY 07: RESUME BALE MOUNTAINS EXPLORATION",
+          description: [
+            "We’ll be watching out for Ethiopia’s flagship mammal, the Critically Endangered Ethiopian Wolf! Of all carnivores, the Ethiopian Wolf is the most endangered, with only 400 to 600 remaining. We make a special effort to search for them in the Bale mountains.",
+          ],
+          image: images.bird5,
+        },
+        {
+          title: "DAY 08: GOBA TO NEGELE",
+          description: [
+            "With a long drive ahead of us, we make an early start across the Sanetti Plateau and down through the Harenna Forest, searching for any local specialties that we may be missing. We’ll pause at a few strategic river crossings in search of the charismatic Prince Ruspoli’s Turaco on our way south on to Negele.",
+          ],
+          image: images.bird6,
+        },
+        {
+          title: "DAY 09: NEGELE PLAINS",
+          description: [
+            "The overgrazed Liben Plains near Negele holds perhaps Africa’s most threatened bird, the rare Liben/Sidamo Lark. This species will form the main focus of our visit, but we also hope to find several other specialties in the area, including Somali Short-toed Lark, White-crowned Starling, and perhaps Salvadori’s Seedeater. Arid country birds may include Vulturine Guineafowl and Pringle’s Puffback.",
+          ],
+          image: images.simien6,
+        },
+        {
+          title: "DAY 10: NEGELE TO YABELLO",
+          description: [
+            "Today, we continue further south into the arid country of southern Ethiopia, as we continue on to Yavello. We’ll visit some riverine habitats in search of the highly localized Juba Weaver and White-winged Dove and smart Black-bellied Sunbird, pause, if necessary at Arero forest, where one of the largest populations of Prince Ruspoli’s Turaco resides, and catch up with some more arid-country species, such as Red-naped Bushshrike, Three-streaked Tchagra, and Foxy Lark.",
+          ],
+          image: images.gambella1,
+        },
+        {
+          title: "DAY 11: YABELLO TO AWASSA",
+          description: [
+            "The immediate surrounds of Yabello are home to two very special birds, the charismatic Stresemann’s Bushcrow and little-known White-tailed Swallow. We’ll spend the early morning searching for these, before starting our return journey northwards, watching out for Shelley’s Starling at the roadside as we go. We break our journey at the bird-filled Lake Awasa.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 12: AWASSA TO LANGANO",
+          description: [
+            "We leave Addis Ababa early in the morning, heading south for the main Ethiopian Rift Valley. We will be birding along the main road, stopping off at Koka Dam and the Awash river and then at Lake Zeway for lunch. After lunch, we head down to the lakeshore where huge numbers of water birds are congregated. African Pygmy Geese, Yellow-billed storks, Collared Pratincoles, Lesser and greater Jacanas, African Jacanas, White Pelicans, Fish Eagles, crowned and common cranes are some of the species to be seen here in impressive numbers. We leave Zeway mid-afternoon, continuing to Lake Langano for an overnight stay. Overnight at one of the lake Side resorts at Lake Langano.",
+          ],
+          image: images.bird7,
+        },
+        {
+          title: "DAY 13: LANGANO TO DEBRE LIBANOS",
+          description: [
+            "Today, we continue northwards, back through Addis Ababa and to spectacular cliffs of Debre Libanos. Here we’ll search for the localized Erckel’s Francolin, White-winged Cliff Chat, Rueppell’s Black Chat, and the unusual Gelada Baboon.",
+          ],
+          image: images.bird8,
+        },
+        {
+          title: "DAY 14: DEBRE LIBANOS, THE JEMMA VALLEY AND ON TO ANKOBER",
+          description: [
+            "An early start from Debre Libanos will see us descend into the Jemma River valley, where after first light we’ll search for Harwood’s Francolin. We’ll also watch out for Hemprich’s Hornbill, White-billed Starling, Black-billed Barbet, and Foxy Cisticola, and if we are very fortunate, the scarce Red-billed Pytilia. We’ll then continue onto the escarpment at Ankober.",
+          ],
+          image: images.debrelibanos1,
+        },
+        {
+          title: "DAY 15: ANKOBER TO ADDIS ABABA",
+          description: [
+            "Yet another little-known endemic can be found in the vicinity of Ankober, the unobtrusive Ankober Serin. We’ll also stand the chance of searching for specials that we may be missing, including Erckel’s Francolin, Black-headed Siskin, and Ethiopian Cisticola. We hope also to have time to make a short detour to Melka Ghebdu, where the localized Yellow-throated Serin occurs, before heading over the cultivated plains to Addis.",
+          ],
+          image: images.adey1,
+        },
+        {
+          title: "DAY 16: GIBE GORGE DAY TRIP",
+          description: [
+            "Our final day in Ethiopia will be spent exploring the Gibe Gorge area, about an hour’s drive west of Addis. Here we stand the chance again of finding the scarce Red-billed Pytilia, and may encounter Abyssinian Waxbill. It will also give us a chance to search for any other specials that we may have missed. In the late afternoon drive back to Addis Ababa and after some refreshment and rest, we will go to a farewell dinner at one of the cultural restaurants and then transfer to the Airport for the departure flight back home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
 ];
 
 ExperiencesPackageItineraryArray.push(...ItineraryArray);
+ExperiencesPackageItineraryArray.push(...WildlifeArray);
