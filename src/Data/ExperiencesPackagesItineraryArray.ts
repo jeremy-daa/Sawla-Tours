@@ -28,7 +28,7 @@ export interface Itinerary {
       description: string;
     }[];
   }[];
-  itinerarydescription: {
+  itinerarydescription?: {
     title: string;
     itineraries: {
       title: string;

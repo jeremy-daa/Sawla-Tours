@@ -54,6 +54,7 @@ const Images = {
   danakil9: "/assets/danakil_9.jpg",
   danakil10: "/assets/danakil_10.jpg",
   debrelibanos1: "/assets/debre_libanos_1.jpg",
+  debrelibanos2: "/assets/debre_libanos_2.jpg",
   ertaale1: "/assets/erta_ale_1.jpg",
   erbore1: "/assets/erbore_1.jpg",
   gambella1: "/assets/gambella_1.jpg",
