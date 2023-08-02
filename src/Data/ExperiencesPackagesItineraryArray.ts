@@ -1490,7 +1490,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Early this morning, after breakfast, commence your private driving to the famous lake-side town of Arba Minch. The drive will pass through high mountain plateaus, scenic landscapes, and the beautiful villages of Gurage and Wolayita; en route stop at the archaeological site of Melka Kunture and the stelae field of Tiya. Having lunch stop en route, you continue driving to Arba Minch. It and the surrounding area are inhabited by the people of the Gamo tribe, originally nomads but now farmers. The last section of this drive offers magnificent views of Lake Abaya, surrounded by mountains.",
             "Overnight in Arba Minch",
           ],
-          image: images.awassa1,
+          image: images.hawassa1,
         },
         {
           title: "DAY 3: DRIVE TO JINKA VIA KONSO",
@@ -2466,7 +2466,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Early this morning, after breakfast, commence your private driving to the famous lake-side town of Arba Minch. The drive will pass through high mountain plateaus, scenic landscapes, and the beautiful villages of Gurage and Wolayita; en route stop at the archaeological site of Melka Kunture and the stelae field of Tiya. Having lunch stop en route, you continue driving to Arba Minch. It and the surrounding area are inhabited by the people of the Gamo tribe, originally nomads but now farmers. The last section of this drive offers magnificent views of Lake Abaya, surrounded by mountains.",
             "Overnight in Arba Minch",
           ],
-          image: images.awassa1,
+          image: images.hawassa1,
         },
         {
           title: "DAY 3: DRIVE TO JINKA VIA KONSO",
@@ -2527,7 +2527,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "It is a short drive to Hawassa, where we visit the fish market with many birds around, waiting to get their share of the catch of the day. An optional boat trip is available to explore the lake. The afternoon is spending at leisure at our lovely resort.",
             "Overnight in Hawassa",
           ],
-          image: images.awassa1,
+          image: images.hawassa1,
         },
         {
           title: "DAY 10: DRIVE TO ADDIS ABABA",
@@ -4457,6 +4457,1399 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           title: "Day 11: Fly to Addis Ababa",
           description: [
             "This morning you will transfer to Robe airport to your flight back to Addis Ababa. You will have the afternoon at leisure. Depending on your flight, you will be transferred to Bole airport.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    experience: 4,
+    title: "Ancient Wonders of Ethiopia",
+    index: false,
+    image: images.lalibela8,
+    description: "A Journey through History and Nature",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ancient Wonders of Ethiopia",
+        subtitle: "A Journey through History and Nature",
+        description: [
+          "Commence a journey on a captivating journey through the ancient wonders of Ethiopia, where history, culture, and natural beauty intertwine. From the vibrant capital city of Addis Ababa to the UNESCO World Heritage Sites of Lalibela, Axum, and Gondar, this carefully crafted itinerary takes you on a remarkable exploration of the country's rich heritage.",
+          "Marvel at the rock-hewn churches of Lalibela, witness the towering monoliths of Axum and explore the medieval castles of Gondar. Immerse yourself in the stunning landscapes of the Simien Mountains National Park and the Tigray region, where dramatic escarpments and hidden churches await.",
+          "Discover the unique traditions, vibrant markets, and warm hospitality of the Ethiopian people as you delve deep into the country's cultural tapestry.",
+        ],
+        lr: true,
+        img1: images.axum3,
+        img2: images.lalibela4,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Experience the bustling capital city, with its vibrant markets, museums, and rich cultural heritage.",
+          },
+          {
+            title: "Lake Tana",
+            description:
+              "Visit isolated churches by boat and explore the serene monasteries dotting the shores of this ancient lake.",
+          },
+          {
+            title: "Gondar",
+            description:
+              "Discover the majestic castles of Fasilades and the intricate carvings of Debre Berhan Church.",
+          },
+          {
+            title: "Simien Mountains National Park",
+            description:
+              "Trek through breathtaking alpine landscapes, encounter endemic wildlife, and marvel at the rugged beauty of this UNESCO World Heritage Site.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Explore the awe-inspiring rock-hewn churches, a testament to the architectural genius of ancient Ethiopia.",
+          },
+          {
+            title: "Axum",
+            description:
+              "Uncover the mysteries of this ancient city, home to towering stelae, the Church of Saint Mary of Zion, and the legends of the Queen of Sheba.",
+          },
+          {
+            title: "Tigray Region",
+            description:
+              "Trek to remote rock-hewn churches in the Gheralta cluster, witness breathtaking landscapes, and immerse yourself in the local communities.",
+          },
+          {
+            title: "Adigrat and Anaf",
+            description:
+              "Trek through terraced fields, interact with friendly villagers, and experience the hospitality of the Tigrayan people.",
+          },
+          {
+            title: "Mekelle",
+            description:
+              "Visit the impressive Abreha Atsbeha church and Wukro Cherkos, adorned with beautiful carvings and ancient artwork.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa and explore the vibrant capital city.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Fly to Bahir Dar, visit monasteries on Lake Tana, and enjoy breathtaking views.",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Drive to the Simien Mountains National Park and immerse yourself in stunning alpine scenery.",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Trek through the Simien Mountains, encounter endemic wildlife, and marvel at the rugged landscapes.",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Drive to Gondar, explore the medieval castles, and witness the intricate carvings of Debre Berhan Church.",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Fly to Lalibela, discover the rock-hewn churches, and delve into the rich religious heritage of the region.",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Further explore the rock-hewn churches of Lalibela and immerse yourself in the ancient atmosphere.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Fly to Axum, visit the towering stelae, and explore the legends of the Queen of Sheba.",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Drive to Adigrat, trek to Anaf, and experience the warm hospitality of the Tigrayan people.",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Trek to Sehita, encounter unique churches along the way, and soak in the stunning landscapes.",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Trek to Shimbriti, explore rock-hewn churches, and enjoy panoramic views of the surrounding areas.",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Drive to the Gheralta region, discover hidden rock churches, and appreciate the local culture.",
+          },
+          {
+            title: "Day 13",
+            description:
+              "Explore the remarkable rock churches in the Tigray region and immerse yourself in their ancient beauty.",
+          },
+          {
+            title: "Day 14",
+            description:
+              "Drive to Mekelle, visit Abreha Atsbeha church and Wukro Cherkos, and admire their intricate artwork.",
+          },
+          {
+            title: "Day 15",
+            description:
+              "Depart from Addis Ababa, carrying with you the memories of an unforgettable journey through Ethiopia's ancient wonders.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, your hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel. This afternoon, enjoy a tour of Addis Ababa, a pleasant capital city with wide jacaranda-edged avenues, interesting museums, and lively markets.",
+            "Start our visit with the Ethnological Museum for an overview of Ethiopia's history, culture, and traditions, and its collections from thousand-year-old nomadic tribes. Next, see the beautiful baroque-styled Holy Trinity Cathedral which contains the thrones and the tomb of Emperor Haile Selassie (the last king of Ethiopia) and some other members of the royal family.",
+            "We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, but they also offer other fine coffees.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "DAY 2: FLY TO BAHIR DAR & VISIT THE MONASTERIES ON LAKE TANA",
+          description: [
+            "Board a short flight to Bahir Dar where you are met and transferred to your hotel. Then you embark on a cruise of Lake Tana, the largest highland lake in Ethiopia, to visit monasteries dating back to the 14th century. Located on the forested Zege Peninsula, Azuwa Mariam is the most impressive of the southern monasteries.",
+            "The walls of the church are completely covered with remarkable 16th-century murals that offer a revealing look into medieval Ethiopia.",
+            "You then return to Bahir Dar for lunch at your hotel. Then you head into the colorful market.",
+            "Later in the afternoon, you drive up Bezawit Hill for impressive views over the town, the Blue Nile, and of Lake Tana with its island monasteries. We aim to get here shortly before sunset to enjoy the magnificent natural light show. Afterward, we return to our hotel.",
+            "Overnight in Bahir Dar",
+          ],
+          image: images.bahirdar3,
+        },
+        {
+          title: "DAY 3: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "This morning’s drive takes you to Simien Mountain National Park. You will have a lunch stop at Gonder and continue on your drive. Simien Mountain National Park is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you acclimatize your body to the altitude.",
+            "Overnight in Simiens.",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
+          description: [
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers.",
+            "We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Overnight in Simiens",
+          ],
+          image: images.simien3,
+        },
+        {
+          title: "DAY 5: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
+          description: [
+            "A scenic drive returns you to Gondar- famous for its medieval castles and churches. Gondar was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. Spend the afternoon exploring the city of Gondar. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years.",
+            "You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.  We continue on to the Church of Debre Berhan Selassie (a UNESCO World Heritage Site).",
+            "The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings.  It is rumored to have once been the proposed final resting place of the Ark of the Covenant.",
+            "Overnight in Gonder",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title: "DAY 6: FLY TO LALIBELA & VISIT THE ROCK-HEWN CHURCHES",
+          description: [
+            "From Gonder, a short flight takes you to Lalibela, home of the rock-hewn churches and a World Heritage Site. It is located at an altitude of 2,600 meters above sea level. Lalibela is the 8th wonder of the world; 11 rock-hewn churches have been cut out of a solid red volcanic rock, some completely hidden in deep trenches, while others stand in open quarried caves and a complex series of tunnels and narrow passageways connect the churches.",
+            "Lalibela indeed offers a great opportunity for any traveler. After checking in and having your lunch in your hotel, the afternoon will be devoted to visiting the first group (or the north–western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel, and Bet Danaghel.",
+            "Overnight in Lalibela",
+          ],
+          image: images.lalibela4,
+        },
+        {
+          title: "DAY 7: EXPLORE MORE ROCK CHURCHES",
+          description: [
+            "After breakfast, drive to the cave church of Yemrhan Kristos. The drive will be on a good road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs.",
+            "Drive back to Lalibela. In the afternoon, you will visit the remaining rock-hewn churches of Lalibela which include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos. Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here.  Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches.",
+            "Overnight in Lalibela",
+          ],
+          image: images.lalibela7,
+        },
+        {
+          title: "DAY 8: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
+          description: [
+            "In the morning, you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum – a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
+            "You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek.",
+            "After having a lunch break, continue on your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it.",
+            "There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look.",
+            "Overnight in Axum",
+          ],
+          image: images.axum4,
+        },
+        {
+          title: "DAY 9: DRIVE TO ADIGRAT & TREK TO ANAF",
+          description: [
+            "Today, you will transfer by road (4 hours) to Adigrat en route to visit the temple of Yeha. It is the oldest of Ethiopia’s antiquities beautifully set in scenic surroundings, dating back to the 5th century BC. We continue our journey to Adigra for a lunch stop. Start your trekking from Agoro Lodge to Anaf (3hrs.) You will meet your local guide here.",
+            "Your luggage will be loaded on the donkeys. The walking takes you along the narrow track between fallow terraced fields and passes through small villages. Most stone-made houses are fenced by cacti trees. You climb up a gentle slope for a couple of hours onto the escarpment where Anaf is located. Right from the end of the ridge, you start to look at Anaf community lodge at the other end of the plateau.",
+            "Perched nearly at 3000 meters, the lodge overlooks the Agame Massif and valleys to the south. In all the lodges, you will be greeted on arrival by your host with local bread, nuts, popcorn, tea, and coffee. You will be served with tasty local meals.",
+            "Overnight in Anaf community lodge",
+          ],
+          image: images.tigray8,
+        },
+        {
+          title: "DAY 10: TREK TO SEHITA",
+          description: [
+            "This morning after having breakfast, you walk to Sehita. The walk takes around 4 hours and goes past some lovely churches – notably Debre Giorgis, which is a built-up church like that of the ancient church of Debre Damo. You walk across rolling plains dotted with cypress trees.",
+            "Then descend along valleys of giant candelabra cactus and aloe to reach the Valley of Debre Abay. Like the other village of Tigray, all the small houses are surrounded by prickly pears and eucalyptus that look more or less exactly like every other house you have passed.",
+            "The rocky soil atop the plateaus supports only grasses, grains, and legumes. Open your eyes for different birds and small animals on this day too. After another short walk from the valley, takes you to Sehita community lodge. It has lovely views up and down the valley and is an ideal location to visit many of the local churches.",
+            "Overnight in Seheta community lodge",
+          ],
+          image: images.tigray7,
+        },
+        {
+          title: "DAY 11: TREK TO SHIMBRITI",
+          description: [
+            "Depart after breakfast for a day walk (approximately 5-4 hrs) to the community site-Shimbriti. From these guesthouses, it is a 5-hour walk through the valleys to Shimbriti. The first one-hour walk takes you from the plateau down to the valley.",
+            "Following tracks walked by Tigrayan highlanders for the past many years, passing the villages in the valley. Then climb up escarpments, spotting rock hyraxes and birds, and continue walking along narrow, crumbling ledges with sheer drops. As you get closer to it, you come across an interesting rock tunnel that has been carved through the ridge to give villages on the western side access to the lovely rock church of Maryam Bezuhan.",
+            "The church itself is an exquisite one, and the trail thereafter hugs the mountain and winds up to the plateau on the top.",
+            "The sceneries along the walk are amazingly superb. Unlike the other lodge, on the plateau where it is located, you find here small villages scattered with local stone houses. Having an overwhelming welcoming up on your arrival, you will be served tasty local and have an elaborate traditional coffee ceremony. You can take a walk along the rim of the mountain at dusk.",
+            "Overnight in Shimbriti community lodge",
+          ],
+          image: images.tigray5,
+        },
+        {
+          title: "DAY 12: WALK FROM SHIMBRITI TO DEGA ARBI & DRIVE TO GHERALTA",
+          description: [
+            "After an enjoyable breakfast, you take your last morning on a community walk (2 hours). You will begin by descending for 1 hour, steeply at first and then more gradually, and get on the flatter plain. You pass by the small mangrove forest which grows around the church. You are likely to encounter small cattle herders here – friendly children from the local village.",
+            "You will meet your driver with the vehicle at Dega Arbi popular for a Friday weekly market. You transfer to Gheralta Lodge (1.5 hours). Spend the rest of the day at your leisure enjoying the excursions that can be arranged from the lodge. Hiking, bird watching, and visiting the nearby rock-hewn churches are all recommended from here.",
+            "Overnight in Gheralta",
+          ],
+          image: images.tigray4,
+        },
+        {
+          title: "DAY 13: EXPLORE THE TIGRAY ROCK CHURCHES",
+          description: [
+            "After an early breakfast, head to explore the marvelous rock churches in the Gheralta cluster. A short drive takes you closer to the foot of Korkur Mountain. It is from here you start your hiking up to the plateau.",
+            "Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas.",
+            "Drive back to your lodge for lunch. In the afternoon drive to visit Mariam Papaseti church which is decorated with beautiful mural paintings.",
+            "Overnight in Gheralta",
+          ],
+          image: images.yemata2,
+        },
+        {
+          title: "DAY 14: DRIVE TO MEKELLE & FLY TO ADDIS",
+          description: [
+            "This morning you will drive to the Mekele, passing by a number of interesting churches and towns on the way. Carrying on towards Wukro, you first visit Abreha Atsbeha church, one of the most picturesque of the churches in the area with a beautifully decorated interior, depicting biblical scenes and saints.",
+            "Having a lunch break at Wukro, head to visit Wukro Cherkos, a semi-monolithic church. Inside this crucifix-shaped church, you’ll see patterned pillars and carvings. Then drive to Mekelle to catch your flight to Addis Ababa.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.tigray6,
+        },
+        {
+          title: "DAY 15: DEPART FROM ADDIS ABABA",
+          description: [
+            "Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 1,
+    experience: 5,
+    title: "Shutter Symphony",
+    index: false,
+    image: images.omo1,
+    description: "Capturing the Colors of Ethiopia's Enigmatic Omo Valley",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Shutter Symphony",
+        subtitle: "Capturing the Colors of Ethiopia's Enigmatic Omo Valley",
+        description: [
+          "Embark upon a grand odyssey on an unforgettable photographic expedition through the Omo Valley, a land of cultural diversity and untouched natural beauty. This immersive journey will take you deep into the heart of Ethiopia, where you'll encounter tribes known for their vibrant traditions and unique adornments.",
+          "From the Hamer villages to the Mursi with their famous lip plates, this trip offers a rare opportunity to capture the essence of these indigenous communities. As you venture through the picturesque landscapes of the Omo Valley, you'll witness the breathtaking Rift Valley lakes, encounter incredible birdlife and wildlife, and explore the region's remote corners.",
+          "Join us on this photographic adventure and capture the captivating faces and landscapes that make the Omo Valley a truly exceptional destination.",
+        ],
+        lr: true,
+        img1: images.hamer1,
+        img2: images.omo2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Explore the vibrant capital city of Addis Ababa, visiting the National Museum, Ethnographic Museum, and the bustling Mercato.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Marvel at the rock-hewn churches of Lalibela, a UNESCO World Heritage Site and one of the most important pilgrimage sites in Ethiopia.",
+          },
+          {
+            title: "Axum",
+            description:
+              "Discover the ancient city of Axum, a UNESCO World Heritage Site and the former capital of the Axumite Empire.",
+          },
+          {
+            title: "Gondar",
+            description:
+              "Explore the medieval castles of Gondar, a UNESCO World Heritage Site and the former capital of Ethiopia.",
+          },
+          {
+            title: "Simien Mountains",
+            description:
+              "Journey to the Simien Mountains National Park, a UNESCO World Heritage Site and home to the endemic Gelada baboon.",
+          },
+          {
+            title: "Tigray Region",
+            description:
+              "Explore the Tigray region, home to a number of rock-hewn churches, including Abuna Yemata Guh, one of the most inaccessible churches in the world.",
+          },
+          {
+            title: "Omo Valley",
+            description:
+              "Discover the cultural diversity of the Omo Valley, meeting and photographing the tribes known for their unique traditions and adornments.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa, meet and greet, transfer to your hotel",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Explore Addis Ababa, visit the church, Entoto Hills, and local markets",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Fly to Jinka, visit Ari village, and experience rural southern Ethiopia",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Excursion to Mago National Park, photograph Mursi tribe and Jinka market",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Drive to Turmi via Arbore, capture the stunning Arbore tribe",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Excursion to Kara tribe and afternoon visit to Hamer village",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Explore the Nyangatom tribe and visit Hamer village in the afternoon",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Excursion to the Dassanach tribe and visit Lake Turkana",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Attend Turmi market, photograph Hamer people, and bull jumping ceremony",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Visit two Hamer villages, capture morning and sunset shots",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Fly to Addis Ababa, visit Fair Trade store, farewell dinner",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Departure from Addis Ababa, homeward bound with unforgettable memories and photographs of the Omo Valley.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1- ADDIS ABABA",
+          description: [
+            "Upon arrival at the airport, you will be driven to the hotel which is 15 minutes away. The hotel has internet, a nice lounge area, a good restaurant, wonderful staff, a money exchange, and a comfortable place to start the trip.",
+            "The group will have a meet and greet dinner that evening.",
+            "Over Night in in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2 - ADDIS ABABA",
+          description: [
+            "You will start the day with a photoshoot in the Entoto hills, the highest point in Addis where the women wood carriers walk, donkeys roam and people pray at St. Mary's Church.",
+            "From there you will walk the local Shiro Meda market where people shop for shema cloth and traditional clothing.",
+            "You will photograph the pilgrims and priests at the ornate Holy Trinity Cathedral. Women in shema- traditional white shawls, and men deep in prayer are both inside this second most important place of prayer in Ethiopia as well as in the expansive courtyard.",
+            "Lunch at the Lucy restaurant which is adjoining the Ethnological Museum which houses Lucy, the most complete skeleton ever discovered, being 3.2 million years old.",
+            "Over Night in in Addis Ababa",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "DAY 3 – FLY TO JINKA",
+          description: [
+            "You will take the 11:40 am flight to Jinka arriving at 1:00 pm.",
+            "The afternoon will be spent walking the packed village lanes of the Ari village. These very rural people are friendly, some homes are brightly painted, they do pottery, grow sorghum, and daily life is easily photographed. Chickens in the yards, kids wanting to hold your hands, and women cooking by fire all make for a great introduction to the Omo Valley. These people are not painted, pierced, or decorated but are an excellent representation of rural southern Ethiopia.",
+            "You will visit the school in the village. The classrooms are visually compelling and great to document. We will walk up the main road visiting the houses and meeting the people.",
+            "We will be spending the night in the Eco Omo Lodge which is on the banks of the river where people bathe, clothing gets washed, and cars get cleaned.",
+            "Over Night in in Jinka",
+          ],
+          image: images.intro2,
+        },
+        {
+          title: "DAY 4 – EXCURSION TO MAGO NATIONAL PARK TO VISIT MURSI",
+          description: [
+            "Early morning before dawn, you will take the two-hour ride through Mago National Park to reach a Mursi village. As they are nomadic it is impossible to name the settlement you will visit.",
+            "The women wear circular clay lip plates, the men are garbed in large towel-like wraps. Photographing women grinding sorghum and breastfeeding while making their morning coffee which they drink out of gourds is possible.",
+            "Our guides handle the photo fee payments so you can shoot with abandon. For protein, the men bleed a bull in the early morning and drink its blood. The homes are thatched straw and sticks, and these people are known to keep traditions very much intact.",
+            "Many men have body adornments. A sense of humor is needed to fully appreciate the Mursi photographic experience.",
+            "The afternoon will be spent wandering the dirt street and markets of Jinka. The market is colorful and vibrant with many bars, and stores selling plastic woven baskets, and day-to-day items. Splitting into small groups, a guide will help you with translation, setting up shots if desired, and see to it that you can photograph freely.",
+            "Lodging nice again will be at the Eco Omo Lodge which has a patio where the group can have cold beer or hot coffee after this long day.",
+            "Over Night in in Jinka",
+          ],
+          image: images.mursi1,
+        },
+        {
+          title: "DAY 5 – TURMI VIA ARBORE",
+          description: [
+            "Proceeding further into the scenic Weito lowlands, you will be visiting an Arbore tribal village located at the northern edge of Mount Buska. The Arbore women are absolutely stunning; they have extremely dark skin and strong features. Prior to marriage, the women have their heads shaved.",
+            "They wear dark robes, colorful beads, and their huts are fabricated from tree branches. You will work on your portraiture skills in this village.",
+            "Arriving in Turmi late in the afternoon, you will be spending the night at the Buska Lodge which will be your base for the next few days. These round-shaped tukul lodges have porches and are on the bank of a stream. If you like shooting star trails this is your mecca as there is little light pollution.",
+            "Over Night in Buska Lodge",
+          ],
+          image: images.konso2,
+        },
+        {
+          title: "DAY 6 - TURMI - DUS - TURMI",
+          description: [
+            "Departing Turmi at 5:00 AM, you will head to Dus, the friendliest village of the Kara tribe.",
+            "Settled on the banks of the Omo River, this tribe is known for their creative and decorative body chalk painting.",
+            "Many of the Kara women have pierced lips and insert nails and pins. Photographing on the bank of the Omo River can yield images of the kids diving into the water.",
+            "You will shoot a cattle and goat drive which is iconic. Dust swirling, men with guns and long herders stick driving their herd to the water.",
+            "You will photograph the ceremonial, communal dance performed by the people of Dus.",
+            "They will invite you into their huts for coffee to be had out of a gourd. The Kara of Dus prides themselves as the best dancers in the Omo.",
+            "You will also photograph these warm and inviting people on the banks of the Omo and in the shade, under the large umbrella-like trees.",
+            "You will be bringing a picnic breakfast and lunch with us.",
+            "Over Night in in Turmi",
+          ],
+          image: images.karo1,
+        },
+        {
+          title: "DAY 7 - TURMI - KANGATEN - TURMI",
+          description: [
+            "Starting off from Turmi at sunrise you will be heading to Kangate, home to the Nyangatom tribe that historically are said to be a split group from the Toposa tribe of South Sudan.",
+            "Settled on the other side of the Omo River, You will be crossing the Omo River where you will be able to access and visit remote tribal villages.",
+            "The teenage boys are lively and like to play much of the day. The women are topless and wear many strands of heavy beads, the girls are playful and love to have their images taken.",
+            "Mid-afternoon, you will return to Turmi where you will be spending another night at the Buska Lodge.",
+            "You can also photograph the Hamer tribe digging for water, smoking out bees, or do another local village sunset shoot.",
+            "Over Night in in Turmi",
+          ],
+          image: images.omo3,
+        },
+        {
+          title: "DAY 8 - TURMI - OMORATE-TURMI",
+          description: [
+            "Departing Turmi at 5:00 AM, you will be heading to Omorate, home of the Dassanach tribe who are said to be descendants of the Turkana tribe in North Kenya.",
+            "Like many of these tribal groups, they use chain links and other Western ‘cast-offs’ as decorative objects.",
+            "Crossing the newly constructed Omo River Bridge and driving further for 12km, we will be able to photograph a remote Dassanach tribal village, just 11 km from the shores of Lake Turkana.",
+            "You will photograph the women cooking by fire, grinding corn meal, and the men with their flock.",
+            "You will try to continue further south to Lake Turkana to see and photograph the small wooden fishing boats and Dassanch people.",
+            "Over Night in in Turmi",
+          ],
+          image: images.omo2,
+        },
+        {
+          title: "DAY 9 - TURMI",
+          description: [
+            "This being Monday we will attend the Turmi market. The Hamer people will be selling honey, snuff, foodstuffs, and local wares.",
+            "You will be able to wander freely shooting the many stalls. Of note the stores have some artistic designs and the crafts market is the best in the Omo.",
+            "You may encounter the ritualistic bull jumping ceremony usually around Turmi.",
+            "The women dance, the bells on their ankles making a distinctive noise that blends in with the bugles they blow. The age group (16-25) of men called Maza to whip the women as a sign of devotion as they will be responsible for the women as they grow old.",
+            "Not less than five bulls are lined up and the nude guy will run across them numerous times. Once successfully completed he is entitled to marry.",
+            "Over Night in in Turmi",
+          ],
+          image: images.hamer1,
+        },
+        {
+          title: "DAY 10 - TURMI",
+          description: [
+            "During the day you will be visiting two local Hamer villages in close proximity. One visit at sunrise and another at sunset.",
+            "Leaving the hotel at 5:30 AM the short ride will get you to the Hamer village as the people get ready for the day.",
+            "Goats going out to pasture, sorghum being ground, kids milking goats and early morning coffee ceremony are ideal photo shots.",
+            "The Hamer women have high cheekbones and wear thick copper necklaces which indicate first wife status and elaborate custom beads.",
+            "The Hamer are very outgoing and easily engaged. Many of the men wear feathers in their hair and dress in dark green blankets.",
+            "The sunset shot will be in another village 20 minutes away from our lodge. Another trip favorite photo shoot is that of silhouettes.",
+            "Over Night in in Addis Ababa",
+          ],
+          image: images.hamer2,
+        },
+        {
+          title: "DAY 11 - ADDIS ABABA",
+          description: [
+            "Today we will fly back to Addis Ababa from the Jinka airport.",
+            "The group will return to Addis early in the afternoon and go to a Fair Trade home goods store that has the highest quality fabrics/ shawls/ linen.",
+            "Those leaving on late-night flights will be driven to the airport. The farewell dinner will be in the hotel.",
+            "Over Night in in Addis Ababa",
+          ],
+          image: images.addis3,
+        },
+        {
+          title: "DAY 12 – DEPARTURE-ADDIS ABABA- HOMEWARD BOUND",
+          description: [],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    experience: 5,
+    title: "Ethiopia through the Lens",
+    index: false,
+    image: images.lalibela4,
+    description: "Capturing the Riches of History and Nature",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopia through the Lens",
+        subtitle: "Capturing the Riches of History and Nature",
+        description: [
+          "Start a thrilling escapade on a mesmerizing photographic journey through Ethiopia, immersing yourself in the country's rich cultural heritage and breathtaking landscapes. From the ancient rock-hewn churches of Lalibela to the otherworldly beauty of the Danakil Depression, this trip offers a unique opportunity to capture Ethiopia's timeless wonders.",
+          "Begin in Addis Ababa, where you'll explore vibrant markets and visit historical landmarks. Journey to Gonder and the Simien Mountains, where stunning scenery and endemic wildlife await. Discover the rock-hewn churches of Lalibela, a UNESCO World Heritage Site. Continue to Axum and the Tigray region, home to impressive monolithic churches. Conclude your adventure in the otherworldly landscapes of the Danakil Depression.",
+          "Join us on this photographic odyssey and capture the essence of Ethiopia's timeless allure.",
+        ],
+        lr: true,
+        img1: images.yemata1,
+        img2: images.lalibela7,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Explore the vibrant capital city, visit local markets, and discover historical landmarks.",
+          },
+          {
+            title: "Lake Tana",
+            description:
+              "Take a boat ride to visit an isolated church on the tranquil shores of Lake Tana.",
+          },
+          {
+            title: "Gonder",
+            description:
+              "Marvel at the Fasilades Castles and the Debre Berhan Church, reflecting Ethiopia's regal past.",
+          },
+          {
+            title: "Simien Mountains",
+            description:
+              "Embark on scenic walks in stunning mountain landscapes, capturing the unique flora and fauna of this UNESCO World Heritage Site.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Witness the awe-inspiring rock-hewn churches, a testament to the incredible architectural achievements of ancient Ethiopia.",
+          },
+          {
+            title: "Axum",
+            description:
+              "Visit the stelae, archaeological sites, and the Church of Saint Mary of Zion, where the Ark of the Covenant is believed to be kept.",
+          },
+          {
+            title: "Tigray Rock Churches",
+            description:
+              "Explore the hidden gems of the Tigray region, encountering remote monolithic churches carved into cliff faces.",
+          },
+          {
+            title: "Danakil Depression",
+            description:
+              "Experience the surreal landscapes of the Danakil Depression, including the mesmerizing Dallol area and salt flats.",
+          },
+          {
+            title: "Cultural Encounters",
+            description:
+              "Interact with local communities, capturing their traditions, daily life, and vibrant expressions of Ethiopian culture.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa, explore the city's markets and landmarks.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Fly to Gonder, transfer to the Simien Mountains National Park.",
+          },
+          {
+            title: "Day 3",
+            description: "Capture the scenic beauty of the Simien Mountains.",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Return to Gonder, visit historical sites and castles.",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Fly to Lalibela, photograph the iconic rock-hewn churches.",
+          },
+          {
+            title: "Day 6",
+            description: "Explore more rock churches in and around Lalibela.",
+          },
+          {
+            title: "Day 7",
+            description: "Fly to Axum, drive to the Gheralta area.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Discover the Tigray rock churches and surrounding landscapes.",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Journey to the Danakil Depression, witness the sunset over Lake Asale.",
+          },
+          {
+            title: "Day 10",
+            description: "Explore the mesmerizing Dallol area and salt flats.",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Further exploration of the Danakil area, drive to Mekelle.",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Fly back to Addis Ababa, depart with unforgettable memories of Ethiopia's timeless wonders.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, your hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA",
+          description: [
+            "You will start the day with a photoshoot in the Entoto hills, the highest point in Addis where the women wood carriers walk, donkeys roam and people pray at St. Mary's Church. From there you will walk the local Shiro Meda market where people shop for shama cloth and traditional clothing.",
+            "You will photograph the pilgrims and priests at the ornate Holy Trinity Cathedral. Women in shama- traditional white shawls, and men deep in prayer are both inside this second most important place of prayer in Ethiopia as well as in the expansive courtyard. ",
+            "Lunch at the Lucy restaurant which is adjoining the Ethnological Museum which houses Lucy, the most complete skeleton ever discovered, being 3.2 million years old.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis2,
+        },
+        {
+          title:
+            "DAY 3: FLY TO GONDER & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges.",
+            "More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you acclimatize your body to the altitude.",
+            "Overnight in Simiens.",
+          ],
+          image: images.simien1,
+        },
+        {
+          title: "DAY 4: EXPLORE SIMIEN MOUNTAINS",
+          description: [
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+            "Overnight in Simiens.",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 5: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
+          description: [
+            "A scenic drive returns you to Gondar- famous for its medieval castles and churches. Gondar was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. Spend the afternoon exploring the city of Gondar.",
+            "In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area. We continue on to the Church of Debre Berhan Selassie (a UNESCO World Heritage Site).",
+            "The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings. It is rumored to have once been the proposed final resting place of the Ark of the Covenant.",
+            "Overnight in Gonder.",
+          ],
+          image: images.gonder2,
+        },
+        {
+          title: "DAY 6: FLY TO LALIBELA & VISIT THE ROCK-HEWN CHURCHES",
+          description: [
+            "From Gonder, a short flight takes you to Lalibela, home of the rock-hewn churches and a World Heritage Site. It is located at an altitude of 2,600 meters above sea level.",
+            "Lalibela is the 8th wonder of the world; 11 rock-hewn churches have been cut out of a solid red volcanic rock, some completely hidden in deep trenches, while others stand in open quarried caves and a complex series of tunnels and narrow passageways connect the churches. Lalibela indeed offers a great opportunity for any traveler.",
+            "After checking in and having your lunch in your hotel, the afternoon will be devoted to visiting the first group (or the north–western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel, and Bet Danaghel.",
+            "Overnight in Lalibela.",
+          ],
+          image: images.lalibela1,
+        },
+        {
+          title: "DAY 7: EXPLORE MORE ROCK CHURCHES",
+          description: [
+            "After breakfast, drive to the cave church of Yemrhan Kristos. The drive will be on a good road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs.",
+            "Drive back to Lalibela. In the afternoon, you will visit the remaining rock-hewn churches of Lalibela which include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos. Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here.",
+            "Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches.",
+            "Overnight in Lalibela.",
+          ],
+          image: images.lalibela7,
+        },
+        {
+          title: "DAY 8: FLY TO AXUM; VISIT SIGHTSEEING & DRIVE TO GHERALTA",
+          description: [
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
+            "You also visit the Archaeological Museum, before heading to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant.",
+            "It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it.",
+            "There is also a small museum here which contains the crowns of Ethiopian kings and other treasures. In the afternoon, you drive across the dramatic mountainous landscapes to Gheralta, stopping a number of times en route to take in the spectacular scenery. You arrive at your lodge in time good to enjoy a beautiful Ethiopian sunset.",
+            "Overnight in Gheralta.",
+          ],
+          image: images.axum1,
+        },
+        {
+          title: "DAY 9: EXPLORE THE TIGRAY ROCK CHURCHES",
+          description: [
+            "After an early breakfast, continue your exploration of the marvelous churches in the Gheralta cluster. Today’s half an hour’s drive takes you closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches. The latter one is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch.",
+            "In the afternoon you will drive out of Gheralta to visit Mariam Papaseti church. A short and easy walk takes you through the most scenic landscape and vibrant small villages.",
+            "The church is a semi-monolithic church. You’ll find a wide range of beautiful 18th-century mural paintings decorating the internal part of the church. Later you take a short walk to meet local farmers and learn about their way of life. Return to your lodge for dinner.",
+            "Overnight in Gheralta.",
+          ],
+          image: images.yemata2,
+        },
+        {
+          title: "DAY 10: DRIVE TO THE DANAKIL DEPRESSION",
+          description: [
+            "After breakfast, spend the morning at your leisure which can be arranged for short hiking, bird watching, and visiting the nearby rock-hewn church. After lunch, you drive towards the Danakil region, stopping a number of times en route to take in the spectacular scenery. You arrive in time to enjoy a beautiful Ethiopian sunset over Lake Asale.",
+            "Overnight camping in the Danakil.",
+          ],
+          image: images.danakil1,
+        },
+        {
+          title: "DAY 11: EXPLORE THE DALLOL AREA & DRIVE TO MEKELLE",
+          description: [
+            "Depart before dawn, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools, and geysers, where you will have this early morning to explore this seemingly alien terrain. You then visit the salt canyons, a bizarre landscape where we go for a short walk. On the way back to camp you cross the salt flats where we see the arduous work of salt being extracted by hand and loaded onto the camels.",
+            "After freshening up and having lunch, we will leave the Danakil and climb the steep mountains to Mekele, climbing from 100 meters below sea level up to 2500m. Mekelle is the capital of the region.",
+            "Overnight in Mekelle.",
+          ],
+          image: images.danakil2,
+        },
+        {
+          title: "DAY 12: FLY TO ADDIS & DEPARTURE",
+          description: [
+            "After breakfast, you drive to Mekelle airport and take the short flight back to Addis Ababa. Upon arrival in Addis, transfer you to your hotel. You have the afternoon free for shopping in Addis Ababa.",
+            "Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 3,
+    experience: 5,
+    title: "Through The Lens",
+    index: false,
+    image: images.omo3,
+    description:
+      "Discovering Ethiopia's Hidden Gems - A Photographic Journey To The Lost Tribes Of The Omo Valley",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Through The Lens",
+        subtitle: "A Photographic Journey To The Lost Tribes Of The Omo Valley",
+        description: [
+          "Dive into the unknowns on an extraordinary expedition to the mystical land of Ethiopia, where ancient traditions and untouched landscapes converge in a harmonious blend. This immersive photographic tour will lead you through the enchanting Omo Valley, a realm steeped in captivating history and home to the lost tribes that have preserved their unique cultures for centuries.",
+          "From the vibrant streets of Addis Ababa to the remote corners of the region, every step of this journey unveils awe-inspiring scenes waiting to be captured by your lens. Immerse yourself in the mesmerizing lives of the Gurage, Surma, Karo, Hamer, Mursi, and other extraordinary tribes that call this land their home. As you traverse through sprawling coffee plantations, traverse deep gorges, and wander among picturesque villages, prepare to witness the timeless beauty and profound human connections that define Ethiopia's Omo Valley.",
+          "Witness captivating ceremonies, traditional rituals, and breathtaking landscapes as you delve deep into the lives of these remarkable tribes. Each day brings new encounters and photographic opportunities, providing a truly immersive experience.",
+          "Join us on this unforgettable journey and capture the untamed beauty of Ethiopia's tribal communities. Join us on this artistic odyssey and unlock the secrets of Ethiopia's lost tribes through the power of your camera.",
+        ],
+        lr: true,
+        img1: images.omo1,
+        img2: images.hamer2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Explore the vibrant capital city, capturing its bustling markets and historical landmarks.",
+          },
+          {
+            title: "Jimma and Mizan",
+            description:
+              "Travel through picturesque landscapes, capturing the unique lifestyles of the Gurage, Oromo, and Kefecho people.",
+          },
+          {
+            title: "Kibish and the Surma",
+            description:
+              "Immerse yourself in the captivating world of the Surma tribe, photographing their distinct body painting, scarification, and cultural practices.",
+          },
+          {
+            title: "Turmi and the Hamar",
+            description:
+              "Witness the famous cattle-leaping ceremony, document the Hamar's unique attire, and capture their daily rituals.",
+          },
+          {
+            title: "Kangate and Karo",
+            description:
+              "Visit the Karo tribe known for their elaborate body painting, capturing their stunning adornments and scenic surroundings.",
+          },
+          {
+            title: "Jinka and the Mursi",
+            description:
+              "Venture into Mago National Park to meet the Mursi tribe and photograph their iconic lip plates.",
+          },
+          {
+            title: "Scenic Landscapes",
+            description:
+              "Capture the breathtaking landscapes of Ethiopia's southwestern region, from the Omo River to the Great Rift Valley.",
+          },
+          {
+            title: "Cultural Encounters",
+            description:
+              "Interact with tribal communities, gaining insight into their traditions, beliefs, and ways of life.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrival in Addis Ababa, and explore the city's markets and landmarks.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Drive from Addis Ababa to Jimma, capturing the landscapes and cultures along the way.",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Continue the journey to Mizan Teferi, photographing the lush forests and coffee plantations.",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Drive to Kibish and meet the Surma tribe, capturing their unique traditions and body art.",
+          },
+          {
+            title: "Day 5 & 6",
+            description:
+              "Immerse yourself in the daily life of the Surma, documenting their rituals and interactions.",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Drive to Turmi via Kangate, and photograph the vibrant ceremonies and attire of the Hamar tribe.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Explore the Karo tribe's body painting and capture the stunning landscapes of the Omo Valley.",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Visit the Dassenech tribe and continue photographing the Hamar's daily life and traditions.",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Drive to Jinka via Elbore, immerse yourself in the Mursi tribe's customs and capture their iconic lip plates.",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Excursion to Mago National Park, photograph the Mursi tribe in their natural habitat.",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Fly back to Addis Ababa, depart with unforgettable memories and a collection of captivating images.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "Day 1: Arrival in Addis Ababa",
+          description: [
+            "Today is set aside as an arrival day in the wondrous land of Abyssinia. After arriving at Bole International Airport and taking care of passport control and luggage formalities, you will be met by your guide and driven to your comfortable hotel nearby.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "Day 2: Drive from Addis Ababa to Jimma",
+          description: [
+            "Embark on an enchanting photographic journey from Addis Ababa to Jimma in southwestern Ethiopia. Our early morning drive will take us on a scenic route spanning approximately 330 km. along the way, we will have the unique opportunity to capture the captivating lives and vibrant cultures of the Gurage and Oromo people in their picturesque villages.",
+            "We will also traverse the awe-inspiring Gibe Gorge, a natural wonder adorned with breathtaking vistas that are perfect for stunning photographs. Within this deep gorge flows the majestic Gibe River, a prominent tributary of the Omo River.",
+            "Our route will unveil a mesmerizing landscape dominated by sprawling coffee plantations, offering a splendid backdrop for your photography. As the day unfolds, we will reach Jimma, the largest city in southwestern Ethiopia. Jimma, once the capital of the former Kaffa Province, holds historical significance as the birthplace of Coffea Arabica, the renowned coffee.",
+            "Immerse yourself in the region recognized as the home of coffee, and document the essence of this captivating city and its coffee heritage through your camera lens. Prepare for an unforgettable photographic tour that will leave you with a treasure trove of captivating images and memories.",
+            "Overnight in Jimma Hotel",
+          ],
+          image: images.tigray6,
+        },
+        {
+          title: "Day 3: Drive Jimma to Mizan Teferi",
+          description: [
+            "Today, we continue our exploration of the captivating southwestern region, heading towards the mesmerizing destination of Mizan Teferi. Our scenic route spans approximately 240 kilometers, presenting a breathtaking tapestry of lush forests and meticulously cultivated landscapes adorned with flourishing coffee plantations, tea gardens, and an array of aromatic spices.",
+            "Throughout our expedition, we will embrace numerous captivating moments, allowing us to unleash our creativity and capture the essence of this awe-inspiring region.",
+            "Be prepared to seize every enchanting photographic opportunity that crosses our path, as we pause intermittently to immortalize the mesmerizing beauty that surrounds us.",
+            "Overnight in Mizan Teferi",
+          ],
+          image: images.konso1,
+        },
+        {
+          title: "Day 4: Drive Mizan Teferi to Kibish",
+          description: [
+            "This morning is an exciting travel day as we head deep into the little-visited portion of southwestern Ethiopia. En route, we pass through the Bebeka coffee plantation (located about 30km outside Mizan), which is the largest and oldest coffee plantation in Ethiopia.",
+            "On our journey, we will visit the Menit tribe, who are the less well-known neighbors of the Surma, one of our main photographic targets of this trip.",
+            "Passing through the town of Tulgit, will finally arrive in Kibish, where we will be camping for the next three nights. Much of our focus today will be photographing the fabulous Surma people, who due to their remoteness, are one of the least visited of the Omo Valley’s tribes.",
+            "Overnight camping in Kibish",
+          ],
+          image: images.surma1,
+        },
+        {
+          title: "Day 5 and 6: Explore the Kibish area",
+          description: [
+            "Today we have a full day to explore and photograph the fascinating Surma, making the most of our time in this remote region of Ethiopia.",
+            "Overnight camping in Kibish",
+          ],
+          image: images.hamer1,
+        },
+        {
+          title: "Day 7: Drive Kibish to Kangate",
+          description: [
+            "After a scrumptious breakfast prepared by our camp crew, we make our way to our campsite along the Omo River. En route we will visit today are the Nyangatom, whom the Surma insult by referring to them as the Bume (“the smelly ones”). The Nyangatom are some of the most feared warriors of the Omo Valley, often clashing with the neighboring Turkana and Surma tribes.",
+            "The Nyangatom, like the Surma, are pastoralists, keeping sheep, goats, and cattle. Although some of the tribes in the valley are small and their very existence is threatened, the Nyangatom have fared much better in recent years due to the intervention of Western health care.",
+            "We are sure to have another fascinating day today, visiting areas that few Westerners have ever been!",
+            "Overnight camping in Kangate",
+          ],
+          image: images.surma2,
+        },
+        {
+          title: "Day 8: Drive Kangate to Turmi",
+          description: [
+            "Please note that we do not have a fixed schedule for the next few days. Instead, your guide will assess daily which tribe is the best to photograph according to your particular photographic requirements.",
+            "The Lower Omo Valley is situated within Africa’s famous and, geologically speaking, rapidly expanding Great Rift Valley (which will eventually split the continent into two landmasses). Here, in south-west Ethiopia’s awkwardly named “Southern Nations, Nationalities, and People’s Region”, bordering Kenya and Sudan, the great Omo River dominates this dry savanna valley, resulting in some of Africa’s most well-developed and best-preserved arid-zone riverine forests.",
+            "The Omo River rises from the Shewan highlands to the north (much of Ethiopia consists of high-lying mountains and fertile plateaus, despite the impression created by some international media bodies that Ethiopia is predominately desert!). It flows 470 miles (750km), mostly southwards, before entering Lake Turkana (previously Lake Rudolf) near the Kenyan border. Lake Turkana, the world’s largest permanent desert lake and also the planet’s largest alkaline lake, has no water outflow, so in effect, it’s a dead-end for the Omo River. The importance of the Lower Omo Valley has been recognized by UNESCO, which has declared it a cultural World Heritage site. It also contains two massive national parks and several important bird areas.",
+            "After departing Kangate, and making our way across the Omo River and into a new tribal area. Here, our tribe of interest is the Karo, another tribe known for its elaborate body and facial paintings. These people live along the east bank of the Omo River and practice flood retreat cultivation, their main crops being maize, sorghum, and beans. Unlike the other tribes, they keep only a small number of cattle due to the prevalence of tsetse flies. Like many of the tribes in the Omo, they paint their bodies and faces with white chalk to prepare for any ceremonies.",
+            "The chalk is mixed with yellow rock, red iron ore, and charcoal to make its requisite colour. Facemasks are worn at times and they have clay hair buns adorned with feathers.",
+            "Scarification is also an important part of the Karo people’s lives. This includes the complete scarification of a man’s chest with which to indicate that he has killed an enemy or dangerous animal (Amongst the Karo, killing one’s enemies isn’t viewed as an act of murder, but as an act of honor!).",
+            "This scarification process involves lightly slicing the skin with knives or razor blades and then rubbing ash into the open wounds to produce a permanently raised effect. The Karo women have decoratively scarred abdomens, which are considered sensual and very desirable.",
+            "We then continue through the beautiful Omo Valley savannas, dotted with elongated termite mounds, to our comfortable lodge situated a few kilometers outside the village of Turmi. After settling in, we will be able to reminisce about the incredible sights and photographic opportunities of the past few days over an ice-cold beverage!",
+            "Overnight in Turmi",
+          ],
+          image: images.omo2,
+        },
+        {
+          title: "Day 9: Turmi area",
+          description: [
+            "The Hamar is one of the most well-known tribes in Southern Ethiopia. They inhabit the territory east of the Omo River and have villages in both Turmi and Dimeka.",
+            "They are especially well known for their unique rituals, including a cattle-leaping ceremony that young men have to undergo in order to reach adulthood and marry. They are highly ‘superstitious’ people, and to this day they consider twins to be babies born outside of wedlock, while children whose upper milk teeth develop before their lower teeth are deemed to be ‘evil’ or ‘unclean’.",
+            "For this reason, such children are discarded in the bush and simply left to die, as they would rather lose a single child than inflict any disaster upon their community. The Hamar people are also known for one of the most bizarre rituals on Earth. This is when the women allow themselves to be whipped by the male members of their family as a symbol of their love! The scars of such encounters are conspicuously evident on the bodies of all Hamar women.",
+            "These women take great pride in their appearance and wear traditional dresses consisting of a brown goatskin skirt adorned with dense vertical rows of red and yellow beads. Their hair is characteristically fixed in dense ringlets with butterfat mixed with red ochre. They also wear many bracelets and necklaces fashioned of beads or metal, depending on their age, wealth, and marital status. The men wear woven cloth wrapped around the waist and many elders wear delicately colored clay head caps that are fashioned into their hair and adorned with an ostrich feather.",
+            "As mentioned, the young Hamar men are famous for their “Evangadi dance” and “Bull jumping” ceremony (it is as part of this ceremony that the afore-mentioned whipping occurs). This ritual entails young men who wish to marry jumping over a line of bulls, thereby proving their worth to their intended bride’s family. It also signifies their advent into adulthood. This is a rarely seen event, however, with luck, we may hear of, and even be invited to attend this landmark event.",
+            "Overnight in Turmi",
+          ],
+          image: images.karo1,
+        },
+        {
+          title: "Day 10: Drive to Jinka via Elbore",
+          description: [
+            "Early morning departure will take us to Jinka. We will have our first stop at Elbre where we will get more opportunities to capture these interesting people. Having enough time to spend with them, continuing onward to Jinka, where we will be staying for the following two nights.",
+            "Overnight in Jinka",
+          ],
+          image: images.erbore1,
+        },
+        {
+          title:
+            "Day 11: Excursion to Mago national park to meet Mursi and explore the Jinka area",
+          description: [
+            "We have an early morning start as we enter Mago National Park at 06:00 in order to reach the Mursi Tribe while the light is still soft. Most famous for the clay lip plates that the women insert in their lower lips, the Mursi are probably one of the last tribes in Africa amongst whom it is still the norm for women to wear these large pottery or wooden discs or plates.",
+            "The lip plate (dhebi a tugoin) has become the chief visible distinguishing characteristic of the fascinating Mursi people. A girl’s lower lip is cut, typically by her mother or another woman of her settlement, when she reaches the age of 15 or 16. The cut is then held open by a wooden plug until the wound heals. It appears to be up to the individual girl to decide how far to stretch the lip, which she does by inserting progressively larger plugs over several months. Some girls even persevere until their lips can take plates of 5 inches (12 cm) or more in diameter!",
+            "The Mursi and their neighbors became part of the Ethiopian State in the final years of the 19th century when Emperor Menelik II established control over the southwestern lowlands bordering Kenya and Sudan. This was an area inhabited by several small tribes with fluid identities, highly adaptable to environmental conditions, and capable of easily absorbing outsiders into their communities. The Mursi as we know them today are the product of a large-scale migratory movement of cattle-herding peoples in the general direction of the Ethiopian highlands. Three separate movements may be distinguished in the recent history of the Mursi, each the result of growing environmental pressure associated with the drying out of the Omo basin over the last 150 – 200 years.",
+            "The Mursi attribute overwhelming cultural importance to cattle. Almost every significant social relationship – particularly marriage – is marked and authenticated by exchanging cattle. The “Bridewealth” (ideally consisting of 38 heads of cattle) is handed over by the groom’s family to the bride’s father, who must meet the demands of a wide range of relatives from different clans. This ensures that cattle are continually redistributed around the community, thereby helping to provide for the long-term economic security of individuals as well as their families.",
+            "Overnight in Jinka",
+          ],
+          image: images.kafta1,
+        },
+        {
+          title: "Day 12: Fly back to Addis and departure",
+          description: [
+            "After having breakfast, we depart to Jinka airport to connect with our schedule back to Addis Ababa. Upon arrival, we have secured a day room to refresh before you will be transported back to Bole International Airport for your international flight to your destination of choice.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    experience: 5,
+    title: "Ethiopia Unveiled",
+    index: false,
+    image: images.mursi1,
+    description:
+      "A Photographic Journey Through Ancient Lands And Vibrant Tribes",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopia Unveiled",
+        subtitle:
+          "A Photographic Journey Through Ancient Lands And Vibrant Tribes",
+        description: [
+          'Commence a journey on a mesmerizing photographic journey through Ethiopia\'s ancient lands and vibrant tribal communities. "Ethiopia Unveiled" offers a unique opportunity to capture the raw beauty, rich cultural heritage, and untamed landscapes of this captivating country. From the bustling streets of Addis Ababa to the remote villages of the Mursi, Hamer, and Karo tribes, every moment is a visual feast waiting to be captured.',
+          "Explore rock-hewn churches, witness traditional rituals, and immerse yourself in the daily lives of the tribespeople. This extraordinary expedition will take you through the Danakil Depression, Lalibela's mystical rock churches, the awe-inspiring Omo Valley, and more.",
+          "Join us on this captivating journey and uncover the hidden treasures of Ethiopia through the lens of your camera.",
+        ],
+        lr: true,
+        img1: images.tigray4,
+        img2: images.lalibela7,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlighted Destinations",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Capture the vibrant markets, historical landmarks, and cultural diversity of Ethiopia's capital.",
+          },
+          {
+            title: "Danakil Depression",
+            description:
+              "Explore the otherworldly landscapes of this geologically remarkable region and photograph the striking colors of Dallol.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Witness the ancient rock-hewn churches and document the devotion of pilgrims.",
+          },
+          {
+            title: "Mursi Tribe",
+            description:
+              "Venture into Mago National Park to meet the Mursi people and capture their unique traditions, including the iconic lip plates.",
+          },
+          {
+            title: "Hamer Tribe",
+            description:
+              "Experience the fascinating cattle-leaping ceremony, photograph the vibrant attire, and document the daily rituals of the Hamer people.",
+          },
+          {
+            title: "Karo Tribe",
+            description:
+              "Visit the Karo tribe known for their elaborate body painting and capture their stunning adornments against the backdrop of the Omo Valley.",
+          },
+          {
+            title: "Arbore Village",
+            description:
+              "Photograph the stunning Arbore women and their traditional lifestyle in a scenic setting.",
+          },
+          {
+            title: "Turmi Market",
+            description:
+              "Capture the vibrant atmosphere of the Hamer people selling their goods, and immerse yourself in the bustling market.",
+          },
+          {
+            title: "Kangate and Nyangatom Tribe",
+            description:
+              "Explore the remote villages of the Nyangatom tribe and capture their unique way of life on the banks of the Omo River.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa, and explore the city's markets and landmarks.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Fly to Mekelle and drive to the Danakil Depression, capturing the sunset over Lake Assale.",
+          },
+          {
+            title: "Day 3",
+            description: "Explore the Dallol area and the salt mine.",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Drive to Gheralta, visit rock-hewn churches, and capture the scenic landscapes.",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Drive to Axum, fly to Lalibela, and explore the rock churches.",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Further exploration of the rock churches in and around Lalibela.",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Fly to Addis Ababa, connect to the flight to Jinka, and explore the Ari village.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Excursion to Mago National Park to visit the Mursi tribe and capture their traditions.",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Drive to Turmi via Arboe, photograph the Arbore village, and settle in Turmi.",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Excursion to Dus village to meet the Kara tribe and capture their vibrant rituals.",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Excursion to Kangate village to visit the Nyangatom tribe and photograph their way of life.",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Excursion to Omorate to visit the Dassanach tribe and experience Lake Turkana.",
+          },
+          {
+            title: "Day 13",
+            description:
+              "Turmi Market visit, photograph the Hamer tribe, and enjoy the vibrant atmosphere.",
+          },
+          {
+            title: "Day 14",
+            description:
+              "Fly back to Addis Ababa, farewell dinner, and depart with unforgettable memories.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, your hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel. After freshening up, you will start the day with a photoshoot in the Entoto hills, the highest point in Addis where the women wood carriers walk, donkeys roam and people pray at St. Mary's Church.",
+            "From there you will walk the local Shiro Meda market where people shop for shema cloth and traditional clothing. You will photograph the pilgrims and priests at the ornate Holy Trinity Cathedral. Women in shama- traditional white shawls, and men deep in prayer are both inside this second most important place of prayer in Ethiopia as well as in the expansive courtyard.",
+            "Lunch at the Lucy restaurant which is adjoining the Ethnological Museum which houses Lucy, the most complete skeleton ever discovered, being 3.2 million years old.",
+            "Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: FLY TO MEKELLE & DRIVE TO DANAKIL DEPRESSION",
+          description: [
+            "After an enjoyable breakfast, transfer you to Addis Ababa airport for an hour’s flight to Mekelle. At Mekele, you’ll meet your vehicle and drive into the Danakil Depression. You’ll begin the drive into the Danakil in good time so that you enjoy your drive in the cooler time of the day.",
+            "The roads leading out of Mekele are smooth and asphalted, and driving further out of town there are some wonderful views of the landscape. As you drive further towards the Afar region, the roads are a maze of solidified lava, rock, and sand with an occasional palm-lined oasis.",
+            "En route, you’ll likely see long camel caravans going in and out of the Danakil as they are loaded with salt bars, the main export of this region.",
+            "Overnight Camping in Danakil",
+          ],
+          image: images.danakil1,
+        },
+        {
+          title: "DAY 3: EXPLORE THE DALLOL AREA & DRIVE TO GHERALTA",
+          description: [
+            "Before dawn, after a light breakfast, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools and geysers, where you will have this early morning to explore this seemingly alien terrain. You then visit the salt canyons, a bizarre landscape where we go for a short walk.",
+            "On the way back to camp you cross the salt flats where you see the arduous work of salt being extracted by hand and loaded onto the camels.",
+            "After freshen up and having lunch, we will leave the Danakil and climb the steep mountains to Gheralta, climbing from 100 meters below sea level up to 2500m.",
+            "Overnight in Gheralta",
+          ],
+          image: images.yemata1,
+        },
+        {
+          title: "DAY 4: DRIVE TO GHERALTA",
+          description: [
+            "Early in the morning exploration will take you to the very old and beautiful rock-hewn churches of Tigray. You will visit Mariam and Daniel Korkur which is perched on the top of Gheralta Mountain. In the afternoon, you will visit Abun Yemata Guh which is one of the finest rock-hewn churches in Tigray.",
+            "Overnight in Gheralta",
+          ],
+          image: images.yemata2,
+        },
+        {
+          title: "DAY 5: DRIVE TO AXUM & FLY TO LALIBELA",
+          description: [
+            "Early in the morning, you will transfer by road (4hrs.) to Axum. This is one of the most amazing scenic drives along different magnificent terrains, and stunning vistas along rural villages. Upon arrival, you will check in to your flight to Lalibela. It is home of the rock-hewn churches and a World Heritage Site. It is located at an altitude of 2,600 meters above sea level.",
+            "Lalibela is the 8th  wonder of the world; 11 rock-hewn churches have been cut out of a solid red volcanic rock, some completely hidden in deep trenches, while others stand in open quarried caves and a complex series of tunnels and narrow passageways connect the churches.",
+            "Lalibela indeed offers a great opportunity for any traveler. After checking in and having your lunch in your hotel, the afternoon will be devoted to visiting the first group (or the north–western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel, and Bet Danaghel.",
+            "Overnight in Lalibela",
+          ],
+          image: images.lalibela4,
+        },
+        {
+          title: "DAY 6: EXPLORE MORE ROCK CHURCHES",
+          description: [
+            "After breakfast, drive to the cave church of Yemrhan Kristos. The drive will be on a good road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs. Drive back to Lalibela.",
+            "In the afternoon, you will visit the remaining rock-hewn churches of Lalibela which include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos. Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here.  Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches.",
+            "Overnight in Lalibela",
+          ],
+          image: images.lalibela7,
+        },
+        {
+          title: "DAY 7: FLY TO ADDIS & CONNECT TO YOUR FLIGHT TO JINKA",
+          description: [
+            "After breakfast, you transfer to the airport and take the short flight back to Addis Ababa and transfer to your flight that departs at 11:40 am flight to Jinka arriving at 1:00 pm. The afternoon will be spent walking the packed village lanes of the Ari village.",
+            "These very rural people are friendly, some homes are brightly painted, they do pottery, grow sorghum, and daily life is easily photographed. Chickens in the yards, kids wanting to hold your hands, and women cooking by fire all make for a great introduction to the Omo Valley.",
+            "These people are not painted, pierced, or decorated but are an excellent representation of rural southern Ethiopia. You will visit the school in the village. The classrooms are visually compelling and great to document. We will walk up the main road visiting the houses and meeting the people.",
+            "We will be spending the night in the Eco Omo Lodge which is on the banks of the river where people bathe, clothing gets washed and cars get cleaned.",
+            "Overnight in Jinka",
+          ],
+          image: images.omo3,
+        },
+        {
+          title: "DAY 8: EXCURSION TO MAGO NATIONAL PARK TO VISIT MURSI",
+          description: [
+            "Early morning before dawn, you will take the two-hour ride through Mago National Park to reach a Mursi village. As they are nomadic it is impossible to name the settlement you will visit. The women wear circular clay lip plates, the men are garbed in large towel-like wraps. Photographing women grinding sorghum and breastfeeding while making their morning coffee which they drink out of gourds is possible.",
+            "Our guides handle the photo fee payments so you can shoot with abandon. For protein, the men bleed a bull in the early morning and drink its blood. The homes are thatched straw and sticks, and these people are known to keep traditions very much intact.",
+            "Many men have body adornments. A sense of humor is needed to fully appreciate the Mursi photographic experience. The afternoon will be spent wandering the dirt street and markets of Jinka. The market is colorful and vibrant with many bars, and stores selling plastic woven baskets, and day-to-day items.",
+            "Splitting into small groups a guide will help you with translation, setting up shots if desired, and see to it that you can photograph freely. Lodging nice again will be at the Eco Omo Lodge which has a patio where the group can have cold beer or hot coffee after this long day.",
+            "Overnight in Jinka",
+          ],
+          image: images.mursi1,
+        },
+        {
+          title: "DAY 9: TURMI VIA ARBORE",
+          description: [
+            "Proceeding further into the scenic Weito lowlands, you will be visiting an Arbore tribal village located at the northern edge of Mount Buska. The Arbore women are absolutely stunning; they have extremely dark skin and strong features.",
+            "Prior to marriage, the women have their heads shaved. They wear dark robes, colorful beads, and their huts are fabricated from tree branches. You will work on your portraiture skills in this village. Arriving in Turmi late in the afternoon, you will be spending the night at the Buska Lodge which will be your base for the next few days.",
+            "These round-shaped tukul lodges have porches and are on the bank of a stream. If you like shooting star trails this is your mecca as there is little light pollution.",
+            "Overnight in Turmi",
+          ],
+          image: images.erbore1,
+        },
+        {
+          title: "DAY 10: TURMI - DUS - TURMI",
+          description: [
+            "Departing Turmi at 5:00 AM, you will head to Dus, the friendliest village of the Kara tribe. Settled on the banks of the Omo River, this tribe is known for their creative and decorative body chalk painting. Many of the Kara women have pierced lips and insert nails and pins.",
+            "Photographing on the bank of the Omo River can yield images of the kids diving into the water. You will shoot a cattle and goat drive which is iconic.",
+            "Dust swirling, men with guns and long herders stick driving their herd to the water. You will photograph the ceremonial, communal dance performed by the people of Dus. They will invite you into their huts for coffee to be had out of a gourd.",
+            "The Kara of Dus prides themselves as the best dancers in the Omo. You will also photograph these warm and inviting people on the banks of the Omo and in the shade, under the large umbrella-like trees.",
+            "You will be bringing a picnic breakfast and lunch with us. Overnight in Turmi",
+          ],
+          image: images.omo4,
+        },
+        {
+          title: "DAY 11: TURMI - KANGATEN - TURMI",
+          description: [
+            "Starting off from Turmi at sunrise you will be heading to Kangate, home to the Nyangatom tribe that historically is said to be a split group from the Toposa tribe of South Sudan. Settled on the other side of the Omo River, You will be crossing the Omo River where you will be able to access and visit remote tribal villages. The teenage boys are lively and like to play much of the day.",
+            "The women are topless and wear many strands of heavy beads, the girls are playful and love to have their images taken.",
+            "Mid-afternoon, you will return to Turmi where you will be spending another night at the Buska Lodge. You can also photograph the Hamer tribe digging for water, smoking out bees, or doing another local village sunset shoot.",
+            "Overnight in Turmi",
+          ],
+          image: images.hamer2,
+        },
+        {
+          title: "DAY 12: TURMI - OMORATE-TURMI",
+          description: [
+            "Departing Turmi at 5:00 AM, you will be heading to Omorate, home of the Dassanach tribe who are said to be descendants of the Turkana tribe in North Kenya. Like many of these tribal groups, they use chain links and other Western ‘cast-offs’ as decorative objects.",
+            "Crossing the newly constructed Omo River Bridge and driving further for 12 km, we will be able to photograph a remote Dassanach tribal village, just 11 km from the shores of Lake Turkana.",
+            "You will photograph the women cooking by fire, grinding corn meal, and the men with their flock. You will try to continue further south to Lake Turkana to see and photograph the small wooden fishing boats and Dassanch people.",
+            "Overnight in Turmi",
+          ],
+          image: images.suri1,
+        },
+        {
+          title: "DAY 13: TURMI",
+          description: [
+            "This being Monday we will attend the Turmi market. The Hamer people will be selling honey, snuff, foodstuffs, and local wares. You will be able to wander freely shooting the many stalls. Of note the stores have some artistic designs and the crafts market is the best in the Omo.",
+            "The grain mills are amazing and many stores are great backdrops for street photography. You may encounter the ritualistic bull jumping ceremony usually around Turmi. The women dance, the bells on their ankles making a distinctive noise that blends in with the bugles they blow.",
+            "The age group (16-25) of men called Maza to whip the women as a sign of devotion as they will be responsible for the women as they grow old. Not less than five bulls are lined up and the nude guy will run across them numerous times. Once successfully completed he is entitled to marry.",
+            "Over Night in Buska Lodge",
+          ],
+          image: images.omo2,
+        },
+        {
+          title: "DAY 14: ADDIS ABABA",
+          description: [
+            "Today we will fly back to Addis Ababa from the Jinka airport. The group will return to Addis early in the afternoon and go to a Fair Trade home goods store that has the highest quality fabrics/ shawls/ linen. Those leaving on late-night flights will be driven to the airport. The farewell dinner will be in the hotel.",
+            "Overnight in Addis Ababa",
           ],
           image: images.addis4,
         },

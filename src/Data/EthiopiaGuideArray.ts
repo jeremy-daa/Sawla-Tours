@@ -160,7 +160,7 @@ export const EthiopiaGuideArray: Guide[] = [
                 "Embark on a thrilling adventure through the canvas of southern Ethiopia, where the Great Rift Valley tears the land asunder, revealing a spectacle of lakes teeming with crocodiles, hippos, and an abundance of avian life. This region is a wildlife paradise, with national parks boasting unique ecosystems and endemic species. Marvel at the extraordinary birdlife, encounter rare wildlife, and indulge in the breathtaking scenery that makes the south an absolute paradise.",
                 "Embark on a thrilling adventure through the canvas of southern Ethiopia, where the Great Rift Valley tears the land asunder, revealing a spectacle of lakes teeming with crocodiles, hippos, and an abundance of avian life. This region is a wildlife paradise, with national parks boasting unique ecosystems and endemic species. Marvel at the extraordinary birdlife, encounter rare wildlife, and indulge in the breathtaking scenery that makes the south an absolute paradise.",
               ],
-              image: images.awassa1,
+              image: images.hawassa1,
             },
           ],
         },

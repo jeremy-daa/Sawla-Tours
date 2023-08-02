@@ -372,7 +372,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Shutter Symphony: \nCapturing the Colors of Ethiopia's Enigmatic Omo Valley",
           description:
             "Embark upon a grand odyssey on an unforgettable photographic expedition through the Omo Valley, a land of cultural diversity and untouched natural beauty. This immersive journey will take you deep into the heart of Ethiopia, where you'll encounter tribes known for their vibrant traditions and unique adornments. From the Hamer villages to the Mursi with their famous lip plates, this trip offers a rare opportunity to capture the essence of these indigenous communities. As you venture through the picturesque landscapes of the Omo Valley, you'll witness the breathtaking Rift Valley lakes, encounter incredible birdlife and wildlife, and explore the region's remote corners. Join us on this photographic adventure and capture the captivating faces and landscapes that make the Omo Valley a truly exceptional destination.",
-          link: "/tours-by-experience/4/1",
+          link: "/tours-by-experience/5/1",
           image: images.omo1,
           days: 12,
         },
@@ -381,7 +381,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopia through the Lens: \nCapturing the Riches of History and Nature",
           description:
             "Start a thrilling escapade on a mesmerizing photographic journey through Ethiopia, immersing yourself in the country's rich cultural heritage and breathtaking landscapes. From the ancient rock-hewn churches of Lalibela to the otherworldly beauty of the Danakil Depression, this trip offers a unique opportunity to capture Ethiopia's timeless wonders. Begin in Addis Ababa, where you'll explore vibrant markets and visit historical landmarks. Journey to Gonder and the Simien Mountains, where stunning scenery and endemic wildlife await. Discover the rock-hewn churches of Lalibela, a UNESCO World Heritage Site. Continue to Axum and the Tigray region, home to impressive monolithic churches. Conclude your adventure in the otherworldly landscapes of the Danakil Depression. Join us on this photographic odyssey and capture the essence of Ethiopia's timeless allure.",
-          link: "/tours-by-experience/4/2",
+          link: "/tours-by-experience/5/2",
           image: images.lalibela4,
           days: 12,
         },
@@ -390,7 +390,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Through the Lens: \nDiscovering Ethiopia's Hidden Gems - A Photographic Journey to the Lost Tribes of the Omo Valley",
           description:
             "Dive into the unknowns on an extraordinary expedition to the mystical land of Ethiopia, where ancient traditions and untouched landscapes converge in a harmonious blend. This immersive photographic tour will lead you through the enchanting Omo Valley, a realm steeped in captivating history and home to the lost tribes that have preserved their unique cultures for centuries. From the vibrant streets of Addis Ababa to the remote corners of the region, every step of this journey unveils awe-inspiring scenes waiting to be captured by your lens. Immerse yourself in the mesmerizing lives of the Gurage, Surma, Karo, Hamer, Mursi, and other extraordinary tribes that call this land their home. As you traverse through sprawling coffee plantations, traverse deep gorges, and wander among picturesque villages, prepare to witness the timeless beauty and profound human connections that define Ethiopia's Omo Valley. Witness captivating ceremonies, traditional rituals, and breathtaking landscapes as you delve deep into the lives of these remarkable tribes. Each day brings new encounters and photographic opportunities, providing a truly immersive experience. Join us on this unforgettable journey and capture the untamed beauty of Ethiopia's tribal communities. Join us on this artistic odyssey and unlock the secrets of Ethiopia's lost tribes through the power of your camera.",
-          link: "/tours-by-experience/4/3",
+          link: "/tours-by-experience/5/3",
           image: images.omo3,
           days: 12,
         },
@@ -399,7 +399,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopia Unveiled: \nA Photographic Journey through Ancient Lands and Vibrant Tribes",
           description:
             "Commence a journey on a mesmerizing photographic journey through Ethiopia's ancient lands and vibrant tribal communities. \"Ethiopia Unveiled\" offers a unique opportunity to capture the raw beauty, rich cultural heritage, and untamed landscapes of this captivating country. From the bustling streets of Addis Ababa to the remote villages of the Mursi, Hamer, and Karo tribes, every moment is a visual feast waiting to be captured. Explore rock-hewn churches, witness traditional rituals, and immerse yourself in the daily lives of the tribespeople. This extraordinary expedition will take you through the Danakil Depression, Lalibela's mystical rock churches, the awe-inspiring Omo Valley, and more. Join us on this captivating journey and uncover the hidden treasures of Ethiopia through the lens of your camera",
-          link: "/tours-by-experience/4/4",
+          link: "/tours-by-experience/5/4",
           image: images.mursi1,
           days: 14,
         },
@@ -408,7 +408,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopian Highlands Revealed: \nA Photographic Odyssey through Mountains and Wildlife",
           description:
             "Embark on an unforgettable photographic journey through the stunning landscapes and rich wildlife of Ethiopia's highlands. \"Ethiopian Highlands Revealed\" invites you to capture the raw beauty, endemic species, and cultural heritage of this breathtaking region. From the bustling city of Addis Ababa to the dramatic Simien and Bale Mountains National Parks, every moment is a visual feast waiting to be immortalized through your lens. Explore the Rift Valley Lakes, marvel at Gondar's imperial palaces, and witness the unique gelada baboons and Ethiopian wolves in their natural habitats. This extraordinary expedition will take you on a captivating visual odyssey through the heart of Ethiopia.",
-          link: "/tours-by-experience/4/5",
+          link: "/tours-by-experience/5/5",
           image: images.simien1,
           days: 12,
         },
@@ -417,16 +417,16 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopia's Wildlife and Cultural Encounters: \nAwash & Hyena Men of Harar",
           description:
             "Start a voyage on a captivating journey through Ethiopia's diverse landscapes, where wildlife encounters and cultural experiences await photographers seeking extraordinary moments. This 5-day extension takes you to the spectacular Awash National Park, home to diverse mammals and a plethora of bird species. Capture the magnificence of Nile Crocodiles and photograph avian wonders like Lappet-faced Vultures, Tawny Eagles, and Abyssinian Rollers. Immerse yourself in the ancient city of Harar, known for its rich history and unique traditions. Witness the awe-inspiring Hyaena Men, as they interact with spotted hyenas in a mesmerizing display of trust and connection. Explore Harar's ancient medina, capturing the vibrant streets, bustling markets, and ornate mosques. Photograph the mesmerizing Yellow-billed Kites as they swoop down to feed. This extension offers a blend of wildlife photography, cultural immersion, and unforgettable encounters, adding an extra dimension to your Ethiopian adventure.",
-          link: "/tours-by-experience/4/6",
+          link: "/tours-by-experience/5/6",
           image: images.awash1,
-          days: 5,
+          days: 6,
         },
         {
           title:
             "Enchanting Encounters: \nPhotographic Journey through the Tribal Landscapes of Ethiopia",
           description:
             "Dive into an experience on an extraordinary photographic adventure that will immerse you in the captivating beauty and cultural richness of Ethiopia. This carefully curated tour takes you on a mesmerizing journey through the Omo Valley, where remote tribes preserve their ancient traditions amidst breathtaking landscapes. From the bustling streets of Addis Ababa to the remote villages of the Suri, Hamar, Karo, and Mursi tribes, each day is filled with opportunities to capture unforgettable moments. Led by experienced guides and photographers, this tour offers a unique blend of discovery, cultural exchange, and artistic exploration. Get ready to unleash your creativity as you witness the vibrancy of Ethiopia's tribal heritage through your lens.",
-          link: "/tours-by-experience/4/7",
+          link: "/tours-by-experience/5/7",
           image: images.hamer1,
           days: 12,
         },
@@ -465,7 +465,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopia's Avian Wonders: \nA Journey through Endemic Treasures",
           description:
             "Embark on a mesmerizing expedition through the ancient and diverse land of Ethiopia, where nature's artistic palette comes to life in a symphony of vibrant colors and extraordinary wildlife encounters. This small group tour immerses you in the awe-inspiring world of Ethiopia's endemic birds, showcasing its bountiful avian treasures amidst a backdrop of breathtaking landscapes, rich cultures, and captivating history. From the tame and confiding endemics to the fascinating Ethiopian Wolf and the remarkable Gelada troops, every moment of this 17-day adventure is filled with wonder. Delve into the kaleidoscope of cultures, traverse diverse habitats, and witness the astonishing biodiversity that makes Ethiopia an essential destination for birders and nature enthusiasts alike. Join us on this bird-filled odyssey, where Ethiopia's hidden gems await your discovery.",
-          link: "/tours-by-experience/5/1",
+          link: "/tours-by-experience/6/1",
           image: images.bird1,
           days: 17,
         },
@@ -474,7 +474,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Enchanting Ethiopia: \nCapturing Endemics in Simiens & Gondar",
           description:
             "Embark on a mesmerizing photographic adventure through Ethiopia, where every corner reveals captivating landscapes, rich history, and a wealth of extraordinary birdlife. Join us on the Endemics a 6-day journey that will take you to the enchanting Simien Mountains National Park and the historic city of Gondar. As a photographer, you'll be immersed in a world of rare endemic bird species, stunning vistas, and encounters with fascinating wildlife. From the elusive Ethiopian Wolf to troops of Gelada Baboons, the wonders of Ethiopia's natural heritage await your lens. Discover the kaleidoscope of cultures, the ancient castles, and the breathtaking scenery that make Ethiopia a treasure trove for photographers and adventurers alike. Get ready to capture moments that will forever be etched in your memory.",
-          link: "/tours-by-experience/5/2",
+          link: "/tours-by-experience/6/2",
           image: images.bird2,
           days: 6,
         },
@@ -482,7 +482,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
           title: "Wings of Ethiopia: \nA Mega Birding Adventure",
           description:
             "Commence an adventure on an extraordinary journey through the diverse landscapes of Ethiopia, where nature unveils its majestic wonders and avian treasures. \"Wings of Ethiopia: A Mega Birding Adventure\" invites you to explore this captivating country's rich biodiversity and unique birdlife. Over the course of 22 days, you'll traverse breathtaking landscapes, from the Great Rift Valley to the Harenna Forest, the Bale Mountain National Park to the vast savannas of the Yabello area. Along the way, encounter over 460 bird species, including numerous endemics and rarities. From the elusive Stresemann's Bushcrow to the vibrant White-tailed Swallow, every day will be filled with awe-inspiring sightings and unforgettable moments. Immerse yourself in the magic of Ethiopia's natural heritage and let your spirit take flight in this extraordinary birding paradise.",
-          link: "/tours-by-experience/5/3",
+          link: "/tours-by-experience/6/3",
           image: images.bird3,
           days: 22,
         },
@@ -491,7 +491,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Exploring Ethiopia's Avian Splendor: \nA Birdwatching Odyssey",
           description:
             "Embark on an extraordinary birdwatching odyssey through the diverse landscapes of Ethiopia, a country renowned for its rich birdlife and captivating endemic species. Over the course of 12 days, this immersive tour will take you on a thrilling adventure from bustling cities to remote wilderness areas, allowing you to witness the remarkable avian diversity that Ethiopia has to offer. From the bustling capital of Addis Ababa to the majestic Bale Mountains and the hidden gems of Negele and Yabello, each destination holds unique highlights and opportunities to encounter rare and endemic bird species. Get ready to be enthralled by the stunning landscapes, vibrant birdlife, and the warm hospitality of Ethiopia.",
-          link: "/tours-by-experience/5/4",
+          link: "/tours-by-experience/6/4",
           image: images.bird4,
           days: 12,
         },
@@ -500,7 +500,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
             "Ethiopian Birding Expedition: \nFrom Rift Valley to Highlands",
           description:
             "Start a quest on an exhilarating journey through the diverse landscapes of Ethiopia, a haven for bird enthusiasts and photographers alike. This 16-day expedition takes you from the bustling capital city of Addis Ababa to stunning national parks, pristine lakes, and remote regions brimming with avian treasures. Immerse yourself in the breathtaking beauty of Ethiopia's landscapes while capturing images of rare and endemic bird species. From the Geferssa Reservoir near Addis Ababa to the awe-inspiring Bale Mountains National Park and the arid plains of Yabello, this trip promises incredible encounters with unique birdlife. Explore the cultural and historical sites along the way, adding depth to your photographic journey. Join us on this extraordinary birding expedition, where every moment presents a new opportunity to capture the wonders of Ethiopia's avifauna.",
-          link: "/tours-by-experience/5/5",
+          link: "/tours-by-experience/6/5",
           image: images.bird5,
           days: 16,
         },
@@ -511,7 +511,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     id: 7,
     title: "Wildlife Tours",
     description: "",
-    image: images.awassa1,
+    image: images.hawassa1,
     link: "/enquire",
     linkname: "Start Planning",
     index: false,
