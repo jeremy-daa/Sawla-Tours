@@ -872,18 +872,16 @@ export const ItineraryArray: Itinerary[] = [
   {
     id: 2,
     experience: 6,
-    title: "Enchanting Encounters",
+    title: "Enchanting Ethiopia",
     index: false,
-    image: images.hamer1,
-    description:
-      "Photographic Journey Through The Tribal Landscapes Of Ethiopia",
+    image: images.bird2,
+    description: "Capturing Endemics In Simiens & Gondar",
     link: "/enquire",
     linkname: "Start Planning",
     intro: [
       {
-        title: "Introducing Enchanting Encounters",
-        subtitle:
-          "Photographic Journey Through The Tribal Landscapes Of Ethiopia",
+        title: "Introducing Enchanting Ethiopia",
+        subtitle: "Capturing Endemics In Simiens & Gondar",
         description: [
           "Dive into an experience on an extraordinary photographic adventure that will immerse you in the captivating beauty and cultural richness of Ethiopia. This carefully curated tour takes you on a mesmerizing journey through the Omo Valley, where remote tribes preserve their ancient traditions amidst breathtaking landscapes.",
           "From the bustling streets of Addis Ababa to the remote villages of the Suri, Hamar, Karo, and Mursi tribes, each day is filled with opportunities to capture unforgettable moments.",

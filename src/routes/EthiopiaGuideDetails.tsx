@@ -72,18 +72,24 @@ const EthiopiaGuideDetails = () => {
             </>
           )}
 
-          {guide.intro[1] && (
-            <Intro
-              title={guide.intro[0].title}
-              subtitle={guide.intro[0].subtitle}
-              description={guide.intro[0].description}
-              lr={guide.intro[0].lr}
-              img1={guide.intro[0].img1}
-              img2={guide.intro[0].img2}
-              button={guide.intro[0].button}
-              link={guide.intro[0].link}
-            />
-          )}
+          {guide.intro &&
+            guide.intro.map((intro, index) => {
+              if (index !== 0) {
+                return (
+                  <Intro
+                    key={index}
+                    title={intro.title}
+                    subtitle={intro.subtitle}
+                    description={intro.description}
+                    lr={intro.lr}
+                    img1={intro.img1}
+                    img2={intro.img2}
+                    button={intro.button}
+                    link={intro.link}
+                  />
+                );
+              }
+            })}
         </>
       ) : (
         <NotFound />
