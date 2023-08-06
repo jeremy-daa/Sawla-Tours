@@ -77,6 +77,7 @@ const EthiopiaToursPackages = () => {
                 title={tour?.tourdescription.title}
                 image={tour?.tourdescription.image}
                 description={tour?.tourdescription.description}
+                link={tour?.experience}
               />
             )}
             {tour.intro[2] && (

@@ -2,6 +2,7 @@ import Images from "./Images";
 
 export interface Tour {
   id: number;
+  experience?: number;
   title: string;
   description: string;
   image: string;
@@ -50,6 +51,7 @@ export interface Tour {
 export const EthiopiaToursArray: Tour[] = [
   {
     id: 1,
+    experience: 1,
     title: "Historic Ethiopia Tours",
     description:
       "The Historic Tour is a journey through Ethiopia's rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar.",
@@ -157,6 +159,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 2,
+    experience: 2,
     title: "Tribal Ethiopia Tours",
     description:
       "Dive into the unique cultural kaleidoscope of Ethiopia's Tribal Tours. Explore vibrant traditions, breathtaking vistas, and fascinating wildlife in Africa's heartland. Immerse in the dynamic spirit of Ethiopia, an unforgettable journey awaits! Make this radiant journey your next adventure - it's a celebration of diversity at every step",
@@ -274,6 +277,8 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 3,
+    experience: 3,
+
     title: "Festivals and Special Events",
     description:
       "Experience the vibrant world of Ethiopian festivals, where ancient traditions come alive through colorful celebrations and powerful spiritual energy. Immerse yourself in the heart and soul of Ethiopian culture, creating unforgettable moments that will stay with you forever.",
@@ -365,6 +370,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 4,
+    experience: 4,
     title: "Adventure Tours in Ethiopia",
     description:
       "A unique opportunity to explore the country's diverse landscapes and rich cultural heritage. From the Simien Mountains to the Danakil Depression, Ethiopia's natural wonders are waiting to be discovered. ",
@@ -471,6 +477,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 5,
+    experience: 5,
     title: "Photography Tours in Ethiopia",
     description: "",
     image: Images.lalibela5,
@@ -506,6 +513,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 6,
+    experience: 6,
     title: "Birdwatching Tours in Ethiopia",
     description:
       "Ethiopia, a haven for bird enthusiasts, unveils a treasure trove of avian wonders. From the endemic Ethiopian Siskin to the elusive Blue-winged Goose, the country's diverse landscapes and abundant habitats make it a paradise for birding, offering a feast for both the eyes and the soul.",
@@ -542,6 +550,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 7,
+    experience: 7,
     title: "Wildlife Tours in Ethiopia",
     description:
       "Explore Ethiopia, a tapestry of diverse landscapes teeming with vibrant wildlife.",
@@ -660,6 +669,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 8,
+    experience: 9,
     title: "Special Interest Tours in Ethiopia",
     description:
       "Uncover hidden gems, curating experiences that bring the country's treasures to life.",
@@ -754,6 +764,7 @@ export const EthiopiaToursArray: Tour[] = [
   },
   {
     id: 9,
+    experience: 8,
     title: "Business Trips and Short Day Tours in Ethiopia",
     description:
       "Unveil the wonders of Ethiopia even with limited time, as we curate unforgettable short-duration trips tailored to your schedule",

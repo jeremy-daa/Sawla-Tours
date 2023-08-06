@@ -13,6 +13,7 @@ import {
   TopDestinationsRoutes,
   ToursByExperienceRoutes,
 } from "../Data/PackagesArray";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -138,7 +139,37 @@ const NavBar = () => {
             <li>
               <NavLink to="about-us" onClick={closeNavbar}>
                 About Us
+                <BsFillCaretDownFill className="down-icon" />
               </NavLink>
+              <ul className="submenu">
+                <li>
+                  <HashLink to="about-us/#about">About Sawla Tours</HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#why">
+                    Why travel wit Sawla Tours
+                  </HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#how">How we work</HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#travel-specialists">
+                    Sawla's Travel Specialist
+                  </HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#guides">Sawla's Guides</HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#drivers">Sawla's Drivers</HashLink>
+                </li>
+                <li>
+                  <HashLink to="about-us/#camping-crew">
+                    Our camping crew
+                  </HashLink>
+                </li>
+              </ul>
             </li>
             <li>
               <NavLink to="contact-us" onClick={closeNavbar}>

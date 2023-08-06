@@ -1,12 +1,14 @@
 import { BsInfoCircle } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 interface Props {
   title?: string;
   description: string[];
   image: string;
+  link?: number;
 }
 
-const TourDescription = ({ title, description, image }: Props) => {
+const TourDescription = ({ title, description, image, link }: Props) => {
   return (
     <div className="tour-description-wrapper">
       <img src={image} alt={title} className="tour-description-image" />
@@ -23,6 +25,14 @@ const TourDescription = ({ title, description, image }: Props) => {
             </span>
           ))}
         </p>
+        {link && (
+          <Link
+            to={`/tours-by-experience/${link}`}
+            className="offset itinerary-link"
+          >
+            More on the Itinerary
+          </Link>
+        )}
       </div>
     </div>
   );

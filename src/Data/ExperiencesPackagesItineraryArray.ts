@@ -1,6 +1,4 @@
 import Images from "./Images";
-import { WildlifeArray } from "./fas";
-import { ItineraryArray } from "./temp";
 export interface Itinerary {
   id: number;
   experience: number;
@@ -7801,7 +7799,2689 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
       ],
     },
   },
-];
+  {
+    id: 1,
+    experience: 7,
+    title: "Wildlife Expedition",
+    index: false,
+    image: images.simien2,
+    description: "Exploring The Untamed Beauty Of Ethiopia's Mountains",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Wildlife Expedition",
+        subtitle: "Exploring The Untamed Beauty Of Ethiopia's Mountains",
+        description: [
+          "Commence an adventure on an unforgettable 12-day wildlife expedition through Ethiopia's majestic Simien and Bale Mountains. This journey is tailor-made for wildlife enthusiasts seeking an up-close encounter with Ethiopia's extraordinary biodiversity.",
+          "With a focus on two of the country's most renowned national parks, this itinerary offers extended stays in the Simien and Bale Mountains, providing ample opportunities to observe and photograph endemic mammals and birds against the backdrop of awe-inspiring landscapes. With expert guides and a wealth of wildlife encounters, this expedition promises an unforgettable experience for wildlife enthusiasts, offering a unique glimpse into the untouched wilderness of Ethiopia.",
+        ],
+        lr: true,
+        img1: images.simien1,
+        img2: images.bale1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Discover the vibrant capital city with its bustling markets and fascinating culture.",
+          },
+          {
+            title: "Gonder",
+            description:
+              "Explore the historical sites of Gonder, including the Royal Enclosure and Debre Berhan Selassie Church.",
+          },
+          {
+            title: "Simien Mountains National Park",
+            description:
+              "Encounter the iconic Gelada Baboons and elusive Walia Ibex while enjoying the breathtaking scenery.",
+          },
+          {
+            title: "Bale Mountains National Park",
+            description:
+              "Roam the high moorlands in search of the endangered Ethiopian Wolf and other unique species.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Arrive in Addis Ababa & city tour. Overnight in Addis Ababa.",
+          },
+          {
+            title: "Day 2",
+            description: "Fly to Gonder & sightseeing. Overnight in Gonder.",
+          },
+          {
+            title: "Day 3-5",
+            description:
+              "Simien Mountains National Park. Overnight in Simien Mountains National Park.",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Drive to Gonder & fly back to Addis Ababa. Overnight in Addis Ababa.",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Drive to Awassa via Senkelle Sanctuary. Overnight in Awassa.",
+          },
+          {
+            title: "Day 8-10",
+            description:
+              "Bale Mountains National Park. Overnight in Bale Mountains National Park.",
+          },
+          {
+            title: "Day 11",
+            description: "Drive to Lake Langano. Overnight in Lake Langano.",
+          },
+          {
+            title: "Day 12",
+            description: "Drive to Addis Ababa. Overnight in Addis Ababa.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, our hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel for overnight accommodation. The city enjoys an excellent climate all year round, with an average temperature of 25°C (77°F). ",
+            "With a multiethnic population of over 5 million, Addis Ababa is a pleasant city with wide avenues of jacaranda trees, interesting museums, and one of the largest open-air markets in Africa, known as the “Mercato”. After your long flight and a welcome briefing, you can settle into your hotel for some rest. Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: FLY TO GONDER & SIGHTSEEING",
+          description: [
+            "This morning board a short flight to Gonder, upon arrival transfer to your hotel. You will spend today exploring the city of Gondar. It was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years.",
+            "You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area. You continue on to the church of Debre Berhan Selassie (a UNESCO World Heritage Site). The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings. It is rumored to have once been the proposed final resting place of the Ark of the Covenant. Overnight in Gonder",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title: "DAY 3/5: SIMIEN MOUNTAINS",
+          description: [
+            "This morning you continue your journey to the Simien Mountains. The next three nights you will explore one of Africa’s principal mountain massifs and one of the continent’s most spectacular sceneries.",
+            "The three-hour drive to Debark, the gateway to the Simien Mountains National Park, is our first opportunity to get a feel for the Ethiopian highlands, and as we pass through the small roadside villages we are provided with a valuable insight into the subsistence economy that exists here. Employing methods unchanged for thousands of years, families continue to grow a variety of indigenous crops, chief among them, the famous and ubiquitous teff.",
+            "The Simien Mountains are home to some of the most breathtaking scenery in Africa and also harbor many of Ethiopia’s most iconic mammals. At least a dozen of its peaks rise above 4000m, with the highest; Mount Ras Dashen, scaling 4,620m, making it the highest point in Ethiopia and the fourth highest on the continent.",
+            "The mountain range is comprised of several major plateaus divided by a network of river valleys that span for miles, however, it is only the western side of the range that has been designated a National Park and it is here that you will focus your attention single dirt road runs through the Park from your lodge to Bwahit Pass, allowing you to access the most scenic and rewarding sites around Sankaber and Chenek, where you will be on the lookout for three of Ethiopia’s largest endemic mammals.",
+            "With an estimated population of over 15,000 individuals, the Simien Mountains is considered a stronghold for the Gelada Baboon; a magnificent beast possessed of an imposing golden mane and distinctive heart-shaped red chest. Unique amongst primates, the Gelada Baboon feeds almost exclusively on grass and is considered the most sociable of African monkeys, with a harem-based social structure that is widely regarded to be second in complexity, only to humans.",
+            "With enormous canines and a maned coat, not unlike a Lion, one could be forgiven for thinking that you would need to give them a very wide berth. However, they are in fact remarkably tolerant of their human cousins and will often allow you to approach within a few meters, providing superb photographic opportunities.",
+            "Social units typically number around 30-50 individuals, however, in the late afternoon as dusk approaches, the baboons retreat to the safety of the escarpment edge and will often come together in mega-herds of over 500 animals. Set against a magnificent backdrop of vast plains and isolated pinnacles, this has to be one of Africa’s most impressive wildlife spectacles.",
+            "Restricted entirely to the Simien Mountains, the endangered Walia Ibex is considered to be Ethiopia’s rarest endemic mammal, with the population believed to be in the region of 500 individuals. Favoring very steep, rocky cliff areas between 2,500m and 4,500m high, with its chocolate-brown coloration it can prove remarkably well camouflaged when set against the dark cliffs.",
+            "Males can weigh as much as 125 kg (180-280lb) and have very large horns that curve backward, reaching lengths up to 110cm (43 in). Whilst the females are smaller and lighter in color, the males have a distinguished black beard that lengthens and thickens with age, setting them apart from the females.",
+            "Walia Ibex are prolific grazers and will feed on a diverse range of vegetation, from scrub and herbs to lichens, and are particularly active first thing in the morning when they frequently ascend the escarpment cliffs to graze on the plateau. The area around Chenek not only holds some of the most spectacular scenery in the Park but is also something of a hotspot for the species and you will certainly try your luck here, hoping to photograph this magnificent animal in the morning light.",
+            "Sadly, following a rabies epidemic several years ago, the last of the ‘Simien Big Three,’ the Ethiopian Wolf, is also the rarest, with the Simien population now believed to be as low as 40 individuals. Nevertheless, Ethiopian Wolves have been seen and heard in the Simiens and you will always be on the lookout. It is also worth noting that you will also have an excellent chance of seeing this beautiful canid later on in the tour in the Bale Mountains.",
+            "Less well known for its birds, the Simien Mountains still has some very interesting prospects, with over 180 species having been recorded in the range and some star species offering fantastic photographic opportunities, including Lammergeiers, Augur Buzzards, and with a little luck, Lanner Falcons.",
+            "Endemic White-billed Starlings are a common sight, frequently found clinging to rocky gorges, whilst White-winged Black Tit and Abyssinian Catbird prefer the dense cover of Juniper Forest.",
+            "The drab Moorland Chat is one of the most common birds in the area and will be a constant companion throughout our stay, whilst picnic lunches are likely to attract the attention of inquisitive endemic Thick-billed Ravens! Overnight in Simien Mountains National Park",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 6: DRIVE TO GONDAR & FLY TO ADDIS",
+          description: [
+            "After three fabulous nights in the Simiens, it will sadly be time to leave and you will gradually retrace your steps back to Debark and then on to Gondar, arriving in good time to check in to your flight back to Addis. Upon arriving in Addis, you will transfer to your hotel for overnight.",
+          ],
+          image: images.gonder4,
+        },
+        {
+          title: "DAY 7: DRIVE TO AWASSA VIA SENKELLE SANCTUARY",
+          description: [
+            "You will set off early and drive south through the Great Rift Valley to Lake Awassa where you overnight. As you drive, you see a marked difference in the style of the houses and the surrounding habitat, with roadside birding offering the chance to see and photograph such bushland and acacia-loving many birds.",
+            "Having a lunch stop at Shashamane town, then drive to Senkelle. In the late afternoon, you will explore the rarely-visited Senkelle Wildlife Sanctuary, the last stronghold of the endemic Swayne’s Hartebeest. These impressive chestnut-colored antelopes are still common here.",
+            "Besides this, Oribi, bushbucks, warthogs, and baboons in the grasslands and also feature a different variety of birds like the White-bellied Bustard and the gorgeous Northern Carmine Bee-eater. After the exploration, you head to Awassa, a town situated beside the lake of the same name, where you will overnight.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 8: DRIVE TO BALE MOUNTAINS",
+          description: [
+            "After breakfast, you will embark on the long drive to the Bale Mountains National Park, a scenic journey that will likely take much of the day, but should give you the chance to see some incredible wildlife and an excellent chance of getting your first views of one of the world’s rarest canids, the Ethiopian Wolf!",
+            "Climbing through forests, fields, little villages, and banana groves, you reach open grassy uplands where you shall stop to scan for Serval Cat before continuing on to the Park Headquarters at Dinsho. Exploring the surrounding juniper forest, you have the possibility of encountering and photographing some of the region's mammals, including the endemic Mountain Nyala, Common Duiker, Bohor Reedbuck, Menelik's Bushbuck, and Warthog, all of which may be seen along the forest margins. As well as the mammals you will also be on the lookout for some of the area’s endemic bird species.",
+            "From Dinsho you continue, first out of the park, passing through the town of Goba, before entering back in and beginning your ascent up to the Senetti Plateau. It is here, amongst the vast tracts of Afro-alpine moorland, Giant Lobeilias, and stands of Red Hot Pokers that you have your best chance of encountering and photographing the magnificent Ethiopian Wolf and its favorite prey, the enigmatic Giant Mole-rat. Driving south across the plateau for approximately 50kms you reach the southern escarpment and from here, begin our descent into the mystical world of the Harenna Forest where you base yourselves for the next three nights at the charming Bale Mountain Lodge.",
+            "Overnight: Three nights in Bale Mountains National Park",
+          ],
+          image: images.bale1,
+        },
+        {
+          title: "DAY 9 & 10: EXPLORE BALE MOUNTAIN",
+          description: [
+            "The Bale Mountains, lying between 9,500 feet and 14,360 feet, contain the largest tract of high moorland in Africa. Virtually uninhabited, they are almost entirely unspoiled and were set aside as a national park in order to protect the Mountain Nyala which is found nowhere else in the world. Of volcanic origin like the more famous Simiens in the north, the Bale Mountains may not be as spectacular, but they do possess an exceptional beauty and charm which can be likened to that of the Scottish Highlands. They are green and spacious, decorated with rocky peaks and crags, numerous small lakes, extensive heathland, magnificent cloud forests, and bogs! Within the park is Mount Batu, at 14,360 feet one of the highest mountains in Ethiopia. The flora is fascinating and so is the fauna.",
+            "The park remains a stronghold for the beautiful Ethiopian Wolf, which roams the plateau in small groups and is regularly seen, whilst Klipspringers, the endemic Stark’s Hare, Warthogs, Rock Hyrax, the peculiar endemic Giant Mole-Rat, and the verminous but characterful Grass Rats and Swamp Rats (the main prey of the Ethiopian Wolf) are to be added to those species already mentioned.",
+            "Amongst an interesting collection of upland birds, we are likely to see eleven of Ethiopia's 29 endemics: Blue-winged Goose, Rouget's Rail, Spot-breasted Plover, White-collared Pigeon, Black-winged Lovebird, Golden-backed Woodpecker, and Abyssinian Long claw, Abyssinian Catbird, White-backed Tit, Black-headed Siskin and Thick-billed Raven!",
+            "With two full days to explore the area, you are likely to focus the majority of your time on the plateau where little lakes, extensive grasslands, and the weird spikes of primeval-looking Giant Lobelias and Red-Hot Pokers provide a wonderful Afro-alpine habitat in which to observe and photograph the wolves. You will typically take the approach of driving slowly across the plateau until you encounter a wolf. The wolves are usually quite comfortable around the vehicle, but it has the disadvantage of being quite high up, and the likelihood is that you will spend a significant amount of time observing and photographing the wolves on foot.",
+            "This method requires a good degree of stealth and patience but can be hugely rewarding, and you will likely find yourselves refining your methods over the duration of your stay. The wolves are usually very active during the day, and you have a good chance of observing them displaying a wide range of behaviors. With rodents making up the vast majority of their diet, they have to hunt frequently and you have an excellent chance of witnessing and photographing this fascinating behavior.",
+            "In addition to providing an important food source for the Ethiopian Wolves, the large numbers of rodent species on the plateau also attract many species of birds of prey that include wintering Spotted, Imperial, and other Aquila eagles, as well as almost all of Ethiopia's vulture species. Wattled Crane and Montane Francolin are two resident bird species that we are likely to encounter, alongside endemic Rouget's Rail, Spot-breasted Plover, and Blue-winged Goose.",
+          ],
+          image: images.bale2,
+        },
+        {
+          title: "DAY 11: DRIVE TO LAKE LANGANO",
+          description: [
+            "Today retrace your steps back over the plateau, stopping for any wildlife of interest on route. Descending the northern escarpment into Goba, you journey west past Dinsho and back to Lake Awassa, before turning north and continuing up the Great Rift Valley for an overnight stay in a comfortable eco-lodge on the shores of Lake Langano.",
+          ],
+          image: images.bale5,
+        },
+        {
+          title: "DAY 12: DRIVE TO ADDIS ABABA",
+          description: [
+            "Today, your last morning in Ethiopia, you are free to relax and enjoy this beautifully appointed eco-friendly lodge and the surrounding lake area. Heading back north, you will pay a visit to Lake Abiata, which is widely regarded as Ethiopia's Nakuru. Shallow and saline, it is an enormous lake with enormous numbers of birds and you will enjoy this spectacle of color.\n\nLater, you return to Addis where hotel rooms will be available to freshen up and then travel to the airport for your flight home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    experience: 7,
+    title: "Ethiopian Wildlife Odyssey",
+    index: false,
+    image: images.simien7,
+    description: "Exploring Untamed Beauty And Endangered Species",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Wildlife Odyssey",
+        subtitle: "Exploring Untamed Beauty And Endangered Species",
+        description: [
+          "Start an odyssey on a thrilling 13-day journey into the heart of Ethiopia's diverse wildlife havens. This itinerary is designed exclusively for wildlife enthusiasts seeking extraordinary encounters with endemic species and pristine landscapes. From the vibrant capital city of Addis Ababa to the remote corners of Chebera Churchura, Maze, and Bale Mountains National Parks, this expedition promises an immersive experience in the untamed beauty of Ethiopia.",
+          "Witness the majesty of Ethiopian wolves, the rarest canids in the world, and capture remarkable moments with endangered Swayne's Hartebeests and majestic elephants. Explore ancient sites, discover cultural treasures, and embrace the authenticity of this captivating country.",
+        ],
+        lr: true,
+        img1: images.simien2,
+        img2: images.bale3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Immerse yourself in Ethiopia's capital, with its bustling markets and cultural landmarks.",
+          },
+          {
+            title: "Chebera Churchura National Park",
+            description:
+              "Encounter elephants, buffalos, and over 235 bird species in this untouched wilderness area.",
+          },
+          {
+            title: "Maze National Park",
+            description:
+              "Discover the critically endangered Swayne's Hartebeest and diverse wildlife in the savannah grasslands.",
+          },
+          {
+            title: "Bale Mountains National Park",
+            description:
+              "Trek through breathtaking landscapes and spot Ethiopian wolves, Mountain Nyala, and rare bird species.",
+          },
+          {
+            title: "Gonder",
+            description:
+              'Explore the medieval castles and churches, and witness the rich historical heritage of "the Camelot of Africa."',
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa & a city tour",
+          },
+          {
+            title: "Day 2",
+            description: "Drive to Chebera Churchura National Park",
+          },
+          {
+            title: "Day 3",
+            description: "Explore Chebera Churchura, National Park",
+          },
+          {
+            title: "Day 4",
+            description: "Drive to Maze National Park",
+          },
+          {
+            title: "Day 5",
+            description: "Explore Maze National Park",
+          },
+          {
+            title: "Day 6",
+            description: "Drive to Awassa",
+          },
+          {
+            title: "Day 7",
+            description: "Drive to Bale Mountains National Park",
+          },
+          {
+            title: "Day 8",
+            description: "Excursion to Sanetti Plateau",
+          },
+          {
+            title: "Day 9",
+            description: "Drive to Robe & fly to Addis Ababa",
+          },
+          {
+            title: "Day 10",
+            description:
+              "Fly to Gonder & drive to Simien Mountains National Park",
+          },
+          {
+            title: "Day 11",
+            description: "Explore Simien Mountains, National Park",
+          },
+          {
+            title: "Day 12",
+            description: "Drive to Gonder & sightseeing",
+          },
+          {
+            title: "Day 13",
+            description: "Fly to Addis Ababa & Departure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, our hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel for overnight accommodation.",
+            "Relax at your hotel or begin your journey through ancient Ethiopia, one of the oldest inhabited places on earth, by exploring the cultural, historical, and modern facets of Addis Ababa. Addis Ababa, known as the 'new flower', was founded by Emperor Menelik II in 1886 and today functions as the diplomatic hub of Africa.",
+            "Do some sightseeing in this city of contrasts where old colonial buildings, churches, and monuments stand side-by-side with dusty shacks and high-rise buildings. Attractions include the national and ethnological museums of Ethiopia, Trinity Cathedral, and Merkato, one of Africa's largest open-air markets.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA TO CHEBERA CHURCHURA NATIONAL PARK",
+          description: [
+            "After breakfast, we travel southwest to Chebera Churchura National Park in the highlands. Our drive takes us via the university town of Jimma, the capital of the former Kaffa Province, the birthplace of coffee, after which it is named.",
+            "In the late afternoon, we arrive at Chebera Churchura National Park and embark on our first game drive. This beautiful, untouched wilderness area is home to elephants, buffalos, hippos, and other mammals, along with over 235 bird species.",
+          ],
+          image: images.chebera1,
+        },
+        {
+          title: "DAY 3: CHEBERA CHURCHURA NATIONAL PARK",
+          description: [
+            "We spend the entire day exploring the untouched Chebera Churchura National Park today. Our exploration takes us through the various habitats of Chebera Churchura, from wooded grasslands to riverine forests.",
+            "This is a relatively new national park declared in 2005 primarily to create a habitat for declining elephant populations. Today the park is known for its large elephant population, serving as a stronghold for Ethiopian elephants, as well as hosting impressive numbers of buffalos.",
+            "Chebera Churchura is also home to lions, hyenas, hippos, leopards and other large mammals so keep your eyes peeled on our game drives. The park features numerous streams, rivers, and small lakes supporting healthy populations of animals and birds year-round.",
+            "Endemic bird species include white-winged cliff chat, banded-barbet, wattled ibis, black-headed forest oriole, and thick-billed raven.",
+          ],
+          image: images.bale5,
+        },
+        {
+          title: "DAY 4 & 5: CHEBERA CHURCHURA TO MAZE NATIONAL PARK",
+          description: [
+            "You start your day with an early morning game drive in Chebera Churchura Park - an ideal time to spot mammals and birds in the African bush. After our final game drive in the crowd-free Chebera Churchura, we head southeast to Maze National Park.",
+            "Maze National Park is one of only three protected areas that still hosts good populations of the critically endangered Swayne's Hartebeest, endemic to Ethiopia. This 210 km² national park is home to about 39 mammal species and 196 bird species, encompassing savannah grasslands dotted with broad-leaved deciduous trees and riverine bush along the rivers.",
+            "Other wild animals found in Maze include leopards, wild cats, baboons, monkeys, and various antelope species such as oribi, kudu, and waterbuck. You will have two days to explore this beautiful national park.",
+          ],
+          image: images.debrelibanos1,
+        },
+        {
+          title: "DAY 6: DRIVE TO AWASSA",
+          description: [
+            "On this day we head out on a morning game drive in Maze National Park. After spotting Swayne's Hartebeest and other wildlife and birds in Maze Park, you will set off early and drive north towards the Great Rift Valley to Lake Awassa where you overnight. As you drive, you see a marked difference in the style of the houses and the surrounding habitat, with roadside birding offering the chance to see and photograph such bushland and acacia-loving many birds.",
+            "Having lunch stop at Sodo town, you head to Awassa, a town situated beside the lake of the same name, where you will overnight.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 7: DRIVE TO BALE MOUNTAIN NATIONAL PARK",
+          description: [
+            "After breakfast, you may then visit the remarkable Lake Hawassa fish market. This large lake is particularly rich in fish, and the fishermen gut their catch and discard the waste around the market. This, in turn, attracts large numbers of grotesque Marabou Stork and other birds.",
+            "After this, driving to Bale Mountain National Park, you head to the lake shore of Hawassa and visit the fish market. Then you drive to the remote Bale Mountains National Park of the Ethiopian Highlands. Home to Ethiopia's most abundant wildlife populations, this precious biodiversity hotspot is home to some of the rarest animals on earth.",
+            "The Bale Mountains Park is a critical stronghold for Ethiopian wolves, the most endangered carnivores in Africa. Here, on the Sanetti Plateau, the rarest canids in the world, the wolves of Ethiopia, are often seen hunting. You make your way to the park headquarters in Dinsho and set off on foot from there. Your walk takes us in search of the rare and endemic species that make the Bale Mountains so special.",
+            "Keep your eyes open for birds such as Chestnut-naped Francolin, ground scraper Thrush, the secretive Abyssinian Ground-thrush, Abyssinian Catbird, and the endemic White-backed Black-tit. We may also spot some mammals, including the Mountain Nyala, only found in the Bale Mountain massif, as well as Menelik’s bushbuck and warthog.",
+          ],
+          image: images.bale3,
+        },
+        {
+          title: "DAY 8: EXCURSION TO SANETTI PLATEAU",
+          description: [
+            "Today is a day of great contrasts with amazing scenery and birding, making for excellent photographic opportunities. We will depart early and ascend the Bale massif onto the Sanetti Plateau, which is between 12,470 and 14,360 feet above sea level. This site is a bird refuge of immense importance, supporting seven globally threatened species and nearly all of Ethiopia’s Highland biome species.",
+            "Keep an eye out for endemic birds such as the blue-winged goose, spot-breasted lapwing/plover, yellow-fronted parrot, Abyssinian long claw, Abyssinian catbird and black-headed siskin. The main target today is to see the plateau’s most celebrated resident, the Ethiopian Wolf, sometimes called the world’s rarest canid; watching these vibrantly colored animals exhibiting their hunting prowess while pouncing on giant molerats is surely among Africa’s greatest wildlife experiences.",
+            "Midday we stop for a picnic overlooking scenic landscape. Head back to our lodge in the late afternoon.",
+          ],
+          image: images.bale4,
+        },
+        {
+          title: "DAY 9: DRIVE TO ROBE & FLY TO ADDIS ABABA",
+          description: [
+            "After breakfast, you transfer by road (2 hrs.) to Robe airport to catch your flight back to Addis Ababa. Upon arrival in Addis, transfer you to your hotel.",
+          ],
+          image: images.bale5,
+        },
+        {
+          title:
+            "DAY 10: FLY TO GONDER, & DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "This morning board a short flight to Gonder and upon arrival you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia.",
+            "Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude.",
+          ],
+          image: images.gonder4,
+        },
+        {
+          title: "DAY 11: EXPLORE SIMIEN MOUNTAINS",
+          description: [
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer.",
+          ],
+          image: images.simien3,
+        },
+        {
+          title: "DAY 12: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
+          description: [
+            "A scenic drive returns you to Gondar- famous for its medieval castles and churches. Gondar was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”.",
+            "Spend the afternoon exploring the city of Gondar. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.",
+            "We continue on to the Church of Debre Berhan Selassie (a UNESCO World Heritage Site). The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings.  It is rumored to have once been the proposed final resting place of the Ark of the Covenant.",
+          ],
+          image: images.gonder5,
+        },
+        {
+          title: "DAY 13: FLY TO ADDIS ABABA",
+          description: [
+            "After breakfast, you drive to Gonder airport and take the short flight back to Addis Ababa. Upon arrival in Addis, transfer you to your hotel. You have the afternoon free for shopping in Addis Ababa. Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 3,
+    experience: 7,
+    title: "Wilderness Exploration",
+    index: false,
+    image: images.gambella1,
+    description: "Untamed Adventures In Gambella National Park",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Wilderness Exploration",
+        subtitle: "Untamed Adventures In Gambella National Park",
+        description: [
+          "Step into the unknown on a thrilling 6-day expedition into the heart of Ethiopia's remote and wild Gambella National Park. This itinerary is designed for wildlife enthusiasts seeking extraordinary encounters with diverse and elusive species. From the bustling city of Addis Ababa to the untouched wilderness of Gambella, this journey promises an immersive experience in Ethiopia's exceptional biodiversity.",
+          "From the moment you arrive in Addis Ababa, you'll be immersed in the warmth of Ethiopian hospitality. Charter flights will transport you to the remote reaches of Gambella, where you'll be greeted by the camp team. Explore the park's swamp lands, home to iconic species like the Shoebill and Nile lechwe, and witness the incredible Kob migration. Visit Nuer cattle camps, gaining insight into the unique culture of this pastoral community. ",
+          "Game drives will take you through diverse habitats, in search of magnificent elephants, giraffes, lions, and an array of bird species. Return to Addis Ababa with memories of an unforgettable wilderness adventure in Ethiopia.",
+        ],
+        lr: true,
+        img1: images.simien2,
+        img2: images.bale3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Discover the vibrant capital city and its cultural treasures.",
+          },
+          {
+            title: "Gambella National Park",
+            description:
+              "Experience the untouched wilderness and observe the Kob migration, Shoebills, Nile lechwe, buffalo, lion, elephant, and giraffe.",
+          },
+          {
+            title: "Nuer Cattle Camps",
+            description:
+              "Visit the traditional camps and witness the unique way of life of the Nuer people.",
+          },
+          {
+            title: "Rich Birdlife",
+            description:
+              "Encounter a multitude of bird species in the park's lakes and pans.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa & city tour.",
+          },
+          {
+            title: "Day 2",
+            description: "Transfer to Gambella National Park & evening walk.",
+          },
+          {
+            title: "Day 3",
+            description: "Game drive along the swamp lands & evening walk.",
+          },
+          {
+            title: "Day 4",
+            description: "Visit Nuer cattle camps & overnight in a fly camp.",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Game drive to the drier South West & evening walk/drive.",
+          },
+          {
+            title: "Day 6",
+            description: "Fly back to Addis Ababa & departure.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, our hospitality begins. We provide you with a meet-and-greet service at the airport, and then transfer you to your hotel for overnight accommodation.",
+            "The city enjoys an excellent climate all year round, with an average temperature of 25°C (77°F). With a multiethnic population of over 5 million, Addis Ababa is a pleasant city with wide avenues of jacaranda trees, interesting museums and one of the largest open air markets in Africa, known as the “Mercato”. After your long flight and a welcome briefing, you can settle into your hotel for some rest.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: GAMBELLA NATIONAL PARK",
+          description: [
+            "Transfer to the airport for a charter flight west to the Gambella National Park, arguably the most remote wilderness in Ethiopia. Met by the camp team upon landing, you will be transferred to the Tented Camp. Evening walk in the vicinity of the tented camp.",
+            "The Tented Camp is situated in a grove of trees close to the pan handle of the park which joins the Baro River. It is an ideal location from which to explore the Northern boundary of the Park, which tends to get most of the Kob Migration.",
+          ],
+          image: images.gambella1,
+        },
+        {
+          title: "DAY 3: GAMBELLA NATIONAL PARK",
+          description: [
+            "Game drive along the swamp lands of Gambella, looking for Shoebills, Nile lechwe as well as big herds of buffalo and lion. Depending on the time of year, witness incredible numbers of Kob on the edge of the Park. Evening walk in the vicinity of the camp.",
+          ],
+          image: images.gambella2,
+        },
+        {
+          title: "DAY 4: GAMBELLA NATIONAL PARK",
+          description: [
+            "Drive down (2 hours) to the plains in the North West corner of the Park to see big herds of Kob and visit Nuer cattle camps. Overnight in fly camp on the river or flooded oxbow with a multitude of birds.",
+          ],
+          image: images.gambella3,
+        },
+        {
+          title: "DAY 5: GAMBELLA NATIONAL PARK",
+          description: [
+            "Game drive to the drier South West of the Park and look for elephants and giraffes. The lakes and pans down here have the most incredible birdlife. Evening walk/drive in the vicinity of the camp.",
+          ],
+          image: images.bale3,
+        },
+        {
+          title: "DAY 6: FLY BACK TO ADDIS ABABA",
+          description: [
+            "Transfer to the airport for a charter flight to the capital city. Upon arrival transfer you to your hotel. You have the afternoon free for shopping in Addis Ababa.",
+            "Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    experience: 7,
+    title: "Ethiopian Wildlife Odyssey",
+    index: false,
+    image: images.alehdege1,
+    description: "Exploring The Untamed Gems",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Wildlife Odyssey",
+        subtitle: "Exploring The Untamed Gems",
+        description: [
+          "Embark on a thrilling adventure into the heart of Ethiopia's untamed wilderness and ancient cities. From the moment you arrive in Addis Ababa, you'll be captivated by the city's vibrant culture. Drive to Awash National Park, where the majestic Awash Falls and diverse wildlife await. Capture striking images of Olive Baboons, Salt's Dikdik, and Beisa Oryx against the backdrop of the park's scenic landscapes.",
+          'Journey to Harar, a city steeped in history and known for its unique relationship with Spotted Hyaenas. Witness the unforgettable feeding rituals conducted by the enigmatic "Hyaena Men" and have the opportunity to feed the hyenas yourself. Explore the ancient medina of Harar and its bustling markets, immersing yourself in the city\'s rich heritage.',
+          "Continue your wildlife odyssey in the Aledeghi Wildlife Reserve, photographing the iconic Somali Ostrich, Arabian Bustard, and other fascinating species. Along the way, encounter the nomadic Afar and Harari communities, capturing their vibrant traditions and unique way of life. Conclude your journey with a visit to Babile and Dire Dawa before returning to Addis Ababa, where memories of a remarkable Ethiopian wildlife odyssey will stay with you forever.",
+        ],
+        lr: true,
+        img1: images.simien3,
+        img2: images.bale4,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Awash National Park",
+            description:
+              "Discover the diverse wildlife of the park, including Olive Baboons, Salt's Dikdik, Beisa Oryx, and an array of bird species.",
+          },
+          {
+            title: "Harar",
+            description:
+              'Immerse yourself in the ancient medina and witness the captivating feeding rituals of Spotted Hyaenas, accompanied by the local "Hyaena Men."',
+          },
+          {
+            title: "Aledeghi Wildlife Reserve",
+            description:
+              "Search for Somali Ostrich, Arabian Bustard, Soemmering's Gazelle, and other fascinating species amidst the arid plains.",
+          },
+          {
+            title: "Cultural Encounters",
+            description:
+              "Engage with the nomadic Afar and Harari communities, learning about their traditional way of life and capturing their vibrant attire and adornments.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa & a city tour",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Drive to Awash National Park & explore the surroundings",
+          },
+          {
+            title: "Day 3",
+            description: "Morning exploration of Awash National Park",
+          },
+          {
+            title: "Day 4",
+            description: "Visit Bilen area & continue exploration of Awash",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Drive to Aledeghi Wildlife Reserve & wildlife photography",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Drive to Harar & evening encounter with Spotted Hyaenas",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Explore Harar's ancient medina & photographic session with Yellow-billed Kites",
+          },
+          {
+            title: "Day 8",
+            description: "Excursion to Babile",
+          },
+          {
+            title: "Day 9",
+            description: "Drive to Dire Dawa & Fly to Addis Ababa & Departure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, our hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel for overnight accommodation. The city enjoys an excellent climate all year round, with an average temperature of 25°C (77°F). ",
+            "With a multiethnic population of over 5 million, Addis Ababa is a pleasant city with wide avenues of jacaranda trees, interesting museums, and one of the largest open-air markets in Africa, known as the “Mercato”. After your long flight and a welcome briefing, you can settle into your hotel for some rest.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: DRIVE TO AWASH NATIONAL PARK",
+          description: [
+            "We will leave Addis Ababa behind and head eastwards, leaving the fertile highlands behind and traveling through an increasingly arid country until we reach Awash National Park, where we will stay overnight at a comfortable lodge at Kuriftu.",
+            "The spectacular falls are right beside the lodge and are a great place to practice the pleasing effect of slow shutter speeds as the light dims. Large Nile Crocodiles are a feature here and can be photographed on the river banks and partly-submerged rocks, displaying those awesome arrays of teeth. This afternoon will have our first opportunity to explore further afield.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAY 3: EXPLORE AWASH NATIONAL PARK",
+          description: [
+            "We will spend the morning at Awash National Park. The terrain is mostly a mosaic of grassland and acacia scrub, but the Awash River flows through the area and supports some thin strips of riverine forest in places. A distinct advantage of Awash (and indeed all national parks we visit in Ethiopia) compared to many other African parks is that one is allowed to get out of the vehicles and photograph on foot owing to the virtual absence of dangerous mammals.",
+            "Awash holds some interesting mammals, including Olive Baboon, the delightful little Salt’s Dikdik, and the handsome Beisa Oryx. With a bit of luck, we will also encounter Northern Lesser Kudu.",
+            "Birdlife is rich and varied (over 400 species have been recorded from Awash) and among the most appealing photographic targets are the huge Lappet-faced Vulture, Tawny Eagle, Pallid and Montagu’s Harriers, Pygmy and Lanner Falcons, Kori, Buff-crested and White-bellied Bustards, Black-headed Lapwing, Chestnut-bellied Sandgrouse, Blue-naped Mousebird, the superb Abyssinian Roller, the wonderful Northern Carmine Bee-eater (which sometimes uses the backs of Kori Bustards or even Somali Ostriches as a convenient lookout!), Northern Red-billed and Eastern Yellow-billed Hornbills, and the lovely Rosy-patched Bushshrike (pairs often duet together).",
+            "This afternoon we will penetrate further into the Awash region, to the Bilen area for a two night stay. This interesting area is inhabited by Afar people who were formerly nomadic herders but now live a more settled existence, although they continue to use the long, rounded thatched dwellings that they used while moving from one area of pasture to another.",
+            "Late this afternoon we will start our exploration of the Bilen area.",
+          ],
+          image: images.awash2,
+        },
+        {
+          title: "DAY 4: EXPLORE AWASH NATIONAL PARK",
+          description: [
+            "The dry plains of this part of the Awash River region hold the near-endemic Sacred (or Hamadryas) Baboon, as well as Soemmering’s Gazelle, Beisa Oryx, and the long-necked Northern Gerenuk.",
+            "Interestingly, the Golden Jackals of Africa have recently been split off as a distinct species, African Golden Wolf, on the basis that their genetics place them closer to wolves and coyotes. There is a good chance of photographing this newly ‘promoted’ wolf in this area.",
+            "The open grasslands and acacia bushlands here are a stronghold of the stately, but declining Arabian Bustard, while other great birds to photograph include such restricted-range specialties as the huge Somali Ostrich, Hartlaub’s Bustard, and Somali Fiscal.",
+            "If we are in luck we will come across an Arabian Bustard with one or more Northern Carmine Bee-eaters riding on its back! This truly extraordinary photographic highlight is dependent on how many bee-eaters are around. They use the bustards as convenient ‘lookout posts’ from which to hawk large flying insects. Somewhat surprisingly, the bustards seem to tolerate these colorful ‘hitch-hikers’.",
+          ],
+          image: images.bale4,
+        },
+        {
+          title: "DAY 5: DRIVE TO ALEDEGHI WILDLIFE RESERVE",
+          description: [
+            "Today you depart Awash National Park early and head further north to Aledeghi Plains. Here you will search for Somali Ostrich, Martial and Short-toed Snake Eagles, Yellow-necked Spurfowl, the rare Arabian Bustard (perhaps the best location on earth for this species), Black-headed Lapwing, Chestnut-bellied Sandgrouse, and Chestnut-backed Sparrow-Lark. Occasionally highly nomadic species such as Pale Rock Finch or Black-crowned Sparrow-Lark move into the area as well. Depending on conditions, you may also see a number of mammals such as the Golden Jackal, Beisa Oryx, Grevy’s Zebra, and Soemmering’s Gazelle.",
+            "This land is inhabited by nomadic Afar tribesmen whom you will see dressed in their fine white cotton tunics, bedecked with traditional jewelry, daggers, and spears. The men sport a unique bushy hairstyle, while women and girls are also extravagantly attired and adorned. They adhere strictly to their ancestral ways of tending their camel and goat herds and roaming throughout this inhospitable land.",
+            "As the day begins to heat up, you shall leave the Aledeghi Plains behind and head to our lodge. This increasingly arid landscape is a haven for dry country residents and migrant species. Watercourses and rocky outcrops harbor Eurasian Sparrowhawk, African Collared and European Turtle Doves, the range-restricted Yellow-breasted Barbet, Chestnut-headed Sparrow-Lark, Common Nightingale, Blue Rock Thrush, Rufous-tailed and Black Scrub Robins, Boran Cisticola, skulking Upcher’s and Menetries’s Warblers, groups of Red-fronted Warbler, Ruppell’s Starling, Black-crowned Tchagra, Southern Grey Shrike, Red-billed Buffalo weaver, and Chestnut-crowned and White-browed Sparrow-weavers. There is also the option to avail of the numerous hot springs around which the lodge was built. This evening, an optional night walk may reveal Greyish Eagle-Owl or Slender-tailed Nightjar.",
+          ],
+          image: images.alehdege1,
+        },
+        {
+          title: "DAY 6: DRIVE TO HARAR",
+          description: [
+            "We will spend the early morning in the Bilen area before setting out for the Chercher Mountains and the city of Harar, where we will spend two nights. We will arrive in the afternoon in time to prepare for our first session this evening with the ‘Hyena Men’.",
+            "Harar is an ancient city, known simply as Gey (‘the city’) to its inhabitants. The date of its foundation is unknown, but it was already important by the 13th century and later became the capital of the Adal Sultanate and its successor state, the Emirate of Harar, in the 16th century.",
+            "Quite how the Hararis started feeding Spotted Hyenas is lost in legend, but it does seem they were tolerated and indeed encouraged in the city as nocturnal scavengers as far back as the 16th century, as low doorways were built at that time in the city walls to accommodate them! The various legends about feeding include stories that they were publicly fed porridge so that they could act as impromptu soothsayers through their style of eating it, or that they were fed to discourage them from eating livestock or even people during droughts, or even that Muslim saints communicated with their clan leaders and persuaded them not to do harm in return for handouts.",
+            "In any event, it seems the feeding had long since stopped before it was revived in the 1950s or 1960s, perhaps through nothing more than chance encounters with hyenas and the inclination to see if they would accept food. Since then it has become a nightly event at Harar, with two senior ‘Hyena Men’, Mulugeta Wolde-Mariam and Yusuf Mume Saleh, and their assistants, operating at two different sites outside the walls.",
+            "Spotted Hyenas have a fearsome reputation, only partly because of their manner and appearance, but also because of their ruthless hunting style in the wild, so seeing them come close to humans and take meat from small sticks held in what seems a tiny hand, next to their huge muzzles, or even a human mouth, seems pretty awesome to the rest of us! Not only do the hyenas take food but they ‘lovingly’ rest their huge paws on the Hyena Man’s back or head and generally behave like large friendly dogs!",
+            "As well as being able to take photographs, at close range, of the Hyena Men and their nightly ‘guests’ from the surrounding forests (where the hyenas live a perfectly normal life for 23 hours a day), we will also be able to get great shots of them lurking in the background, resting before they feed or prowling in sinister fashion. If you are so inclined you can get down low for better angles (so far they have never eaten anyone!) and if you are really brave you will get the chance to feed them yourself.",
+            "Needless to say, the whole experience is utterly unforgettable and a wildlife photography encounter that is completely unique.",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "DAY 7: HARAR",
+          description: [
+            "This morning there will be time to explore the ancient medina of Harar and its surrounding fortifications, known as the Jugal (or Jugol). The walled old city dates back to around the 16th century and is a fascinating warren of small alleyways, markets, mosques, and ancient buildings. Harar is widely considered to be the 4th holiest city in Islam, after Mecca, Medina, and Jerusalem, but today it is famed for its tolerance of other faiths, and Harar beer, brewed naturally enough by Christians, is widely available. It is said that there are 99 mosques in Harar, chiming with the 99 known names of Allah, but in reality, there are ‘only’ 86. Harar is a wonderful place for photography, especially if you get out early while the light is at its best.",
+            "We will also enjoy a photographic session with the ‘Kite Man’ of Harar. Feeding the Yellow-billed Kites is a recent development, not some ancient tradition, but it is fun to watch and photograph the kites swooping down and often squabbling in mid-air over small pieces of meat from the ‘Kite Man’s’ hands.",
+            "During the late afternoon, we will try and find some of the Spotted Hyenas lurking in the dry woodland near the town prior to gathering for the evening feast. It will be good to have some daytime shots to balance the nocturnal spectacle. After dark, we will, of course, return for a second session outside the town walls with the ‘Hyena Men’, something none of us will ever forget!",
+          ],
+          image: images.erbore1,
+        },
+        {
+          title: "DAY 8: EXCURSION TO BABILE",
+          description: [
+            "An early morning start will take you to Babile National Park. It is a vast and breathtaking reserve southeast of Harar. Spanning nearly 7,000 square kilometers, this sanctuary boasts magnificent gorges, open plains, rocky formations, and winding riverbeds. Journey through its diverse landscapes, from lush plains to the captivating desert-like terrain in the south and east.",
+            "At Babile, you'll encounter a unique population of elephants, believed to be the most northeastern in Africa. These incredible creatures belong to a distinct subspecies called Loxodonta africana orleansi, found exclusively in the Horn of Africa. The park also shelters the elusive black-maned Abyssinian lion, swift cheetahs resembling graceful greyhounds, and a variety of antelope species including greater and lesser kudu. Keep an eye out for the charismatic Hamadryas baboon and an array of captivating dry-country birds, such as the endemic Salvadori's serin.",
+            "With approximately 200 elephants residing in Babile, they migrate between the Erer and Gobelle river valleys, occasionally venturing beyond the sanctuary to the western ridge of the Gobelle Valley. For the best wildlife sightings, plan your visit during the late rainy season from June to September when the elephants gather in the Upper Erer Valley, just 40 kilometers away from Harar. In the afternoon drive back to Harar overnight.",
+          ],
+          image: images.bale3,
+        },
+        {
+          title: "DAY 9: DRIVE TO DIRE DAWA & FLY TO ADDIS ABABA",
+          description: [
+            "After breakfast, you drive to Dire Dawa airport and take the short flight back to Addis Ababa. Upon arrival in Addis, transfer you to your hotel. You have the afternoon free for shopping in Addis Ababa. Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    experience: 7,
+    title: "Ethiopian Wildlife Expedition",
+    index: false,
+    image: images.bale1,
+    description: "From The Plains To The Mountains",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Wildlife Expedition",
+        subtitle: "From The Plains To The Mountains",
+        description: [
+          "Embark on an unforgettable wildlife expedition through the captivating landscapes of Ethiopia. This 9-day journey will take you from the bustling city of Addis Ababa to the remote wilderness of Kafta-Shiraro National Park and the breathtaking Simien Mountains.",
+          "Immerse yourself in the rich biodiversity of Ethiopia as you encounter endemic bird species, majestic mammals, and stunning alpine vistas. Explore the medieval castles of Gondar, witness the unique feeding rituals of the Demoiselle Crane, and marvel at the endangered Ethiopian wolf in its natural habitat. Join us on this thrilling adventure designed for wildlife enthusiasts and nature photographers seeking a truly immersive experience.",
+        ],
+        lr: true,
+        img1: images.bale2,
+        img2: images.bale3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Kafta-Shiraro National Park",
+            description:
+              "Encounter the breathtaking Demoiselle Crane migration, spot elusive bird species like the White-headed Babbler, and capture images of the stunning Sahel Paradise Whydah.",
+          },
+          {
+            title: "Simien Mountains National Park",
+            description:
+              "Trek through the UNESCO World Heritage Site, search for the endemic Walia ibex and Ethiopian wolf, and observe the fascinating behavior of geladas in the company of field researchers.",
+          },
+          {
+            title: "Gondar",
+            description:
+              'Explore the medieval castles and churches of Gondar, known as the "Camelot of Africa," and visit the historic Royal Enclosure and the magnificent Church of Debre Berhan Selassie.',
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa & city tour",
+          },
+          {
+            title: "Day 2",
+            description: "Flight to Humera & afternoon birding",
+          },
+          {
+            title: "Day 3",
+            description: "Explore Kafta-Shiraro National Park and surroundings",
+          },
+          {
+            title: "Day 4",
+            description: "Continued exploration of Kafta-Shiraro National Park",
+          },
+          {
+            title: "Day 5",
+            description: "Fly back to Addis Ababa & free time for shopping",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Fly to Gonder & drive to Simien Mountains National Park",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Explore the Simien Mountains & observe endemic species",
+          },
+          {
+            title: "Day 8",
+            description: "Drive to Gondar & sightseeing in the historic city",
+          },
+          {
+            title: "Day 9",
+            description: "Fly back to Addis Ababa & departure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, your hospitality begins. We provide you with a meet-and-greet service at the airport, and then transfer you to your hotel. This afternoon, enjoy a tour of Addis Ababa, a pleasant capital city with wide jacaranda-edged avenues, interesting museums and lively markets. Start our visit with the Ethnological Museum for an overview of Ethiopia's history, culture and traditions, and its collections from thousand-year-old nomadic tribes.",
+            "Next, see beautiful baroque-styled Holy Trinity Cathedral which contains the thrones and the tomb of Emperor Haile Selassie (the last king of Ethiopia) and some other members of the royal family. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, but they also offer other fine coffees. Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: ADDIS ABABA TO HUMERA",
+          description: [
+            "You depart on a domestic flight to Humera. On arrival, we will transfer to our camp in Kafta Shiraro. Here you will spend three nights exploring the hidden gems of the national park. Overnight camping at Kafta Shiraro National Park",
+          ],
+          image: images.kafta1,
+        },
+        {
+          title:
+            "DAY 3 & 4: EXPLORING KAFTA-SHIRARO NATIONAL PARK AND SURROUNDS",
+          description: [
+            "Today you will explore this remote and seldom-visited park and surrounding area. It is situated in the Sahelian zone and thus offers an interesting selection of dry country species. The habitat consists of dry acacia bush veiled in a slightly hilly area and follows the tranquil Tekezze River. You will concentrate your efforts on finding the beautiful Demoiselle Crane which makes a stopover here on its migration from Sudan to India. Up to 3,800 cranes have been seen in this area and the sight and sound of them bugling at dusk is a spectacle indeed!",
+            "Other key targets include a Sudan/Ethiopia endemic; White-headed Babbler, the amazing Egyptian Plover (a monotypic family), the impressive Sahel Paradise Whydah, and Sudan Golden Sparrow. Other species of interest that are not generally seen on a standard Ethiopian tour include Vieillot’s Barbet, Black-billed Wood Dove, Rose-ringed Parakeet, Green Bee-eater, Red-pate Cisticola, Black-headed Gonolek, Northern Grey-headed Sparrow, Black-rumped Waxbill, Chestnut-bellied Starling, Yellow-billed Oxpecker, White-rumped Seedeater and Golden-breasted Bunting.",
+            "If we are fortunate we may find a roosting Long-tailed Nightjar. Other more widespread species we may see include Black Stork, Short-toed Snake Eagle, Booted Eagle, Senegal Thick-knee, Black-headed Lapwing, Lichtenstein’s and Four-banded Sandgrouse, European Turtle Dove, Abyssinian Roller, Northern Carmine Bee-eater, Black-billed Wood Hoopoe, Black Scimitarbill, Yellow-breasted Barbet, Masked Shrike, Black and Rufous-tailed Scrub Robin, Black-eared Wheatear and Crimson-rumped Waxbill. Overnight camping in Kafta Shiraro Park",
+          ],
+          image: images.bale4,
+        },
+        {
+          title: "DAY 5: DRIVE TO GONDER",
+          description: [
+            "An early morning start will take you a full-day drive to Gonder. You will have the most scenic drive. In the late afternoon, you will arrive in Gonder. Overnight in Gonder",
+          ],
+          image: images.gonder2,
+        },
+        {
+          title: "DAY 6: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "This morning you drive to the Simien Mountains. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles. Enjoy an afternoon walk around the lodge, amid the breathtaking alpine sceneries. This will help you to acclimatise your body to the altitude. Overnight in Simiens.",
+          ],
+          image: images.simien1,
+        },
+        {
+          title: "DAY 7: EXPLORE SIMIEN MOUNTAINS",
+          description: [
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Overnight in Simiens.",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 8: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
+          description: [
+            "A scenic drive returns you to Gondar- famous for its medieval castles and churches. Gondar was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. Spend the afternoon exploring the city of Gondar.",
+            "In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.  We continue on to the Church of Debre Berhan Selassie (a UNESCO World Heritage Site). The interior of Debre Berhan Selassie is decorated with beautiful murals, cherubs, and paintings.  It is rumored to have once been the proposed final resting place of the Ark of the Covenant. Overnight in Gonder.",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title: "DAY 9: FLY TO ADDIS ABABA & DEPARTURE",
+          description: [
+            "This morning, you drive to Gonder Airport, where you catch your flight to Addis. On arrival in Addis you transfer to a hotel where you can freshen up and have lunch. You have the afternoon free for shopping in Addis Ababa. Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 1,
+    experience: 8,
+    title: "Discovering Addis Ababa",
+    index: false,
+    image: images.addis1,
+    description: "Immersive Cultural Exploration In The Capital",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Discovering Addis Ababa",
+        subtitle: "Immersive Cultural Exploration In The Capital",
+        description: [
+          "Welcome to Addis Ababa, the vibrant capital of Ethiopia, where history, culture, and bustling markets come alive. Designed specifically for busy business travelers with limited time, our full-day city tour offers a comprehensive glimpse into the rich heritage and dynamic atmosphere of Addis Ababa.",
+          "Prepare to be captivated as you delve into the city's fascinating landmarks, visit historic churches, explore renowned museums, and immerse yourself in the vibrant local markets.",
+        ],
+        lr: true,
+        img1: images.addis2,
+        img2: images.addis3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Mount Entoto",
+            description:
+              "Marvel at the panoramic view of the city and its surrounding countryside, while relishing the cool breeze and the scent of Eucalyptus trees that line the road.",
+          },
+          {
+            title: "Historic Churches",
+            description:
+              "Visit the iconic churches of Mariam and Raguel, each with its unique architectural style and historical significance.",
+          },
+          {
+            title: "National Archaeological Museum",
+            description:
+              "From the ancient bones of Lucy, a pivotal fossil discovery, to exhibits spanning different historical periods, gain insights into the country's fascinating past and royal legacies.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "Pick up from your hotel",
+          description: [
+            "Pick up from your hotel and drive north up to Mount Entoto. Addis Ababa at between 2300 – 2500 meters is the third highest capital in the world and Entoto is a few hundred meters higher – as we drive up the hill there is a considerable drop in temperature and the air is filled with the scent of the Eucalyptus trees which line the road.",
+            "From the top, there is a panoramic view of the capital and surrounding countryside. Entoto is an important watershed, to the north water flows to the Blue Nile, to the south to the Awash River. After enjoying the view point you head to the churches of Mariam.",
+            "It was in the church of Mariam that Menelik was crowned Emperor of Ethiopia in 1889, and in the small museum in the compound there are various clothes, court and household implements and weapons dating from the period. You will visit the church museum and the Old Imperial Palace.",
+            "Drive then to the church of Raguel which is unique in that it is octagonal, rather than round. There is a first story balustrade around. The walls of the church are completely covered with remarkable 19th–century mural painting.",
+          ],
+          image: images.addis4,
+        },
+        {
+          title: "To National Archaeological Museum",
+          description: [
+            "Leaving the churches you descend and stop off at the National Archaeological Museum. Here visitors can see exhibits ranging from the 3.5 million-year-old bones of Lucy, through the Axumite and Gondarian periods to the monarchs Tewodros and Menelik.",
+            "This completes the half day tour and visitors will be taken back to their hotels.",
+          ],
+          image: images.addis2,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    experience: 8,
+    title: "Discovering Addis Ababa",
+    index: false,
+    image: images.addis2,
+    description: "Immersive Cultural Exploration In The Capital",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Discovering Addis Ababa",
+        subtitle: "Immersive Cultural Exploration In The Capital",
+        description: [
+          "Welcome to Addis Ababa, the vibrant capital of Ethiopia, where history, culture, and bustling markets come alive. Designed specifically for busy business travelers with limited time, our full-day city tour offers a comprehensive glimpse into the rich heritage and dynamic atmosphere of Addis Ababa.",
+          "Prepare to be captivated as you delve into the city's fascinating landmarks, visit historic churches, explore renowned museums, and immerse yourself in the vibrant local markets.",
+        ],
+        lr: true,
+        img1: images.addis2,
+        img2: images.addis3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Mount Entoto",
+            description:
+              "Marvel at the panoramic view of the city and its surrounding countryside, while relishing the cool breeze and the scent of Eucalyptus trees that line the road.",
+          },
+          {
+            title: "Historic Churches",
+            description:
+              "Visit the iconic churches of Mariam and Raguel, each with its unique architectural style and historical significance.",
+          },
+          {
+            title: "National Archaeological Museum",
+            description:
+              "From the ancient bones of Lucy, a pivotal fossil discovery, to exhibits spanning different historical periods, gain insights into the country's fascinating past and royal legacies.",
+          },
+          {
+            title: "Institute of Ethiopian Studies",
+            description:
+              "Delve deeper into Ethiopia's diverse cultural tapestry at the Institute of Ethiopian Studies.",
+          },
+          {
+            title: "Mausoleum of Menelik",
+            description:
+              "Gain a deeper understanding of Ethiopia's royal lineage and the significant role these leaders played in shaping the nation's history.",
+          },
+          {
+            title: "Mercato Market",
+            description:
+              "Immerse yourself in the vibrant energy of the Mercato, the largest market in Africa.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "Pick up from your hotel",
+          description: [
+            "Pick up from your hotel and drive north up to Mount Entoto. Addis Ababa at between 2300 – 2500 meters is the third highest capital in the world and Entoto is a few hundred meters higher – as we drive up the hill there is a considerable drop in temperature and the air is filled with the scent of the Eucalyptus trees which line the road.",
+            "From the top, there is a panoramic view of the capital and surrounding countryside. Entoto is an important watershed, to the north water flows to the Blue Nile, to the south to the Awash River. After enjoying the view point you head to the churches of Mariam.",
+            "It was in the church of Mariam that Menelik was crowned Emperor of Ethiopia in 1889, and in the small museum in the compound there are various clothes, court and household implements and weapons dating from the period. You will visit the church museum and the Old Imperial Palace.",
+            "Drive then to the church of Raguel which is unique in that it is octagonal, rather than round. There is a first story balustrade around. The walls of the church are completely covered with remarkable 19th–century mural painting.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "To National Archaeological Museum",
+          description: [
+            "Leaving the churches you descend and stop off at the National Archaeological Museum. Here visitors can see exhibits ranging from the 3.5 million-year-old bones of Lucy, through the Axumite and Gondarian periods to the monarchs Tewodros and Menelik.",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "Lunch break",
+          description: [
+            "Pick up from your hotel and drive north up to Mount Entoto. Addis Ababa at between 2300 – 2500 meters is the third highest capital in the world and Entoto is a few hundred meters higher – as we drive up the hill there is a considerable drop in temperature and the air is filled with the scent of the Eucalyptus trees which line the road.",
+          ],
+          image: images.addis4,
+        },
+        {
+          title:
+            "Instiute of Ethiopian Studies, Mausoleum of Menelik and Ba’ata Church",
+          description: [
+            "After lunch you resume your tour with a visit to the Institute of Ethiopian Studies, where you can see clothing from different regions, along with artifacts, household utensils and in a separate section, paintings reflecting the history and culture of the country. This building was once the Palace of Emperor Haile Selassie, and visitors can see his bedroom and bathroom.",
+            "After seeing that, you head to Bata Mariam and visit Menelik’s mausoleum, where Empress Taitu and Queen Zewditu are also buried.",
+          ],
+          image: images.addis2,
+        },
+        {
+          title: "Mercato Market and Farewell Dinner",
+          description: [
+            "You then move to the Mercato, the largest market area in Africa, where virtually every possible commodity is on sale, from livestock to computers. For the visitor good at bargaining, there is a huge selection of Ethiopian arts and crafts.",
+            "You now return to your hotel. Tonight you will take your dinner in a national food restaurant, and see dancing from Ethiopia’s different regions.",
+          ],
+          image: images.addis3,
+        },
+      ],
+    },
+  },
+  {
+    id: 3,
+    experience: 8,
+    title: "Sacred Serenity",
+    index: false,
+    image: images.addis2,
+    description: "A Day Trip To Debre Libanos And The Jemma River Gorge",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Sacred Serenity",
+        subtitle: "A Day Trip To Debre Libanos And The Jemma River Gorge",
+        description: [
+          "For the discerning business traveler seeking a glimpse into the country's rich cultural heritage and breathtaking landscapes, we present an unforgettable day trip to Debre Libanos and the Jemma River Gorge.",
+          "This curated itinerary seamlessly combines history, spirituality, and a touch of avian marvels, providing a rejuvenating escape within a limited timeframe.",
+        ],
+        lr: true,
+        img1: images.simien4,
+        img2: images.debrelibanos1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Debre Libanos Monastery",
+            description:
+              "Begin your journey by immersing yourself in the spiritual ambiance of Debre Libanos, a revered monastic center for Ethiopian Orthodox Christianity. Visit the monastery, founded by Saint Tekle Haimanot, and witness the small cave where the mystic is said to have stood for seven years, symbolizing his unwavering devotion.",
+          },
+          {
+            title: "Historical Significance",
+            description:
+              "Delve into Ethiopia's past as you learn about the tragic events that unfolded during the Italian invasion. Discover the remains of the 300 monks who were mercilessly slaughtered in 1936, igniting the flames of resistance and underscoring the indomitable spirit of the Ethiopian people.",
+          },
+          {
+            title: "Scenic Drive",
+            description:
+              "Enjoy a picturesque journey through the Sululta Plain, where the fertile landscapes provide a haven for diverse bird species. Look out for Black-winged plovers, Wattled Ibis, Blue-winged geese, Common Cranes, and Wheat ears, offering a delightful interlude of birdwatching.",
+          },
+          {
+            title: "Jemma River Gorge",
+            description:
+              "Marvel at the breathtaking view of the Jemma River Gorge, a majestic tributary of the Blue Nile. Experience the awe-inspiring drop of nearly 1000 meters to the valley below, surrounded by nature's grandeur. Prepare to witness a tapestry of avian wonders that call this pristine habitat home.",
+          },
+          {
+            title: "Avian Delights",
+            description:
+              "As you explore the gorge and its surrounding forest, keep an eye out for an array of bird species. Encounter the colorful Banded Barbet, the melodious Black-headed Forest Oriole, the striking White-billed Starling, the vibrant Red-billed Starling, and the charismatic White-winged Cliff Chat, among others. Experience the joy of spotting Ethiopia's endemic Gelada baboon, a fascinating mammal that adds to the region's biodiversity.",
+          },
+          {
+            title: "Cultural Insights",
+            description:
+              "Immerse yourself in the local traditions and customs as you engage with the monastery's inhabitants. Gain a deeper understanding of Ethiopia's religious heritage and the profound role it plays in shaping the country's identity.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "Pick up from your hotel",
+          description: [
+            "Early morning pick up from the hotel and you then head north on the Gojjam road to Debre Libanos, about 110 km from Addis Ababa or approximately two hours drive.",
+            "Debre Libanos is an important monastic center for Ethiopian Orthodox Christianity, the monastery there was founded by the renowned 13th-century mystic, Saint Tekle  Haimanot and there is a small cave near the church where he is said to have stood for seven years on one leg, until the other wasted away and dropped off.",
+            "On this tour, it is possible to combine history, culture, and some good bird watching. As we pass through the Sululta Plain you can see Black-winged plovers, Wattled Ibis, Blue-winged geese, Common Cranes, and Wheat ears.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "Arrive at Debre Libanos",
+          description: [
+            "On arrival at Debre Libanos, we will first stop at the church. After the church and museum visit, you can make the climb to the cave of St. Tekle  Haimanot. Near the cave, monks may show you the remains of some 300 monks, slaughtered in 1936 by the Italian invaders.",
+            "Mussolini and the fascist authorities saw the Ethiopian Orthodox Church as one of the key elements of an independent Ethiopian identity and thought that by carrying out the massacre they would consolidate their presence. Rather, this atrocity fed the flames of resistance.",
+          ],
+          image: images.debrelibanos1,
+        },
+        {
+          title: "Jemma River Gorge and the Gelada Baboon",
+          description: [
+            "Then you continue on to the marvelous view of the Jemma River Gorge. The Jemma River is one of the tributaries of the Blue Nile, and there is a drop of nearly 1000 meters to the valley below.",
+            "Here at the gorge (and in the forest around the church) you can expect to see the Banded Barbet, the Black-headed Forest Oriole, the White-billed Starling, the Red-billed Starling, the White-winged Cliff Chat, the White-backed Black Tit, the White-cheeked Turaco and Hemprich’s Hornbill. You will also see one of Ethiopia’s endemic mammals, the Gelada baboon.",
+          ],
+          image: images.simien3,
+        },
+        {
+          title: "Return to your hotel",
+          description: [
+            "At some stage, you will take a picnic lunch with a beautiful view of the Gorge. You will leave Debre Libanos around 4.30 PM, returning to Addis Ababa early evening.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    experience: 8,
+    title: "Heritage And Serenity",
+    index: false,
+    image: images.gonder5,
+    description: "A Day Trip To Debre Berhan And Ankober",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Heritage And Serenity",
+        subtitle: "A Day Trip To Debre Berhan And Ankober",
+        description: [
+          "Ethiopia is a land where history unfolds at every turn, and natural beauty beckons with its tranquil allure. For the busy business traveler seeking a taste of Ethiopia's rich heritage and a serene escape from the city, we present an extraordinary day trip to Debre Berhan and Ankober.",
+          "This curated itinerary combines historical exploration, cultural immersion, and breathtaking landscapes to create a memorable experience within a short timeframe.",
+        ],
+        lr: true,
+        img1: images.bahirdar5,
+        img2: images.gonder5,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Debre Berhan",
+            description:
+              "Begin your journey by visiting the historic town of Debre Berhan, once a capital of great emperors and an important center under the Shoa kings. Explore the restored church of Selassie and immerse yourself in the fascinating stories of Ethiopian royalty.",
+          },
+          {
+            title: "Cultural Souvenirs",
+            description:
+              "Indulge in local craftsmanship as you browse through the market stalls, where you can find traditional woolen hats worn by shepherd boys and carpets adorned with characteristic designs of the region. Take home unique mementos of your Ethiopian adventure.",
+          },
+          {
+            title: "Ankober",
+            description:
+              "Venture eastward to Ankober, another former imperial capital that stood as a gateway between the eastern lowlands and the Showan plateau. Discover the remnants of the old palace, witness the enduring churches of Mariam and Medhane Alem, and delve into the rich history that shaped the region.",
+          },
+          {
+            title: "Authentic Ethiopian Lunch",
+            description:
+              "Savor a delectable lunch amidst the captivating scenery of Ankober. Delight in the flavors of Ethiopian cuisine while surrounded by breathtaking vistas, experiencing the true essence of local hospitality.",
+          },
+          {
+            title: "Avian Wonders",
+            description:
+              "Embark on an exciting birdwatching adventure, with the chance to spot rare species such as the Ankober Serin, Smith's Francolin, and Yellow Throated Serin. Marvel at the vibrant array of birdlife, including the Black-winged Love Bird and the majestic Lammergeyer, while exploring the natural wonders of Ankober.",
+          },
+          {
+            title: "Wildlife Encounters",
+            description:
+              "Keep an eye out for elusive wildlife in the area, including the majestic but rarely seen Leopard, Colobus and Vervet Monkeys, Gelada Baboon, Menelik's Bushbuck, Klipspringer, and the charming Rock Hyrax. Experience the harmony between nature and history that defines Ankober.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "Early Morning Departure",
+          description: [
+            "Early morning departure and head north on the Gojjam Road. Your first stop will be Debre Berhan, some 130 km from Addis Ababa. The great Emperor Zera Yaqob (1434 – 1468) made his imperial capital here.",
+            "Later rulers abandoned the town but once again it became an important center under the Shoa kings, notably King Sahle Selassie (1813 – 1847). However, it was l destroyed in 1855, when Emperor Tewodros advanced into Shoa. Emperor Menelik made it his capital for a period, and you should see the church of Selassie which he restored in 1906.",
+            "In the town itself, visitors might like to buy the woolen hats worn by shepherd boys, and carpets with the designs characteristic of the area.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "To the Imperial capital of Ankober",
+          description: [
+            "You now take the road east to another former imperial capital – Ankober, a little over 40 km from Debre Berhan. Founded by King Amaha Iyesus, Ankober commanded the very important trade route between the eastern lowlands and the Showan plateau.",
+            "Abandoned by Menelik II in favor of Entoto (and later Addis Ababa), the old palace ruins can still be seen, and two of the original five churches (Mariam and Medhane Alem) are still used as places of worship. Upon arrival, you will be escorted to the palace of Emperor Menielik.",
+            "You will be treated to a truly Authentic Ethiopian lunch while basking in the beautiful scenery. Given that it’s the right time of the season, there is the chance of seeing the very rare Ankober Serin, and other species such as Smith’s Francolin, Yellow Throated Serin, White-billed Starling, Black-winged Love Bird, Lammergeyer, Mountain Buzzard, Peregrine, Red-breasted Sparrow Hawk, Alpine Swift, Crag Martin, and Blue Rock Thrush.",
+            "Wildlife recorded in the area includes Leopard (rarely seen), Colobus and Vervet Monkeys, Gelada Baboon, Menelik’s Bushbuck, Klipspringer and Rock Hyrax, which despite its small size is a distant relative of the elephant. After the eventful day, you will be driven back to Addis Ababa and arrive early evening.",
+          ],
+          image: images.simien7,
+        },
+        {
+          title: "Ankober to Addis Ababa",
+          description: [
+            "One could return from Ankober back to Addis Ababa but there is now a new lodge built at Ankober in a traditional style. Using this lodge as a base, there are some great walks and hikes – one could easily spend a couple of days here, enjoying the air (it is 2870 meters ) the great views, and tranquility.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    experience: 8,
+    title: "Ethiopian Essence",
+    index: false,
+    image: images.awash2,
+    description: "A Day Of Tranquility At Wonchi Crater Lake",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Essence",
+        subtitle: "A Day Of Tranquility At Wonchi Crater Lake",
+        description: [
+          "Ethiopia is a land where ancient wonders and natural beauty intertwine to create a mesmerizing experience. For the busy business traveler with a limited amount of time, we present an unforgettable day trip to Wonchi Crater Lake.",
+          "This exclusive itinerary combines breathtaking landscapes, cultural immersion, and a serene escape from the bustling city life.",
+        ],
+        lr: true,
+        img1: images.awash1,
+        img2: images.awash2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Natural Wonder",
+            description:
+              "Wonchi Crater Lake unveils a picturesque setting with its lush forests, serene lake, and captivating islands. It is a hidden gem that offers a soothing atmosphere, perfect for rejuvenating the senses.",
+          },
+          {
+            title: "Scenic Drive",
+            description:
+              "Embark on a scenic journey along the new Ambo road, where you'll witness the stunning Menagesha Forest and the Holetta River. As you pass by the historic town of Addis Alem, you'll discover its significance in Ethiopian history and heritage.",
+          },
+          {
+            title: "Wonchi Crater Exploration",
+            description:
+              "Upon reaching the rim of the Wonchi crater, be prepared to witness a sight of unparalleled beauty. Immerse yourself in the verdant forests, stroll around the enchanting lake, and discover the intriguing islands within the crater.",
+          },
+          {
+            title: "Adventurous Descents",
+            description:
+              "Choose your preferred mode of transportation, whether on foot or horseback, as you descend into the crater's depths. Alternatively, continue your drive and explore the wonders that await you at the heart of this natural marvel.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "Early Morning Departure",
+          description: [
+            "Early morning heading west on the new Ambo road. You will pass Menagesha Forest to the north of the road, the Holetta River (a tributary of the Awash), the small town of Addis Alem where Menelik II once planned to make his capital, before reaching Ambo, some 120 km from the capital.",
+            "The area between Addis Alem and Ambo contains the intersections of three of Ethiopia’s major river basins: those of the Awash, Omo and Guder",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "Stop for some refreshment",
+          description: [
+            "You will stop for some refreshment in the town of Ambo, from where Ethiopia’s most famous mineral water is drawn, before driving up nearly 1000 meters in 27 km to the rim of the Wonchi crater, where visitors will see one of the most beautiful sites in Ethiopia – verdant forests, a lake with islands, all within the crater.",
+          ],
+          image: images.bahirdar1,
+        },
+        {
+          title: "Ankober to Addis Ababa",
+          description: [
+            "You can leave our vehicles here and descend either on foot or on horse, or drive down all the way to the crater. You will have a picnic lunch here and spend some hours walking or horse riding through the forest, visiting the hot springs, and taking a dug-out boat over to the island to visit the church. Mid afternoon you will start your journey back to Addis Ababa.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 6,
+    experience: 8,
+    title: "Wilderness Escapade",
+    index: false,
+    image: images.awash1,
+    description: "Awash & Aledeghi National Park Exploration",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Wilderness Escapade",
+        subtitle: "Awash & Aledeghi National Park Exploration",
+        description: [
+          "For busy business travelers seeking a brief escape into nature's embrace, this thrilling trip to Awash and Aledeghi National Park promises an unforgettable wilderness experience in Ethiopia. Leave the bustling city of Addis Ababa behind as you venture eastwards into the arid landscapes, immersing yourself in the mesmerizing beauty of these national parks.",
+          "Discover the roaring Awash Falls, where Nile Crocodiles bask on river banks, providing incredible photography opportunities. Explore the grasslands, acacia scrub, and riverine forests of Awash National Park, encountering Olive Baboons, Salt's Dikdiks, and Beisa Oryx. Marvel at the diverse birdlife, from Lappet-faced Vultures to Northern Carmine Bee-eaters.",
+          "Continue your journey to Aledeghi Plains, where rare species like the Arabian Bustard can be found, and encounter the nomadic Afar tribesmen, deeply rooted in their ancestral ways. Conclude your adventure with a return to Addis Ababa, carrying cherished memories of Ethiopia's wilderness.",
+        ],
+        lr: true,
+        img1: images.awash1,
+        img2: images.alehdege1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Awash National Park",
+            description:
+              "Photograph Nile Crocodiles, spot Olive Baboons and Salt's Dikdiks, and enjoy the rich birdlife, including Lappet-faced Vultures and Northern Carmine Bee-eaters.",
+          },
+          {
+            title: "Awash Falls",
+            description:
+              "Experience the awe-inspiring spectacle of Awash Falls, practicing slow shutter speeds to capture the ethereal beauty of the cascading waters.",
+          },
+          {
+            title: "Aledeghi Plains",
+            description:
+              "Embark on a game drive in Aledeghi Plains, encountering unique species like the Somali Ostrich, Arabian Bustard, and Martial and Short-toed Snake Eagles.",
+          },
+          {
+            title: "Cultural Encounters",
+            description:
+              "Witness the nomadic Afar tribesmen, adorned in traditional attire and adhering to their ancestral ways of herding camels and goats.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Drive to Aledeghi National Park, reaching Doho Lodge for an overnight stay.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Embark on an early morning game drive in Aledeghi Plains, known for its remarkable birdlife and occasional mammal sightings. In the afternoon drive north to Awash National Park. Game drive in the late afternoon.",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Early morning game drive in Awash National Park, immersing yourself in its mosaic of grasslands, acacia scrub, and riverine forests. Seek out fascinating species like Beisa Oryx and Northern Lesser Kudu. Bid farewell to Awash National park and journey back to Addis Ababa, reflecting on your captivating wilderness experience. Overnight stay in Addis Ababa.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: DRIVE TO AWASH NATIONAL PARK",
+          description: [
+            "We will leave Addis Ababa behind and head eastwards, leaving the fertile highlands behind and traveling through an increasingly arid country until we reach Alegeghi National Park, where we will stay overnight at a comfortable lodge in Doha.",
+            "The spectacular falls are right beside the lodge and are a great place to practice the pleasing effect of slow shutter speeds as the light dims. Large Nile Crocodiles are a feature here and can be photographed on the river banks and partly-submerged rocks, displaying those awesome arrays of teeth.",
+            "This afternoon will have our first opportunity to explore further afield. Overnight in Doho Lodge.",
+          ],
+          image: images.awash1,
+        },
+        {
+          title: "DAY 2: EXPLORE ALEDEGHI PLAINS AND DRIVE TO AWASH",
+          description: [
+            "Early morning game drive in Aledeghi Plains. Here you will search for Somali Ostrich, Martial and Short-toed Snake Eagles, Yellow-necked Spurfowl, the rare Arabian Bustard (perhaps the best location on earth for this species), Black-headed Lapwing, Chestnut-bellied Sandgrouse, and Chestnut-backed Sparrow-Lark.",
+            "Occasionally highly nomadic species such as Pale Rock Finch or Black-crowned Sparrow-Lark move into the area as well. Depending on conditions, you may also see a number of mammals such as the Golden Jackal, Beisa Oryx, Grevy’s Zebra, and Soemmering’s Gazelle.",
+            "This land is inhabited by nomadic Afar tribesmen whom you will see dressed in their fine white cotton tunics, bedecked with traditional jewelry, daggers, and spears.",
+            "The men sport a unique bushy hairstyle, while women and girls are also extravagantly attired and adorned. They adhere strictly to their ancestral ways of tending their camel and goat herds and roaming throughout this inhospitable land.",
+            "As the day begins to heat up, you shall leave the Aledeghi Plains behind and head to Awash National Park. Overnight in Kuriftu Awash National Park.",
+          ],
+          image: images.alehdege1,
+        },
+        {
+          title: "DAY 3: EXPLORE AWASH NATIONAL PARK",
+          description: [
+            "We will spend the morning at Awash National Park. The terrain is mostly a mosaic of grassland and acacia scrub, but the Awash River flows through the area and supports some thin strips of riverine forest in places. A distinct advantage of Awash (and indeed all national parks we visit in Ethiopia) compared to many other African parks is that one is allowed to get out of the vehicles and photograph on foot owing to the virtual absence of dangerous mammals. Awash holds some interesting mammals, including Olive Baboon, the delightful little Salt’s Dikdik, and the handsome Beisa Oryx. With a bit of luck, we will also encounter Northern Lesser Kudu.",
+            "Birdlife is rich and varied (over 400- species have been recorded from Awash) and among the most appealing photographic targets are the huge Lappet-faced Vulture, Tawny Eagle, Pallid and Montagu’s Harriers, Pygmy and Lanner Falcons, Kori, Buff-crested and White-bellied Bustards, Black-headed Lapwing, Chestnut-bellied Sandgrouse, Blue-naped Mousebird, the superb Abyssinian Roller, the wonderful Northern Carmine Bee-eater (which sometimes uses the backs of Kori Bustards or even Somali Ostriches as a convenient lookout!), Northern Red-billed and Eastern Yellow-billed Hornbills, and the lovely Rosy-patched Bushshrike (pairs often duet together).",
+            "This afternoon you depart Awash National Park and head further north to Addis Ababa. Overnight in Addis Ababa.",
+          ],
+          image: images.awash2,
+        },
+      ],
+    },
+  },
+  {
+    id: 7,
+    experience: 8,
+    title: "Serenity And Wilderness",
+    index: false,
+    image: images.chebera1,
+    description: "Lake Langano And Lephis Forest Retreat",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Serenity And Wilderness",
+        subtitle: "Lake Langano And Lephis Forest Retreat",
+        description: [
+          "Indulge in a short escape from the demands of business and immerse yourself in the serenity of Lake Langano and the untamed beauty of Lephis Forest. This exclusive trip is designed for busy professionals seeking a rejuvenating retreat amidst Ethiopia's captivating landscapes.",
+          "Explore the natural wonders of Lake Langano, a peaceful oasis nestled against the backdrop of the Arsi Mountains. Witness the remarkable birdlife that graces its shores, including the striking Hemprich's hornbill and fascinating helmet-strikes.",
+          "Venture further into the Central Rift Valley to discover the pristine Lephis Forest, where you'll encounter majestic trees, endemic bird species, and a stunning waterfall. Immerse yourself in the rich cultural and natural heritage of the area as you embark on this unforgettable journey of tranquility and wilderness.",
+        ],
+        lr: true,
+        img1: images.awash1,
+        img2: images.chebera1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Tiya",
+            description:
+              "Explore the UNESCO World Heritage Site of Tiya, renowned for its peculiar engraved standing stone monoliths.",
+          },
+          {
+            title: "Lake Ziway",
+            description:
+              "Discover the diverse aquatic bird species along the scenic shores of Lake Ziway, such as the confiding Great White Pelican and the impressive Marabou Stork.",
+          },
+          {
+            title: "Lake Langano",
+            description:
+              "Experience the serene ambiance of Lake Langano, known for its bilharzia-free waters and abundant birdlife, including Hemprich's hornbill and helmet-strikes.",
+          },
+          {
+            title: "Lephis Forest",
+            description:
+              "Embark on an excursion to the secluded Lephis Forest, marveling at the rare and enormous trees, endemic bird species, and the breathtaking Lephis Waterfall.",
+          },
+          {
+            title: "Cultural Immersion",
+            description:
+              "Engage with local community guides who share their knowledge of the forest's history, culture, and conservation efforts, providing a deeper understanding of the natural surroundings.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Drive from Addis Ababa to Lake Langano, enjoying scenic views of the Arsi Mountains. Explore Lake Ziway's shores, observing a variety of aquatic bird species. Arrive at Lake Langano, unwind, and immerse yourself in the tranquility of the surroundings. Overnight stay in Langano.",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Early morning drive to Lephis Forest, located in the Central Rift Valley. Meet a local community guide at the Lephis Welcome Tukul and begin the Finchaa Trail on foot or horseback. Discover the forest's pristine natural beauty, encounter majestic trees, and observe endemic bird species and wildlife. Reach the magnificent Lephis Waterfall, a breathtaking highlight of the tour. Enjoy a break at the waterfall, relishing the refreshing mist, capturing photos, and savoring the scenic splendor. Return to Langano for an overnight stay.",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Breakfast and birdwatching along the serene shores of Lake Langano. Depart for Addis Ababa, stopping at the stunning lakes of Abiata and Shalla en route. Embrace the serene beauty of the region's lakes before concluding the journey. Return to Addis Ababa, feeling rejuvenated and inspired by the tranquil retreat.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: DRIVE TO DRIVE TO LANGANO",
+          description: [
+            "An early morning departure takes you to south towards the Rift Valley. Your first stop is at Tiya, classified by UNESCO as a World Heritage Site, where we can see the northernmost example of a peculiar type of engraved, standing stone monolith that stretches across parts of southern Ethiopia. Continue your driving to Ziway, where you explore the shore for aquatic birds. It is here you will have a lunch stop.",
+            "Strolling along the lakeshore at Lake Ziway will allow you excellent views of the confiding Great White Pelican and the huge Marabou Stork, while dazzling Northern Carmine Bee-eater, migratory White and Western Yellow Wagtails (including some of the striking feldeggi race) and the less colorful Ethiopian Cisticola can be seen around the lake edge.",
+            "You eventually arrive at your destination for this evening, Lake Langano. Set against the backdrop of the stunning Arsi Mountains, the lake is a popular destination for weekenders.",
+            "Its muddy brown waters notwithstanding, it is one of the few lakes in the area that is reputedly bilharzia free. It is also a haven for birds that flock to the lake’s shore. You may well spot Hemprich’s hornbill here, as well as fan-tailed ravens and helmet strikes. Overnight in Langano.",
+          ],
+          image: images.bahirdar1,
+        },
+        {
+          title: "DAY 2: EXCURSION TO LEPHIS FOREST",
+          description: [
+            "An early morning drive southward will take you to Lephis Forest. Located in Ethiopia’s Central Rift Valley, the forest is amongst the region’s most pristine and secluded natural wonders, with breathtaking views, endemic bird and wildlife species, and a natural waterfall.",
+            "After meeting a local community guide at the Lephis Welcome Tukul, visitors set off along the Finchaa Trail on foot or horseback. The trail begins in the cultivated Forest Enterprise forest, giving visitors the chance to learn about the Forest Enterprise, sustainable forestry, and local conservation efforts.",
+            "The trail then winds its way into the natural forest where visitors will encounter enormous, majestic trees that have now become a rarity in Ethiopia, as well as an impressive array of animal life including a number of endemic and near-endemic bird species, baboons, and monkeys. Along the trail, the local guide explains the natural surroundings as well as the history and culture of the area.",
+            "Emerging from beneath the dense forest canopy, you will be faced with the highlight of the tour: the beautiful Lephis Waterfall. A break at this magical spot offers visitors the opportunity to cool off in the refreshing mist of the cascade, take pictures, watch for nesting birds, and enjoy the area’s scenic beauty. Then head back to Langano overnight.",
+          ],
+          image: images.chebera1,
+        },
+        {
+          title: "DAY 3: DRIVE TO ADDIS ABABA",
+          description: [
+            "Enjoy breakfast and short birding at the lake shore and afterward, drive towards Addis Ababa, visiting the region’s lakes en route. The lakes of Abiata and Shalla are particularly stunning.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 8,
+    experience: 8,
+    title: "Lake Tana's Monastic Tranquility",
+    index: false,
+    image: images.bahirdar4,
+    description: "A Business Traveler's Retreat",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Lake Tana's Monastic Tranquility",
+        subtitle: "A Business Traveler's Retreat",
+        description: [
+          "Embark on a serene journey to Lake Tana, Ethiopia's largest lake and a sanctuary of ancient monasteries, designed specifically for business travelers with limited time. Located in the captivating town of Bahir Dar, Lake Tana offers a tranquil escape from the bustling business world. Explore the Zeghie Peninsula, renowned for its picturesque round monasteries dating back to the 14th century.",
+          "Take a scenic boat ride across the lake's shimmering waters, surrounded by lush forests, and visit the historic churches of Betra Mariam and Ura Kidane Mehret. Immerse yourself in the rich spiritual heritage of the area where coffee cultivation first began.",
+          "After a memorable visit to Lake Tana, return to Addis Ababa for a city tour and indulge in the vibrant shopping experiences the capital has to offer. Join us for a brief yet rejuvenating retreat to the serene beauty of Lake Tana's monastic wonders.",
+        ],
+        lr: true,
+        img1: images.bahirdar3,
+        img2: images.bahirdar2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Zeghie Peninsula",
+            description:
+              "Discover the round grass-roofed monasteries nestled amidst the dense forests, showcasing remarkable architecture and ancient religious traditions.",
+          },
+          {
+            title: "Blue Nile Falls",
+            description:
+              "Marvel at the majestic Blue Nile Falls, also known as 'Tis Issat' or 'Smoking Water,' during the rainy season when it cascades down the rock face in all its splendor.",
+          },
+          {
+            title: "Bahir Dar City Tour",
+            description:
+              "Explore the charming town of Bahir Dar, known for its rich history and captivating landmarks, including the former palace of Emperor Haile Selassie at Bizeit.",
+          },
+          {
+            title: "Ethnological Museum",
+            description:
+              "Visit the Ethnological Museum in Addis Ababa, home to archaeological treasures and the famous 'Lucy' fossil, offering insights into Ethiopia's cultural heritage.",
+          },
+          {
+            title: "Trinity Cathedral",
+            description:
+              "Admire the exquisite Trinity Cathedral, an architectural gem featuring baroque-style design and European-inspired influences.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Fly to Bahir Dar & Visit monasteries on Lake Tana",
+          },
+          {
+            title: "Day 2",
+            description: "Fly back to Addis & City tour",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: DRIVE TO DRIVE TO LANGANO",
+          description: [
+            "An early morning departure takes you to south towards the Rift Valley. Your first stop is at Tiya, classified by UNESCO as a World Heritage Site, where we can see the northernmost example of a peculiar type of engraved, standing stone monolith that stretches across parts of southern Ethiopia.",
+            "Continue your driving to Ziway, where you explore the shore for aquatic birds. It is here you will have a lunch stop. Strolling along the lakeshore at Lake Ziway will allow you excellent views of the confiding Great White Pelican and the huge Marabou Stork, while dazzling Northern Carmine Bee-eater, migratory White and Western Yellow Wagtails (including some of the striking feldeggi race) and the less colorful Ethiopian Cisticola can be seen around the lake edge.",
+            "You eventually arrive at your destination for this evening, Lake Langano. Set against the backdrop of the stunning Arsi Mountains, the lake is a popular destination for weekenders.",
+            "Its muddy brown waters notwithstanding, it is one of the few lakes in the area that is reputedly bilharzia free. It is also a haven for birds that flock to the lake’s shore. You may well spot Hemprich’s hornbill here, as well as fan-tailed ravens and helmet strikes. Overnight in Langano.",
+          ],
+          image: images.bahirdar1,
+        },
+        {
+          title: "DAY 2: EXCURSION TO LEPHIS FOREST",
+          description: [
+            "An early morning drive southward will take you to Lephis Forest. Located in Ethiopia’s Central Rift Valley, the forest is amongst the region’s most pristine and secluded natural wonders, with breathtaking views, endemic bird and wildlife species, and a natural waterfall.",
+            "After meeting a local community guide at the Lephis Welcome Tukul, visitors set off along the Finchaa Trail on foot or horseback. The trail begins in the cultivated Forest Enterprise forest, giving visitors the chance to learn about the Forest Enterprise, sustainable forestry, and local conservation efforts.",
+            "The trail then winds its way into the natural forest where visitors will encounter enormous, majestic trees that have now become a rarity in Ethiopia, as well as an impressive array of animal life including a number of endemic and near-endemic bird species, baboons, and monkeys. Along the trail, the local guide explains the natural surroundings as well as the history and culture of the area.",
+            "Emerging from beneath the dense forest canopy, you will be faced with the highlight of the tour: the beautiful Lephis Waterfall. A break at this magical spot offers visitors the opportunity to cool off in the refreshing mist of the cascade, take pictures, watch for nesting birds, and enjoy the area’s scenic beauty. Then head back to Langano overnight.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 9,
+    experience: 8,
+    title: "Lalibela's Ancient Marvels",
+    index: false,
+    image: images.bahirdar4,
+    description: "A Business Traveler's Expedition",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Lalibela's Ancient Marvels",
+        subtitle: "A Business Traveler's Expedition",
+        description: [
+          'Start a quest on a remarkable journey to Lalibela, Ethiopia\'s mystical UNESCO World Heritage Site, on this tailored itinerary designed for business travelers with limited time. Lalibela, known as the "8th wonder of the world," is home to 11 awe-inspiring rock-hewn churches carved out of solid volcanic rock.',
+          "Explore the hidden treasures of Lalibela, as you navigate through tunnels, narrow passageways, and open quarried caves that connect these architectural marvels. Immerse yourself in the rich history and spiritual significance of this sacred place, where ancient traditions still thrive.",
+          "After a memorable visit to Lalibela, return to Addis Ababa for a city tour, providing a glimpse into Ethiopia's vibrant capital. Join us for a short but unforgettable expedition into the heart of Ethiopia's ancient wonders.",
+        ],
+        lr: true,
+        img1: images.lalibela6,
+        img2: images.lalibela7,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Rock-Hewn Churches",
+            description:
+              "Discover the extraordinary rock-hewn churches of Lalibela, a testament to the remarkable architectural achievements of ancient civilizations.",
+          },
+          {
+            title: "Bet Giorgis",
+            description:
+              "Marvel at the iconic Bet Giorgis, the most beautiful and well-preserved church in Lalibela, featuring intricate carvings and depictions of Saint George slaying the dragon.",
+          },
+          {
+            title: "Ethnological Museum",
+            description:
+              "Visit the Ethnological Museum in Addis Ababa, home to archaeological and historical findings, including the renowned complete fossil remain of 'Lucy', a significant hominid discovery.",
+          },
+          {
+            title: "Trinity Cathedral",
+            description:
+              "Explore the Trinity Cathedral, an architectural masterpiece showcasing baroque-style design and European-inspired influences.",
+          },
+          {
+            title: "Merkato Market",
+            description:
+              "Immerse yourself in the vibrant atmosphere of Merkato, Africa's largest open-air market, offering a diverse range of goods and artifacts from across the country.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Fly to Lalibela & visit the rock Churches",
+          },
+          {
+            title: "Day 2",
+            description: "Fly back to Addis & City tour",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: FLY TO LALIBELA & VISIT THE ROCK-HEWN CHURCHES",
+          description: [
+            "From Addis Ababa, a short flight takes you to Lalibela, home of the rock-hewn churches and a World Heritage Site. It is located at an altitude of 2,600 meters above sea level.",
+            "Lalibela is the 8th wonder of the world; 11 rock-hewn churches have been cut out of a solid red volcanic rock, some completely hidden in deep trenches, while others stand in open quarried caves and a complex series of tunnels and narrow passageways connect the churches. Lalibela indeed offers a great opportunity for any traveler.",
+            "After check-in and freshening up in your hotel, the morning will be devoted to visiting the first group (or the north–western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel, and Bet Danaghel.",
+            "In the afternoon, you will visit the remaining rock-hewn churches of Lalibela which include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos.",
+            "Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here. Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches. Overnight in Lalibela.",
+          ],
+          image: images.lalibela4,
+        },
+        {
+          title: "DAY 2: FLY BACK TO ADDIS",
+          description: [
+            "This morning, you drive to Lalibela airport, where you catch your flight to Addis. On arrival in Addis, you transfer to a hotel where you can freshen up and have lunch. This half-day city tour explores the many highlights and monuments of Addis Ababa.",
+            "Begin with a tour of the Ethnological Museum, boasting many archaeological and historical findings including the famous complete hominid fossil remain of 'Lucy', locally known as 'Dinknesh', which translates to wonderful. Visit the Trinity Cathedral, a beautiful church built in the Baroque style, similar to much of the European-inspired architecture unique to Ethiopia.",
+            "Next proceed to Merkato, the largest open-air market in Africa, a fascinating glimpse of the vast range of goods and artifacts available from all parts of the country. You have the afternoon free for shopping in Addis Ababa. Overnight in Addis Ababa.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 10,
+    experience: 8,
+    title: "Danakil Adventure",
+    index: false,
+    image: images.danakil1,
+    description: "Unveiling Ethiopia's Otherworldly Wonders",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Danakil Adventure",
+        subtitle: "Unveiling Ethiopia's Otherworldly Wonders",
+        description: [
+          "An extraordinary journey through Ethiopia's Danakil Depression, perfectly tailored for business travelers with limited time. Brace yourself for a captivating expedition into an otherworldly landscape of colorful mineral deposits, sulfur pools, and salt flats.",
+          "This curated itinerary promises an unforgettable experience in one of the most unique and extreme environments on Earth. From exploring the famous Dallol area to witnessing the arduous work of salt extraction, this trip is designed to immerse you in the unparalleled wonders of the Danakil Depression.",
+          "Join us for a short but unforgettable adventure in the heart of Ethiopia. Join us on this brief yet extraordinary adventure to the Danakil Depression, where you'll witness the raw beauty and geological marvels of this remarkable region.",
+          "Prepare to be awe-inspired as you journey through a surreal landscape that few have witnessed firsthand.",
+        ],
+        lr: true,
+        img1: images.danakil5,
+        img2: images.danakil6,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Danakil Depression",
+            description:
+              "Venture into the surreal landscape of the Danakil Depression, a geological wonderland boasting colorful mineral formations, sulfur pools, and salt flats.",
+          },
+          {
+            title: "Dallol Area",
+            description:
+              "Explore the mesmerizing Dallol area, characterized by its alien-like terrain with bizarre mineral deposits, geysers, and sulfuric landscapes.",
+          },
+          {
+            title: "Salt Canyons",
+            description:
+              "Embark on a short walk through the salt canyons, witnessing the arduous work of salt extraction by hand and the loading of camels for transportation.",
+          },
+          {
+            title: "Camel Caravans",
+            description:
+              "Encounter long camel caravans transporting salt bars, a fascinating glimpse into the region's main export and a centuries-old trade tradition.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Fly to Mekelle & drive to Dallol",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Explore Dallol then drive to Mekelle & Fly back to Addis",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: FLY TO MEKELLE & DRIVE TO DANAKIL DEPRESSION",
+          description: [
+            "After an enjoyable breakfast, transfer you to Addis Ababa airport for an hour’s flight to Mekelle. At Mekelle, you’ll meet your vehicle and drive into the Danakil Depression. You’ll begin the drive into the Danakil in good time so that you enjoy your drive in the cooler time of the day.",
+            "The roads leading out of Mekelle are smooth and asphalted, and driving further out of town there are some wonderful views of the landscape. As you drive further towards the Afar region, the roads are a maze of solidified lava, rock, and sand with an occasional palm-lined oasis.",
+            "En route, you’ll likely see long camel caravans going in and out of the Danakil as they are loaded with salt bars, the main export of this region. Overnight Camping in Danakil.",
+          ],
+          image: images.danakil5,
+        },
+        {
+          title: "DAY 2: EXPLORE THE DALLOL AREA & DRIVE TO MEKELLE",
+          description: [
+            "Before dawn, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools, and geysers, where you will have this early morning to explore this seemingly alien terrain.",
+            "You then visit the salt canyons, a bizarre landscape where we go for a short walk. On the way back to camp, you cross the salt flats where you see the arduous work of salt being extracted by hand and loaded onto the camels. After freshening up and having lunch, we will leave the Danakil and climb the steep mountains to Mekelle town.",
+            "You catch your flight to Addis Ababa. On arrival in Addis, you transfer to a hotel. Overnight in Addis Ababa.",
+          ],
+          image: images.danakil6,
+        },
+      ],
+    },
+  },
+  {
+    id: 11,
+    experience: 8,
+    title: "Harar",
+    index: false,
+    image: images.harar1,
+    description: "A Glimpse Of Ethiopia's Cultural Gem In A Day",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Harar",
+        subtitle: "A Glimpse Of Ethiopia's Cultural Gem In A Day",
+        description: [
+          "A whirlwind journey through Harar, a captivating city that offers a glimpse into Ethiopia's rich cultural heritage. This curated itinerary is specially designed for business travelers with limited time, allowing you to immerse yourself in the vibrant atmosphere and unique traditions of Harar.",
+          'From exploring the ancient city walls to witnessing the legendary "hyena man" ritual, this trip promises an unforgettable experience in the heart of Ethiopia. Discover the centuries-old mosques, bustling markets, and charming Harari houses as you navigate the narrow cobbled streets of this UNESCO heritage site. Join us for a day filled with cultural exploration and memorable encounters in Harar.',
+        ],
+        lr: true,
+        img1: images.danakil4,
+        img2: images.harar1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Harar City Walls",
+            description:
+              "Marvel at the historic city walls, punctuated by five gates and 25 towers, offering a glimpse into Harar's architectural heritage.",
+          },
+          {
+            title: "Hyena Man",
+            description:
+              'Experience the mystique of Harar\'s famed "hyena man" ritual at dusk. Witness the captivating sight of hyenas gathering to receive scraps of camel meat in a centuries-old tradition and religious observance.',
+          },
+          {
+            title: "Jugal (Old Harar)",
+            description:
+              "Explore the enchanting streets of Jugal, the old town of Harar. Get lost in its labyrinthine alleys, adorned with colorful shops and traditional Harari houses.",
+          },
+          {
+            title: "Harari Houses",
+            description:
+              "Immerse yourself in the local culture by visiting traditional Harari houses. Admire the intricate woodwork and architectural details that reflect the unique craftsmanship of this region.",
+          },
+          {
+            title: "Daily Local Market",
+            description:
+              "Engage with the vibrant local community as you wander through the bustling market, where vendors display a colorful array of goods, including spices, textiles, and traditional handicrafts.",
+          },
+          {
+            title: "Arthur Rimbaud Cultural Center",
+            description:
+              "Step into the Arthur Rimbaud Cultural Center, housed in a beautiful century-old mansion. Explore the small museum, library, and research center dedicated to the French poet's time in Ethiopia.",
+          },
+          {
+            title: "Sherif Harar Museum",
+            description:
+              "Visit the Sherif Harar Museum, a local municipal museum that provides insights into the history, culture, and traditions of Harar.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Fly to Dire Dawa & drive to Harar",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Explore Harar town, then drive to Dire Dawa & & Fly back to Addis",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: FLY TO DIRE DAWA & DRIVE TO HARAR",
+          description: [
+            "Today you fly to Dire Dawa, the commercial centre of the region and the main rail head for the Djibouti to Addis railway. From here you ascend by road from the plains to the walled city of Harar another UNESCO heritage site. The city walls are pierced by 5 gates topped by 25 towers.",
+            "The 16th century mosque with its slender minaret and the narrow streets lined with small shops all give the impression of having wandered into a city from the Arabian nights. This evening at dusk, you pay a visit to the now-legendary “hyena man” at sundown. ",
+            "Illuminated by vehicle headlights, he calls to hyenas to take scraps of camel meat in a ritual derived from local tradition and religious observance. Overnight in Harar.",
+          ],
+          image: images.harar1,
+        },
+        {
+          title: "DAY 2: EXPLORE HARAR & FLY TO ADDIS",
+          description: [
+            "Today we explore Jugal (old Harar) on foot, you first head to the daily colorful local market. Then you visit the Arthur Rimbaud Cultural Center. It is located in a beautiful century-old mansion and houses a small museum, library, and research center devoted to Rimbaud’s time in Ethiopia.",
+            "You also visit Sherif Harar Museum, the local municipal museum. Strolling along the winding, cobbled streets, you explore the gates, restored city walls, and interesting Harari houses of this once-secluded town. After lunch, you drive to Dire Dawa, where you catch your flight to Addis.",
+            "On arrival in Addis, you transfer to a hotel where you can freshen up. Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 12,
+    experience: 8,
+    title: "Unveiling Addis Ababa's Contemporary Art Scene",
+    index: false,
+    image: images.addis3,
+    description: "Exploring Modern Expressions In Ethiopia's Capital",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Unveiling Addis Ababa's Contemporary Art Scene",
+        subtitle: "Exploring Modern Expressions In Ethiopia's Capital",
+        description: [
+          "Immerse yourself in the creative energy of Addis Ababa as you embark on a curated tour of the city's contemporary art scene. From established galleries to innovative spaces, this itinerary invites you to discover the rich tapestry of modern artistic expressions in Ethiopia's capital. Engage with artists, explore diverse mediums, and witness the dynamic narratives of Ethiopian artistry. Get ready to unlock the vibrant soul of Addis Ababa's artistic spirit as you delve into the world of contemporary art. The best places in Ethiopia's capital to view modern art from the past and present centuries",
+          "Ethiopia has a centuries-long tradition of fine art expression. Modern art is a more recent phenomenon, but Addis Ababa has had a contemporary art scene for over half a century. Today, there are numerous places around the capital city to view creative modern art expressions from both emerging and established artists. From mid-20th-century expressionism to digitally-manipulated photography, Addis Ababa’s art scene has much to offer curious art lovers from around the world.",
+        ],
+        lr: true,
+        img1: images.addis2,
+        img2: images.addis3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Fine Art",
+            description:
+              "Immerse yourself in the vibrant exhibitions and thought-provoking talks at Addis Fine Art, the leading contemporary gallery in Addis Ababa. Experience the innovative works of Ethiopian artists and the global diaspora, fostering connections between local and international art communities.",
+          },
+          {
+            title: "National Museum of Ethiopia",
+            description:
+              "Delve into Ethiopia's rich history and artistry at the renowned National Museum, where ancient artifacts intertwine with a collection of 20th-century works. Marvel at the abstract paintings by Afewerk Tekle and explore the diverse artistic expressions housed within this cultural treasure.",
+          },
+          {
+            title: "LeLa Gallery",
+            description:
+              "Step into the green oasis of LeLa Gallery, showcasing the experimental and innovative works of Ethiopian and East African artists. Founded by Lilly Sahle, a passionate promoter of Ethiopian art, this gallery nurtures collaborations, represents emerging talents, and hosts international exhibitions.",
+          },
+          {
+            title: "Laphto Art Gallery",
+            description:
+              "Experience the cutting-edge and experimental art scene at Laphto Art Gallery, known for providing a platform for new and emerging artists. Discover a range of artistic mediums, including sculpture, installations, photography, and paintings, and engage in panel discussions that bridge the gap between art and the mainstream.",
+          },
+          {
+            title: "Zoma Museum",
+            description:
+              "Immerse yourself in the multidisciplinary world of contemporary art at Zoma Museum, an eco-friendly space created by artist Elias Sime. Explore the extraordinary house made from natural materials, witness cutting-edge ecological art, and participate in artist-in-residence programs and educational initiatives.",
+          },
+          {
+            title: "Gebre Kristos Desta Center",
+            description:
+              "Pay homage to one of Ethiopia's pioneering artists, Gebre Kristos Desta, at the eponymous center dedicated to his work. Discover his iconic pieces and embrace the center's educational focus, encouraging emerging artists to merge styles and push artistic boundaries.",
+          },
+          {
+            title: "Makush Art Gallery",
+            description:
+              "Savor the unique combination of culinary delights and contemporary artwork at Makush Art Gallery. Explore the diverse selection of young and emerging artists, showcasing Ethiopia's burgeoning art scene, and support humanitarian causes through their collaborative efforts.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Addis Fine Art & National Museum of Ethiopia",
+          },
+          {
+            title: "Day 2",
+            description: "LeLa Gallery & Laphto Art Gallery",
+          },
 
-ExperiencesPackageItineraryArray.push(...ItineraryArray);
-ExperiencesPackageItineraryArray.push(...WildlifeArray);
+          {
+            title: "Day 3",
+            description: "Zoma Museum & Artist Studios",
+          },
+          {
+            title: "Day 4",
+            description: "Gebre Kristos Desta Center & Makush Art Gallery",
+          },
+          {
+            title: "Day 5",
+            description: "Departure",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Detail tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ADDIS FINE ART & NATIONAL MUSEUM OF ETHIOPIA",
+          description: [
+            "Start your Contemporary Art gallery tour in Addis by visiting Addis Fine Art, one of the city's premier galleries showcasing contemporary Ethiopian art. Immerse yourself in the vibrant and diverse art scene, featuring works from both established and emerging artists.",
+            "Explore the gallery's collection, which includes paintings, sculptures, and mixed media pieces that reflect the rich cultural heritage and modern perspectives of Ethiopia.",
+            "Afterward, head to the National Museum of Ethiopia, where you can delve into the country's fascinating history and culture. Marvel at the renowned collection, including the famous hominid fossil 'Lucy' and a wide range of archaeological artifacts.",
+            "Gain a deeper understanding of Ethiopia's past and its influence on the contemporary artistic expressions you'll encounter throughout your tour.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: LELA GALLERY & LAPHTO ART GALLERY",
+          description: [
+            "Today you will discover the LeLa Gallery, a vibrant space dedicated to promoting contemporary Ethiopian art. Engage with thought-provoking exhibitions that tackle social and cultural issues while showcasing the talents of local artists. Experience a range of artistic styles and mediums, from paintings to installations, as you explore the gallery's curated displays.",
+            "Continue your art exploration at Laphto Art Gallery, known for its dedication to promoting emerging artists.",
+            "Admire the innovative works on display, featuring contemporary themes and artistic expressions that reflect the dynamic energy of Ethiopia's art scene.",
+            "Engage in discussions with artists and curators to gain insights into the creative process and inspirations behind their works.",
+          ],
+          image: images.axum6,
+        },
+        {
+          title: "DAY 3: ZOMA MUSEUM & ARTIST STUDIOS",
+          description: [
+            "After breakfast, embark on a journey to the Zoma Museum, a unique cultural institution that blends art, architecture, and sustainable practices. Explore the museum's outdoor and indoor spaces, showcasing contemporary artworks inspired by Ethiopia's cultural heritage and ecological sustainability.",
+            "Discover the innovative use of natural materials and traditional building techniques, creating a harmonious connection between art and the environment.",
+            "Afterward, visit artist studios in Addis Ababa to witness the creative process firsthand. Interact with local artists, learn about their techniques, and gain insights into their artistic visions.",
+            "This immersive experience provides a deeper understanding of the artistic community and the diverse range of practices within contemporary Ethiopian art.",
+          ],
+          image: images.axum7,
+        },
+        {
+          title: "DAY 4: GEBRE KRISTOS DESTA CENTER & MAKUSH ART GALLERY",
+          description: [
+            "Begin your day at the Gebre Kristos Desta Center, dedicated to preserving and promoting the legacy of the influential Ethiopian artist Gebre Kristos Desta. ",
+            "Explore the center's collection of his paintings, sculptures, and writings, gaining a profound appreciation for his contributions to Ethiopian modern art. Engage in discussions and workshops centered on his artistic philosophy and impact.",
+            "Conclude your Contemporary Art gallery tour at Makush Art Gallery, a hub for contemporary Ethiopian art. Discover a diverse selection of artworks from established and emerging artists, representing a wide range of styles and themes.",
+            "Browse through the gallery's collection of paintings, sculptures, and mixed media pieces, offering a glimpse into the evolving artistic landscape of Ethiopia.",
+          ],
+          image: images.tigray9,
+        },
+        {
+          title: "Day 5: Departure",
+          description: [
+            "On your final day, bid farewell to the vibrant art scene of Addis Ababa as you prepare for departure. Take the time to reflect on the captivating artworks you encountered during your Contemporary Art gallery tour, and carry the inspirations and memories of your journey back home.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    experience: 8,
+    title: "Exploring Artistic Treasures And Unique Finds",
+    index: false,
+    image: images.addis2,
+    description: "A Curio Shopping Tour In Addis Ababa",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Exploring Artistic Treasures And Unique Finds",
+        subtitle: "A Curio Shopping Tour In Addis Ababa",
+        description: [
+          "Embark on a thrilling shopping adventure in Addis Ababa, Ethiopia's vibrant capital, where you can uncover a treasure trove of artistic creations and unique curios. This curated tour takes you to the city's top destinations for art, crafts, and antiquities, offering a glimpse into Ethiopia's rich cultural heritage and contemporary art scene.",
+          "From traditional handicrafts to modern artwork, immerse yourself in the local craftsmanship and find one-of-a-kind souvenirs to cherish forever. Whether you're a seasoned collector or simply looking for authentic mementos, this trip promises an unforgettable shopping experience in the heart of Addis Ababa.",
+        ],
+        lr: true,
+        img1: images.addis2,
+        img2: images.addis3,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Salem's Art Center",
+            description:
+              "Explore the impressive collection of Ethiopian art and crafts at Salem's Art Center, known for its diverse range of traditional and contemporary pieces. Discover intricate woodwork, vibrant paintings, and handwoven textiles that showcase the country's artistic heritage.",
+          },
+          {
+            title: "Moye Coffee",
+            description:
+              "Take a break from shopping and indulge in the rich flavors of Ethiopian coffee at Moye. Experience the traditional coffee ceremony, savor the aromatic brew, and enjoy the cozy ambiance of these renowned coffee houses.",
+          },
+          {
+            title: "Makush Art Gallery",
+            description:
+              "Delve into the thriving contemporary art scene of Addis Ababa at Makush Art Gallery. Browse through the extensive collection of artworks by emerging and established Ethiopian artists, and perhaps find the perfect piece to add to your collection.",
+          },
+          {
+            title: "Shumeta",
+            description:
+              "Step into Shumeta, a haven for antiquity enthusiasts, where you can find a range of vintage treasures and collectibles. From ancient coins to intricate jewelry, explore the captivating history of Ethiopia through these unique artifacts.",
+          },
+          {
+            title: "Zoma Museum (Lunch break)",
+            description:
+              "Take a break at Zoma Museum, a cultural hub promoting multidisciplinary contemporary art. Enjoy a delicious lunch while admiring the museum's eco-friendly architecture and engaging with artistic expressions that reflect Ethiopia's environmental sustainability.",
+          },
+          {
+            title: "Saba Har",
+            description:
+              "Continue your shopping journey at Saba Har, a vibrant marketplace known for its eclectic mix of traditional handicrafts, textiles, jewelry, and home decor items. Immerse yourself in the lively atmosphere as you browse through the colorful stalls and interact with local artisans.",
+          },
+          {
+            title: "Ecopia",
+            description:
+              "Conclude your shopping tour at Ecopia, a curated store offering a range of sustainable and ethically sourced products. Discover unique items crafted by local artisans, including handmade accessories, natural skincare products, and eco-friendly home goods.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description:
+              "Morning start with a visit of Moya coffee and continue on to Salem's Art Center. Having enough time there, head to Ecopia. Take lunch break at Zoma Museum. You then head to Saba Har.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    experience: 9,
+    title: "Ethiopian Coffee Odyssey",
+    index: false,
+    image: images.kaffa2,
+    description: "A Photographic Journey through the Birthplace of Coffee",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Ethiopian Coffee Odyssey",
+        subtitle: "A Photographic Journey through the Birthplace of Coffee",
+        description: [
+          "Start an odyssey on an unforgettable photographic adventure through the vibrant landscapes and rich coffee heritage of Ethiopia. Join us on the Ethiopian Coffee Odyssey, a 10-day exploration of the birthplace of coffee, where you'll immerse yourself in the captivating sights, aromas, and flavors of this ancient beverage. From the bustling streets of Addis Ababa to the picturesque coffee farms of Jimma and the lush Kaffa Biosphere, this journey will take you on a sensory voyage like no other.",
+          "Capture the beauty of coffee plantations, meet local farmers, and learn about their age-old traditions. From Bebeka Coffee Estate to Yirga Cheffe, each destination offers unique photographic opportunities that will leave you in awe. Indulge your senses, awaken your creativity, and capture the essence of Ethiopia's coffee culture on this extraordinary expedition.",
+        ],
+        lr: true,
+        img1: images.kaffa1,
+        img2: images.kaffa2,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Explore the vibrant capital city, visit museums, and savor the finest Ethiopian coffee at the renowned Tomoca coffee shop.",
+          },
+          {
+            title: "Jimma",
+            description:
+              "Journey through picturesque landscapes, meet coffee farmers, and explore the charming coffee farms in this region.",
+          },
+          {
+            title: "Mizan Teferi",
+            description:
+              "Capture the mosaic of forests and cultivated lands, with opportunities for stunning photographs along the way.",
+          },
+          {
+            title: "Bebeka Coffee Estate",
+            description:
+              "Immerse yourself in the largest coffee farm in the area, photograph the sprawling plantations, and witness the ideal growing conditions for coffee plants.",
+          },
+          {
+            title: "Kaffa Biosphere",
+            description:
+              "Trek through the lush coffee forests, encounter wild coffee varieties, and engage with local communities.",
+          },
+          {
+            title: "Bonga",
+            description:
+              "Discover the enchanting surroundings of Bonga, surrounded by stunning landscapes and coffee-growing regions.",
+          },
+          {
+            title: "Awassa",
+            description:
+              "Capture the scenic beauty of Awassa, known for its tropical vegetation and serene lakeside views.",
+          },
+          {
+            title: "Yirga Cheffe",
+            description:
+              "Visit the heart of Ethiopian premium coffee production, explore coffee farms, and meet local farmers.",
+          },
+          {
+            title: "Aleta Wondo",
+            description:
+              "Venture into another important coffee-growing locality, interact with farmers, and gain insights into their daily duties.",
+          },
+          {
+            title: "Sidama Village",
+            description:
+              "Immerse yourself in the traditional farming techniques of the Sidama people, taste the finest coffee, and capture the essence of Ethiopian coffee culture.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa & a city tour.",
+          },
+          {
+            title: "Day 2",
+            description: "Drive to Jimma via Woliso.",
+          },
+          {
+            title: "Day 3",
+            description: "Drive to Mizan Teferi.",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Excursion to Bebeka Coffee Estate and drive to Bonga.",
+          },
+          {
+            title: "Day 5",
+            description: "Explore Kaffa Biosphere and drive to Jimma.",
+          },
+          {
+            title: "Day 6",
+            description: "Drive to Awassa via Sodo.",
+          },
+          {
+            title: "Day 7",
+            description: "Drive to Yirga Cheffe.",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Excursion to Aleta Wondo & explore the Sidama Village.",
+          },
+          {
+            title: "Day 9",
+            description: "Drive back to Addis Ababa.",
+          },
+          {
+            title: "Day 10",
+            description: "Departure.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, your hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel. This afternoon, enjoy a tour of Addis Ababa, a pleasant capital city with wide jacaranda-edged avenues, interesting museums, and lively markets. Start our visit with the Ethnological Museum for an overview of Ethiopia's history, culture, and traditions, and its collections from thousand-year-old nomadic tribes. Next, see the beautiful baroque-styled Holy Trinity Cathedral which contains the thrones and the tomb of Emperor Haile Selassie (the last king of Ethiopia) and some other members of the royal family. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, they also offer other fine coffees. Overnight in Addis Ababa",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: DRIVE TO JIMMA VIA WOLISO FROM ADDIS ABABA",
+          description: [
+            "Early we depart from Addis Ababa to Jimma. En route, you will be visiting beautiful villages of the Gurage and Oromo people as well as crossing the magnificent and picturesque Gibe Gorge. Gibe River is a major tributary river of the Omo. This drive will take you through beautiful landscapes dominated by coffee plantations. Explore small-scale coffee plantations and coffee unions around Jimma after checking in and having a short time for lunch in Jimma. Overnight in Jimma.",
+          ],
+          image: images.kaffa1,
+        },
+        {
+          title: "DAY 3: DRIVE TO MIZAN TEFERI",
+          description: [
+            "Today, you will be continuing your southwest routing as we make our way to Mizan Teferi. The 240km drive is made up of a mosaic of forest and cultivated land dominated by coffee, tea, and various spices, and we will have ample opportunity to stop and take advantage of any photographic opportunities we may encounter. Overnight in Mizan.",
+          ],
+          image: images.konso2,
+        },
+        {
+          title: "DAY 4: EXCURSION TO BEBEKA",
+          description: [
+            "This morning is devoted to the exploration of Bebeka Coffee Eastae. It is the biggest coffee farm sprawl across 6500ha of lushly forested hillside south of Mizan Teferi. Situated at an altitude of 1,500 meters provides an ideal climate and enables the best-growing conditions for the plants that are well protected by the larger forest trees which provide shade from the midday sun and preserve the moisture in the soil. You will have enough time to explore selected coffee farms. In the afternoon drive to Bonga. Overnight in Bonga.",
+          ],
+          image: images.lalibela5,
+        },
+        {
+          title: "DAY 5: EXPLORE KAFFA AND SURROUNDING AREAS",
+          description: [
+            "An activity-filled day in exploring Kaffa Bio Spere and surrounding local villages. A short hike takes you through the wild and lush coffee forest of Mankira which consider the origin of Coffee Arabica. Meet the local farmers and visit their villages and learn about them. In the afternoon drive to Jimma. Overnight in Jimma.",
+          ],
+          image: images.kaffa2,
+        },
+        {
+          title: "DAY 6: DRIVE TO AWASSA VIA SODO",
+          description: [
+            "Today's a full-day long but scenic journey as you drive to Awassa. The views in this remote part of Ethiopia are simply spectacular. The drive affords some excellent photo opportunities of the jagged mountains and the Gibe Valley. The route is dotted with intermittent mountain hamlets that add to the splendor of the scenery. Lunch break at Sodo and continued driving to Awassa. Overnight in Awassa.",
+          ],
+          image: images.hawassa1,
+        },
+        {
+          title: "DAY 7: DRIVE TO YIRGA CHEFFE",
+          description: [
+            "Today you enjoy a scenic drive to the lush tropical vegetation of Yirga Cheffe. This is one of the most popular sources of Ethiopian premium coffee. At Yirga Cheffe Coffee Farmers Cooperative Union, enjoy a guided walking tour through the coffee farms. Meet farmers to learn and participate in their daily duties. Then drive back to Yirga Alem. Check into your lodge, nestled between coffee fields and lush vegetation in Yirgalem town. The Aregash Lodge is a natural retreat of astounding beauty and tranquility. Overnight in Aregash Lodge.",
+          ],
+          image: images.kaffa3,
+        },
+        {
+          title: "DAY 8: EXCURSION TO ALETA WONDO & EXPLORE THE SIDAMA VILLAGE",
+          description: [
+            "This morning excursion takes you to Aleta Wondo, another important coffee-growing locality. Spend this morning exploring the coffee farms and learning more about the coffee and the local people. In the afternoon, explore the Sidama Village at Yirgalem. The nation of people called the Sidama are avid coffee drinkers and enset eaters, crops which they cultivate using some of the world’s oldest farming techniques, which honor not only the earth but also themselves. Visit area coffee farms and coffee unions then taste the best coffee, and drive back to Yirgalem. Overnight in Aregash Lodge.",
+          ],
+          image: images.konso1,
+        },
+        {
+          title: "DAY 9: DRIVE TO ADDIS ABABA",
+          description: [
+            "Drive back to Addis Ababa. We make a stop at Ziway for lunch then proceed driving. If you arrive earlier than expected, you will have the chance to visit the Ethiopian commodity exchange (ECX) then you will attend our farewell party at a cultural restaurant with the traditional dance.",
+          ],
+          image: images.addis3,
+        },
+        {
+          title: "DAY 10: DEPARTURE",
+          description: [
+            "Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    experience: 9,
+    title: "Geological Wonders Of Ethiopia",
+    index: false,
+    image: images.danakil8,
+    description: "Unveiling The Ancient Earth",
+    link: "/enquire",
+    linkname: "Start Planning",
+    intro: [
+      {
+        title: "Introducing Geological Wonders Of Ethiopia",
+        subtitle: "Unveiling The Ancient Earth",
+        description: [
+          "Embark on a mesmerizing 14-day journey through the geological wonders of Ethiopia, a paradise for geology enthusiasts. This meticulously crafted itinerary takes you on an unforgettable expedition to witness the remarkable landscapes and ancient rock formations that make Ethiopia a geological treasure trove.",
+          "From the bustling streets of Addis Ababa to the isolated churches on Lake Tana, the royal castles of Gondar, the breathtaking Simien Mountains, the ancient city of Axum, and the awe-inspiring rock-hewn churches of Lalibela, each destination reveals the geological secrets embedded in Ethiopia's rich history.",
+          "Finally, venture into the otherworldly Danakil Depression, a surreal landscape of sulfur pools and colorful mineral deposits. Join us on this extraordinary adventure, where ancient rocks whisper tales of Earth's evolution.",
+        ],
+        lr: true,
+        img1: images.danakil1,
+        img2: images.debrelibanos1,
+        button: "Destination Highlights",
+        link: "#destination-highlights",
+      },
+    ],
+    tourdescription2: [
+      {
+        title: "Highlights of the Itinerary",
+        description: "",
+        destinations: [
+          {
+            title: "Addis Ababa",
+            description:
+              "Immerse yourself in the multiethnic capital city, known for its museums, markets, and vibrant culture.",
+          },
+          {
+            title: "Lake Tana",
+            description:
+              "Discover the isolated monasteries on the largest highland lake in Ethiopia, offering a glimpse into medieval Ethiopia.",
+          },
+          {
+            title: "Gondar",
+            description:
+              'Explore the "Camelot of Africa" and marvel at the Fasilades Castles and Debre Berhan Church.',
+          },
+          {
+            title: "Simien Mountains",
+            description:
+              "Embark on exhilarating walks through stunning scenery, encountering endemic wildlife like the Walia ibex and Ethiopian wolf.",
+          },
+          {
+            title: "Axum",
+            description:
+              "Unearth the ancient city's treasures, including the stelae, the subterranean Tomb of Ramhai, and the Queen of Sheba's Bath.",
+          },
+          {
+            title: "Lalibela",
+            description:
+              "Witness the 11 rock-hewn churches carved out of solid volcanic rock, a testament to human ingenuity and devotion.",
+          },
+          {
+            title: "Danakil Depression",
+            description:
+              "Experience the surreal landscapes of sulfur pools, geysers, and salt flats, offering a glimpse into Earth's raw power.",
+          },
+        ],
+      },
+      {
+        title: "Itinerary at a Glance",
+        description: "",
+        destinations: [
+          {
+            title: "Day 1",
+            description: "Arrive in Addis Ababa and settle into your hotel",
+          },
+          {
+            title: "Day 2",
+            description:
+              "Explore the vibrant city of Addis Ababa, visiting the Holy Trinity Cathedral and the National Museum",
+          },
+          {
+            title: "Day 3",
+            description:
+              "Fly to Bahir Dar, cruise Lake Tana, and visit monasteries",
+          },
+          {
+            title: "Day 4",
+            description:
+              "Drive to Gondar and discover the royal castles and Debre Berhan Church",
+          },
+          {
+            title: "Day 5",
+            description:
+              "Venture to the Simien Mountains National Park for scenic walks and wildlife encounters",
+          },
+          {
+            title: "Day 6",
+            description:
+              "Drive to Axum and explore the ancient city's stelae and sacred sites",
+          },
+          {
+            title: "Day 7",
+            description:
+              "Continue sightseeing in Axum and journey to the Gheralta area",
+          },
+          {
+            title: "Day 8",
+            description:
+              "Marvel at the Tigray rock churches and their ancient artwork",
+          },
+          {
+            title: "Day 9",
+            description:
+              "Embark on an adventure to the surreal Danakil Depression",
+          },
+          {
+            title: "Day 10",
+            description: "Explore Dallo and drive to Mekelle",
+          },
+          {
+            title: "Day 11",
+            description:
+              "Journey to Lalibela via Sekota, encountering picturesque landscapes",
+          },
+          {
+            title: "Day 12",
+            description:
+              "Discover the magnificent rock-hewn churches of Lalibela",
+          },
+          {
+            title: "Day 13",
+            description:
+              "Excursion to Yemrhan Kristos and Nakuto Leab churches",
+          },
+          {
+            title: "Day 14",
+            description:
+              "Fly back to Addis Ababa and depart with cherished memories of Ethiopia's geological wonders.",
+          },
+        ],
+      },
+    ],
+    itinerarydescription: {
+      title: "Day by day Tour Itinerary",
+      itineraries: [
+        {
+          title: "DAY 1: ARRIVE IN ADDIS ABABA & CITY TOUR",
+          description: [
+            "Fly to Addis Ababa; upon arrival at Bole international airport, our hospitality begins. We provide you with a meet-and-greet service at the airport and then transfer you to your hotel for overnight accommodation. The city enjoys an excellent climate all year round, with an average temperature of 25°C (77°F).",
+            "With a multiethnic population of over 5 million, Addis Ababa is a pleasant city with wide avenues of jacaranda trees, interesting museums, and one of the largest open-air markets in Africa, known as the “Mercato”. After your long flight and a welcome briefing, you can settle into your hotel for some rest. Overnight in Addis Ababa.",
+          ],
+          image: images.addis1,
+        },
+        {
+          title: "DAY 2: EXPLORE THE CITY OF ADDIS ABABA",
+          description: [
+            "Today you will spend the day exploring Addis Ababa, which begins with a visit to the Holy Trinity Cathedral. It is the most important Orthodox Church in Addis Ababa and has survived many historical periods, as its interesting architecture can attest. You proceed to visit the National Museum, one of the most important museums in Africa. The museum is home to the fossilized humanoid Lucy (3.5 million year- old fossil), as well as an amazing collection of artifacts, royal items, and art.",
+            "After lunch, you will continue our visit to St. George’s Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, they also offer other fine coffees. Overnight in Addis Ababa.",
+          ],
+          image: images.addis4,
+        },
+        {
+          title: "DAY 3: FLY TO BAHIR DAR & VISIT THE MONASTERIES ON LAKE TANA",
+          description: [
+            "Board a short flight to Bahir Dar where you are met and transferred to your hotel. Then you embark on a cruise of Lake Tana, the largest highland lake in Ethiopia, to visit monasteries dating back to the 14th century. Located on the forested Zege Peninsula, Azuwa Mariam is the most impressive of the southern monasteries. The walls of the church are completely covered with remarkable 16th-century murals that offer a revealing look into medieval Ethiopia.",
+            "You then return to Bahir Dar for lunch at your hotel. Then you head into the colorful market. Later in the afternoon you drive up Bezawit Hill for impressive views over the town, the Blue Nile, and of Lake Tana with its island monasteries. We aim to get here shortly before sunset to enjoy the magnificent natural light show. Afterwards we return to our hotel. Overnight in Bahir Dar.",
+          ],
+          image: images.bahirdar3,
+        },
+        {
+          title: "DAY 4: DRIVE TO GONDER & SIGHTSEEING IN GONDER",
+          description: [
+            "This morning’s drive (180kms) takes you to Gondar, a site of wonders. After some time to rest and have lunch, you will spend today exploring city of Gondar. It was founded in 1636 by Emperor Fasilades as the royal capital of Ethiopia, and is also known as “the Camelot of Africa”. In Gondar, there are a dozen castles, built by various kings and a queen over the course of 236 years. You will visit the Royal Enclosure, among these the Castle of Fasiledes, the oldest and probably the most impressive of all the castles found in the area.",
+            "You continue on to the church of Debre Berhan Selassie (a UNESCO World Heritage Site). The interior of Debre Berhan Selassie is decorated with beautiful mural, cherubs and paintings. It rumored to have once been the proposed final resting place of the Ark of the Covenant. Overnight in Gonder.",
+          ],
+          image: images.gonder3,
+        },
+        {
+          title: "DAY 5: DRIVE TO SIMIEN MOUNTAIN NATIONAL PARK",
+          description: [
+            "This morning’s drive takes you to Simien Mountain National Park. It is a UNESCO World Heritage Site and one of Africa’s largest ranges. More than a dozen peaks are higher than 3600 meters, including Ras Dashen, the highest peak in Ethiopia. Simien's landscapes vary from plateaus, escarpments, and steep gorges to rolling hills and pinnacles.",
+            "Your day is spent exploring the Simien Mountains National Park and watching for its endemic residents, including the elusive Walia ibex, the endangered Ethiopian wolf, and the gelada, a primate we’ll get to know better alongside field researchers. We’ll also look for a variety of birds, such as the powerful, cliff-nesting lammergeyer. Overnight in Simiens.",
+          ],
+          image: images.simien2,
+        },
+        {
+          title: "DAY 6: DRIVE TO AXUM & EXPLORE THE SIGHTSEEING",
+          description: [
+            "Today's half day long but scenic journey as you drives to Axum. The views in this remote part of Ethiopia are simply spectacular. The drive affords some excellent photo opportunities of the jagged the Simien Mountains and the Tekeze Valley. The route is dotted with intermittent mountain hamlets that add to the splendor of the scenery. Your journey brings you to the sacred city of Axum in the Tigrayan region.",
+            "You will check in and have your lunch in the hotel. You will proceed to a half day city tour of Axum. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. Nearby is the subterranean Tomb of Ramhai, a former king of Axum.",
+            "You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek. Overnight in Axum.",
+          ],
+          image: images.axum1,
+        },
+        {
+          title: "DAY 7: FLY TO LALIBELA & VISIT THE ROCK HEWN CHURCHES",
+          description: [
+            "From Gonder, a short flight takes you to Lalibela, home of the rock-hewn churches and a World Heritage Site. It is located at an altitude of 2,600 meters above sea level. Lalibela is the 8th wonder of the world; 11 rock-hewn churches have been cut out of a solid red volcanic rock, some completely hidden in deep trenches, while others stand in open quarried caves and a complex series of tunnels and narrow passageways connect the churches. Lalibela indeed offers a great opportunity for any traveler.",
+            "After check in and having your lunch in your hotel, the afternoon will be devoted to visiting the first group (or the north – western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel and Bet Danaghel. Overnight in Lalibela.",
+          ],
+          image: images.lalibela2,
+        },
+        {
+          title: "DAY 8: EXPLORE MORE ROCK CHURCHES",
+          description: [
+            "After breakfast, drive to the cave church of Yemrhan Kristos. The drive will be on a good road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style. It is renowned for its interior decoration, its beautiful wooden coffer ceiling inlaid with hexagons, and medallions with both figurative and geometric motifs. Drive back to Lalibela.",
+            "In the afternoon, you will visit the remaining rock-hewn churches of Lalibela that include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos. Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here. Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches. Overnight in Lalibela.",
+          ],
+          image: images.lalibela6,
+        },
+        {
+          title: "DAY 9: FLY TO AXUM & EXPLORE THE SIGHTSEEING",
+          description: [
+            "In the morning you will fly to Axum, where you are met and transferred to your hotel. You will proceed to a full-day city tour of Axum –a UNESCO World Heritage Site. You will visit the stelae: granite monoliths dating from pre-Christian times and decorated with symbolic engravings. You also visit the Archaeological Museum, before heading to the Queen of Sheba’s Bath.",
+            "This large reservoir is an excellent place to observe the local women collecting water for washing. Visit also historically important dedicatory stone dating to about 320 AD with an inscription written in three languages - Sabaean, Ge’ez (earliest written Ethiopian language), and Greek. After having a lunch break, continue on your visit to the church of Saint Mary of Zion.",
+            "A chapel in the church is believed by many to contain The Ark of the Covenant. It is guarded by “The Guardian” who is the only person allowed into the chapel and the only person who may set eyes on it. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
+            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look. Overnight in Axum.",
+          ],
+          image: images.axum2,
+        },
+        {
+          title: "DAY 10: DRIVE TO GHERALTA AREA",
+          description: [
+            "In the morning, continue your visit to the church of Saint Mary of Zion. A chapel in the church is believed by many to contain The Ark of the Covenant. There is also a small museum here which contains the crowns of Ethiopian kings and other treasures.",
+            "You then continue to the Queen of Sheba’s Palace. The palace area has been fully excavated and is definitely worth a look. After having a lunch break, you drive across the dramatic mountainous landscapes to Gheralta.",
+            "On your way, you visit the Monastery of Abba Gerima which houses an impressive collection of ancient crosses, crowns, other artifacts, and the oldest illustrated Christian manuscripts dated to the fifth-sixth century. You arrive at the lodge in time to enjoy a beautiful Ethiopian sunset. Overnight in Gheralta.",
+          ],
+          image: images.tigray8,
+        },
+        {
+          title: "DAY 11: EXPLORE THE TIGRAY ROCK CHURCHES",
+          description: [
+            "After an early breakfast, head to explore the marvelous rock churches in the Gheralta cluster. A short drive takes you closer to the foot of Korkur Mountain. It is from here you start you hiking up to the plateau. Here you will visit Mariam Korkur and Daniel Korkur rock-hewn churches.",
+            "The latter one is the smallest church and has a really beautiful view of the surrounding areas. Drive back to your lodge for lunch. In the afternoon drive to visit Mariam Papaseti church which is decorated with beautiful mural paintings. Overnight in Gheralta.",
+          ],
+          image: images.tigray9,
+        },
+        {
+          title: "DAY 12: DRIVE TO THE DANAKIL DEPRESSION",
+          description: [
+            "After breakfast, spend the morning at your leisure which can be arranged for short hiking, bird watching, and visiting the nearby rock-hewn church.",
+            "After lunch, you drive towards the Danakil region, stopping a number of times en route to take in the spectacular scenery. You arrive in time to enjoy a beautiful Ethiopian sunset over Lake Asale. Overnight camping in the Danakil.",
+          ],
+          image: images.danakil6,
+        },
+        {
+          title: "DAY 13: EXPLORE THE DALLOL AREA & DRIVE TO MEKELLE",
+          description: [
+            "After an early light breakfast, you start driving to Dallol. It is like nowhere else; a bizarre landscape of colorful mineral deposits, sulfur pools, and geysers, where you will have this early morning to explore this seemingly alien terrain.",
+            "You then visit the salt canyons, a bizarre landscape where we go for a short walk. On the way back to camp we cross the salt flats where we see the arduous work of salt being extracted by hand and loaded onto the camels.",
+            "After freshening up and having lunch, we will leave the Danakil and climb the steep mountains to Mekele, climbing from 100 meters below sea level up to 2500m. Mekelle is the capital of the region. Overnight in Mekelle.",
+          ],
+          image: images.danakil5,
+        },
+        {
+          title: "DAY 14: DRIVE TO LALIBELA VIA SEKOTA",
+          description: [
+            "A full day's drive today takes you to Lalibela via Sekota. En route visit the cave church of Yemrehane Kristos, built by the king of the same name before the reign of King Lalibela.",
+            "The church is constructed inside a cave, in Axumite style, similar to the church at Debre Damo, with alternating levels of wood and stone. Finally, drive to Lalibela, the country’s heart of spirituality and architectural wonder. Overnight in Lalibela.",
+          ],
+          image: images.lalibela2,
+        },
+        {
+          title: "DAY 15: VISIT THE ROCK-HEWN CHURCHES",
+          description: [
+            "After breakfast, this morning was devoted to visiting the first group (or the north–western cluster) of churches: Bet Medhane Alem, Bet Mariam, Bet Meskel, and Bet Danaghel. In the afternoon, you will visit the remaining rock-hewn churches of Lalibela which include the churches of Bet Gabriel - Rafael, Bet Emanuel, and Abba Libanos.",
+            "Then you will continue your visit to the cruciform-shaped Bet Giorgis, the most beautiful church here. Its interior is dominated by depictions of Saint George killing the dragon. It is one of the newest and best-preserved churches. Overnight in Lalibela.",
+          ],
+          image: images.lalibela7,
+        },
+        {
+          title: "DAY 16: EXCURSION TO YEMRHAN KRISTOS & NAKUTO LEAB CHURCHES",
+          description: [
+            "This morning drive takes you to the cave church of Yemrhan Kristos. The drive will be on a good gravel road passing through the most dramatic landscape of the countryside. This exquisite church is a masterpiece of Axumit wood and stone construction style.",
+            "It is renowned for its interior decoration, it’s beautiful wooden coffer ceiling inlaid with hexagons and medallions with both figurative and geometric motifs. Drive back to Lalibela for lunch. Late afternoon, you visit Nakuto Leab Monastery, which houses an impressive collection of ancient crosses and illustrated manuscripts. Overnight in Lalibela.",
+          ],
+          image: images.lalibela8,
+        },
+        {
+          title: "DAY 17: FLY TO ADDIS & DEPARTURE",
+          description: [
+            "After breakfast, you transfer to the airport and take the short flight back to Addis Ababa and transfer you to your hotel. You have the afternoon free for shopping in Addis Ababa. Depending on your flight schedule, a transfer is arranged to Addis Ababa Bole international airport for the flight back home. Thanks for vacationing with Sawla Tours.",
+          ],
+          image: images.addis4,
+        },
+      ],
+    },
+  },
+];

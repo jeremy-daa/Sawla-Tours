@@ -2277,6 +2277,9 @@ div .planner-item-description {
   margin-bottom: 15px;
   margin-top: 30px;
 }
+.itinerary-link.offset {
+  color: var(--dark);
+}
 
 /* Media queries */
 
@@ -2338,7 +2341,7 @@ div .planner-item-description {
   border-bottom: 5px solid var(--theme);
 }
 .descriptions-wrapper .description .description-text {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   font-family: "Averia Serif Libre", cursive;
   margin-bottom: 15px;
@@ -3323,7 +3326,7 @@ input[type="number"]::-webkit-outer-spin-button {
   flex-direction: column;
 }
 .destinations-list ul li span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
   font-family: "Averia Serif Libre", cursive;
@@ -3335,7 +3338,7 @@ input[type="number"]::-webkit-outer-spin-button {
   color: var(--dark);
 }
 .destinations-list ul li p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   font-family: "Lato", sans-serif;
   text-align: start;
