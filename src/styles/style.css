@@ -1021,13 +1021,14 @@ h2.contact-us:hover {
   top: 0;
   width: 100%;
   height: auto;
-  background-image: url("/assets/footer-bg-3.svg");
+  background-image: url("/assets/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
   color: var(--light);
   padding: 50px 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  /* make the last row div take up the available space so there wont be an empty slot */
   grid-auto-rows: minmax(100px, auto);
 }
 .footer-column .footer-logo img {

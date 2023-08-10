@@ -884,7 +884,7 @@ export const PopularDestinationsArray: Destination[] = [
     intro: [
       {
         img1: images.harar1,
-        img2: images.harar1,
+        img2: images.harar2,
         title: "A Journey to Ancient Splendor",
         subtitle: "",
         description: [
@@ -895,7 +895,7 @@ export const PopularDestinationsArray: Destination[] = [
         link: "#why",
       },
       {
-        img1: images.harar1,
+        img1: images.harar3,
         img2: images.kaffa1,
         title: "Savor the Finest Coffee",
         subtitle: "",
@@ -923,14 +923,14 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Wander through the labyrinthine streets of Harar and experience its vibrant markets, storied past, and captivating cultural artifacts. Explore the well-preserved Harar Jugol wall, an imposing fortress enveloping the ancient city. Dating back to the 13th to 16th century, this 3.5km long and 5-meter high wall once boasted five gates, each leading to different quarters of the city. This architectural marvel stands as a testament to Harar's historical significance.",
           ],
-          image: images.harar1,
+          image: images.harar2,
         },
         {
           title: "Encounter the Hyena Men",
           description: [
             'Embark on a unique experience in Harar by witnessing the tradition of feeding hyenas. Originating in the 20th century, the Harari people began feeding hyenas to protect their livestock. Today, this ancient practice continues as the hyenas emerge at night to be fed by the local "hyena man." Venture east of the Erer Gate to witness this extraordinary ritual and even participate in feeding the hyenas under the guidance of the local expert.',
           ],
-          image: images.bale1,
+          image: images.harar4,
         },
         {
           title: "Immerse Yourself in Cultural Museums",
@@ -944,7 +944,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Unleash your senses in Harar's bustling marketplaces, where a multitude of sights, sounds, and scents come alive. Stroll through the spice market, recycling market, Shoa Gate market, and the renowned Erer Gate market. From livestock to electronics, cultural dresses to herbs and spices, these vibrant marketplaces offer an immersive experience and a chance to indulge in some retail therapy while soaking up the electric atmosphere.",
           ],
-          image: images.harar1,
+          image: images.harar3,
         },
       ],
     },
@@ -1125,36 +1125,6 @@ export const PopularDestinationsArray: Destination[] = [
     destinationdescription: {
       destination: "Discover the Best Things to Do in Addis Ababa",
       reasons: [
-        /*
-    Visit the National Museum
-Explore several museums to suit your interests. For a moving experience, check out the Museum of the Martyrs (Red Terror Museum), which pays tribute to the victims of the Marxist Derg regime. Or, head to the National Museum of Ethiopia, widely regarded as the city's best museum. The museum boasts a rich collection of artistic, historical, and archaeological exhibits, including Lucy, the famous skeleton of Australopithecus, and our oldest hominid ancestor.
-Don't Miss St. Mary Church of Entoto
-Visit the stunning St. Mary Church of Entoto, located at an elevation of 3,200m. Take a scenic drive up the hill to reach the church, which hosted Menelik's coronation. Nearby, you'll find Menelik's modest palace and stunning views of the city.
-Indulge in Coffee
-Savor premium quality Arabica coffee, discovered by an Ethiopian goat herder in the Kaffa region around the 6th century. Try Kaldi's, a chain modeled on Starbucks, or experience the local favorite, Moye Coffee.
-
-Explore Merkato
-Discover the largest open-air market in Africa, Addis Merkato. This giant sprawling market offers everything from electronics to imported clothes. While security is sound, be mindful of pickpockets and avoid carrying unnecessary belongings.
-Visit the Grand Palace of Menelik or Unity Park
-Unity Park, also known as the Grand Palace of Menelik, is a historic and vibrant symbol of Ethiopia's diverse culture and rich heritage. This resplendent park, situated in the heart of Addis Ababa, is a transformation of the Ethiopian palace compound which boasts over a century of imperial history.
-With its refurbished palaces, lush gardens, zoos, and fascinating exhibitions, Unity Park is a kaleidoscope of Ethiopia's past, present, and future. As you saunter through the elegantly restored Menelik Palace, you can relive the grandeur of Ethiopian royalty while learning about the nation's history.
-Stroll through the beautifully manicured gardens filled with endemic plants and enjoy the stunning panoramic views of the capital city. Witness the menagerie of indigenous Ethiopian fauna in the park's zoo, including lions, monkeys, and various bird species.
-As for activities, visitors can engage in educational tours, bird-watching, photography, and picnicking. You can also indulge in Ethiopian coffee culture at one of the park's stylish cafes.
-
-Enjoy a Night Out at African Jazz Village or Fendika Cultural Center
-For an unforgettable night out, head to the African Jazz Village. This premier jazz location features Ethio jazz, and followers of the genre gather at the cozy circular auditorium on Wednesdays and most weekends. Fendika Cultural Center is also a great spot to experience Ethiopian culture and music.
-
-Indulge in some 'Tej'
-Tej (or Ethiopian honey wine) could be the oldest alcoholic beverage in Ethiopian history, with early records of the drink dating over 1,000 years.
-Often made at home or “Tej bet”, Tej is a honey wine flavoured with indigenous herbs much like hops, and could easily be mistaken for orange juice on account of its hue and slight viscosity.
-Just don't start drinking it in the afternoon, you might just lose the rest of your day…
-
-Don't leave without trying the 'Shiro'
-Shiro is a delicious stew whose primary ingredient is powdered chickpeas or broad beans combined with special herbs and spices. Depending on the region, the stew is complimented with a whole host of additional spices ranging from chili peppers to ground ginger.
-It is typically served atop injera, a large sourdough flatbread, which is produced with teff, a local gluten-free millet.
-Shiro is perhaps the most nourishing, ubiquitous and affordable dish in Ethiopia and is pretty much found in every restaurant in Addis. Our recommendation? Head over to Tikus Shiro, where they serve some of the best in town.
-
-    */
         {
           title: "Visit the National Museum",
           description: [

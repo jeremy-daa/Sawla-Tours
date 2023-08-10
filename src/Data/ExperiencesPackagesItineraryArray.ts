@@ -6201,7 +6201,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "We will also enjoy a photographic session with the ‘Kite Man' of Harar. Feeding the Yellow-billed Kites is a recent development, not some ancient tradition, but it is fun to watch and photograph the kites swooping down and often squabbling in mid-air over small pieces of meat from the ‘Kite Man's' hands.",
             "During the late afternoon, we will try and find some of the Spotted Hyenas lurking in the dry woodland near the town prior to gathering for the evening feast. It will be good to have some daytime shots to balance the nocturnal spectacle. After dark, we will, of course, return for a second session outside the town walls with the ‘Hyena Men', something none of us will ever forget!",
           ],
-          image: images.harar1,
+          image: images.harar2,
         },
         {
           title: "DAY 6: FLY TO ADDIS ABABA",

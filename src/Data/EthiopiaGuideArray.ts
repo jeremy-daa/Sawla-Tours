@@ -970,8 +970,8 @@ export const EthiopiaGuideArray: Guide[] = [
           'Ethiopia is home to Spotted Hyenas, notably in Harar, where you can witness the famous "Hyena Men" feeding these fascinating creatures at night. This practice has deep historical roots in Ethiopia, and for a fee of 100 Birr, the Hyena Men will teach you how to feed the hyenas yourself, offering a unique and unforgettable experience.',
         ],
         lr: false,
-        img1: images.simien5,
-        img2: images.kafta1,
+        img1: images.harar2,
+        img2: images.harar4,
         button: "Explore Packages",
         link: "/tours-by-experience",
       },
@@ -1007,7 +1007,7 @@ export const EthiopiaGuideArray: Guide[] = [
               description: [
                 'Ethiopia is home to Spotted Hyenas, notably in Harar, where you can witness the famous "Hyena Men" feeding these fascinating creatures at night. This practice has deep historical roots in Ethiopia, and for a fee of 100 Birr, the Hyena Men will teach you how to feed the hyenas yourself, offering a unique and unforgettable experience.',
               ],
-              image: images.alehdege1,
+              image: images.harar4,
             },
             {
               title: "Hippos and Crocodiles",
