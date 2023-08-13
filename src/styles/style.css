@@ -1021,7 +1021,7 @@ h2.contact-us:hover {
   top: 0;
   width: 100%;
   height: auto;
-  background-image: url("/assets/footer-bg.jpg");
+  background-image: url("/assets/footer.svg");
   background-size: cover;
   background-position: center;
   color: var(--light);

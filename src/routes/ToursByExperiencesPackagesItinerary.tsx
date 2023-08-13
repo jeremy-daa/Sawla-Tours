@@ -11,6 +11,7 @@ import PlannerPolaroid from "../components/PlannerPolaroid";
 import TourDescription2 from "../components/TourDescription2";
 import { useLocation, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
+import Accordion from "../components/Accordion";
 const ToursByExperiencesPackageItinerary = () => {
   const [itinerary, setItinerary] = useState<Itinerary | null>(null);
   const { id } = useParams<{ id: string }>();
@@ -229,12 +230,18 @@ const ToursByExperiencesPackageItinerary = () => {
           <div id="destination-highlights">
             {itinerary.tourdescription2 &&
               itinerary.tourdescription2.map((tourdescription2, index) => (
-                <TourDescription2
-                  key={index}
-                  title={tourdescription2.title}
-                  description={tourdescription2.description}
-                  destinations={tourdescription2.destinations}
-                />
+                // <TourDescription2
+                //   key={index}
+                //   title={tourdescription2.title}
+                //   description={tourdescription2.description}
+                //   destinations={tourdescription2.destinations}
+                // />
+                <>
+                  <Accordion
+                    key={index}
+                    destinations={tourdescription2.destinations}
+                  />
+                </>
               ))}
           </div>
           {itinerary.itinerarydescription && (

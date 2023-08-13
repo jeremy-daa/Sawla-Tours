@@ -20,7 +20,6 @@ const AboutUs = () => {
           subtitle="Your Ethiopian Adventure Architects"
           description={[
             "We are Sawla Tours - a team of seasoned Ethiopian tourism professionals, united by passion and unparalleled industry knowledge. Our distinct blend of expertise and professionalism makes us your trustworthy compass in navigating the vast landscapes of Ethiopian adventures.",
-            'Based in Addis Ababa, Sawla Tours isn\'t your everyday travel company. Our love for exploration fuels our unique approach. Sawla, translating to "the gate to heaven" in the Gamo Goffa language, echoes our conviction that travel can forge lifelong memories and foster a positive impact on Ethiopia.',
             "As you journey with us, prepare to be immersed in Ethiopia's breathtaking beauty, crafting unforgettable experiences along the way. At Sawla, we pride ourselves on our exceptional service quality and accessibility - making us your one-stop solution for all travel inquiries. From arranging top-notch facilities to curating end-to-end services, we've got your travel needs covered.",
           ]}
           link="#why"
@@ -166,7 +165,8 @@ const AboutUs = () => {
       </div>
       <div id="travel-specialists">
         <Intro
-          title="Meet Our Travel Maestros"
+          title="Meet Our Travel Specialists"
+          subtitle="Travel Maestros"
           description={[
             "Unveiling the wonders of Ethiopia, our team of travel specialists brings first-hand knowledge and an infectious love for exploration. Each member of our crew has dived deep into the heart of our destinations, ready to craft your dream holiday with precision, passion, and practical advice.",
             "We, at Sawla, share a common bond: an insatiable thirst for travel, a spirit of discovery, and an unwavering dedication to offering you an unmatched journey. Each of our experts carries a treasure chest of personal experiences, eagerly waiting to share their insights and make your journey truly unique.",

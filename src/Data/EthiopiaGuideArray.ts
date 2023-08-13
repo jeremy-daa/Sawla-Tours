@@ -54,7 +54,7 @@ export const EthiopiaGuideArray: Guide[] = [
           "A land that will captivate your senses and leave you longing for more.",
         description: [
           "In this diverse and awe-inspiring nation, you'll uncover the secrets of four distinct travel circuits, each with its own highlight destinations and unique experiences. From the timeless tapestry of the Northern Circuit, where ancient wonders and natural marvels await, to the Southern Circuit's canvas of breathtaking landscapes and vibrant cultures, Ethiopia has something for every traveler.",
-          "enture into the Eastern Circuit, where hidden gems and remarkable diversity abound, or unleash your adventurous spirit in the Western Circuit, where untamed beauty and rare encounters await. So, browse through the information on each circuit's highlight destinations and embark on a journey that will create memories to last a lifetime. Your Ethiopian journey begins in Addis Ababa, the gateway to this mesmerizing land.",
+          "Venture into the Eastern Circuit, where hidden gems and remarkable diversity abound, or unleash your adventurous spirit in the Western Circuit, where untamed beauty and rare encounters await. So, browse through the information on each circuit's highlight destinations and embark on a journey that will create memories to last a lifetime. Your Ethiopian journey begins in Addis Ababa, the gateway to this mesmerizing land.",
         ],
         lr: true,
         img1: images.lalibela5,
@@ -898,14 +898,6 @@ export const EthiopiaGuideArray: Guide[] = [
               image: images.simien6,
             },
             {
-              title: "Simien Mountains Safari",
-              description: [
-                'Imagine standing among playful troops of Gelada Monkeys, witnessing their fascinating social interactions up close. The Simien Mountains, home to these "bleeding heart monkeys," offer a one-of-a-kind safari experience. Marvel at their distinct heart-shaped chest prints while taking in the breathtaking views of the plateaus. ',
-                "If you're lucky, you may also catch a glimpse of the elusive Walia Ibex, an endangered species endemic to Ethiopia. The Simien Mountains are a haven for birdlife, including raptors, Lammergeyers, and thick-billed ravens. While sightings of the rare Ethiopian Wolf are rare, the Simien Mountains provide a chance to encounter this magnificent creature in its natural habitat.",
-              ],
-              image: images.simien4,
-            },
-            {
               title: "Bale Mountains Safari",
               description: [
                 "Venture into the captivating landscapes of the Bale Mountains, where the Ethiopian Wolf reigns supreme. Explore the renowned Sanetti Plateau, located at an impressive altitude of 4,000 meters. Here, you have an excellent chance of spotting this endemic canid species.",
@@ -944,7 +936,7 @@ export const EthiopiaGuideArray: Guide[] = [
   },
   {
     id: 6,
-    title: "Ethiopia Wildlife",
+    title: "Popular Ethiopia Wildlife",
     description: "",
     image: images.simien1,
     link: "#description",
